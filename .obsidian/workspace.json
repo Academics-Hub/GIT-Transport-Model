@@ -11,12 +11,8 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Absorption in the GIT.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Absorption in the GIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Absorption in the GIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,13 +142,13 @@
   },
   "active": "77e5df3bc7bd9dcc",
   "lastOpenFiles": [
-    "Textbooks/Transport Phenomena.pdf",
-    "Research/Absorption in the GIT.docx",
+    "Research/Absorption in the GIT.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
     "Attachments/Pasted image 20231025174301.png",
     "Attachments",
-    "Research/Absorption in the GIT.md"
+    "Research/Absorption in the GIT.docx",
+    "Textbooks/Transport Phenomena.pdf"
   ]
 }
