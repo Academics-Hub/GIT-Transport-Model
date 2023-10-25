@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "131ca2a8792cc4d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "01654bb1be4a329b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0c06fa0aa559213",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c4fe89fa8132b8cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "26340158eb15c5f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77e5df3bc7bd9dcc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "909489d102958f77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f97070bb7040953",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a345089d76cf08f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ad348345869553d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73c339e517728545",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6ed1bd070c495a89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "607cca2b08528679",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3430c0f8d3391ceb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Research/Absorption in the GIT.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "77e5df3bc7bd9dcc",
+  "lastOpenFiles": [
+    "Research/Absorption in the GIT.md",
+    "Attachments/Pasted image 20231025174942.png",
+    "Attachments/Pasted image 20231025174522.png",
+    "Attachments/Pasted image 20231025174348.png",
+    "Attachments/Pasted image 20231025174301.png",
+    "Attachments",
+    "Research/Absorption in the GIT.docx",
+    "Textbooks/Transport Phenomena.pdf"
+  ]
+}
