@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;\red24\green24\blue24;\red89\green138\blue67;
+}
+{\*\expandedcolortbl;;\cssrgb\c80000\c80000\c80000;\cssrgb\c12157\c12157\c12157;\cssrgb\c41569\c60000\c33333;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 https://www.sciencedirect.com/topics/medicine-and-dentistry/stomach-blood-flow#:~:text=Introduction,of\cf4 \strokec4 %20gastric%20secretion%20and%20motility\cf2 \cb1 \strokec2 \
+\
+\cb3 "The blood flow to the stomach plays a crucial role in maintaining its physiological functions and protecting the gastric mucosa against ulcer formation. The intrinsic regulatory mechanisms of the stomach ensure that blood flow is adjusted to meet the energy demands of gastric secretion and motility"\cb1 \
+\
+\cb3 https://pubmed.ncbi.nlm.nih.gov/26140727/#:~:text=The\cf4 \strokec4 %20gastrointestinal%20,with%20organ%20metabolism%20and%20function\cf2 \cb1 \strokec2 \
+\
+\cb3 "The stomach, receives a significant fraction of cardiac output, and this blood flow increases post-meal. The regulation of blood flow in the GI tract, although not as intense as in other vascular beds, combines with capillary oxygen exchange to maintain tissue oxygenation levels in line with organ metabolism and function"\cb1 \
+\
+\cb3 Post meal effects on stomach physiology :\cb1 \
+\
+\cb3 Blood Flow Rate:\cb1 \
+\cb3     The blood flow to the stomach and the rest of the GIT increases post-meal to support the metabolic demands of digestion and absorption. Enhanced blood flow ensures adequate oxygen and nutrient delivery to the gastrointestinal tissues, and aids in the transport of absorbed nutrients to other parts of the body\uc0\u8203 \u8203 .\cb1 \
+\cb3 SpO2 (Oxygen Saturation) and PCO2 (Carbon Dioxide Partial Pressure):\cb1 \
+\cb3     Oxygen is utilized by the stomach and other digestive organs to fuel the metabolic processes involved in digestion. As a result, oxygen saturation (SpO2) in the blood supplying the stomach may decrease, while the partial pressure of carbon dioxide (PCO2) may increase due to metabolic activity and production of carbon dioxide as a byproduct.\cb1 \
+\cb3 Blood Glucose Concentration:\cb1 \
+\cb3     Post-meal, blood glucose levels rise as carbohydrates in the food are broken down into glucose and absorbed into the bloodstream. This triggers the release of insulin to help transport glucose into cells, where it can be used for energy, or stored for later use\uc0\u8203 2\u8203 .\cb1 \
+\cb3 Blood Insulin Concentration:\cb1 \
+\cb3     Insulin secretion increases in response to elevated blood glucose levels post-meal. Insulin facilitates the uptake of glucose by cells, particularly muscle and adipose cells, and promotes storage of glucose as glycogen in the liver and muscles\uc0\u8203 3\u8203 .\cb1 \
+}
