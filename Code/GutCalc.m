@@ -1,3 +1,8 @@
+% Needs to be defined:
+% - How do we define GutFlowRate?
+% - Gut function
+% - Arterial function
+% - How are we defining our steps?
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     % Parameters
     Vmax = 10; % Maximum reaction velocity 
@@ -5,6 +10,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     HenrysConst = 0.03; % Henry's constant for O2 in water at body temp [mol/L*atm]
 
     % Input concentrations
+    % Input will be from food, GIT will output to vascular system
     SpO2_in = Arterial.SpO2;
     PCO2_in = Arterial.PCO2;
     Glucose_in = Arterial.Glucose;
