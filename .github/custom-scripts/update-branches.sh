@@ -12,6 +12,7 @@ branches=$(git branch | grep -v 'main')
 #	git merge --no-edit $mainBranch
 #	git push  
 #done
+echo "$branches"
 parallel \
   --jobs $(nproc) \
   git pull \
