@@ -1,10 +1,9 @@
 #!/bin/env bash
 mainBranch=main
 # finds all branches
-git branch | grep -v 'main'
 branches=$(git branch | grep -v 'main')
 
-function helper_git(){
+function helper_git() {
 	git pull
 	git checkout "$1"
   	git merge --no-edit $mainBranch
