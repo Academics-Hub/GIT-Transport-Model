@@ -4,7 +4,7 @@ Interesting reads on blood sugar:
 
 <https://www.otsuka.co.jp/en/health-and-illness/glycemic-index/>
 
-![[../Attachments/Pasted image 20231025174301.png]]
+![](../Attachments/Pasted%20image%2020231025174301.png)
 # Step 1:
 
 How much energy does the GI system use?
@@ -73,7 +73,7 @@ Reference for this predictive model:
 
 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8625555/>
 
-![[../Attachments/Pasted image 20231025174348.png]]
+![](../Attachments/Pasted%20image%2020231025174348.png)
 
 Then based of the GL – predict blood glucose spike using research such
 as:
