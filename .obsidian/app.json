@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Attachments",
-  "vimMode": true
+  "vimMode": true,
+  "useMarkdownLinks": true
 }
