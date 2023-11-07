@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Absorption in the GIT.md",
+                "file": "Meeting logs/2023-11-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Absorption in the GIT.md",
+                "file": "Meeting logs/2023-11-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Absorption in the GIT.md",
+                "file": "Meeting logs/2023-11-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Absorption in the GIT.md"
+                "file": "Meeting logs/2023-11-07.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c06fa0aa559213",
+  "active": "77e5df3bc7bd9dcc",
   "lastOpenFiles": [
+    "Research/Absorption in the GIT.md",
+    "Meeting logs/2023-11-07.md",
+    "Meeting logs",
     "Untitled.txt",
     "Code/GutCalc.m",
     "Code",
-    "Research/Absorption in the GIT.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
