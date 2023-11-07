@@ -21,6 +21,6 @@ branches=$(git branch | grep -v 'main')
 #  < <(echo "$branches")
 # finish by checking out to main
 nproc_val=$(nproc)
-echo "$branches" | xargs -P $nproc_val -J{} sh -c 'git checkout {} && git merge
+echo "$branches" | xargs -P $nproc_val {} sh -c 'git checkout {} && git merge
 --no-edit main && git push'
 git checkout $mainBranch
