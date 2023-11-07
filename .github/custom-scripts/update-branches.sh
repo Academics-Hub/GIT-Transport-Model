@@ -5,14 +5,7 @@ git checkout $mainBranch
 git commit -am "updating branches"
 # finds all branches
 branches=$(git branch | grep -v 'main')
-# loop through branches, merge main, and push to remote origin
-#for branch in $branches; do
-#	git pull 
-#	git checkout $branch
-#	git merge --no-edit $mainBranch
-#	git push  
-#done
-echo "$branches"
+echo $branches
 parallel \
   --jobs $(nproc) \
   git pull \
