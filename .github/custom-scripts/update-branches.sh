@@ -1,5 +1,4 @@
 #!/bin/env bash
-git pull
 function helper_git() {
 	git pull
 	git checkout "$1"
