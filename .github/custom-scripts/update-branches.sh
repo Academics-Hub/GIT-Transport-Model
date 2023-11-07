@@ -4,6 +4,7 @@ mainBranch=main
 git checkout $mainBranch
 git commit -am "updating branches"
 # finds all branches
+git branch | grep -v 'main'
 branches=$(git branch | grep -v 'main')
 echo $branches
 parallel \
