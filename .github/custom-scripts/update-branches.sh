@@ -18,6 +18,6 @@ parallel \
   git checkout {} \
   git merge --no-edit $mainBranch \
   git push :: done \
-  <<(echo "$branches")
+  < <(echo "$branches")
 # finish by checking out to main
 git checkout $mainBranch
