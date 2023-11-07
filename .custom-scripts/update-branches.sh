@@ -10,4 +10,5 @@ for branch in $branches; do
 	git push origin $branch
 done
 
-
+git checkout $mainBranch
+lgit "updated main and all other branches"
