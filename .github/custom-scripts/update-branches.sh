@@ -12,12 +12,15 @@ branches=$(git branch | grep -v 'main')
 #	git merge --no-edit $mainBranch
 #	git push  
 #done
-parallel \
-  --jobs $(nproc) \
-  git pull \
-  git checkout {} \
-  git merge --no-edit $mainBranch \
-  git push :: done \
-  < <(echo "$branches")
+#parallel \
+#  --jobs $(nproc) \
+#  git pull \
+#  git checkout {} \
+#  git merge --no-edit $mainBranch \
+#  git push :: done \
+#  < <(echo "$branches")
 # finish by checking out to main
+nproc_val=$(nproc)
+echo "$branches" | xargs -P $nproc_val -J{} sh -c 'git checkout {} && git merge
+--no-edit main && git push'
 git checkout $mainBranch
