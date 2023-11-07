@@ -7,6 +7,7 @@ function helper_git() {
 }
 export -f helper_git
 mainBranch=main
+git branch | grep -v 'main'
 branches=$(git branch | grep -v 'main')
 echo "$branches"
 #parallel  -j8 helper_git {} :::: <(echo "$branches")
