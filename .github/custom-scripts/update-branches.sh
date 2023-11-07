@@ -8,5 +8,5 @@ function helper_git() {
 export -f helper_git
 mainBranch=main
 branches=$(git branch | grep -v 'main')
-parallel --memfree 6G --retries 10 --jobs $(nproc) helper_git {} :::: <(echo "$branches")
+parallel  -j8 helper_git {} :::: <(echo "$branches")
 git checkout $mainBranch
