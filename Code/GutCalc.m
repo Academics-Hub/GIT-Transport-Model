@@ -6,7 +6,7 @@
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     % Parameters
     Vmax = 10; % Maximum reaction velocity 
-    Km = 5; % Michaelis constant 
+    Km = Vmax/2; % Michaelis constant 
     HenrysConst = 0.03; % Henry's constant for O2 in water at body temp [mol/L*atm]
 
     % Input concentrations
