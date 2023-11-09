@@ -1,8 +1,8 @@
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     % Parameters
-    Vmax = 10; % Maximum reaction velocity 
-    Km = Vmax/2; % Michaelis constant 
-    HenrysConst = 0.03; % Henry's constant for O2 in water at body temp [mol/L*atm]
+    Vmax = 5; % Maximum reaction velocity for hexokinase
+    Km =  0.15 % Michaelis constant : conc at Vmax/2
+    HenrysConst = 0.013; % Henry's constant for O2 in water at body temp [mol/L*atm]
     [glucose] = Food(50, 20, 10, 5);
 
     % Input concentrations
