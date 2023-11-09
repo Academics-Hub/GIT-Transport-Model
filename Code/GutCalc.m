@@ -20,8 +20,8 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     GutOut.Glucose = Glucose_in - (step * GutFlowRate) * Glucose_usage;
 
     % Oxygen absorption using Henry's Law and Fick's law of diffusion
-    k = 0.1; % Mass transfer coefficient
     A = 300; % Surface area of the gut in square metres
+    k = O2_absorption / (A * (Gut.SpO2 - Arterial.SpO2)) %attempted to calculate k using Henry’s Law and Fick’s law 
     O2_absorption = HenrysConst * SpO2_in + k * A * (Gut.SpO2 - Arterial.SpO2);
     GutNew.SpO2 = Gut.SpO2 - (step * GutFlowRate) * O2_absorption;
     GutOut.SpO2 = SpO2_in - (step * GutFlowRate) * O2_absorption;
