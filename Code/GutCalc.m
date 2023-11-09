@@ -3,12 +3,13 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     Vmax = 10; % Maximum reaction velocity 
     Km = Vmax/2; % Michaelis constant 
     HenrysConst = 0.03; % Henry's constant for O2 in water at body temp [mol/L*atm]
+    [glucose] = Food(50, 20, 10, 5);
 
     % Input concentrations
     % Input will be from food, GIT will output to vascular system
     SpO2_in = Arterial.SpO2;
     PCO2_in = Arterial.PCO2;
-    Glucose_in = Arterial.Glucose;
+    Glucose_in = Arterial.Glucose + glucose;
     Insulin_in = Arterial.Insulin;
 
     % Michaelis-Menten kinetics for glucose metabolism
