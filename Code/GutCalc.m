@@ -1,8 +1,3 @@
-% Needs to be defined:
-% - How do we define GutFlowRate?
-% - Gut function
-% - Arterial function
-% - How are we defining our steps?
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     % Parameters
     Vmax = 10; % Maximum reaction velocity 
@@ -23,8 +18,9 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     GutNew.Glucose = Gut.Glucose - step * Glucose_usage;
     GutOut.Glucose = Glucose_in - step * Glucose_usage;
 
-    % Oxygen absorption using Henry's Law
-    O2_absorption = HenrysConst * SpO2_in; % assuming SpO2_in is in atm
+    % Oxygen absorption using Henry's Law and Fick's law of diffusion
+    k = 0.1; % Correct mass transfer coefficient needs to be placed 
+    O2_absorption = HenrysConst * SpO2_in + k * (Gut.SpO2 - Arterial.SpO2);
     GutNew.SpO2 = Gut.SpO2 - step * O2_absorption;
     GutOut.SpO2 = SpO2_in - step * O2_absorption;
 
@@ -35,3 +31,4 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     GutNew.Insulin = Gut.Insulin;
     GutOut.Insulin = Insulin_in;
 end
+
