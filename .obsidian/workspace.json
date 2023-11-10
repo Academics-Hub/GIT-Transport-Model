@@ -11,11 +11,9 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
-                "mode": "source",
-                "source": false
+                "file": "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
+                "file": "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
+                "file": "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting logs/2023-11-07.md"
+                "file": "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf"
               }
             }
           }
@@ -146,20 +144,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77e5df3bc7bd9dcc",
+  "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Research/Absorption in the GIT.md",
+    "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
+    "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
+    "Research-notes/postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf",
+    "Research-notes/partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf",
+    "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
+    "Research-notes/dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf",
+    "Research-notes/definingcriticallimitoxygenextractionhumansmallintestine-desai.pdf",
+    "Research-notes/circulationoverview-granger.pdf",
+    "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf",
+    "Research/someya-et-al-2008-blood-flow-responses-in-celiac-and-superior-mesenteric-arteries-in-the-initial-phase-of-digestion.pdf",
+    "Research/Roles Of the Gut in Glucose Homeostasis.pdf",
     "Meeting logs/2023-11-07.md",
-    "Meeting logs",
-    "Untitled.txt",
-    "Code/GutCalc.m",
-    "Code",
+    "Research/Absorption in the GIT.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
-    "Attachments/Pasted image 20231025174301.png",
-    "Attachments",
-    "Research/Absorption in the GIT.docx",
-    "Textbooks/Transport Phenomena.pdf"
+    "Attachments/Pasted image 20231025174301.png"
   ]
 }
