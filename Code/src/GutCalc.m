@@ -30,12 +30,13 @@ function [GutNew, GutOut] = gut_calc(GutFlowRate, Gut, Arterial, step)
     % Oxygen absorption using Henry's Law and Fick's law of diffusion
     A = 300; % Surface area of the gut in square metres
     k = 0.01;
-    O2_absorption = henrys_const * SpO2_in + k * A * (Gut.SpO2 - Arterial.SpO2);
-    GutNew.SpO2 = Gut.SpO2 - (step * GutFlowRate) * O2_absorption;
+    O2_absorption = henrys_const * SpO2_in + k * A * (Gut.SpO2 - SpO2_in);
+    GutNew.SpO2 = Gut.SpO2 + (step * GutFlowRate) * O2_absorption;
     GutOut.SpO2 = SpO2_in - (step * GutFlowRate) * O2_absorption;
 
     % CO2 production
-    CO2_production = GutNew.SpO2 / (1 - GutNew.SpO2) * O2_absorption / henrys_const;
+    %takes into account the amount of O2 absorbed by the gut and the oxygen saturation in the gut to estimate the amount of CO2 produced during metabolism.
+    CO2_production = GutNew.SpO2 / (1 - GutNew.SpO2) * O2_absorption / henrys_const; 
     GutNew.PCO2 = Gut.PCO2 + (step * GutFlowRate) * CO2_production;
     GutOut.PCO2 = PCO2_in + (step * GutFlowRate) * CO2_production;
 
