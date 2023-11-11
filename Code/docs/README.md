@@ -2,6 +2,8 @@
 
 # Index
 
-- [Food](Food.md)
-- [Arterial](Arterial.md)
 - [GutCalc](GutCalc.md)
+- [Arterial](Arterial.md)
+- [Food](Food.md)
+- [GlycemicLoad](GlycemicLoad.md)
+- [find_gl_glucose](find_gl_glucose.md)

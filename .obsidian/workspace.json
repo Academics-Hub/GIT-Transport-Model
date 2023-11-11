@@ -11,8 +11,12 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Code/docs/Food.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/docs/Food.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/docs/Food.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Code/docs/Food.md"
+              }
             }
           }
         ]
@@ -138,30 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77e5df3bc7bd9dcc",
+  "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
+    "Code/docs/GlycemicLoad.md",
     "Code/docs/README.md",
-    "Code/docs/GutCalc.md",
+    "Code/docs/find_gl_glucose.md",
     "Code/docs/Food.md",
+    "Code/src/find_gl_glucose.m",
+    "Code/src/GlycemicLoad.m",
+    "Code/src/Finding_gl_glucose_function.m",
+    "Attachments/Pasted image 20231111150050.png",
+    "Untitled.txt",
+    "Research-notes/theoryoxygentransporttissue-popel.pdf",
+    "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf",
+    "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
+    "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
+    "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
+    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
+    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
+    "Research-notes/Absorption in the GIT.md",
+    "Code/docs/GutCalc.md",
     "Code/docs/Arterial.md",
-    "Code/docs",
-    "Code/src",
-    "Research/crit_limit_o2_extraction_av_diff.pdf",
     "docs/README.md",
     "docs/GutCalc.md",
     "docs/Food.md",
     "docs/Arterial.md",
-    "docs",
-    "Code/src/Arterial.m",
-    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
-    "Research/glucose_insulin(complicated).pdf",
-    "Research/Roles Of the Gut in Glucose Homeostasis.pdf",
-    "Research/Regulation of Intestinal Glucose Absorption by Ion.pdf",
-    "Research/Postprandial Insulin and Triglycerides after Different Breakfast Meal.pdf",
-    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
     "README.md",
     "Meeting logs/2023-11-07.md",
-    "Research-notes/Absorption in the GIT.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
