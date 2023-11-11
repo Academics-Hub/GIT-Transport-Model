@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Research/crit_limit_o2_extraction_av_diff.pdf"
+                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/crit_limit_o2_extraction_av_diff.pdf",
+                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/crit_limit_o2_extraction_av_diff.pdf",
+                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/crit_limit_o2_extraction_av_diff.pdf"
+                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf"
               }
             }
           }
@@ -146,25 +146,29 @@
   },
   "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
-    "Research/glucose_insulin(complicated).pdf",
-    "Research/Roles Of the Gut in Glucose Homeostasis.pdf",
-    "Research/Regulation of Intestinal Glucose Absorption by Ion.pdf",
-    "Research/Postprandial Insulin and Triglycerides after Different Breakfast Meal.pdf",
-    "Research/someya-et-al-2008-blood-flow-responses-in-celiac-and-superior-mesenteric-arteries-in-the-initial-phase-of-digestion.pdf",
-    "Research-notes/theoryoxygentransporttissue-popel.pdf",
-    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
-    "README.md",
-    "Research/THEORY OF OXYGEN TRANSPORT TO TISSUE",
-    "docs/README.md",
+    "Research-notes/glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto.pdf",
+    "Code/docs/GutCalc.md",
     "Untitled.txt",
-    "Research/partial_p_o2_values.pdf",
-    "Research/crit_limit_o2_extraction_av_diff.pdf",
-    "docs/GutCalc.md",
-    "docs/Arterial.md",
-    "docs/Food.md",
-    "Meeting logs/2023-11-07.md",
+    "Research-notes/theoryoxygentransporttissue-popel.pdf",
+    "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
+    "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
+    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
+    "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
+    "Research-notes/postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf",
+    "Research-notes/partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf",
+    "Research-notes/dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf",
+    "Research-notes/definingcriticallimitoxygenextractionhumansmallintestine-desai.pdf",
+    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
     "Research-notes/Absorption in the GIT.md",
+    "Code/docs/Food.md",
+    "Code/docs/README.md",
+    "Code/docs/Arterial.md",
+    "docs/README.md",
+    "docs/GutCalc.md",
+    "docs/Food.md",
+    "docs/Arterial.md",
+    "README.md",
+    "Meeting logs/2023-11-07.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
