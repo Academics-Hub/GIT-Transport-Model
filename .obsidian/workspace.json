@@ -11,10 +11,8 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +140,9 @@
   },
   "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Research-notes/glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto.pdf",
-    "Code/docs/GutCalc.md",
+    "Research-notes/effectsmealglycemicloadbloodglucoselevelsadultsdifferentbodymassindexes-yalcin.pdf",
+    "Research-notes/developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee.pdf",
+    "Code/docs/Food.md",
     "Untitled.txt",
     "Research-notes/theoryoxygentransporttissue-popel.pdf",
     "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
@@ -156,12 +151,11 @@
     "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
     "Research-notes/postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf",
     "Research-notes/partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf",
-    "Research-notes/dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf",
-    "Research-notes/definingcriticallimitoxygenextractionhumansmallintestine-desai.pdf",
+    "Research-notes/glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto.pdf",
     "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
     "Research-notes/Absorption in the GIT.md",
-    "Code/docs/Food.md",
     "Code/docs/README.md",
+    "Code/docs/GutCalc.md",
     "Code/docs/Arterial.md",
     "docs/README.md",
     "docs/GutCalc.md",
