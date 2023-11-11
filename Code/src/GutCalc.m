@@ -14,6 +14,9 @@ function [GutNew, GutOut] = gut_calc(GutFlowRate, Gut, Arterial, step)
     Gut.Glucose = Gut.glucose + Glucose_in;
     Insulin_in = Arterial.Insulin;
 
+    %calculate rate of o2 comsumption
+    % JO2 = (GutFlowRate/1000) * (SpO2_in - Gut.SpO2) * 150 * 1.92;
+
     % Mass balance chcecker 
     total_mass_in = SpO2_in + PCO2_in + Glucose_in + Insulin_in;
     total_mass_out = Gut.SpO2 + Gut.PCO2 + Gut.Glucose + Gut.Insulin;
