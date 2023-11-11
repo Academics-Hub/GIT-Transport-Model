@@ -11,12 +11,8 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research-notes/Absorption in the GIT.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research-notes/Absorption in the GIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research-notes/Absorption in the GIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research-notes/Absorption in the GIT.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,21 +140,24 @@
   },
   "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Research-notes/costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren.pdf",
-    "Research-notes/enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf",
-    "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf",
-    "Research-notes/effectsmealglycemicloadbloodglucoselevelsadultsdifferentbodymassindexes-yalcin.pdf",
-    "Research-notes/developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee.pdf",
+    "Research/GITTransportModel.bib",
     "Code/docs/Food.md",
+    "Code/docs/GlycemicLoad.md",
+    "Code/docs/README.md",
+    "Code/docs/find_gl_glucose.md",
+    "Code/src/find_gl_glucose.m",
+    "Code/src/GlycemicLoad.m",
+    "Code/src/Finding_gl_glucose_function.m",
+    "Attachments/Pasted image 20231111150050.png",
     "Untitled.txt",
     "Research-notes/theoryoxygentransporttissue-popel.pdf",
+    "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf",
     "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
     "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
-    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
     "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
+    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
     "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
     "Research-notes/Absorption in the GIT.md",
-    "Code/docs/README.md",
     "Code/docs/GutCalc.md",
     "Code/docs/Arterial.md",
     "docs/README.md",
