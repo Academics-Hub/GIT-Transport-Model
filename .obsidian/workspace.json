@@ -11,12 +11,8 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,25 +138,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c06fa0aa559213",
+  "active": "77e5df3bc7bd9dcc",
   "lastOpenFiles": [
-    "docs/GutCalc.md",
-    "docs/Arterial.md",
+    "Code/docs/README.md",
+    "Code/docs/GutCalc.md",
+    "Code/docs/Food.md",
+    "Code/docs/Arterial.md",
+    "Code/docs",
+    "Code/src",
+    "Research/crit_limit_o2_extraction_av_diff.pdf",
     "docs/README.md",
-    "Code/Arterial.m",
+    "docs/GutCalc.md",
     "docs/Food.md",
-    "README.md",
-    "Research-notes/circulationoverview-granger.pdf",
+    "docs/Arterial.md",
     "docs",
-    "Research-notes/bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf",
-    "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
-    "Research-notes/postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf",
-    "Research-notes/postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf",
-    "Research-notes/partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf",
-    "Research-notes/silicomodellingmasstransferabsorptionhumangut-moxon.pdf",
-    "Research-notes/dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf",
+    "Code/src/Arterial.m",
+    "Research-notes/regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf",
+    "Research/glucose_insulin(complicated).pdf",
+    "Research/Roles Of the Gut in Glucose Homeostasis.pdf",
+    "Research/Regulation of Intestinal Glucose Absorption by Ion.pdf",
+    "Research/Postprandial Insulin and Triglycerides after Different Breakfast Meal.pdf",
+    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
+    "README.md",
     "Meeting logs/2023-11-07.md",
-    "Research/Absorption in the GIT.md",
+    "Research-notes/Absorption in the GIT.md",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
