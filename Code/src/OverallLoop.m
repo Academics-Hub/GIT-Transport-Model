@@ -16,8 +16,7 @@ ArterialInsulin = 10;%μU / mL initializing at normal level
 %Convention for organ levels is [PO2,Glucose],we'll do PO2 in Torr for now I
 %guess,glucose in grams I guess? I have no idea how much glucose is stored in
 %tissues at any given time
-%Convention for blood levels is [SpO2,Glucose concentration,Insulin
-%concentration]; %,mmol / dL,μU / mL respectively
+%Convention for blood levels is [SpO2,Glucose concentration,Insulin concentration]; mmol/dL, μU/mL respectively
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 Kidney = [40,1];
 Liver = [40,1];
