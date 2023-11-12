@@ -1,0 +1,13 @@
+% main script to test functions
+
+% first initialise food - >
+carbs = 5;
+proteins = 5;
+lipids = 5;
+fibre = 5;
+% time step
+time_step = linspace(0,7200,120);
+% creating glucose over time
+glucose = Food(carbs,lipids,proteins,fibre, time_step);
+
+plot(time_step,glucose)
