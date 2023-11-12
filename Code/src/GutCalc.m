@@ -1,4 +1,4 @@
-function [GutNew, GutOut] = gut_calc(GutFlowRate, Gut, Arterial, step)
+function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     % Parameters
     vmax = 5; % Maximum reaction velocity for hexokinase
     km = 0.15; % Michaelis constant : conc at Vmax/2
