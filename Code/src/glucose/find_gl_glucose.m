@@ -1,4 +1,4 @@
-function [glucose] = find_gl_glucose(time_step, glycemic_load)
+function [glucose] = find_gl_glucose(time, glycemic_load)
     % defining data
     time_series = [0;900;1800;2700;3600;5400;7200]; % seconds
     low_gl_glucose_data = [83;89.1;96.1;97.9;93.4;89.7;88.6];
@@ -8,8 +8,8 @@ function [glucose] = find_gl_glucose(time_step, glycemic_load)
     high_gl_glucose = polyfit(time_series,high_gl_glucose_data,5);
     % doing calculations
     if glycemic_load >= 20
-        glucose = polyval(high_gl_glucose, time_step);
+        glucose = polyval(high_gl_glucose, time);
     elseif glycemic_load >= 10 && glycemic_load < 20
-        glucose = polyval(low_gl_glucose, time_step);
+        glucose = polyval(low_gl_glucose, time);
     end
 end
