@@ -10,11 +10,11 @@ function [GutNew, GutOut] = gut_calc(GutFlowRate, Gut, Arterial, step)
     SpO2_in = Arterial.SpO2;
     PCO2_in = Arterial.PCO2;
     Arterial.Glucose = Arterial.Glucose + glucose; %assumes all glucose from meal is absorped 
-    Glucose_in = Arterial.Glucose; %assume all glucose from artieres can be used by gut
+    Glucose_in = Arterial.Glucose; %assume all glucose from artieres is available to be used by gut (but wont all be used)
     Gut.Glucose = Gut.glucose + Glucose_in;
     Insulin_in = Arterial.Insulin;
 
-    %calculate rate of o2 comsumption
+    %calculate rate of o2 comsumption ??
     % JO2 = (GutFlowRate/1000) * (SpO2_in - Gut.SpO2) * 150 * 1.92;
 
     % Mass balance chcecker 
@@ -26,22 +26,22 @@ function [GutNew, GutOut] = gut_calc(GutFlowRate, Gut, Arterial, step)
     end
     
     % Michaelis-Menten kinetics for glucose metabolism
-    glucose_usage = vmax * Gut.Glucose / (km + Gut.Glucose); 
+    glucose_usage = vmax * Gut.Glucose / (km + Gut.Glucose);
     
-    % Update using the metabolism rate
-    GutNew.Glucose = Gut.Glucose - (step * GutFlowRate) * glucose_usage; 
+    % Update glucose using the metabolism rate
+    GutNew.Glucose = Gut.Glucose + (step * GutFlowRate) * glucose_usage;
     GutOut.Glucose = Glucose_in - (step * GutFlowRate) * glucose_usage;
 
     % Oxygen absorption using Henry's Law and Fick's law of diffusion
     k = 0.01; % Diffusion coefficient [m^2/s]
     O2_absorption = HenrysConst * SpO2_in + k * A * (Gut.SpO2 - Arterial.SpO2);
-    GutNew.SpO2 = Gut.SpO2 - (step * GutFlowRate) * O2_absorption;
+    GutNew.SpO2 = Gut.SpO2 + (step * GutFlowRate) * O2_absorption;
     GutOut.SpO2 = SpO2_in - (step * GutFlowRate) * O2_absorption;
 
     % CO2 production
     % Takes into account the amount of O2 absorbed by the gut and the oxygen saturation in the gut to estimate the amount of CO2 produced during metabolism.
-    CO2_production = GutNew.SpO2 / (1 - GutNew.SpO2) * O2_absorption / henrys_const; 
-    GutNew.PCO2 = Gut.PCO2 + (step * GutFlowRate) * CO2_production;
+    CO2_production = GutNew.SpO2 / (1 - GutNew.SpO2) * O2_absorption / henrys_const;
+    GutNew.PCO2 = (step * GutFlowRate) * CO2_production; 
     GutOut.PCO2 = PCO2_in + (step * GutFlowRate) * CO2_production;
 
     % Insulin absorption and elimination via first-order kinetic model
