@@ -11,11 +11,29 @@
             "id": "e0c06fa0aa559213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
-                "mode": "source",
-                "source": false
+                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf"
+              }
+            }
+          },
+          {
+            "id": "95afc148a98a8668",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf"
+              }
+            }
+          },
+          {
+            "id": "b907206fa8d6c00e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Research-notes/enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf"
               }
             }
           }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
+                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting logs/2023-11-07.md",
+                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting logs/2023-11-07.md"
+                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf"
               }
             }
           }
@@ -146,20 +164,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77e5df3bc7bd9dcc",
+  "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Research/Absorption in the GIT.md",
+    "Code/docs/README.md",
+    "Code/docs/find_gl_glucose.md",
+    "Code/docs/GlycemicLoad.md",
+    "Research/Development of a Prediction Model to Estimate the Glycemic Load of Ready-to-EatMeals.pdf",
+    "Code/docs/Food.md",
+    "Code/docs/Arterial.md",
+    "Code/docs/GutCalc.md",
+    "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
+    "Research/Enhancing Blood Glucose Prediction with Meal Absorption and Physical Exercise Information.pdf",
+    "Research/The effects of meal glycemic load on blood glucose levels of adults with different body mass indexes.pdf",
+    "Research-notes/Absorption in the GIT.md",
+    "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf",
+    "Code/src/GutCalc.asv",
+    "Code/src/Main.asv",
+    "Research-notes/enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf",
+    "Attachments/Pasted image 20231111150050.png",
+    "Research/GITTransportModel.bib",
+    "Code/src/find_gl_glucose.m",
+    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
+    "docs/README.md",
+    "docs/GutCalc.md",
+    "docs/Food.md",
+    "docs/Arterial.md",
+    "README.md",
     "Meeting logs/2023-11-07.md",
-    "Meeting logs",
-    "Untitled.txt",
-    "Code/GutCalc.m",
-    "Code",
     "Attachments/Pasted image 20231025174942.png",
     "Attachments/Pasted image 20231025174522.png",
     "Attachments/Pasted image 20231025174348.png",
-    "Attachments/Pasted image 20231025174301.png",
-    "Attachments",
-    "Research/Absorption in the GIT.docx",
-    "Textbooks/Transport Phenomena.pdf"
+    "Attachments/Pasted image 20231025174301.png"
   ]
 }
