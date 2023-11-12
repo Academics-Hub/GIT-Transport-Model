@@ -1,11 +1,21 @@
 % my rework of the gut function, to make it more modular
+
+% looking at OverallLoop -> gut is initiliased as a 2 element vector -> [40,1]
+% assuming that the first element is the glucose in the gut, and the 2nd element is something else (idk), we can use subsequent elements to store other values
+% We'll say that:
+    % Gut(1) = SpO2 in gut
+    % Gut(2) = glucose in gut
+    % Gut(3) = time
+    % Gut(4) = time since last meal
+    % Gut(5) = current glycemic load
+% Therefore we;ll recommend that the gut object is initialised as [40,1,0,-1,0]
 function [GutNew, GutOut] = GutCalc_new(GutFlowRate, Gut, Arterial, step)
     time_step = step; % just for the naming convention sanity
     % checking the previous time of day. The first time the function is called, Gut.time will not have a value
     if isnan(Gut.time)
         previous_time=0;
     else
-        previous_time = Gut.time;
+        previous_time = Gut(4);
     end
     % setting the time of day as a value from 0 -> 86400 (seconds in a day)
     time = get_time(previous_time, time_step);
@@ -28,15 +38,16 @@ function [GutNew, GutOut] = GutCalc_new(GutFlowRate, Gut, Arterial, step)
         % step: time step [seconds]
     % We are given initial values, and then from these, we need to simulate what happens at the next time step.
     % Remember that we receive the previous Gut and Aterial values, at the beginning of each iteration of the function in OverallLoop
-    gut_spO2 = Gut.SpO2;
-    gut_glucose = Gut.Glucose;
+    gut_spO2 = Gut(1);
+    gut_glucose = Gut(2);
+    glycemic_load = Gut(5);
     arterial_spO2 = Arterial(1);
     arterial_glucose = Arterial(2);
     arterial_insulin = Arterial(3);
 
     % Using Gut and Arterial functions to calculate their change
-    Gut = delta_gut(gut_glucose, gut_spO2, arterial_insulin, GutFlowRate, time, time_since_last_meal);
-    Arterial = delta_arterial(arterial_glucose, arterial_spO2, arterial_insulin, Gut, time_step);
+    [Gut,gut_glucose_output,gut_glucose_absorption] = delta_gut(gut_glucose, gut_spO2, arterial_insulin, GutFlowRate, time, time_step, time_since_last_meal, glycemic_load);
+    Arterial = delta_arterial(arterial_glucose, arterial_spO2, arterial_insulin, gut_glucose_output, gut_glucose_absorption, time_step);
 
     % final outputs
     GutNew = Gut;
