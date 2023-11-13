@@ -1,5 +1,5 @@
 % calculate O2 absorbed and CO2 generated, given
-% A
+% A = 4500 m^2
 % Gut.SpO2
 % Arterial.SpO2
 % GutFlowRate
