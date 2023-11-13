@@ -9,17 +9,12 @@
     % Gut(4) = time since last meal
     % Gut(5) = current glycemic load
 % Therefore we;ll recommend that the gut object is initialised as [40,1,0,-1,0]
-function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
-    time_step = step; % just for the naming convention sanity
-    % checking the previous time of day. The first time the function is called, Gut(3) will not have a value [if not properly intialised]
-    if isnan(Gut(3))
-        previous_time=0;
-    else
-        previous_time = Gut(3);
-    end
+function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
+    % checking the previous time of day. 
+    previous_time = Gut(3);
     % setting the time of day as a value from 0 -> 86400 (seconds in a day)
-    time = get_time(previous_time, time_step);
-    Gut(3) = time;
+    time = get_time(previous_time, time_step)
+    
 
     MEAL_ABSORPTION_TIME = 15*60; % this needs a researched value (seconds)
     time_since_last_meal = Gut(4);
@@ -33,7 +28,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     elseif time_since_last_meal < MEAL_ABSORPTION_TIME
         time_since_last_meal = time_since_last_meal + time_step;
     end
-    Gut(4) = time_since_last_meal;
+    
     % inputs:
         % GutFlowRate: [mL/min]
         % Gut: gut object
@@ -49,10 +44,22 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     arterial_insulin = Arterial(3);
 
     % Using Gut and Arterial functions to calculate their change
-    [Gut,gut_glucose_output,gut_glucose_absorption] = delta_gut(gut_glucose, gut_spO2, arterial_insulin, GutFlowRate, time, time_step, time_since_last_meal, glycemic_load);
-    Arterial = delta_arterial(arterial_glucose, arterial_spO2, arterial_insulin, gut_glucose_output, gut_glucose_absorption, time_step);
+    [SpO2_new,glucose_new,gut_glucose_output,gut_glucose_absorption,glycemic_load_new] = delta_gut(gut_glucose, gut_spO2, arterial_insulin, GutFlowRate, time, time_step, time_since_last_meal, glycemic_load);
+    Delta_Arterial = delta_arterial(arterial_glucose, arterial_spO2, arterial_insulin, gut_glucose_output, gut_glucose_absorption, time_step);
 
     % final outputs
-    GutNew = Gut;
-    GutOut = Arterial; % this means we manipulate arterial, and we manipulate gut
+    GutNew = zeros(1,5);
+    GutNew(1) = SpO2_new;
+    GutNew(2) = glucose_new;
+    GutNew(3) = time;
+    GutNew(4) = time_since_last_meal;
+    GutNew(5) = glycemic_load_new;
+
+    GutOut = zeros(1,3);
+    GutOut = Delta_Arterial; % this means we manipulate arterial, and we manipulate gut
+end
+
+% set the time of day after each call of the GutCalc function
+function [time] = get_time(previous_time,time_step)
+    time = previous_time + time_step;
 end
