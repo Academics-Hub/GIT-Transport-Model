@@ -13,27 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf"
-              }
-            }
-          },
-          {
-            "id": "95afc148a98a8668",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf"
-              }
-            }
-          },
-          {
-            "id": "b907206fa8d6c00e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Research-notes/enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf"
+                "file": "Research/nutritional_goals.pdf"
               }
             }
           }
@@ -103,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf"
+                "file": "Research/nutritional_goals.pdf"
               }
             }
           }
@@ -166,25 +144,28 @@
   },
   "active": "e0c06fa0aa559213",
   "lastOpenFiles": [
-    "Code/docs/README.md",
+    "Research/Daily Intake Guide.md",
+    "Research/someya-et-al-2008-blood-flow-responses-in-celiac-and-superior-mesenteric-arteries-in-the-initial-phase-of-digestion.pdf",
+    "Research/partial_p_o2_values.pdf",
+    "Research/glucose_insulin(complicated).pdf",
+    "Research/crit_limit_o2_extraction_av_diff.pdf",
+    "Research/circulation_overview_stats.pdf",
+    "Research/bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf",
+    "Research-notes/rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf",
+    "Attachments/Pasted image 20231111150050.png",
+    "Research-notes/dietaryreferenceintakesessentialguidenutrientrequirements-.pdf",
+    "Research/Dietary Reference Intakes: The Essential Guide to Nutrient Requirements.pdf",
+    "Research/How does oxygen diffuse from capillaries to tissue mitochondria? Barriers and pathways.pdf",
+    "Meeting logs/2023-11-12.md",
+    "Code/docs/Food.md",
+    "Code/docs/git_transport_model_flow.png",
+    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
+    "Research-notes/Absorption in the GIT.md",
     "Code/docs/find_gl_glucose.md",
     "Code/docs/GlycemicLoad.md",
-    "Research/Development of a Prediction Model to Estimate the Glycemic Load of Ready-to-EatMeals.pdf",
-    "Code/docs/Food.md",
+    "Code/docs/README.md",
     "Code/docs/Arterial.md",
     "Code/docs/GutCalc.md",
-    "Research/A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf",
-    "Research/Enhancing Blood Glucose Prediction with Meal Absorption and Physical Exercise Information.pdf",
-    "Research/The effects of meal glycemic load on blood glucose levels of adults with different body mass indexes.pdf",
-    "Research-notes/Absorption in the GIT.md",
-    "Research-notes/simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf",
-    "Code/src/GutCalc.asv",
-    "Code/src/Main.asv",
-    "Research-notes/enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf",
-    "Attachments/Pasted image 20231111150050.png",
-    "Research/GITTransportModel.bib",
-    "Code/src/find_gl_glucose.m",
-    "Research-notes/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",
     "docs/README.md",
     "docs/GutCalc.md",
     "docs/Food.md",
