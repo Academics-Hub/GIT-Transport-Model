@@ -1,4 +1,4 @@
-function [glycemic_load_new,glucose_absorbed,glucose_output,time_since_last_meal_new] = glucose_model(time, time_step, time_since_last_meal, Insulin, glycemic_load)
+function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_step, time_since_last_meal, Insulin, glycemic_load)
     % get if it is a meal time
     time_of_day = check_meal_time(time);
     Meal = set_meal(time);
@@ -17,6 +17,7 @@ function [glycemic_load_new,glucose_absorbed,glucose_output,time_since_last_meal
         glycemic_load_new = GL;
     else
         glucose_output = 0;
+        glycemic_load_new = 0;
     end
 end
 
@@ -40,5 +41,10 @@ function[Meal] = set_meal(time_of_day)
         Meal.lipids = 10;
         Meal.proteins = 20;
         Meal.fibre = 10;
+    else
+        Meal.carbs = 0;
+        Meal.lipids = 0;
+        Meal.proteins = 0;
+        Meal.fibre = 0;
     end
 end
