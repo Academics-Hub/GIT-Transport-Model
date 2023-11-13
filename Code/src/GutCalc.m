@@ -19,6 +19,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     end
     % setting the time of day as a value from 0 -> 86400 (seconds in a day)
     time = get_time(previous_time, time_step);
+    Gut(3) = time;
 
     MEAL_ABSORPTION_TIME = 15*60; % this needs a researched value (seconds)
     time_since_last_meal = Gut(4);
@@ -32,6 +33,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
     elseif time_since_last_meal < MEAL_ABSORPTION_TIME
         time_since_last_meal = time_since_last_meal + time_step;
     end
+    Gut(4) = time_since_last_meal;
     % inputs:
         % GutFlowRate: [mL/min]
         % Gut: gut object
