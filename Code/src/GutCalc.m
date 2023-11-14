@@ -2,12 +2,12 @@
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
     % Setting gut parameters
     TIME_STEP = time_step;
-    start_time = GUT_PARAMS.setget_start_time;
-    previous_time = cast(GUT_PARAMS.setget_time, 'double'); % typecasting just in case
+    previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case
+    %previous_time = cast(GUT_PARAMS.setget_time, 'double'); % typecasting just in case
     time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;
     
     % setting the time of day as a value from 0 -> 86400 (seconds in a day)
-    new_time = calc_new_time(start_time,previous_time,TIME_STEP);
+    new_time = calc_new_time(previous_time,TIME_STEP);
 
     MEAL_ABSORPTION_TIME = 4*3600; % this needs a researched value (hrs -> seconds)
 
@@ -48,6 +48,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
     GutNew(2) = glucose_new;
     % updating the Gut parameters
     GUT_PARAMS.setget_time(new_time);
+    GUT_PARAMS.setget_previous_time(new_time);
     GUT_PARAMS.setget_time_since_last_meal(time_since_last_meal);
 
     GutOut = zeros(1,3);
@@ -57,6 +58,6 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 end
 
 % set the time of day after each call of the GutCalc function
-function new_time = calc_new_time(start_time,previous_time,time_step)   
+function new_time = calc_new_time(previous_time,time_step)
     new_time = previous_time + time_step;
 end

@@ -1,6 +1,6 @@
 function[time_of_day] = check_meal_time(time)
     % conversion to 24h00 hours format by converting seconds -> hours
-    time = time/3600;
+    time = mod(time,86400)/3600;
     if time == 7.000000e+00 % check if time is 07h00
         time_of_day = 1;
         %fprintf('Breakfast time at:%d\n', time);

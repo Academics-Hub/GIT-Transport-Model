@@ -1,7 +1,5 @@
 classdef GUT_PARAMS
     % Sets and gets:
-    %   - start time
-    %   - simulation duration
     %   - time
     %   - previous time
     %   - time since last meal
@@ -11,22 +9,6 @@ classdef GUT_PARAMS
     %   - O2 consumption
     %   - current increment of simulation, where total increments = simulation duration / time step
     methods (Static)
-        % function to set and get the start time
-        function START_TIME = setget_start_time(start_time)
-            persistent ST_storage;
-            if nargin
-                ST_storage = start_time;
-            end
-            START_TIME = ST_storage; 
-        end 
-        % function to set and get the simulation duration
-        function SIMULATION_DURATION = setget_simulation_duration(simulation_duration)
-            persistent SD_storage;
-            if nargin
-                SD_storage = simulation_duration;
-            end
-            SIMULATION_DURATION = SD_storage; 
-        end
         % function to set and get the time
         function TIME = setget_time(time)
             persistent T_storage;
