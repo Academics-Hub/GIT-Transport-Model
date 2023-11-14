@@ -3,11 +3,13 @@ classdef GUT_PARAMS
     %   - start time
     %   - simulation duration
     %   - time
+    %   - previous time
     %   - time since last meal
     %   - current glycemic load
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
+    %   - current increment of simulation, where total increments = simulation duration / time step
     methods (Static)
         % function to set and get the start time
         function START_TIME = setget_start_time(start_time)
@@ -32,6 +34,14 @@ classdef GUT_PARAMS
                 T_storage = time;
             end
             TIME = T_storage; 
+        end
+        % function to set and get the previous time
+        function PREVIOUS_TIME = setget_previous_time(previous_time)
+            persistent PT_storage;
+            if nargin
+                PT_storage = previous_time;
+            end
+            PREVIOUS_TIME = PT_storage; 
         end
         % function to set and get the time since last meal
         function TIME_SINCE_LAST_MEAL = setget_time_since_last_meal(time_since_last_meal)
@@ -72,6 +82,14 @@ classdef GUT_PARAMS
                 O2C_storage = O2_consumption;
             end
             O2_CONSUMPTION = O2C_storage; 
+        end
+        % function to set and get current increment
+        function CURRENT_INCREMENT = setget_current_increment(current_increment)
+            persistent CI_storage;
+            if nargin
+                CI_storage = current_increment;
+            end
+            CURRENT_INCREMENT = CI_storage; 
         end
     end
 end
