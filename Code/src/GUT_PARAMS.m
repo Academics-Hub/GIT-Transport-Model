@@ -7,7 +7,6 @@ classdef GUT_PARAMS
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
-    %   - current increment of simulation, where total increments = simulation duration / time step
     methods (Static)
         % function to set and get the time
         function TIME = setget_time(time)
@@ -64,14 +63,6 @@ classdef GUT_PARAMS
                 O2C_storage = O2_consumption;
             end
             O2_CONSUMPTION = O2C_storage; 
-        end
-        % function to set and get current increment
-        function CURRENT_INCREMENT = setget_current_increment(current_increment)
-            persistent CI_storage;
-            if nargin
-                CI_storage = current_increment;
-            end
-            CURRENT_INCREMENT = CI_storage; 
         end
     end
 end
