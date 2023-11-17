@@ -3,3 +3,9 @@ A repository for a project in biomedical transport phenomena, modelling inputs a
 
 ## Pull request patterns
 - Research and draft code should open PRs -> main
+
+# Repository index
+- [Code](Code/Code.md)
+- [Research](Research/Research.md)
+- [Research-notes](Research-notes/Research-notes.md)
+- [Textbooks](Textbooks/Textbooks.md)
