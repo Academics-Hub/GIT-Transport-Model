@@ -41,3 +41,6 @@ jobs:
           body: Update changelog to reflect release changes
           branch: update-changelog
           base: main
+          labels: documemtation
+          assignees: ${{ github.actor }}
+          reviewers: ${{ github.actor }}
