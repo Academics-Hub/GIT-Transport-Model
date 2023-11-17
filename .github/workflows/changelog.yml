@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Generate Changelog using github-changelog-generator
-        uses: fabernovel/github-changelog-generator-action@1.0.0-alpha02
+        uses: fabernovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
           user: ${{ github.repository_owner }}
           project: ${{ github.event.repository.name }}
