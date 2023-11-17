@@ -33,8 +33,11 @@ jobs:
           options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: Set user
         uses: fregante/setup-git-user@v2
-      - name: Push changelog
-        run: |
-          git add .
-          git commit --message 'Updated CHANGELOG'
-          git push
+      - name: Create pull request for change log
+        uses: peter-evans/create-pull-request@v5.0.2
+        with:
+          commit-message: update changelog
+          title: Update Changelog
+          body: Update changelog to reflect release changes
+          branch: update-changelog
+          base: main
