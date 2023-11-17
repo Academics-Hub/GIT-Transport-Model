@@ -1,5 +1,6 @@
 # GIT Transport Model
 A repository for a project in biomedical transport phenomena, modelling inputs and outputs of the GIT, as part of a full body transport model
+> [Changelog](CHANGELOG.md)
 
 ## Pull request patterns
 - Research and draft code should open PRs -> main
@@ -9,3 +10,4 @@ A repository for a project in biomedical transport phenomena, modelling inputs a
 - [Research](Research/Research.md)
 - [Research-notes](Research-notes/Research-notes.md)
 - [Textbooks](Textbooks/Textbooks.md)
+  
