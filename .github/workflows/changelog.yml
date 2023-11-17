@@ -20,12 +20,21 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Generate Changelog using github-changelog-generator
-        uses: fabernovel/github-changelog-generator-action@v1.0.0-alpha02
-        with:
-          options: --token ${{ secrets.GITHUB_TOKEN }}
-      - name: Push changelog
+      - name: Install gem
         run: |
-          git add /github/workspace/CHANGELOG.md
-          git commit "updated CHANGELOG"
-          git push origin/main
+          sudo apt-get update
+          sudo apt-get -y install gem
+      - name: Install gitub-changelog-generator
+      - run: |
+          gem install github_changelog_generator
+      - name: Generate Changelog using github-changelog-generator
+        run: |
+          github_changelog_generator --token ${{ secrets.GITHUB_TOKEN }}
+      - name: Set user
+        uses: fregante/setup-git-user@v2
+      - name: Push changelog
+        uses: actions/checkout@v4
+        run: |
+          git add .
+          git commit --message 'Updated CHANGELOG'
+          git push
