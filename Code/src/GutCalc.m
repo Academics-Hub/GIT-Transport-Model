@@ -1,5 +1,9 @@
 % my rework of the gut function, to make it more modular
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
+    %intialze constants to be used by glucose absorption and o2 absorption functions
+    %vmax =
+    %km =
+
     % Setting gut parameters
     TIME_STEP = time_step;
     previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case
