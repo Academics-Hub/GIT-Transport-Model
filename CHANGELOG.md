@@ -37,6 +37,7 @@
 
 **Merged pull requests:**
 
+- Update Changelog [\#40](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/40) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#39](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/39) ([github-actions[bot]](https://github.com/apps/github-actions))
 - removed unnecessary folders [\#27](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/27) ([JonoLF](https://github.com/JonoLF))
 - Add files via upload [\#18](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/18) ([VicksVerrall](https://github.com/VicksVerrall))
