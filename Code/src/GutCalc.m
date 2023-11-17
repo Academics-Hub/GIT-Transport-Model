@@ -1,53 +1,63 @@
-function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, step)
-    % Parameters
-    vmax = 5; % Maximum reaction velocity for hexokinase
-    km = 0.15; % Michaelis constant : conc at Vmax/2
-    henrys_const = 0.013; % Henry's constant for O2 in water at body temp [mol/L*atm]
-    [glucose] = food(50, 20, 10, 5);
+% my rework of the gut function, to make it more modular
+function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
+    % Setting gut parameters
+    TIME_STEP = time_step;
+    previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case
+    %previous_time = cast(GUT_PARAMS.setget_time, 'double'); % typecasting just in case
+    time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;
+    
+    % setting the time of day as a value from 0 -> 86400 (seconds in a day)
+    new_time = calc_new_time(previous_time,TIME_STEP);
 
-    % Input concentrations
-    % Input will be from food, GIT will output to vascular system
-    SpO2_in = Arterial.SpO2;
-    PCO2_in = Arterial.PCO2;
-    Arterial.Glucose = Arterial.Glucose + glucose; %assumes all glucose from meal is absorped 
-    Glucose_in = Arterial.Glucose; %assume all glucose from artieres is available to be used by gut (but wont all be used)
-    Gut.Glucose = Gut.glucose + Glucose_in;
-    Insulin_in = Arterial.Insulin;
+    MEAL_ABSORPTION_TIME = 4*3600; % this needs a researched value (hrs -> seconds)
 
-    %calculate rate of o2 comsumption ??
-    % JO2 = (GutFlowRate/1000) * (SpO2_in - Gut.SpO2) * 150 * 1.92;
+    meal = check_meal_time(new_time);
 
-    % Mass balance chcecker 
-    total_mass_in = SpO2_in + PCO2_in + Glucose_in + Insulin_in;
-    total_mass_out = Gut.SpO2 + Gut.PCO2 + Gut.Glucose + Gut.Insulin;
-    mass_balance_error = total_mass_in - total_mass_out;
-    if abs(mass_balance_error) > 1e-6
-        error('Mass balance not conserved');
+    % if it's been more than MEAL_ABSORPTION_TIME since the last meal, set the time to -1 to indicate that we are not in the meal absorption phase
+    if time_since_last_meal >= MEAL_ABSORPTION_TIME
+        time_since_last_meal = -1;
+    % if check_meal_time returns a positive integer, and we are not in the meal absorption phase, set the time to 0 to indicate that we are starting the meal absorption phase
+    elseif meal > 0 && time_since_last_meal == -1
+        time_since_last_meal = 0;
+    % if we are in the meal absorption phase, add the time step to the time since last meal
+    elseif time_since_last_meal < MEAL_ABSORPTION_TIME && time_since_last_meal >= 0
+        time_since_last_meal = time_since_last_meal + time_step;
     end
     
-    % Michaelis-Menten kinetics for glucose metabolism
-    glucose_usage = vmax * Gut.Glucose / (km + Gut.Glucose);
-    
-    % Update glucose using the metabolism rate
-    GutNew.Glucose = Gut.Glucose + (step * GutFlowRate) * glucose_usage;
-    GutOut.Glucose = Glucose_in - (step * GutFlowRate) * glucose_usage;
+    % inputs:
+        % GutFlowRate: [mL/min]
+        % Gut: gut object
+        % Arterial: arterial object
+        % step: time step [seconds]
+    % We are given initial values, and then from these, we need to simulate what happens at the next time step.
+    % Remember that we receive the previous Gut and Aterial values, at the beginning of each iteration of the function in OverallLoop
+    gut_spO2 = Gut(1);
+    gut_glucose = Gut(2);
+    arterial_spO2 = Arterial(1);
+    arterial_glucose = Arterial(2);
+    arterial_insulin = Arterial(3);
 
-    % Oxygen absorption using Henry's Law and Fick's law of diffusion
-    k = 0.01; % Diffusion coefficient [m^2/s]
-    O2_absorption = HenrysConst * SpO2_in + k * A * (Gut.SpO2 - Arterial.SpO2);
-    GutNew.SpO2 = Gut.SpO2 + (step * GutFlowRate) * O2_absorption;
-    GutOut.SpO2 = SpO2_in - (step * GutFlowRate) * O2_absorption;
+    % Using Gut and Arterial functions to calculate their change
+    [SpO2_new, glucose_new] = delta_gut(gut_spO2, gut_glucose, arterial_insulin, GutFlowRate, time_step);
 
-    % CO2 production
-    % Takes into account the amount of O2 absorbed by the gut and the oxygen saturation in the gut to estimate the amount of CO2 produced during metabolism.
-    CO2_production = GutNew.SpO2 / (1 - GutNew.SpO2) * O2_absorption / henrys_const;
-    GutNew.PCO2 = (step * GutFlowRate) * CO2_production; 
-    GutOut.PCO2 = PCO2_in + (step * GutFlowRate) * CO2_production;
+    [arterial_SpO2_new,arterial_glucose_new,arterial_insulin_new] = delta_arterial(arterial_spO2, arterial_glucose, arterial_insulin);
 
-    % Insulin absorption and elimination via first-order kinetic model
-    k_elim = 0.1;
-    Insulin_absorption = Insulin_in - GutFlowRate * Gut.Insulin;
-    Insulin_elimination = k_elim * Gut.Insulin;
-    GutNew.Insulin = Gut.Insulin + step * (Insulin_absorption - Insulin_elimination);
-    GutOut.Insulin = Insulin_in;
+    % final outputs
+    GutNew = zeros(1,2);
+    GutNew(1) = SpO2_new;
+    GutNew(2) = glucose_new;
+    % updating the Gut parameters
+    GUT_PARAMS.setget_time(new_time);
+    GUT_PARAMS.setget_previous_time(new_time);
+    GUT_PARAMS.setget_time_since_last_meal(time_since_last_meal);
+
+    GutOut = zeros(1,3);
+    GutOut(1) = arterial_SpO2_new;
+    GutOut(2) = arterial_glucose_new;
+    GutOut(3) = arterial_insulin_new;
+end
+
+% set the time of day after each call of the GutCalc function
+function new_time = calc_new_time(previous_time,time_step)
+    new_time = previous_time + time_step;
 end
