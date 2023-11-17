@@ -25,4 +25,4 @@ jobs:
         with:
           user: ${{ github.repository_owner }}
           project: ${{ github.event.repository.name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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
