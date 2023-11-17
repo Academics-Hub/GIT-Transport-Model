@@ -19,8 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Generate Changelog using github-changelog-generator
         uses: fabernovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changelog
+        run: |
+          git add CHANGELOG.md
+          git commit "updated CHANGELOG"
+          git push origin/main
