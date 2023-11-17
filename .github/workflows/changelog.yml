@@ -23,4 +23,4 @@ jobs:
       - name: Generate Changelog using github-changelog-generator
         uses: fabernovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
-          options: --token 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
+          options: --token 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
