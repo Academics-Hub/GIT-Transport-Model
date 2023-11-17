@@ -28,8 +28,9 @@ jobs:
         run: |
           sudo gem install github_changelog_generator
       - name: Generate Changelog using github-changelog-generator
-        run: |
-          github_changelog_generator -u BiomedEngineeering2ndBrain -p GIT-Transport-Model --token ${{ secrets.GITHUB_TOKEN }}
+        uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
+        with:
+          options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: Set user
         uses: fregante/setup-git-user@v2
       - name: Push changelog
