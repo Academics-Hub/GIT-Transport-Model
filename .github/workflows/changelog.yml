@@ -20,8 +20,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Generate changelog
-        uses: github-changelog-generator/github-changelog-generator@v1.16.0
+      - name: Generate Changelog using github-changelog-generator
+        uses: fabernovel/github-changelog-generator-action@{latest-release}
         with:
           user: ${{ github.repository_owner }}
           project: ${{ github.event.repository.name }}
