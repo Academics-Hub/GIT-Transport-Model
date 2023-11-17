@@ -26,7 +26,7 @@ jobs:
           sudo apt-get -y install gem
       - name: Install gitub-changelog-generator
         run: |
-          gem install github_changelog_generator
+          sudo gem install github_changelog_generator
       - name: Generate Changelog using github-changelog-generator
         run: |
           github_changelog_generator --token ${{ secrets.GITHUB_TOKEN }}
