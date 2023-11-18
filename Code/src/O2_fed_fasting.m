@@ -11,7 +11,7 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, arterial_spO2
 if time_since_last_meal == -1
     O2_usage = 0.15;
 else
-    O2_usage = 
+    O2_usage = 0.65;
 end
 gut_spO2 = O2_usage;
 
