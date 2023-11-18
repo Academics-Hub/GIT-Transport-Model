@@ -7,6 +7,11 @@ classdef GUT_PARAMS
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
+    %   - current increment of simulation, where total increments = simulation duration / time step
+
+    % call example:
+    %   setter -> GUT_PARAMS.setget_time(0)
+    %   getter -> GUT_PARAMS.setget_time
     methods (Static)
         % function to set and get the time
         function TIME = setget_time(time)
