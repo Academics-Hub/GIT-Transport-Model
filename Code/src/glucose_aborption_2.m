@@ -14,10 +14,10 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
     glucose_change_plasma = dG_dt * step * GutFlowRate;
 
     % Update using the metabolism rate
-    GutNew_glucose = gutglucose +  glucose_change_plasma;
+    GutNew_glucose = gutglucose + glucose_change_plasma;
 
     % Update glucose using the metabolism rate
-    GutOut_glucose = arterialglucose +  glucose_change_plasma;
+    GutOut_glucose = arterialglucose + glucose_change_plasma;
     
 end
 
