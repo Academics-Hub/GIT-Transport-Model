@@ -21,7 +21,7 @@ gut_spO2 = O2_usage;
 
 %arterial_spO2_new = arterial_spO2 - O2_usage;
 
-gut_O2 = 02_usage * GutFlowRate * Hb * Cb;
+gut_O2 = O2_usage * GutFlowRate * Hb * Cb;
 % gut_O2 in mg/min
 
 %change units to g/min
