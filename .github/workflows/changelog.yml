@@ -25,13 +25,16 @@ jobs:
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: setup_user
-        run: |
-          git config --global user.email "jono.faller@gmail.com"
-          git config --global user.name "JonoLF"
-      - name: push_to_main
+        uses: fregante/setup-git-user@v2
+      - name: create pr
+        uses: peter-evans/create-pull-request@v5
+        id: cpr
+        with:
+          labels: documentation
+          assignees: ${{ github.actor }}
+          title: Updated CHANGELOG
+      - name: merge pr
         env:
-          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
-          git add .
-          git commit -m "update CHANGELOG"
-          git push --force 
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --admin
