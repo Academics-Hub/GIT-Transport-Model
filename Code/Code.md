@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - **docs**
 	- [Arterial](./docs/Arterial.md)
+	- [Dependency Graph.png](./docs/Dependency%20Graph.png)
 	- [find_gl_glucose](./docs/find_gl_glucose.md)
 	- [Food](./docs/Food.md)
 	- [git_transport_model_flow.drawio](./docs/git_transport_model_flow.drawio)
