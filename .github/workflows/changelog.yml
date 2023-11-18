@@ -38,6 +38,6 @@ jobs:
           branch: update-changelog
       - name: merge pr
         env:
-          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --admin
