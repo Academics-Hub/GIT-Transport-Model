@@ -2,7 +2,7 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
 
     %normal basal values 
     Gb = 5.6; %fssting glcuose mmol/L
-    Ib = 174; %fasting insulin pmol/L
+    %Ib = 174; %fasting insulin pmol/L
     Sg = 0.033; %net glucose utilization without dynamic insulin response min^-1
 
     % X(t) is the interstitial insulin at time t. assumed to be the blood insulin
@@ -13,9 +13,6 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
 
     % Update glucose usage using the differential equations
     glucose_change_plasma = dG_dt * step;
-
-    % Michaelis-Menten kinetics for glucose metabolism
-    glucose_usage = vmax * gutglucose / (km + gutglucose); 
 
     % Update using the metabolism rate
     GutNew_glucose = gutglucose + (step * GutFlowRate) * glucose_change_plasma;

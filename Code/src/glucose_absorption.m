@@ -1,4 +1,8 @@
-function [GutOut_glucose,GutNew_glucose] = glucose_absorption(vmax, km, arterialglucose, gutglucose, GutFlowRate, step)
+function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, gutglucose, GutFlowRate, step)
+
+    %glut 2
+    vmax =3; % mmole s -1
+    km=20; %mM 
 
     % Michaelis-Menten kinetics for glucose metabolism
     glucose_usage = vmax * gutglucose / (km + gutglucose); 
