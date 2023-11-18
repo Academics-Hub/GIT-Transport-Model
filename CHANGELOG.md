@@ -19,6 +19,7 @@
 - Research inputs - mouth [\#4](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/4)
 - Research outputs [\#3](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/3)
 - Research inputs [\#2](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/2)
+- Merge code staging into main with newest updates [\#44](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/44) ([JonoLF](https://github.com/JonoLF))
 - Update main code [\#38](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/38) ([JonoLF](https://github.com/JonoLF))
 - 34 glucose model [\#37](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/37) ([JonoLF](https://github.com/JonoLF))
 - 25 document first code draft [\#33](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/33) ([JonoLF](https://github.com/JonoLF))
@@ -26,10 +27,6 @@
 - 25 document first code draft [\#31](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/31) ([JonoLF](https://github.com/JonoLF))
 - Code staging  [\#29](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/29) ([nagarium](https://github.com/nagarium))
 - Code staging [\#22](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/22) ([nagarium](https://github.com/nagarium))
-- 6 research inputs stomach [\#21](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/21) ([nagarium](https://github.com/nagarium))
-- convert victoria document -\> .md [\#20](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/20) ([JonoLF](https://github.com/JonoLF))
-- merge research file structure [\#16](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/16) ([JonoLF](https://github.com/JonoLF))
-- added transport phenomena textbook [\#15](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/15) ([JonoLF](https://github.com/JonoLF))
 
 **Closed issues:**
 
@@ -37,10 +34,11 @@
 
 **Merged pull requests:**
 
+- Update Changelog [\#42](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/42) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#40](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/40) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#39](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/39) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Initial skeleton of O2 CO2 model. [\#36](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/36) ([JustMeJuls](https://github.com/JustMeJuls))
 - removed unnecessary folders [\#27](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/27) ([JonoLF](https://github.com/JonoLF))
-- Add files via upload [\#18](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/18) ([VicksVerrall](https://github.com/VicksVerrall))
 
 
 
