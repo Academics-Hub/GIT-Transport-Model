@@ -33,7 +33,7 @@ jobs:
           options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: push_to_main
         env:
-          GITHUB_TOKEN: ${{ secretes.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh auth login --with-token $GITHUB_TOKEN
           git add .
