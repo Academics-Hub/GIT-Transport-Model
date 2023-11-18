@@ -24,6 +24,9 @@
 	- [GutCalc.m](./src/GutCalc.m)
 	- [Main.asv](./src/Main.asv)
 	- [Main.m](./src/Main.m)
+	- [O2_Absorption.m](./src/O2_Absorption.m)
+	- [O2_CO2.m](./src/O2_CO2.m)
 	- [OverallLoop.m](./src/OverallLoop.m)
+	- [sigfit.m](./src/sigfit.m)
 
 %% End Waypoint %%
