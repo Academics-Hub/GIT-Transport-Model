@@ -8,7 +8,7 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
     % X(t) is the interstitial insulin at time t. assumed to be the blood insulin
     X = insulin; 
 
-    % Define the differential equations
+    % Define the differential equations for minimal model
     dG_dt = -[Sg + X]*gutglucose + Sg*Gb;
 
     % Update glucose usage using the differential equations

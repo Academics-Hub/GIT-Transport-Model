@@ -3,7 +3,7 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
     A = 300; % define surface area of gut in m^2
     D= 5.7 x 10^{-10}; %define diffusibility
     thickeness = 0.005; % small intestin is 5mm thick
-    partition_coef = gutglucose/arterialglucose;
+    partition_coef = 0.65; 
     K = D * partition_coef / thickeness; %calculate permeability
 
     J_glucose = K * A * (gutglucose - arterialglucose)
@@ -13,5 +13,4 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
 
     % Update glucose using the metabolism rate
     GutOut_glucose = arterialglucose + (step * GutFlowRate) * J_glucose;
-    
 end
