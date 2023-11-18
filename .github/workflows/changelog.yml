@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh auth login --with-token $GITHUB_TOKEN
+          gh auth login --with-token < "$GITHUB_TOKEN"
           git add .
           git commit -m "update CHANGELOG"
           git push --force 
