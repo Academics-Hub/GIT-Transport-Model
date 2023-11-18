@@ -2,9 +2,6 @@
 
 name: Update Changelog
 
-# fine-grain permissions
-permissions:
-  contents: write
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -40,4 +37,4 @@ jobs:
         run: |
           git add .
           git commit -m "update CHANGELOG"
-          git push origin main
+          git push --force origin main
