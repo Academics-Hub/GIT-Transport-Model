@@ -2,6 +2,9 @@
 
 name: Update Changelog
 
+# fine-grain permissions
+permissions:
+  contents: write
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -33,14 +36,8 @@ jobs:
           options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: Set user
         uses: fregante/setup-git-user@v2
-      - name: Create pull request for change log
-        uses: peter-evans/create-pull-request@v5.0.2
-        with:
-          commit-message: update changelog
-          title: Update Changelog
-          body: Update changelog to reflect release changes
-          branch: update-changelog
-          base: main
-          labels: documemtation
-          assignees: ${{ github.actor }}
-          reviewers: ${{ github.actor }}
+      - name: push to main
+        run: |
+          git add .
+          git commit -m "update CHANGELOG"
+          git push origin main
