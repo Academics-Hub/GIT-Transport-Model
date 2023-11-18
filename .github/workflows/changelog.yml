@@ -31,10 +31,10 @@ jobs:
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
-      - name: Set user
-        uses: fregante/setup-git-user@v2
       - name: push to main
         run: |
+          git config --global user.email "jono.faller@gmail.com"
+          git config --global user.name "JonoLF"
           git add .
           git commit -m "update CHANGELOG"
           git push --force origin main
