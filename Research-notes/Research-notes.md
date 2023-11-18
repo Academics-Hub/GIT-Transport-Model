@@ -1,0 +1,22 @@
+%% Begin Waypoint %%
+- [Absorption in the GIT](./Absorption%20in%20the%20GIT.md)
+- [bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf](./bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya.pdf)
+- [circulationoverview-granger.pdf](./circulationoverview-granger.pdf)
+- [costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren.pdf](./costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren.pdf)
+- [definingcriticallimitoxygenextractionhumansmallintestine-desai.pdf](./definingcriticallimitoxygenextractionhumansmallintestine-desai.pdf)
+- [developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee.pdf](./developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee.pdf)
+- [dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf](./dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger.pdf)
+- [effectsmealglycemicloadbloodglucoselevelsadultsdifferentbodymassindexes-yalcin.pdf](./effectsmealglycemicloadbloodglucoselevelsadultsdifferentbodymassindexes-yalcin.pdf)
+- [enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf](./enhancingbloodglucosepredictionmealabsorptionphysicalexerciseinformation-liu.pdf)
+- [glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto.pdf](./glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto.pdf)
+- [partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf](./partialpressureoxygenhumanbodygeneralreview-ortiz-prado.pdf)
+- [postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf](./postprandialbloodglucosediabetescareamericandiabetesassociation-.pdf)
+- [postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf](./postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf)
+- [regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf](./regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf)
+- [rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf](./rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-.pdf)
+- [silicomodellingmasstransferabsorptionhumangut-moxon.pdf](./silicomodellingmasstransferabsorptionhumangut-moxon.pdf)
+- [simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf](./simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero.pdf)
+- [THEORY OF OXYGEN TRANSPORT TO TISSUE](./THEORY%20OF%20OXYGEN%20TRANSPORT%20TO%20TISSUE.md)
+- [theoryoxygentransporttissue-popel.pdf](./theoryoxygentransporttissue-popel.pdf)
+
+%% End Waypoint %%

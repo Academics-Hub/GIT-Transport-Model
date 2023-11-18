@@ -1,0 +1,20 @@
+%% Begin Waypoint %%
+- [A Simple Robust Method for Estimating the Glucose Rate  of Appearance from Mixed Meals.pdf](./A%20Simple%20Robust%20Method%20for%20Estimating%20the%20Glucose%20Rate%20%20of%20Appearance%20from%20Mixed%20Meals.pdf)
+- [bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf](./bizzotto-et-al-2016-glucose-uptake-saturation-explains-glucose-kinetics-profiles-measured-by-different-tests.pdf)
+- [circulation_overview_stats.pdf](./circulation_overview_stats.pdf)
+- [crit_limit_o2_extraction_av_diff.pdf](./crit_limit_o2_extraction_av_diff.pdf)
+- [Development of a Prediction Model to Estimate the Glycemic Load of Ready-to-EatMeals.pdf](./Development%20of%20a%20Prediction%20Model%20to%20Estimate%20the%20Glycemic%20Load%20of%20Ready-to-EatMeals.pdf)
+- [Enhancing Blood Glucose Prediction with Meal Absorption and Physical Exercise Information.pdf](./Enhancing%20Blood%20Glucose%20Prediction%20with%20Meal%20Absorption%20and%20Physical%20Exercise%20Information.pdf)
+- [GITTransportModel.bib](./GITTransportModel.bib)
+- [glucose_insulin(complicated).pdf](./glucose_insulin(complicated).pdf)
+- [In silico modelling of mass transfer & absorption in the human gut.pdf](./In%20silico%20modelling%20of%20mass%20transfer%20&%20absorption%20in%20the%20human%20gut.pdf)
+- [partial_p_o2_values.pdf](./partial_p_o2_values.pdf)
+- [Postprandial Blood Glucose.pdf](./Postprandial%20Blood%20Glucose.pdf)
+- [Postprandial Insulin and Triglycerides after Different Breakfast Meal.pdf](./Postprandial%20Insulin%20and%20Triglycerides%20after%20Different%20Breakfast%20Meal.pdf)
+- [Regulation of Intestinal Glucose Absorption by Ion.pdf](./Regulation%20of%20Intestinal%20Glucose%20Absorption%20by%20Ion.pdf)
+- [Roles Of the Gut in Glucose Homeostasis.pdf](./Roles%20Of%20the%20Gut%20in%20Glucose%20Homeostasis.pdf)
+- [someya-et-al-2008-blood-flow-responses-in-celiac-and-superior-mesenteric-arteries-in-the-initial-phase-of-digestion.pdf](./someya-et-al-2008-blood-flow-responses-in-celiac-and-superior-mesenteric-arteries-in-the-initial-phase-of-digestion.pdf)
+- [The cost of chewing- The energetics and evolutionary significance of mastication in humans.pdf](./The%20cost%20of%20chewing-%20The%20energetics%20and%20evolutionary%20significance%20of%20mastication%20in%20humans.pdf)
+- [The effects of meal glycemic load on blood glucose levels of adults with different body mass indexes.pdf](./The%20effects%20of%20meal%20glycemic%20load%20on%20blood%20glucose%20levels%20of%20adults%20with%20different%20body%20mass%20indexes.pdf)
+
+%% End Waypoint %%
