@@ -25,7 +25,9 @@ jobs:
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: setup_user
-        uses: fregante/setup-git-user@v2
+        run: |
+          git config --global user.email "jono.faller@gmail.com"
+          git config --global user.name "JonoLF"
       - name: push_to_main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
