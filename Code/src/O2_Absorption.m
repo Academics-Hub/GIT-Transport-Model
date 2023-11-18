@@ -21,5 +21,4 @@ function [gut_O2] = O2_Absorption(GutFlowRate, arterial_spO2, Cb, Hb, O2_usage)
 % arterial_spO2_new = arterial_spO2 - O2_usage;
 gut_O2 = 02_usage * GutFlowRate * Hb * Cb;
 
-
 end
