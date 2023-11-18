@@ -69,13 +69,5 @@ classdef GUT_PARAMS
             end
             O2_CONSUMPTION = O2C_storage; 
         end
-        % function to set and get current increment
-        function CURRENT_INCREMENT = setget_current_increment(current_increment)
-            persistent CI_storage;
-            if nargin
-                CI_storage = current_increment;
-            end
-            CURRENT_INCREMENT = CI_storage; 
-        end
     end
 end
