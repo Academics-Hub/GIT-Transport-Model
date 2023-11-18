@@ -20,13 +20,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Install gem
-        run: |
-          sudo apt-get update
-          sudo apt-get -y install gem
-      - name: Install gitub-changelog-generator
-        run: |
-          sudo gem install github_changelog_generator
       - name: Generate Changelog using github-changelog-generator
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
