@@ -1,4 +1,4 @@
-function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, gutglucose, GutFlowRate, insulin, step)
+function [GutOut_glucose,GutNew_glucose] = glucose_absorption2(arterialglucose, gutglucose, GutFlowRate, insulin, glucoseoutput, step)
 
     %normal basal values 
     Gb = 5.6; %fssting glcuose mmol/L
@@ -8,7 +8,7 @@ function [GutOut_glucose,GutNew_glucose] = glucose_absorption(arterialglucose, g
     X = insulin; 
 
     % Define the differential equations for minimal model
-    dG_dt = -(Sg + X)*gutglucose + Sg*Gb + arterialglucose/gutglucose;
+    dG_dt = -(Sg + X)*gutglucose + Sg*Gb + glucoseoutput/gutglucose;
 
     % Update glucose usage using the differential equations
     glucose_change_plasma = dG_dt * step * GutFlowRate;
