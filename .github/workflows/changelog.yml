@@ -16,7 +16,7 @@ env:
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
-    if: "$UPDATE_CHANGELOG"
+    if: ${{ env.UPDATE_CHANGELOG == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
