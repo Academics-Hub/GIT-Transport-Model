@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: test conditional
         run: |
-          echo ${{ ! contains(github.event.pull_request.labels.*.name, 'update-changelog') }}
+          echo ${{ github.event.pull_request.labels.*.name }}
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Generate Changelog using github-changelog-generator
