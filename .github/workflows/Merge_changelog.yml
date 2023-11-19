@@ -1,12 +1,8 @@
 name: Merge Changelog
 on:
   pull_request_target:
-    branches:
-      - 'main'
-    types:
-      - opened
-      - reopened
-      - synchronize
+    paths:
+      - 'CHANGELOG.md'
 jobs:
   merge:
     runs-on: ubuntu-latest
