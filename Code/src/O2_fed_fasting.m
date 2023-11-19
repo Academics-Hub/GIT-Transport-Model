@@ -6,7 +6,7 @@
 % Cb: oxygen carrying capacity (mg/g)
 % Hb: haemoglobin concentration (g/l)
 
-function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, arterial_spO2, Cb, Hb)
+function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(time_since_last_meal, GutFlowRate, arterial_spO2, Cb, Hb)
 
 if time_since_last_meal == -1
     O2_usage = 0.15;
