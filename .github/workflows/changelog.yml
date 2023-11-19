@@ -15,11 +15,11 @@ jobs:
   update_changelog:
     runs-on: ubuntu-latest
     if: >-
-      github.event.pull_request.labels[0].name != 'update-changelog'
+      github.event.pull_request.labels.name != 'update-changelog'
     steps:
       - name: Check pr labels
         run: |
-          echo "PR label: ${{ github.event.pull_request.labels[0].name}}"
+          echo "PR label: ${{ github.event.pull_request.labels.name}}"
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Generate Changelog using github-changelog-generator
