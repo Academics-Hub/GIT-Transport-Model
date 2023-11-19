@@ -1,7 +1,7 @@
 function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRate,time_step)
     % change in glucose in gut -> absorption
     % blood -> tissue
-    absorption = 0; % replace with Dinal's function to get glucose absorbed
+    absorption = glucose_absorption2(gut_glucose, GutFlowRate, Insulin, glucoseoutput, time_step); % replace with Dinal's function to get glucose absorbed
     GUT_PARAMS.setget_glucose_absorption(absorption);
     % change in glucose output
     % tbh not sure how to use the gut flow rate for output. I think it should affect digestion, but I'm not sure how
