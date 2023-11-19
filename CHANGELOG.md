@@ -33,6 +33,7 @@
 
 **Merged pull requests:**
 
+- Updated CHANGELOG [\#75](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/75) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#74](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/74) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#73](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/73) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#72](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/72) ([JonoLF](https://github.com/JonoLF))
@@ -66,7 +67,7 @@
 - Update Changelog [\#42](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/42) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#40](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/40) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#39](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/39) ([github-actions[bot]](https://github.com/apps/github-actions))
-- removed unnecessary folders [\#27](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/27) ([JonoLF](https://github.com/JonoLF))
+- Initial skeleton of O2 CO2 model. [\#36](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/36) ([JustMeJuls](https://github.com/JustMeJuls))
 
 
 
