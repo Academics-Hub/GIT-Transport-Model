@@ -1,8 +1,6 @@
 name: Merge Changelog
 on:
   pull_request_target:
-    paths:
-      - 'CHANGELOG.md'
 jobs:
   merge:
     runs-on: ubuntu-latest
