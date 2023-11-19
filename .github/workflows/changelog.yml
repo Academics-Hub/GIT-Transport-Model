@@ -14,7 +14,7 @@ on:
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
-    if: ${{ ! contains(github.event.pull_request.labels.*.name, 'update-changelog') }}
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'update-changelog') == false }}
     steps:
       - name: test conditional
         run: |
