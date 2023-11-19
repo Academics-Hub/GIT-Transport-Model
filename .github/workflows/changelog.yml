@@ -33,7 +33,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         id: cpr
         with:
-          labels: documentation, update-changelog
+          labels: update-changelog
           assignees: ${{ github.actor }}
           title: Updated CHANGELOG
           branch: update-changelog
