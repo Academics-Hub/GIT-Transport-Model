@@ -19,7 +19,7 @@ step = 0.5; % seconds
 Gut = [40, 1]; % initializing Gut to what we'll recommend
 
 % Simulation time
-duration = 2 * 3600; % 24 hours in seconds
+duration = 24 * 3600; % 24 hours in seconds
 time = 0:step:duration;
 
 % Initialize arrays to store results
