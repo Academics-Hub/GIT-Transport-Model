@@ -1,4 +1,4 @@
-function [glucose_change_plasma] = glucose_absorption2(gutglucose, GutFlowRate, insulin, glucoseoutput, step) %need glucoseoutput from jono
+function [glucose_change_plasma] = glucose_absorption_2(gutglucose, GutFlowRate, insulin, glucoseoutput, step) %need glucoseoutput from jono
 
     %normal basal values 
     Gb = 5.6; %fssting glcuose mmol/L
@@ -18,7 +18,6 @@ function [glucose_change_plasma] = glucose_absorption2(gutglucose, GutFlowRate, 
 
     % Update glucose using the metabolism rate
    % GutOut_glucose = arterialglucose + glucose_change_plasma;
-    
 end
 
 
