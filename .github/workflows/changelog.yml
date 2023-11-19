@@ -11,10 +11,12 @@ on:
     types:
       - closed
   workflow_dispatch:
+env:
+  UPDATE_CHANGELOG: ${{ !contains(github.event.pull_request.labels.*.name, 'update-changelog') }}
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.labels[0].name != 'update-changelog'
+    if: $UPDATE_CHANGELOG
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
