@@ -3,7 +3,6 @@ on:
   pull_request_target:
     branches:
       - 'main'
-      - 'update-changelog'
     types: 
       - labeled
     paths:
@@ -12,7 +11,9 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
-    steps:   
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v4
     - name: Automatically Merge PR
       uses: plm9606/automerge_actions@1.2.3
       with:
