@@ -19,12 +19,11 @@
 - Research inputs - mouth [\#4](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/4)
 - Research outputs [\#3](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/3)
 - Research inputs [\#2](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/2)
+- Merge Code staging to main [\#83](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/83) ([JonoLF](https://github.com/JonoLF))
+- 35 oxygen and carbon dioxide model [\#65](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/65) ([JustMeJuls](https://github.com/JustMeJuls))
 - Merge code staging into main with newest updates [\#44](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/44) ([JonoLF](https://github.com/JonoLF))
 - Update main code [\#38](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/38) ([JonoLF](https://github.com/JonoLF))
 - 34 glucose model [\#37](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/37) ([JonoLF](https://github.com/JonoLF))
-- 25 document first code draft [\#33](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/33) ([JonoLF](https://github.com/JonoLF))
-- Code staging update [\#32](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/32) ([nagarium](https://github.com/nagarium))
-- 25 document first code draft [\#31](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/31) ([JonoLF](https://github.com/JonoLF))
 
 **Closed issues:**
 
@@ -32,6 +31,8 @@
 
 **Merged pull requests:**
 
+- Code staging [\#84](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/84) ([JonoLF](https://github.com/JonoLF))
+- Updated CHANGELOG [\#82](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/82) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#81](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/81) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#80](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/80) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#79](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/79) ([github-actions[bot]](https://github.com/apps/github-actions))
