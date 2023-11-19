@@ -1,9 +1,13 @@
 name: Update Changelog
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - 'main'
   pull_request:
-    branches: [ "main" ]
+    branches: 
+      - 'main'
+    types:
+      - closed
   workflow_dispatch:
 jobs:
   update_changelog:
@@ -27,12 +31,8 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         id: cpr
         with:
-          labels: documentation
+          labels: documentation, update-changelog
           assignees: ${{ github.actor }}
           title: Updated CHANGELOG
           branch: update-changelog
-      - name: merge pr
-        env:
-          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-        run: |
-          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --admin
+     
