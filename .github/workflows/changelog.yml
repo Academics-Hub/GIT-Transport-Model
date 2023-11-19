@@ -19,7 +19,7 @@ jobs:
           options: --token ${{ secrets.ADMIN_TOKEN }}
       - name: setup_user
         run: |
-          git config --global user.email JonoLF@users.noreply.github.com
+          git config --global user.email jono.faller@gmail.com
           git config --global user.name JonoLF
       - name: push changes
         env:
