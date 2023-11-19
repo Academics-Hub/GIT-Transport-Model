@@ -32,7 +32,8 @@ jobs:
         uses: fregante/setup-git-user@v2
       - name: create pr
         uses: peter-evans/create-pull-request@v5
-        id: cpr
+        env:
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         with:
           labels: update-changelog
           assignees: ${{ github.actor }}
