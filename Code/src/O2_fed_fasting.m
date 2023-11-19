@@ -33,7 +33,7 @@ gut_O2_mol = gut_O2_g / 32;
 
 gut_CO2_mol = gut_O2_mol;
 
-%CO2: 44 g/mol
+%CO2: 44 g/mol 
 gut_CO2_g = gut_CO2_mol * 44;
 
 gut_CO2 = gut_CO2_g * 1000;
