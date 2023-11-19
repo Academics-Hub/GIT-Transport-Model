@@ -19,4 +19,10 @@ function [glucose] = find_gl_glucose(time_since_last_meal, glycemic_load)
     % conversion from mg/dL -> mmol/dL 
     % 1 mg glucose = 0.005551 mmol glucose
     glucose = glucose * 0.005551;
+    % convert to mmol/L
+    glucose = glucose / 10;
+    % solve NaN errors
+    if isnan(glucose)
+        glucose = 0;
+    end
 end
