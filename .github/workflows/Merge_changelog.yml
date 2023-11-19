@@ -1,26 +1,19 @@
 name: Merge Changelog
 on:
   pull_request_target:
-    branches:
-      - 'main'
     types: 
       - labeled
-    paths:
-      - 'CHANGELOG.md'
   workflow_dispatch:
 jobs:
   merge:
     runs-on: ubuntu-latest
+    if: event.label.name == 'update-changelog'
     steps:
-    - name: checkout code
-      uses: actions/checkout@v4
-    - name: Automatically Merge PR
-      uses: plm9606/automerge_actions@1.2.3
+    - name: merge-pr
+      uses: nbrugger-tgm/merge-pr-action@v0.2.2
       with:
-        label-name: update-changelog
-        reviewers-number: 0
-        merge-method: merge
-        auto-delete: false
-        github-token: ${{ secrets.ADMIN_TOKEN }}
+        token: ${{ secrets.ADMIN_TOKEN }}
+        method: merge
+            
             
 
