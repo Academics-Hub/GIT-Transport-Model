@@ -34,6 +34,7 @@
 
 **Merged pull requests:**
 
+- Updated CHANGELOG [\#68](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/68) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#67](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/67) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#66](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/66) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#64](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/64) ([github-actions[bot]](https://github.com/apps/github-actions))
