@@ -3,6 +3,7 @@ on:
   pull_request_target:
     branches:
       - 'main'
+      - 'update-changelog'
     types: 
       - labeled
     paths:
@@ -18,5 +19,6 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
       run: |
+        echo "${{ github.event.pull_request.number }}"
         gh pr merge ${{ github.event.pull_request.number }} --merge --admin
 
