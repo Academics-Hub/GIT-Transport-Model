@@ -15,19 +15,19 @@ jobs:
   update_changelog:
     runs-on: ubuntu-latest
     if: >-
-      github.event.pull_request.labels.name != 'update-changelog'
+      github.event.pull_request.labels[0].name != 'update-changelog'
     steps:
       - name: Check pr labels
         run: |
-          echo "PR title: ${{ github.event.pull_request.title }}"
-          echo "PR label: ${{ github.event.pull_request.labels.name}}"
-          echo "PR number: ${{ github.event.pull_request.number }}"
+          echo PR title: ${{ github.event.pull_request.title }}
+          echo PR label: ${{ github.event.pull_request.labels[0].name}}
+          echo PR number: ${{ github.event.pull_request.number }}
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Generate Changelog using github-changelog-generator
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
-          options: --token ${{ secrets.GITHUB_TOKEN }}
+          options: --token ${{ secrets.ADMIN_TOKEN }}
       - name: setup_user
         uses: fregante/setup-git-user@v2
       - name: create pr
