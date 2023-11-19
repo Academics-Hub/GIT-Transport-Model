@@ -6,8 +6,7 @@ on:
   pull_request:
     branches: 
       - 'main'
-    paths-ignore:
-      - 'CHANGELOG.md'
+      - '!update-changelog'
     types:
       - closed
   workflow_dispatch:
