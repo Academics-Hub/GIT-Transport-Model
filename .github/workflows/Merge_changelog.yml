@@ -1,9 +1,8 @@
 name: Merge Changelog
 on:
-  pull_request_target:
+  pull_request:
     types: 
       - labeled
-      - opened
 jobs:
   merge:
     runs-on: ubuntu-latest
