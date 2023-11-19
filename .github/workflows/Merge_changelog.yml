@@ -1,0 +1,22 @@
+name: Merge Changelog
+on:
+  pull_request:
+    branches:
+      - 'main'
+    types: 
+      - labeled
+      - opened
+    paths:
+      - 'CHANGELOG.md'
+  workflow_dispatch:
+jobs:
+  merge:
+    if: ${{ github.event.label.name == 'update-changelog' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: merge pr
+      env:
+        GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+      run: |
+        gh pr merge ${{ github.event.pull_request.number }} --merge --admin
+
