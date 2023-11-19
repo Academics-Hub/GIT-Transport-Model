@@ -10,22 +10,23 @@ permissions: write-all
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
-    if: contains(github.head_ref, 'update-changelog') == false
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Generate Changelog using github-changelog-generator
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
-          options: --token ${{ secrets.GITHUB_TOKEN }}
+          options: --token ${{ secrets.ADMIN_TOKEN }}
       - name: setup_user
-        uses: fregante/setup-git-user@v2.0.1
-      - name: force push changes
+        run: |
+          git config --global user.email JonoLF@users.noreply.github.com
+          git config --global user.name JonoLF
+      - name: push changes
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
           git pull
           git add --all
           git commit -m "Updated CHANGELOG"
-          git push --force
+          git push 
      
