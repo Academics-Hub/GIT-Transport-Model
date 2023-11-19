@@ -1,12 +1,8 @@
 name: Update Changelog
 on:
-  push:
-    branches: 
-      - 'main'
   pull_request:
     branches: 
       - 'main'
-      - '!update-changelog'
     types:
       - closed
   workflow_dispatch:
@@ -20,18 +16,16 @@ jobs:
       - name: Generate Changelog using github-changelog-generator
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
-          options: --token ${{ secrets.ADMIN_TOKEN }}
+          options: --token ${{ secrets.GITHUB_TOKEN }}
       - name: setup_user
         run: |
           git config --global user.email ${{ github.actor }}@users.noreply.github.com
           git config --global user.name ${{ github.actor }}
-      - name: create pr
-        uses: peter-evans/create-pull-request@v5
+      - name: force push changes
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-        with:
-          labels: update-changelog
-          assignees: ${{ github.actor }}
-          title: Updated CHANGELOG
-          branch: update-changelog
+        run: |
+          git add --all
+          git commit -m "Updated CHANGELOG"
+          git push
      
