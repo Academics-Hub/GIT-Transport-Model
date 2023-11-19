@@ -22,7 +22,7 @@ jobs:
         uses: fregante/setup-git-user@v2.0.1
       - name: force push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
           git pull
           git add --all
