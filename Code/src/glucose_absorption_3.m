@@ -1,4 +1,4 @@
-function [GutOut_glucose,GutNew_glucose,J_glucose] = glucose_absorption3(arterialglucose, gutglucose, GutFlowRate, insulin, step)
+function [GutOut_glucose,GutNew_glucose,J_glucose] = glucose_absorption_3(arterialglucose, gutglucose, GutFlowRate, insulin, step)
 
     A = 300; % define surface area of gut in m^2
     D = 5.7e-10; %define diffusibility 
