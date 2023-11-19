@@ -11,12 +11,10 @@ on:
     types:
       - closed
   workflow_dispatch:
-env:
-  UPDATE_CHANGELOG: ${{ !contains(github.event.pull_request.labels.*.name, 'update-changelog') }}
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
-    if: ${{ env.UPDATE_CHANGELOG == 'true' }}
+    if: ${{ ! contains(github.event.pull_request.labels.*.name, 'update-changelog') }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
