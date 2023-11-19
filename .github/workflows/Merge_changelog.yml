@@ -3,7 +3,7 @@ on:
   pull_request_target:
     types: 
       - labeled
-  workflow_dispatch:
+      - opened
 jobs:
   merge:
     runs-on: ubuntu-latest
