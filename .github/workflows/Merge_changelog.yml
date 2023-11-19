@@ -7,7 +7,7 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     if: >-
-      github.event.pull_request.labels[0].name == 'update-changelog'
+      github.event.pull_request.labels.name == 'update-changelog'
     steps:
     - name: merge-pr
       env:
