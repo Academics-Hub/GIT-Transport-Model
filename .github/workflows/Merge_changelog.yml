@@ -12,13 +12,14 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
-    steps:
-    - name: checkout repo
-      uses: actions/checkout@v4
-    - name: merge pr
-      env:
-        GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-      run: |
-        echo "${{ github.event.pull_request.number }}"
-        gh pr merge ${{ github.event.pull_request.number }} --merge --admin
+    steps:   
+    - name: Automatically Merge PR
+      uses: plm9606/automerge_actions@1.2.3
+      with:
+        label-name: update-changelog
+        reviewers-number: 0
+        merge-method: merge
+        auto-delete: false
+        github-token: ${{ secrets.ADMIN_TOKEN }}
+            
 
