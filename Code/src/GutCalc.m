@@ -36,7 +36,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
     % We are given initial values, and then from these, we need to simulate what happens at the next time step.
     % Remember that we receive the previous Gut and Aterial values, at the beginning of each iteration of the function in OverallLoop
     gut_spO2 = Gut(1);
-    gut_glucose = Gut(2);
+    gut_glucose = cast(Gut(2), 'double');
     arterial_spO2 = Arterial(1);
     arterial_glucose = Arterial(2);
     arterial_insulin = Arterial(3);

@@ -6,7 +6,6 @@ function [glucose_change_plasma] = glucose_absorption_2(gutglucose, GutFlowRate,
 
     % X(t) is the interstitial insulin at time t. assumed to be the blood insulin
     X = insulin; 
-
     % Define the differential equations for minimal model
     dG_dt = -(Sg + X)*gutglucose + Sg*Gb + glucoseoutput/300;
 
