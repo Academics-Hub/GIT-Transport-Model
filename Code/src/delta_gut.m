@@ -16,7 +16,7 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	GUT_PARAMS.setget_glucose_output(glucose_output);
 	% blood -> tissue
 	%absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, glucose_output, time_step); % replace with Dinal's function to get glucose absorbed
-	absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, glucose_output, time_step);% replace with Dinal's function to get glucose absorbed
+	absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, GUT_PARAMS.setget_glucose_output, time_step);% replace with Dinal's function to get glucose absorbed
 	if isnan(absorption)
 		fprintf('absorption is NaN at delta_gut\n')
 		%return
