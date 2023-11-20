@@ -19,10 +19,9 @@ elseif time_since_last_meal > (30*60) && time_since_last_meal <= 12600
     O2_usage = 0.65;
 elseif time_since_last_meal > 12600
     O2_usage = (-1/3600) * time_since_last_meal + 4.15;
-
 end
 gut_spO2 = O2_usage;
-O2_usage
+%O2_usage
 
 % arterial_spO2 - arterial_spO2_new = 15 for fasting?? (need to check)
 
@@ -40,7 +39,7 @@ gut_O2_g = gut_O2 / 1000;
 %O2: 32 g/mol
 gut_O2_mol = gut_O2_g / 32;
 
-gut_O2_mol
+%gut_O2_mol
 
 gut_CO2_mol = gut_O2_mol;
 
