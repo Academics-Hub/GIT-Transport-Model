@@ -564,9 +564,11 @@ simplerobustmethodestimatingglucoserateappearancemixedmeals-herrero	Research/GIT
 slash-command	.obsidian/core-plugins-migration.json	/^  "slash-command": false,$/;"	b
 slides	.obsidian/core-plugins-migration.json	/^  "slides": false,$/;"	b
 smooth_to_basal	Code/src/delta_gut.m	/^function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)$/;"	f
+smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = O2_usage;$/;"	v
+smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (O2_usage - SpO2) * smoothing_rate;$/;"	v
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;$/;"	v
-smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2 + O2_usage;$/;"	v
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2;$/;"	v
+smoothing_rate	Code/src/delta_gut.m	/^        smoothing_rate = (1\/3600)*GUT_PARAMS.setget_time_since_last_meal;$/;"	v
 smoothing_rate	Code/src/delta_gut.m	/^    smoothing_rate = 0.001;$/;"	v
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "alphabetical"$/;"	s	object:left.children.0.children.0.state.state
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "alphabetical"$/;"	s	object:left.children.0.children.1.state.state

@@ -50,10 +50,13 @@ end
 function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)
     smoothing_rate = 0.001;
     basal_SpO2 = cast(0.076, 'double');
-    if GUT_PARAMS.setget_time_since_last_meal == 0
-        smoothed_SpO2 = SpO2 + O2_usage;
-    elseif GUT_PARAMS.setget_time_since_last_meal == -1
+    if GUT_PARAMS.setget_time_since_last_meal == -1 || GUT_PARAMS.setget_time_since_last_meal > 12600
         smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;
+    elseif GUT_PARAMS.setget_time_since_last_meal <= (30*60) && GUT_PARAMS.setget_time_since_last_meal > 0  % half an hour
+        smoothing_rate = (1/3600)*GUT_PARAMS.setget_time_since_last_meal;
+        smoothed_SpO2 = SpO2 + (O2_usage - SpO2) * smoothing_rate;
+    elseif GUT_PARAMS.setget_time_since_last_meal > (30*60) && GUT_PARAMS.setget_time_since_last_meal <= 12600
+        smoothed_SpO2 = O2_usage;
     else
         smoothed_SpO2 = SpO2;
     end 
