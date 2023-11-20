@@ -75,11 +75,11 @@
 0	.obsidian/workspace.json	/^      {$/;"	o	array:left.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:main.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:right.children
-0	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
+0	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
 1	.obsidian/core-plugins.json	/^  "global-search",$/;"	s
 1	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-1	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
+1	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
 10	.obsidian/workspace.json	/^    "Code\/src\/O2_CO2.m",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
@@ -101,7 +101,7 @@
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
 20	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
 21	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
 22	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -114,7 +114,7 @@
 29	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
 30	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 31	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 32	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -125,11 +125,11 @@
 37	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png",$/;"	s	array:lastOpenFiles
 38	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174301.png"$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
 7	.obsidian/workspace.json	/^    "Code\/src\/testing_O2.m",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
@@ -165,6 +165,7 @@ BrainFlowRate	Code/src/OverallLoop.m	/^BrainFlowRate = 700;$/;"	v
 CGL_storage	Code/src/GUT_PARAMS.m	/^                CGL_storage = current_glycemic_load;$/;"	v
 CO2_production	Code/src/O2_CO2.m	/^  CO2_production = GutNew(1) \/ (1 - GutNew(1)) * O2_absorption \/ henrys_const;$/;"	v
 CURRENT_GLYCEMIC_LOAD	Code/src/GUT_PARAMS.m	/^            CURRENT_GLYCEMIC_LOAD = CGL_storage; $/;"	v
+Cb	Code/src/delta_gut.m	/^	Cb = 1.92;$/;"	v
 Cb	Code/src/testing_O2.m	/^Cb = 1.92;$/;"	v
 Changelog	CHANGELOG.md	/^# Changelog$/;"	c
 Code	Meeting logs/2023-11-07.md	/^## Code$/;"	s	chapter:Agenda
@@ -206,6 +207,7 @@ Gut_Glucose_vector	Code/src/Main.m	/^Gut_Glucose_vector = zeros(1,duration\/time
 Gut_O2_values	Code/src/testing_O2.m	/^Gut_O2_values = zeros(size(time));$/;"	v
 Gut_SpO2_vector	Code/src/Main.m	/^Gut_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_spO2_values	Code/src/testing_O2.m	/^Gut_spO2_values = zeros(size(time));$/;"	v
+Hb	Code/src/delta_gut.m	/^	Hb = 140; $/;"	v
 Hb	Code/src/testing_O2.m	/^Hb = 140;$/;"	v
 Index	Code/docs/README.md	/^# Index$/;"	c
 Insulin_vector	Code/src/Main.m	/^Insulin_vector = zeros(1,duration\/time_step);$/;"	v
@@ -244,6 +246,7 @@ Repository index	README.md	/^# Repository index$/;"	c
 Research progress	Meeting logs/2023-11-07.md	/^## Research progress$/;"	s	chapter:Agenda
 Sg	Code/src/glucose_absorption_2.m	/^	Sg = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
 Sg	Code/src/glucose_absorption_2.m	/^	Sg = Sg \/ (60*step); % if Sg is in min^-1, then Sg needs to be converted to step^-1 cause we c/;"	v
+SpO2_new	Code/src/delta_gut.m	/^		SpO2_new = 98;$/;"	v
 SpO2_new	Code/src/delta_gut.m	/^	SpO2_new = SpO2; % net oxygen -> no idea how this changes, setting it to stay the same for now$/;"	v
 Step 1:	Research-notes/Absorption in the GIT.md	/^# Step 1:$/;"	c
 Step 2:	Research-notes/Absorption in the GIT.md	/^# Step 2:$/;"	c
@@ -272,7 +275,7 @@ __export	.obsidian/plugins/waypoint/main.js	/^var __export = (target, all) => {$
 __markAsModule	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	f
 __reExport	.obsidian/plugins/waypoint/main.js	/^var __reExport = (target, module2, desc) => {$/;"	f
 __toModule	.obsidian/plugins/waypoint/main.js	/^var __toModule = (module2) => {$/;"	f
-absorption	Code/src/delta_gut.m	/^	absorption = glucose_absorption(gut_glucose, GutFlowRate, time_step); % replace with Dinal's fu/;"	v
+absorption	Code/src/delta_gut.m	/^	absorption = glucose_absorption_2(gutglucose, GutFlowRate, insulin, glucoseoutput, step) % repl/;"	v
 accentColor	.obsidian/appearance.json	/^  "accentColor": ""$/;"	s
 active	.obsidian/workspace.json	/^  "active": "e0c06fa0aa559213",$/;"	s
 alwaysUpdateLinks	.obsidian/app.json	/^  "alwaysUpdateLinks": true,$/;"	b
@@ -408,7 +411,7 @@ glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption - glu
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
 glucose_output_model	Code/src/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, I/;"	f
-glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = v * time_step \/ GutFlowRate; % someone needs to check the logic here, but this/;"	v
+glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = (vmax * gutglucose \/ (km + gutglucose)) * time_step \/ GutFlowRate;$/;"	v
 glucoseoutput	Code/src/testing.m	/^glucoseoutput = GUT_PARAMS.setget_glucose_output;$/;"	v
 glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto	Research/GITTransportModel.bib	/^@article{glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto,$/;"	a
 glycemic_load	Code/src/glycemic_load.m	/^    glycemic_load = 19.27+(0.39*carbs)-(0.21*lipids)-(0.01*proteins^2)-(0.01*fibre^2);$/;"	v
@@ -629,7 +632,6 @@ useHierarchy	.obsidian/workspace.json	/^                "useHierarchy": true$/;"
 useMarkdownLinks	.obsidian/app.json	/^  "useMarkdownLinks": true,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/data.json	/^  "useWikiLinks": false,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/main.js	/^  useWikiLinks: true,$/;"	p	variable:DEFAULT_SETTINGS
-v	Code/src/glucose_absorption.m	/^	v = (vmax * gutglucose \/ (km + gutglucose));$/;"	v
 value	.obsidian/plugins/waypoint/main.js	/^  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) :/;"	p	variable:anonymousObject1674d7360605
 value	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	p	variable:anonymousObject1674d7360105
 version	.obsidian/plugins/waypoint/manifest.json	/^	"version": "1.4.0",$/;"	s

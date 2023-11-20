@@ -13,7 +13,7 @@ ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [40,1]; % initialising Gut to what we'll recommend
-Gut(2) = cast(Gut(2), 'double');
+Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
 if isnan(Gut(2))
 	fprintf('Glucose input is a NaN')
 	return
@@ -117,7 +117,7 @@ subplot(5,1,5)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -138,7 +138,7 @@ subplot(3,1,2)
 plot(Time_vector,Arterial_Glucose_vector)
 title('Change in Arterial Glucose')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -147,7 +147,7 @@ subplot(3,1,3)
 plot(Time_vector,Insulin_vector)
 title('Change in Insulin')
 xlabel('Time (hrs)')
-ylabel('Insulin (\mumol/dL)', 'Rotation', 0)
+ylabel('Insulin (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
