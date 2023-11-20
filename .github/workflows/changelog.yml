@@ -1,40 +1,31 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Update Changelog
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: 
+      - 'main'
+    types:
+      - closed
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+permissions: write-all
 jobs:
   update_changelog:
     runs-on: ubuntu-latest
+    if: contains(github.head_ref, 'update-changelog') == false
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Install gem
-        run: |
-          sudo apt-get update
-          sudo apt-get -y install gem
-      - name: Install gitub-changelog-generator
-        run: |
-          sudo gem install github_changelog_generator
       - name: Generate Changelog using github-changelog-generator
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
-      - name: Set user
-        uses: fregante/setup-git-user@v2
-      - name: push to main
+      - name: setup_user
+        uses: fregante/setup-git-user@v2.0.1
+      - name: force push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
-          git add .
-          git commit -m "update CHANGELOG"
-          git push --force origin main
+          git pull
+          git add --all
+          git commit -m "Updated CHANGELOG"
+          git push
+     
