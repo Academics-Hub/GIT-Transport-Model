@@ -156,12 +156,3 @@ ylabel('Insulin (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-
-%figure
-%Time_vector = Time_vector*3600;
-%plot(Time_vector, Gut_Glucose_Absorption_vector)
-%hold on
-%plot(Time_vector, Gut_Glucose_Output_vector)
-%legend('Absorption','Output')
-%grid on
-%xlim([0, 56.5])
