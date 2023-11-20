@@ -15,7 +15,7 @@ ArterialGlucose = cast(ArterialGlucose, 'double');
 ArterialInsulin = cast(ArterialInsulin, 'double');
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
-Gut = [0.4,1]; % initialising Gut to what we'll recommend
+Gut = [0.4,5]; % initialising Gut to what we'll recommend
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
@@ -50,11 +50,11 @@ Gut_Oxygen_vector = zeros(1,duration/time_step);
 Gut_Co2_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
-	[GutNew,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
+	[Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
 
-	Gut_SpO2_vector((i/time_step)+1) = GutNew(1);
+	Gut_SpO2_vector((i/time_step)+1) = Gut(1);
 
-	Gut_Glucose_vector((i/time_step)+1) = GutNew(2);
+	Gut_Glucose_vector((i/time_step)+1) = Gut(2);
 
 	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption;
 
@@ -87,7 +87,7 @@ Time_vector = Time_vector/3600;
 %end        
 % convert time since last meal to minutes
 Time_since_last_meal_vector = Time_since_last_meal_vector/3600;
-%% plotting Gut things
+% plotting Gut things
 figure(1)
 
 subplot(4,1,1)
@@ -101,7 +101,7 @@ xticks(0:1:duration/3600)
 
 subplot(4,1,2)
 plot(Time_vector, Gut_Glucose_Absorption_vector)
-title('Gut Glucose Absorption')
+title('Change in Gut Glucose Absorption')
 xlabel('Time (hrs)')
 ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
@@ -150,7 +150,7 @@ xticks(0:1:duration/3600)
 subplot(3,2,3)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
 plot(Time_vector,Gut_Oxygen_vector)
-title('Change in Gut Oxygen')
+title('Gut Oxygen')
 xlabel('Time (hrs)')
 ylabel('Oxygen (mole)', 'Rotation', 0)
 grid on
@@ -160,7 +160,7 @@ xticks(0:1:duration/3600)
 subplot(3,2,4)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
 plot(Time_vector,Gut_Co2_vector)
-title('Change in Gut CO2')
+title('Gut CO2')
 xlabel('Time (hrs)')
 ylabel('CO2 (mole)', 'Rotation', 0)
 grid on

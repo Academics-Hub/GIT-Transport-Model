@@ -51,9 +51,12 @@ function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)
     smoothing_rate = 0.001;
     basal_SpO2 = cast(0.076, 'double');
     if GUT_PARAMS.setget_time_since_last_meal == 0
-        SpO2 = SpO2 + O2_usage;
+        smoothed_SpO2 = SpO2 + O2_usage;
+    elseif GUT_PARAMS.setget_time_since_last_meal == -1
+        smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;
+    else
+        smoothed_SpO2 = SpO2;
     end 
-    smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;
     % rate ends up being the proportion of the difference between basal and current SpO2 that we
     % add each step -> somehow we need to take a rate and find a smoothing_rate value
 end

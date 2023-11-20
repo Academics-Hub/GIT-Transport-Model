@@ -48,7 +48,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	% Using Gut and Arterial functions to calculate their change
 	[SpO2_new, glucose_new] = delta_gut(gut_spO2, gut_glucose, arterial_insulin, GutFlowRate, time_step);
 
-	[arterial_SpO2_new,arterial_glucose_new,arterial_insulin_new] = delta_arterial(arterial_spO2, arterial_glucose, arterial_insulin);
+	[venous_SpO2_new,venous_glucose_new,venous_insulin_new] = delta_arterial(arterial_spO2, arterial_glucose, arterial_insulin);
 
 	% final outputs
 	GutNew = zeros(1,2);
@@ -60,9 +60,9 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	GUT_PARAMS.setget_time_since_last_meal(time_since_last_meal);
 
 	GutOut = zeros(1,3);
-	GutOut(1) = arterial_SpO2_new;
-	GutOut(2) = arterial_glucose_new;
-	GutOut(3) = arterial_insulin_new;
+	GutOut(1) = venous_SpO2_new;
+	GutOut(2) = venous_glucose_new;
+	GutOut(3) = venous_insulin_new;
 end
 
 % set the time of day after each call of the GutCalc function
