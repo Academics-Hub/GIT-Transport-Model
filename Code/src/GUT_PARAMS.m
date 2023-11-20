@@ -7,7 +7,9 @@ classdef GUT_PARAMS
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
-    %   - current increment of simulation, where total increments = simulation duration / time step
+    %   - initial input of insulin
+    %   - gut O2
+    %   - gut CO2
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -68,6 +70,30 @@ classdef GUT_PARAMS
                 O2C_storage = O2_consumption;
             end
             O2_CONSUMPTION = O2C_storage; 
+        end
+        % function to set and get the initial insulin input
+        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)
+            persistent III_storage;
+            if nargin
+                III_storage = initial_insulin_input;
+            end
+            INITIAL_INSULIN_INPUT = III_storage; 
+        end
+        % function to set and get gut O2
+        function GUT_O2 = setget_gut_O2(gut_O2)
+            persistent GO2_storage;
+            if nargin
+                GO2_storage = gut_O2;
+            end
+            GUT_O2 = GO2_storage; 
+        end
+        % function to set and get gut CO2
+        function GUT_CO2 = setget_gut_CO2(gut_CO2)
+            persistent GCO2_storage;
+            if nargin
+                GCO2_storage = gut_CO2;
+            end
+            GUT_CO2 = GCO2_storage; 
         end
     end
 end

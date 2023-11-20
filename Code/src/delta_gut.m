@@ -16,7 +16,7 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	GUT_PARAMS.setget_glucose_output(glucose_output);
 	% blood -> tissue
 	%absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, glucose_output, time_step); % replace with Dinal's function to get glucose absorbed
-	absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, glucose_output, time_step) % replace with Dinal's function to get glucose absorbed
+	absorption = glucose_absorption(gut_glucose, GutFlowRate, time_step); % replace with Dinal's function to get glucose absorbed
 	if isnan(absorption)
 		fprintf('absorption is NaN at delta_gut\n')
 		%return
@@ -34,6 +34,8 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	Hb = 140; 
 	[gut_O2, O2_usuage, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb);
 	GUT_PARAMS.setget_O2_consumption(O2_usuage); % replace with Julia's function to get O2 used -> O2 to be subtracted from arterial
+    GUT_PARAMS.setget_gut_O2(gut_O2);
+    GUT_PARAMS.setget_gut_CO2(gut_CO2);
 	%SpO2_new = SpO2 + O2_usuage; % net oxygen -> no idea how this changes, setting it to stay the same for now
 	SpO2_new = SpO2; % net oxygen -> no idea how this changes, setting it to stay the same for now
 	if SpO2_new > 98
