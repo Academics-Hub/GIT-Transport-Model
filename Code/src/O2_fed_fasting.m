@@ -40,6 +40,8 @@ gut_O2_g = gut_O2 / 1000;
 %O2: 32 g/mol
 gut_O2_mol = gut_O2_g / 32;
 
+gut_O2_mol
+
 gut_CO2_mol = gut_O2_mol;
 
 %CO2: 44 g/mol 
