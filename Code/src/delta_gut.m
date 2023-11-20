@@ -1,7 +1,7 @@
 function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRate,time_step)
     % change in glucose in gut -> absorption
     % blood -> tissue
-    absorption = 0; % replace with Dinal's function to get glucose absorbed
+    [absorption] = BMR(gender, weight, height, age, GutFlowRate); % replace with Dinal's function to get glucose absorbed
     GUT_PARAMS.setget_glucose_absorption(absorption);
     % change in glucose output
     % tbh not sure how to use the gut flow rate for output. I think it should affect digestion, but I'm not sure how
@@ -11,7 +11,7 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
     % lumen -> blood
     GUT_PARAMS.setget_glucose_output(glucose_output);
 
-    glucose_new = gut_glucose + GUT_PARAMS.setget_glucose_absorption - GUT_PARAMS.setget_glucose_output; % net glucose
+    glucose_new = gut_glucose + GUT_PARAMS.setget_glucose_absorption; % net glucose
 
     % change in oxygen output
     GUT_PARAMS.setget_O2_consumption(15) % replace with Julia's function to get O2 used -> O2 to be subtracted from arterial
