@@ -10,8 +10,9 @@ function [arterial_SpO2_new, arterial_glucose_new, arterial_insulin_new] = delta
     arterial_SpO2_new = arterial_SpO2 - GUT_PARAMS.setget_O2_consumption;
     arterial_glucose_new = arterial_glucose + GUT_PARAMS.setget_glucose_output - GUT_PARAMS.setget_glucose_absorption;
     % test insulin as half rectified sine wave
-    arterial_insulin_new = arterial_insulin * (sin(2*pi*0.0001*GUT_PARAMS.setget_time)+1)/2;
-    %arterial_insulin_new = arterial_insulin; % set like this for now, probably won't change
+    initial_insulin = GUT_PARAMS.setget_initial_insulin_input;
+    %arterial_insulin_new = arterial_insulin * (sin(2*pi*0.0001*GUT_PARAMS.setget_time)+1)/2;
+    arterial_insulin_new = arterial_insulin; % set like this for now, probably won't change
 end
 
 

@@ -39,7 +39,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	gut_glucose = cast(Gut(2), 'double');
 	if isnan(gut_glucose)
 		    fprintf('glucose is NaN at gutcalc at time: %f\n', new_time)
-		    %return
+		    return
 	end
 	arterial_spO2 = Arterial(1);
 	arterial_glucose = Arterial(2);

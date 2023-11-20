@@ -3,23 +3,23 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	% change in glucose output
 	% tbh not sure how to use the gut flow rate for output. I think it should affect digestion, but I'm not sure how
 	if isnan(gut_glucose)
-		fprintf('gut_glucose is NaN at delta_gut\n')
-		%return
+		fprintf('gut_glucose is NaN at delta_gut at time: %d\n', GUT_PARAMS.setget_time)
+		return
 	end
 	[glycemic_load_new,glucose_output] = glucose_output_model(GUT_PARAMS.setget_time, GUT_PARAMS.setget_time_since_last_meal, Insulin, GUT_PARAMS.setget_current_glycemic_load);
 	if isnan(glucose_output)
-		fprintf('glucose_output is NaN at delta_gut\n')
-		%return
+		fprintf('glucose_output is NaN at delta_gut at time: %d\n', GUT_PARAMS.setget_time)
+		return
 	end
 	GUT_PARAMS.setget_current_glycemic_load(glycemic_load_new);
 	% lumen -> blood
 	GUT_PARAMS.setget_glucose_output(glucose_output);
 	% blood -> tissue
 	%absorption = glucose_absorption_2(gut_glucose, GutFlowRate, Insulin, glucose_output, time_step); % replace with Dinal's function to get glucose absorbed
-	absorption = glucose_absorption(gut_glucose, GutFlowRate, time_step); % replace with Dinal's function to get glucose absorbed
+	absorption = glucose_absorption_2(gut_glucose, glucose_output, time_step);
 	if isnan(absorption)
 		fprintf('absorption is NaN at delta_gut\n')
-		%return
+		return
 	end
 	%absorption = 0.0035/(60*time_step);
 	GUT_PARAMS.setget_glucose_absorption(absorption);
@@ -27,7 +27,7 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	if isnan(glucose_new)
 		fprintf('glucose_new is NaN at delta_gut at time: %d\n', GUT_PARAMS.setget_time)
 		fprintf('gut_glucose: %d, absorption: %d, glucose_output: %d\n', gut_glucose, absorption, glucose_output)
-		%return
+		return
 	end
 	% change in oxygen output
 	Cb = 1.92;

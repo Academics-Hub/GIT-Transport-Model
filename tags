@@ -81,7 +81,7 @@
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
 1	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
-10	.obsidian/workspace.json	/^    "Code\/src\/GutCalc.m~",$/;"	s	array:lastOpenFiles
+10	.obsidian/workspace.json	/^    "Code\/src\/delta_arterial.m~",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
 11	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
 12	.obsidian/core-plugins.json	/^  "command-palette",$/;"	s
@@ -101,7 +101,7 @@
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "Code\/src\/delta_arterial.m~",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-20.m",$/;"	s	array:lastOpenFiles
 20	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
 21	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
 22	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -114,7 +114,7 @@
 29	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
 30	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 31	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 32	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -125,17 +125,17 @@
 37	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png",$/;"	s	array:lastOpenFiles
 38	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174301.png"$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "Code\/src\/testing_O2.m",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Code\/src\/sigfit.m",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Code\/src\/O2_fed_fasting.m",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Code\/src\/O2_CO2.m",$/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Code\/src\/O2_Absorption.m",$/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
 Arterial	Code/src/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
@@ -164,6 +164,7 @@ ArterialSpO2	Code/src/testing_O2.m	/^ArterialSpO2 = 0.98;$/;"	v
 Arterial_Glucose_vector	Code/src/Main.m	/^Arterial_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
 Brain	Code/src/OverallLoop.m	/^Brain = [40,1];$/;"	v
 BrainFlowRate	Code/src/OverallLoop.m	/^BrainFlowRate = 700;$/;"	v
+C	Code/src/glucose_absorption_2.m	/^    C = glucose_input - G_b - glucose_output\/(p1*V);$/;"	v
 CGL_storage	Code/src/GUT_PARAMS.m	/^                CGL_storage = current_glycemic_load;$/;"	v
 CO2_production	Code/src/O2_CO2.m	/^  CO2_production = GutNew(1) \/ (1 - GutNew(1)) * O2_absorption \/ henrys_const;$/;"	v
 CURRENT_GLYCEMIC_LOAD	Code/src/GUT_PARAMS.m	/^            CURRENT_GLYCEMIC_LOAD = CGL_storage; $/;"	v
@@ -179,15 +180,17 @@ FolderNoteType	.obsidian/plugins/waypoint/main.js	/^var FolderNoteType;$/;"	v
 GA_storage	Code/src/GUT_PARAMS.m	/^                GA_storage = glucose_absorption;$/;"	v
 GCO2_storage	Code/src/GUT_PARAMS.m	/^                GCO2_storage = gut_CO2;$/;"	v
 GIT Transport Model	README.md	/^# GIT Transport Model$/;"	c
+GI_storage	Code/src/GUT_PARAMS.m	/^                GI_storage = glucose_input;$/;"	v
 GL	Code/src/food.m	/^    GL = glycemic_load(carbs, lipids, protein, fibre);$/;"	v
 GLUCOSE_ABSORPTION	Code/src/GUT_PARAMS.m	/^            GLUCOSE_ABSORPTION = GA_storage; $/;"	v
+GLUCOSE_INPUT	Code/src/GUT_PARAMS.m	/^            GLUCOSE_INPUT = GI_storage; $/;"	v
 GLUCOSE_OUTPUT	Code/src/GUT_PARAMS.m	/^            GLUCOSE_OUTPUT = GO_storage; $/;"	v
 GO2_storage	Code/src/GUT_PARAMS.m	/^                GO2_storage = gut_O2;$/;"	v
 GO_storage	Code/src/GUT_PARAMS.m	/^                GO_storage = glucose_output;$/;"	v
 GUT_CO2	Code/src/GUT_PARAMS.m	/^            GUT_CO2 = GCO2_storage; $/;"	v
 GUT_O2	Code/src/GUT_PARAMS.m	/^            GUT_O2 = GO2_storage; $/;"	v
 GUT_PARAMS	Code/src/GUT_PARAMS.m	/^classdef GUT_PARAMS$/;"	c
-Gb	Code/src/glucose_absorption_2.m	/^	Gb = 5.6; %fasting glcuose mmol\/L$/;"	v
+G_b	Code/src/glucose_absorption_2.m	/^	G_b = 5.6; %fasting glcuose mmol\/L$/;"	v
 Glycemic_load_vector	Code/src/Main.m	/^Glycemic_load_vector = zeros(1,duration\/time_step);$/;"	v
 Gut	Code/src/Main.m	/^Gut = [0.4,1]; % initialising Gut to what we'll recommend$/;"	v
 Gut	Code/src/OverallLoop.m	/^Gut = [40,1];$/;"	v
@@ -257,10 +260,20 @@ PancreasFlowRate	Code/src/OverallLoop.m	/^PancreasFlowRate   =   300;$/;"	v
 Pull request patterns	README.md	/^## Pull request patterns$/;"	s	chapter:GIT Transport Model
 Repository index	README.md	/^# Repository index$/;"	c
 Research progress	Meeting logs/2023-11-07.md	/^## Research progress$/;"	s	chapter:Agenda
+<<<<<<< HEAD
 Sg	Code/src/glucose_absorption_2.m	/^	Sg = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
 Sg	Code/src/glucose_absorption_2.m	/^	Sg = Sg \/ (60*step); % if Sg is in min^-1, then Sg needs to be converted to step^-1 cause we c/;"	v
 SpO2	Code/src/delta_gut.m	/^        SpO2 = SpO2 + O2_usage;$/;"	v
 SpO2_new	Code/src/delta_gut.m	/^    SpO2_new = smooth_to_basal(SpO2, O2_usage);$/;"	v
+||||||| 91c7a16
+Sg	Code/src/glucose_absorption_2.m	/^	Sg = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
+Sg	Code/src/glucose_absorption_2.m	/^	Sg = Sg \/ (60*step); % if Sg is in min^-1, then Sg needs to be converted to step^-1 cause we c/;"	v
+SpO2_new	Code/src/delta_gut.m	/^		SpO2_new = 98;$/;"	v
+SpO2_new	Code/src/delta_gut.m	/^	SpO2_new = SpO2; % net oxygen -> no idea how this changes, setting it to stay the same for now$/;"	v
+=======
+SpO2_new	Code/src/delta_gut.m	/^		SpO2_new = 98;$/;"	v
+SpO2_new	Code/src/delta_gut.m	/^	SpO2_new = SpO2; % net oxygen -> no idea how this changes, setting it to stay the same for now$/;"	v
+>>>>>>> 34-glucose-model
 Step 1:	Research-notes/Absorption in the GIT.md	/^# Step 1:$/;"	c
 Step 2:	Research-notes/Absorption in the GIT.md	/^# Step 2:$/;"	c
 Step 3	Research-notes/Absorption in the GIT.md	/^# Step 3 $/;"	c
@@ -274,6 +287,7 @@ Time_since_last_meal_vector	Code/src/Main.m	/^Time_since_last_meal_vector = zero
 Time_vector	Code/src/Main.m	/^Time_vector = Time_vector\/3600;$/;"	v
 Time_vector	Code/src/Main.m	/^Time_vector = zeros(1,duration\/time_step);$/;"	v
 TotalFlowRate	Code/src/OverallLoop.m	/^TotalFlowRate  =  KidneyFlowRate + BrainFlowRate + GutFlowRate + LiverFlowRate + MuscleFlowRate /;"	v
+V	Code/src/glucose_absorption_2.m	/^    V = 300; %volume of distribution of glucose L$/;"	v
 Venous	Code/src/OverallLoop.m	/^    Venous = [MixedVenousSpO2,MixedVenousGlucose,MixedVenousInsulin];$/;"	v
 VenousMixedSpO2	Code/src/OverallLoop.m	/^VenousMixedSpO2 = 0.98;%initializing venous SpO2 at same as ArterialSpO2 for testing the 'nothin/;"	v
 Venous_SpO2_vector	Code/src/Main.m	/^Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage$/;"	v
@@ -282,7 +296,6 @@ Victoria	Meeting logs/2023-11-07.md	/^### Victoria$/;"	S	section:Agenda""Who is 
 Waypoint	.obsidian/plugins/waypoint/main.js	/^var Waypoint = _Waypoint;$/;"	v
 WaypointSettingsTab	.obsidian/plugins/waypoint/main.js	/^var WaypointSettingsTab = class extends import_obsidian.PluginSettingTab {$/;"	c
 Who is doing what	Meeting logs/2023-11-07.md	/^## Who is doing what$/;"	s	chapter:Agenda
-X	Code/src/glucose_absorption_2.m	/^	X = insulin; $/;"	v
 [Unreleased](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/tree/HEAD)	CHANGELOG.md	/^## [Unreleased](https:\/\/github.com\/BiomedEngineering2ndBrain\/GIT-Transport-Model\/tree\/HEAD/;"	s	chapter:Changelog
 _Waypoint	.obsidian/plugins/waypoint/main.js	/^var _Waypoint = class extends import_obsidian.Plugin {$/;"	c
 __async	.obsidian/plugins/waypoint/main.js	/^var __async = (__this, __arguments, generator) => {$/;"	f
@@ -290,7 +303,7 @@ __export	.obsidian/plugins/waypoint/main.js	/^var __export = (target, all) => {$
 __markAsModule	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	f
 __reExport	.obsidian/plugins/waypoint/main.js	/^var __reExport = (target, module2, desc) => {$/;"	f
 __toModule	.obsidian/plugins/waypoint/main.js	/^var __toModule = (module2) => {$/;"	f
-absorption	Code/src/delta_gut.m	/^	absorption = glucose_absorption(gut_glucose, GutFlowRate, time_step); % replace with Dinal's fu/;"	v
+absorption	Code/src/delta_gut.m	/^	absorption = glucose_absorption_2(gut_glucose, glucose_output, time_step);$/;"	v
 accentColor	.obsidian/appearance.json	/^  "accentColor": ""$/;"	s
 active	.obsidian/workspace.json	/^  "active": "e0c06fa0aa559213",$/;"	s
 alwaysUpdateLinks	.obsidian/app.json	/^  "alwaysUpdateLinks": true,$/;"	b
@@ -328,7 +341,13 @@ arterial_SpO2_new	Code/src/delta_arterial.m	/^    arterial_SpO2_new = arterial_S
 arterial_glucose	Code/src/GutCalc.m	/^	arterial_glucose = Arterial(2);$/;"	v
 arterial_glucose_new	Code/src/delta_arterial.m	/^    arterial_glucose_new = arterial_glucose + GUT_PARAMS.setget_glucose_output - GUT_PARAMS.setg/;"	v
 arterial_insulin	Code/src/GutCalc.m	/^	arterial_insulin = Arterial(3);$/;"	v
+<<<<<<< HEAD
 arterial_insulin_new	Code/src/delta_arterial.m	/^    arterial_insulin_new = arterial_insulin * (sin(2*pi*0.0001*GUT_PARAMS.setget_time)+1)\/2;$/;"	v
+||||||| 91c7a16
+arterial_insulin_new	Code/src/delta_arterial.m	/^    arterial_insulin_new = initial_insulin * (sin(2*pi*0.0001*GUT_PARAMS.setget_time)+1)\/2;$/;"	v
+=======
+arterial_insulin_new	Code/src/delta_arterial.m	/^    arterial_insulin_new = arterial_insulin; % set like this for now, probably won't change$/;"	v
+>>>>>>> 34-glucose-model
 arterial_spO2	Code/src/GutCalc.m	/^	arterial_spO2 = Arterial(1);$/;"	v
 arterial_spO2	Code/src/O2_CO2.m	/^  arterial_spO2 = Aterial(1);$/;"	v
 attachmentFolderPath	.obsidian/app.json	/^  "attachmentFolderPath": "Attachments",$/;"	s
@@ -365,7 +384,6 @@ command-palette:Open command palette	.obsidian/workspace.json	/^      "command-p
 constructor	.obsidian/plugins/waypoint/main.js	/^  constructor() {$/;"	m	class:_Waypoint
 constructor	.obsidian/plugins/waypoint/main.js	/^  constructor(app, plugin) {$/;"	m	class:WaypointSettingsTab
 costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren	Research/GITTransportModel.bib	/^@article{costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren,$/;"	a
-dG_dt	Code/src/glucose_absorption_2.m	/^	dG_dt = -(Sg + X)*gutglucose + Sg*Gb + glucoseoutput\/300;$/;"	v
 daily-notes	.obsidian/core-plugins-migration.json	/^  "daily-notes": true,$/;"	b
 daily-notes:Open today's daily note	.obsidian/workspace.json	/^      "daily-notes:Open today's daily note": false,$/;"	b	object:left-ribbon.hiddenItems
 debugLogging	.obsidian/plugins/waypoint/data.json	/^  "debugLogging": false,$/;"	b
@@ -419,10 +437,11 @@ glucose	Code/src/find_gl_glucose.m	/^		glucose = polyval(low_gl_glucose, time_si
 glucose	Code/src/find_gl_glucose.m	/^	glucose = glucose * 0.005551;$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^	glucose = glucose \/ 10;$/;"	v
 glucose_absorption	Code/src/glucose_absorption.m	/^function [glucose_usage] = glucose_absorption(gutglucose, GutFlowRate, time_step)$/;"	f
-glucose_absorption_2	Code/src/glucose_absorption_2.m	/^function [glucose_change_plasma] = glucose_absorption_2(gutglucose, GutFlowRate, insulin, glucos/;"	f
+glucose_absorption_2	Code/src/glucose_absorption_2.m	/^function [glucose_change_plasma] = glucose_absorption_2(gut_glucose, glucose_output, time_step) /;"	f
 glucose_absorption_3	Code/src/glucose_absorption_3.m	/^function [GutOut_glucose,GutNew_glucose,J_glucose] = glucose_absorption_3(arterialglucose, gutgl/;"	f
-glucose_change_plasma	Code/src/glucose_absorption_2.m	/^	glucose_change_plasma = dG_dt * step * GutFlowRate;$/;"	v
+glucose_change_plasma	Code/src/glucose_absorption_2.m	/^    glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) - glucose_output\/(p1*V);$/;"	v
 glucose_change_plasma_values	Code/src/testing.m	/^glucose_change_plasma_values = zeros(size(time));$/;"	v
+glucose_input	Code/src/glucose_absorption_2.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input;$/;"	v
 glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption - glucose_output; % net glucose$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
@@ -476,7 +495,14 @@ id	.obsidian/workspace.json	/^    "id": "131ca2a8792cc4d2",$/;"	s	object:main
 id	.obsidian/workspace.json	/^    "id": "7a345089d76cf08f",$/;"	s	object:right
 id	.obsidian/workspace.json	/^    "id": "c4fe89fa8132b8cb",$/;"	s	object:left
 import_obsidian	.obsidian/plugins/waypoint/main.js	/^var import_obsidian = __toModule(require("obsidian"));$/;"	v
+<<<<<<< HEAD
 index	Code/src/Main.m	/^	index = i*2*3600;$/;"	v
+||||||| 91c7a16
+index	Code/src/Main.m	/^	index = i*2*3600;$/;"	v
+initial_insulin	Code/src/delta_arterial.m	/^    initial_insulin = GUT_PARAMS.setget_initial_insulin_input;$/;"	v
+=======
+initial_insulin	Code/src/delta_arterial.m	/^    initial_insulin = GUT_PARAMS.setget_initial_insulin_input;$/;"	v
+>>>>>>> 34-glucose-model
 isDesktopOnly	.obsidian/plugins/waypoint/manifest.json	/^	"isDesktopOnly": false$/;"	b
 isFolderNote	.obsidian/plugins/waypoint/main.js	/^  isFolderNote(file) {$/;"	m	class:_Waypoint
 k	Code/src/O2_CO2.m	/^  k = 0.01; % Diffusion coefficient [m^2\/s]$/;"	v
@@ -515,6 +541,8 @@ opts	Code/src/sigfit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );
 outgoing-link	.obsidian/core-plugins-migration.json	/^  "outgoing-link": true,$/;"	b
 outline	.obsidian/core-plugins-migration.json	/^  "outline": true,$/;"	b
 oxygenbattleguthypoxiahypoxiainduciblefactorsmetabolicinflammatoryresponsesintestine-singhal	Research/GITTransportModel.bib	/^@article{oxygenbattleguthypoxiahypoxiainduciblefactorsmetabolicinflammatoryresponsesintestine-si/;"	a
+p1	Code/src/glucose_absorption_2.m	/^	p1 = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
+p1	Code/src/glucose_absorption_2.m	/^	p1 = p1 \/ (60*time_step); % if p1 is in min^-1, then p1 needs to be converted to step^-1 cause/;"	v
 page-preview	.obsidian/core-plugins-migration.json	/^  "page-preview": true,$/;"	b
 partialpressureoxygenhumanbodygeneralreview-ortiz-prado	Research/GITTransportModel.bib	/^@article{partialpressureoxygenhumanbodygeneralreview-ortiz-prado,$/;"	a
 partition_coef	Code/src/glucose_absorption_3.m	/^	partition_coef = 6.5e-5; %m^2 \/ sec$/;"	v
@@ -544,6 +572,7 @@ set_meal	Code/src/glucose_output_model.m	/^function[carbs,lipids,proteins,fibre]
 setget_O2_consumption	Code/src/GUT_PARAMS.m	/^        function O2_CONSUMPTION = setget_O2_consumption(O2_consumption)$/;"	f
 setget_current_glycemic_load	Code/src/GUT_PARAMS.m	/^        function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)$/;"	f
 setget_glucose_absorption	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_ABSORPTION = setget_glucose_absorption(glucose_absorption)$/;"	f
+setget_glucose_input	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)$/;"	f
 setget_glucose_output	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_OUTPUT = setget_glucose_output(glucose_output)$/;"	f
 setget_gut_CO2	Code/src/GUT_PARAMS.m	/^        function GUT_CO2 = setget_gut_CO2(gut_CO2)$/;"	f
 setget_gut_O2	Code/src/GUT_PARAMS.m	/^        function GUT_O2 = setget_gut_O2(gut_O2)$/;"	f

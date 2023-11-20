@@ -10,6 +10,7 @@ classdef GUT_PARAMS
     %   - initial input of insulin
     %   - gut O2
     %   - gut CO2
+    %   - glucose input
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -94,6 +95,14 @@ classdef GUT_PARAMS
                 GCO2_storage = gut_CO2;
             end
             GUT_CO2 = GCO2_storage; 
+        end
+        % function to set and get glucose input 
+        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)
+            persistent GI_storage;
+            if nargin
+                GI_storage = glucose_input;
+            end
+            GLUCOSE_INPUT = GI_storage; 
         end
     end
 end
