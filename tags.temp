@@ -641,3 +641,12 @@ width	.obsidian/workspace.json	/^    "width": 300,$/;"	n	object:right
 word-count	.obsidian/core-plugins-migration.json	/^  "word-count": true,$/;"	b
 workspaces	.obsidian/core-plugins-migration.json	/^  "workspaces": false,$/;"	b
 zk-prefixer	.obsidian/core-plugins-migration.json	/^  "zk-prefixer": false,$/;"	b
+!_TAG_KIND_DESCRIPTION!Markdown	c,chapter	/chapters/
+!_TAG_KIND_DESCRIPTION!Markdown	s,section	/sections/
+!_TAG_KIND_DESCRIPTION!Markdown	S,subsection	/level 2 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	t,subsubsection	/level 3 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	T,l4subsection	/level 4 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	u,l5subsection	/level 5 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	n,footnote	/footnotes/
+!_TAG_KIND_DESCRIPTION!Markdown	h,hashtag	/hashtags/
+!_TAG_PARSER_VERSION!Markdown	1.1	/current.age/

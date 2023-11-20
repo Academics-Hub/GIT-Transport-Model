@@ -28,7 +28,13 @@
 	- [O2_fed_fasting.m](./src/O2_fed_fasting.m)
 	- [OverallLoop.m](./src/OverallLoop.m)
 	- [sigfit.m](./src/sigfit.m)
+<<<<<<< HEAD
 	- [testing_O2.m](./src/testing_O2.m)
 	- [testing.m](./src/testing.m)
+||||||| 167343b
+	- [OverallLoop.m](./src/OverallLoop.m)
+=======
+	- [testing_O2.m](./src/testing_O2.m)
+>>>>>>> 35-oxygen-and-carbon-dioxide-model
 
 %% End Waypoint %%
