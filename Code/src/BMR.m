@@ -4,6 +4,7 @@
 % Weight (kg)
 % Height (cm)
 % Age (years)
+% GutFlowRate (l/min)
 
 function[delta_blood_glucose] = BMR(gender, weight, height, age, GutFlowRate)
 
