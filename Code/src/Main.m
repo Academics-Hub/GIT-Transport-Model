@@ -4,7 +4,7 @@ cla
 % main script to test functions
 
 % testing overall model things
-GutFlowRate = 500;
+GutFlowRate = 500/1000;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
@@ -12,8 +12,9 @@ ArterialInsulin = 10;
 ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
-Gut = [40,1]; % initialising Gut to what we'll recommend
-Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
+Gut = [40,round(1)]; % initialising Gut to what we'll recommend
+fprintf('%f\n', Gut(2));
+%Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
 if isnan(Gut(2))
 	fprintf('Glucose input is a NaN')
 	return
@@ -26,7 +27,7 @@ GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
 GUT_PARAMS.setget_time_since_last_meal(-1); % always intialise time since last meal to -1
 GUT_PARAMS.setget_current_glycemic_load(0); % always intialise glycemic load to 0
 GUT_PARAMS.setget_glucose_output(0); % always intialise glucose output to 0
-GUT_PARAMS.setget_glucose_absorption(cast(0.0035, 'double'));
+GUT_PARAMS.setget_glucose_absorption(0);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);

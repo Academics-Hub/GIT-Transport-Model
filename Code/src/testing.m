@@ -31,7 +31,7 @@ glucose_change_plasma_values = zeros(size(time));
 
 % Run the simulation
 for i = 1:length(time)
-    [glucose_change_plasma] = glucose_absorption_2(1, GutFlowRate, ArterialInsulin, glucoseoutput, step);
+    [glucose_change_plasma] = glucose_absorption_2(Gut(2), GutFlowRate, ArterialInsulin, glucoseoutput, step);
     
     % Store results
     %GutOut_glucose_values(i) = GutOut_glucose;
@@ -44,12 +44,10 @@ end
 
 % Plot the results
 figure;
-plot(time, glucoseoutput, 'b', 'LineWidth', 2);
 hold on;
-%plot(time, GutNew_glucose_values, 'r', 'LineWidth', 2);
+plot(time, glucose_change_plasma_values, 'b', 'LineWidth', 2);
 xlabel('Time (seconds)');
 ylabel('Glucose Concentration');
-legend('Gut Out Glucose', 'Gut New Glucose');
 title('Glucose Absorption in the Gut Over 24 Hours');
 grid on;
 hold off;
