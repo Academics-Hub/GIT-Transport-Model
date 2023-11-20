@@ -9,14 +9,21 @@ GutFlowRate = 500/1000;
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
 ArterialInsulin = 10;
+ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [40,1]; % initialising Gut to what we'll recommend
-duration = 24*3600; % seconds
 gender = 0;
 weight =70; 
 height= 170; 
 age= 25;
+%fprintf('%f\n', round(Gut(2)));
+%Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
+if isnan(Gut(2))
+	fprintf('Glucose input is a NaN')
+	return
+end
+duration = 24*3600; % seconds
 
 % storing gut parameters
 GUT_PARAMS.setget_time(0); % always intialise time to 0
@@ -24,10 +31,12 @@ GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
 GUT_PARAMS.setget_time_since_last_meal(-1); % always intialise time since last meal to -1
 GUT_PARAMS.setget_current_glycemic_load(0); % always intialise glycemic load to 0
 GUT_PARAMS.setget_glucose_output(0); % always intialise glucose output to 0
+GUT_PARAMS.setget_glucose_absorption(0);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
 Gut_Glucose_vector = zeros(1,duration/time_step);
+Gut_Glucose_Absorption_vector = zeros(1,duration/time_step);
 Arterial_SpO2_vector = zeros(1,duration/time_step);
 Arterial_Glucose_vector = zeros(1,duration/time_step);
 Insulin_vector = zeros(1,duration/time_step);
@@ -37,35 +46,37 @@ Glycemic_load_vector = zeros(1,duration/time_step);
 Gut_Glucose_Output_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
-    [Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step, gender, weight, height, age);
+	[Gut1,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step, gender, weight, height, age);
 
-    Gut_SpO2_vector((i/time_step)+1) = Gut(1);
+	Gut_SpO2_vector((i/time_step)+1) = Gut1(1);
 
-    Gut_Glucose_vector((i/time_step)+1) = Gut(2);
+	Gut_Glucose_vector((i/time_step)+1) = Gut1(2);
 
-    Time_vector((i/time_step)+1) = GUT_PARAMS.setget_time-0.5;
+	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption;
 
-    Time_since_last_meal_vector((i/time_step)+1) = GUT_PARAMS.setget_time_since_last_meal;
+	Time_vector((i/time_step)+1) = GUT_PARAMS.setget_time-0.5;
 
-    Glycemic_load_vector((i/time_step)+1) = GUT_PARAMS.setget_current_glycemic_load;
+	Time_since_last_meal_vector((i/time_step)+1) = GUT_PARAMS.setget_time_since_last_meal;
 
-    Arterial_SpO2_vector((i/time_step)+1) = GutOut(1);
+	Glycemic_load_vector((i/time_step)+1) = GUT_PARAMS.setget_current_glycemic_load;
 
-    Arterial_Glucose_vector((i/time_step)+1) = GutOut(2);
+	Arterial_SpO2_vector((i/time_step)+1) = GutOut(1);
 
-    Insulin_vector((i/time_step)+1) = GutOut(3);
+	Arterial_Glucose_vector((i/time_step)+1) = GutOut(2);
 
-    Gut_Glucose_Output_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_output;
+	Insulin_vector((i/time_step)+1) = GutOut(3);
+
+	Gut_Glucose_Output_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_output;
 end
 
 % plotting things
 % convert time vector to hours -> 24h00 format
 Time_vector = Time_vector/3600;
 fprintf('Time: %d\n', Time_vector(1))
-    for i = 1:duration/3600
-        index = i*2*3600;
-        fprintf('Time: %d\n', int8(Time_vector(index)))
-    end        
+for i = 1:duration/3600
+	index = i*2*3600;
+	fprintf('Time: %d\n', int8(Time_vector(index)))
+end        
 % convert time since last meal to minutes
 Time_since_last_meal_vector = Time_since_last_meal_vector/3600;
 %% plotting Gut things
@@ -84,15 +95,16 @@ subplot(5,1,2)
 plot(Time_vector,Gut_Glucose_vector)
 title('Gut Glucose')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
 subplot(5,1,3)
-title('Meal absorption periods')
+plot(Time_vector, Gut_Glucose_Absorption_vector)
+title('Gut Glucose Absorption')
 xlabel('Time (hrs)')
-ylabel('Time since last meal (hrs)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -110,7 +122,7 @@ subplot(5,1,5)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -131,7 +143,7 @@ subplot(3,1,2)
 plot(Time_vector,Arterial_Glucose_vector)
 title('Change in Arterial Glucose')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -140,7 +152,7 @@ subplot(3,1,3)
 plot(Time_vector,Insulin_vector)
 title('Change in Insulin')
 xlabel('Time (hrs)')
-ylabel('Insulin (\mumol/dL)', 'Rotation', 0)
+ylabel('Insulin (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
