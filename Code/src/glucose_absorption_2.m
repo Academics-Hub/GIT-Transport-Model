@@ -10,7 +10,7 @@ function [glucose_change_plasma] = glucose_absorption_2(gutglucose, GutFlowRate,
 		%return
 	end
 	% Define the differential equations for minimal model
-	dG_dt = -(Sg + X)*gutglucose + Sg*Gb + glucoseoutput/300;
+	dG_dt = -(Sg + X)*gutglucose + Sg*Gb + glucoseoutput/1.35e6;
 	% Update glucose usage using the differential equations
 	glucose_change_plasma = dG_dt * step * GutFlowRate;
 	% Update using the metabolism rate
