@@ -13,6 +13,10 @@ Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [40,1]; % initialising Gut to what we'll recommend
 duration = 24*3600; % seconds
+gender = 0;
+weight =70; 
+height= 2; 
+age= 25;
 
 % storing gut parameters
 GUT_PARAMS.setget_time(0); % always intialise time to 0
@@ -33,7 +37,7 @@ Glycemic_load_vector = zeros(1,duration/time_step);
 Gut_Glucose_Output_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
-    [Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
+    [Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step, gender, weight, height, age);
 
     Gut_SpO2_vector((i/time_step)+1) = Gut(1);
 

@@ -1,5 +1,5 @@
 % my rework of the gut function, to make it more modular
-function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
+function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step, gender, weight, height, age)
     %intialze constants to be used by glucose absorption and o2 absorption functions
     %vmax =
     %km =
@@ -42,7 +42,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
     arterial_insulin = Arterial(3);
 
     % Using Gut and Arterial functions to calculate their change
-    [SpO2_new, glucose_new] = delta_gut(gut_spO2, gut_glucose, arterial_insulin, GutFlowRate, time_step);
+    [SpO2_new, glucose_new] = delta_gut(gut_spO2, gut_glucose, arterial_insulin, GutFlowRate, time_step, gender, weight, height, age);
 
     [arterial_SpO2_new,arterial_glucose_new,arterial_insulin_new] = delta_arterial(arterial_spO2, arterial_glucose, arterial_insulin);
 
