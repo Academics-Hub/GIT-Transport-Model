@@ -32,13 +32,28 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	% change in oxygen output
 	Cb = 1.92;
 	Hb = 140; 
-	[gut_O2, O2_usuage, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb);
-	GUT_PARAMS.setget_O2_consumption(O2_usuage); % replace with Julia's function to get O2 used -> O2 to be subtracted from arterial
+	[gut_O2, O2_usage, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb);
     GUT_PARAMS.setget_gut_O2(gut_O2);
     GUT_PARAMS.setget_gut_CO2(gut_CO2);
-	%SpO2_new = SpO2 + O2_usuage; % net oxygen -> no idea how this changes, setting it to stay the same for now
-	SpO2_new = SpO2; % net oxygen -> no idea how this changes, setting it to stay the same for now
-	if SpO2_new > 98
-		SpO2_new = 98;
-	end
+	%SpO2_new = SpO2 + O2_usage; % net oxygen -> no idea how this changes, setting it to stay the same for now
+    % pulling SpO2 towards basal value
+    %SpO2 = SpO2 + O2_usage;
+    %SpO2_new = SpO2 + O2_usage;
+    SpO2_new = smooth_to_basal(SpO2, O2_usage);
+    GUT_PARAMS.setget_O2_consumption(SpO2_new); % replace with Julia's function to get O2 used -> O2 to be subtracted from arterial
+	%SpO2_new = SpO2 + O2_usage; % net oxygen -> no idea how this changes, setting it to stay the same for now
+	%if SpO2_new > 98
+	%	SpO2_new = 98;
+	%end
+end
+
+function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)
+    smoothing_rate = 0.001;
+    basal_SpO2 = cast(0.076, 'double');
+    if GUT_PARAMS.setget_time_since_last_meal == 0
+        SpO2 = SpO2 + O2_usage;
+    end 
+    smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;
+    % rate ends up being the proportion of the difference between basal and current SpO2 that we
+    % add each step -> somehow we need to take a rate and find a smoothing_rate value
 end

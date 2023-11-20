@@ -35,7 +35,7 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	    % step: time step [seconds]
 	% We are given initial values, and then from these, we need to simulate what happens at the next time step.
 	% Remember that we receive the previous Gut and Aterial values, at the beginning of each iteration of the function in OverallLoop
-	gut_spO2 = Gut(1);
+	gut_spO2 = cast(Gut(1), 'double'); % typecasting just in case (shouldn't be necessary)
 	gut_glucose = cast(Gut(2), 'double');
 	if isnan(gut_glucose)
 		    fprintf('glucose is NaN at gutcalc at time: %f\n', new_time)

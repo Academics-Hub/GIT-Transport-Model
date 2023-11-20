@@ -10,9 +10,13 @@ ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
 ArterialInsulin = 10;
 ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
+ArterialSpO2 = cast(ArterialSpO2, 'double');
+ArterialGlucose = cast(ArterialGlucose, 'double');
+ArterialInsulin = cast(ArterialInsulin, 'double');
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
-Gut = [40,1]; % initialising Gut to what we'll recommend
+Gut = [0.4,1]; % initialising Gut to what we'll recommend
+Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
 	fprintf('Glucose input is a NaN')
@@ -34,7 +38,7 @@ GUT_PARAMS.setget_initial_insulin_input(ArterialInsulin);
 Gut_SpO2_vector = zeros(1,duration/time_step);
 Gut_Glucose_vector = zeros(1,duration/time_step);
 Gut_Glucose_Absorption_vector = zeros(1,duration/time_step);
-Arterial_SpO2_vector = zeros(1,duration/time_step);
+Venous_SpO2_vector = zeros(1,duration/time_step);
 Arterial_Glucose_vector = zeros(1,duration/time_step);
 Insulin_vector = zeros(1,duration/time_step);
 Time_vector = zeros(1,duration/time_step);
@@ -59,7 +63,7 @@ for i = 0:time_step:duration-0.5 % looping over seconds in a day
 
 	Glycemic_load_vector((i/time_step)+1) = GUT_PARAMS.setget_current_glycemic_load;
 
-	Arterial_SpO2_vector((i/time_step)+1) = GutOut(1);
+	Venous_SpO2_vector((i/time_step)+1) = GutOut(1);
 
 	Arterial_Glucose_vector((i/time_step)+1) = GutOut(2);
 
@@ -125,8 +129,7 @@ xticks(0:1:duration/3600)
 % plotting Arterial things
 figure(2)
 
-
-subplot(2,1,1)
+subplot(3,2,1)
 plot(Time_vector,Arterial_Glucose_vector)
 title('Change in Arterial Glucose')
 xlabel('Time (hrs)')
@@ -135,7 +138,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(2,1,2)
+subplot(3,2,2)
 plot(Time_vector,Insulin_vector)
 title('Change in Insulin')
 xlabel('Time (hrs)')
@@ -144,41 +147,48 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-figure
-subplot(4,1,1)
+subplot(3,2,3)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
 plot(Time_vector,Gut_Oxygen_vector)
-title('Gut Oxygen')
+title('Change in Gut Oxygen')
 xlabel('Time (hrs)')
 ylabel('Oxygen (mole)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,2)
+subplot(3,2,4)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
 plot(Time_vector,Gut_Co2_vector)
-title('Gut CO2')
+title('Change in Gut CO2')
 xlabel('Time (hrs)')
 ylabel('CO2 (mole)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,3)
-plot(Time_vector,Gut_SpO2_vector) 
-title('Gut SpO2')
+subplot(3,2,5)
+Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
+plot(Time_vector,Venous_SpO2_vector)
+title('Venous SpO2')
 xlabel('Time (hrs)')
 ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,4)
-plot(Time_vector,Arterial_SpO2_vector)
-title('Change in Arterial SpO2')
+subplot(3,2,6)
+%figure(3)
+Gut_SpO2_vector = Gut_SpO2_vector * 100; % decimal -> percentage
+plot(Time_vector,Gut_SpO2_vector) 
+title('Gut SpO2')
 xlabel('Time (hrs)')
 ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
-xlim([0, duration/3600])
+xlim([0,duration/3600])
 xticks(0:1:duration/3600)
+
+% print the first 20 values of the Gut_SpO2_vector
+%for i = 1:20
+%    fprintf('Gut SpO2: %d\n', Gut_SpO2_vector(i))
+%end
