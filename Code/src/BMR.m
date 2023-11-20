@@ -5,4 +5,10 @@
 % Height (cm)
 % Age (years)
 
-function[] = BMR(gender, weight, height, age)
+function[basal_metabolic_rate] = BMR(gender, weight, height, age)
+
+% Gender: male = 0
+% Gender: female = 1
+
+if gender == 0
+    basal_metabolic_rate = 88.362 + 
