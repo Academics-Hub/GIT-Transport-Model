@@ -18,6 +18,7 @@ function [glucose_change_plasma] = glucose_absorption_2(gut_glucose, glucose_out
         return
 	end
 	% Define the differential equations for minimal model
+    % dX_dt = -p2*X_t + p3*(
 	%dG_dt = -p1*gut_glucose + p1*G_b + glucose_output/300;
     % solution to ODE
     glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) - glucose_output/(p1*V);

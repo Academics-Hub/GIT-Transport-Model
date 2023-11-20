@@ -114,7 +114,7 @@
 29	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
 30	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 31	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 32	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -125,17 +125,17 @@
 37	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png",$/;"	s	array:lastOpenFiles
 38	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174301.png"$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
 Arterial	Code/src/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
