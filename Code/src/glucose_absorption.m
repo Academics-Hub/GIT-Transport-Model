@@ -15,8 +15,8 @@ function [glucose_usage] = glucose_absorption(gutglucose, GutFlowRate, time_step
 	% Michaelis-Menten kinetics for glucose metabolism
 	%glucose_usage = vmax * gutglucose / (km + gutglucose); 
 	%glucose_usage = (vmax * gutglucose / (km + gutglucose)) * (step * GutFlowRate); 
-	v = (vmax * gutglucose / (km + gutglucose));
-	glucose_usage = v * time_step / GutFlowRate; % someone needs to check the logic here, but this makes the units mmol/L
+	glucose_usage = (vmax * gutglucose / (km + gutglucose)) * time_step / GutFlowRate;
+	%glucose_usage = 
 	% Update using the metabolism rate
 	%GutNew_glucose = gutglucose + (step * GutFlowRate) * glucose_usage;
 

@@ -424,7 +424,7 @@ glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption - glu
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
 glucose_output_model	Code/src/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, I/;"	f
-glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = v * time_step \/ GutFlowRate; % someone needs to check the logic here, but this/;"	v
+glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = (vmax * gutglucose \/ (km + gutglucose)) * time_step \/ GutFlowRate;$/;"	v
 glucoseoutput	Code/src/testing.m	/^glucoseoutput = GUT_PARAMS.setget_glucose_output;$/;"	v
 glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto	Research/GITTransportModel.bib	/^@article{glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto,$/;"	a
 glycemic_load	Code/src/glycemic_load.m	/^    glycemic_load = 19.27+(0.39*carbs)-(0.21*lipids)-(0.01*proteins^2)-(0.01*fibre^2);$/;"	v
@@ -655,7 +655,6 @@ useHierarchy	.obsidian/workspace.json	/^                "useHierarchy": true$/;"
 useMarkdownLinks	.obsidian/app.json	/^  "useMarkdownLinks": true,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/data.json	/^  "useWikiLinks": false,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/main.js	/^  useWikiLinks: true,$/;"	p	variable:DEFAULT_SETTINGS
-v	Code/src/glucose_absorption.m	/^	v = (vmax * gutglucose \/ (km + gutglucose));$/;"	v
 value	.obsidian/plugins/waypoint/main.js	/^  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) :/;"	p	variable:anonymousObject1674d7360605
 value	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	p	variable:anonymousObject1674d7360105
 venous_SpO2_new	Code/src/delta_arterial.m	/^    venous_SpO2_new = arterial_SpO2 - GUT_PARAMS.setget_O2_consumption;$/;"	v
