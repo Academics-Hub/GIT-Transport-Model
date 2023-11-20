@@ -4,7 +4,7 @@ cla
 % main script to test functions
 
 % testing overall model things
-GutFlowRate = 500;
+GutFlowRate = 500/1000;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
@@ -15,7 +15,7 @@ Gut = [40,1]; % initialising Gut to what we'll recommend
 duration = 24*3600; % seconds
 gender = 0;
 weight =70; 
-height= 2; 
+height= 170; 
 age= 25;
 
 % storing gut parameters
