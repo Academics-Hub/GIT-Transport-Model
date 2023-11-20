@@ -4,5 +4,7 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Attachments",
   "vimMode": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "readableLineLength": false,
+  "showLineNumber": true
 }
