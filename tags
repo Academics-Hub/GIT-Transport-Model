@@ -182,6 +182,7 @@ Gut	Code/src/testing.m	/^Gut = [40, 1]; % initializing Gut to what we'll recomme
 GutCalc	Code/src/GutCalc.m	/^function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)$/;"	f
 GutFlowRate	Code/src/Main.m	/^GutFlowRate = 500;$/;"	v
 GutFlowRate	Code/src/OverallLoop.m	/^GutFlowRate = 500;$/;"	v
+GutFlowRate	Code/src/glucose_absorption.m	/^	GutFlowRate = GutFlowRate * 1000 \/ (60 * time_step); % L\/time_step -> L\/s$/;"	v
 GutFlowRate	Code/src/testing.m	/^GutFlowRate = 500; %ml \/ min$/;"	v
 GutFlowRate	Code/src/testing.m	/^GutFlowRate = GutFlowRate \/1000;$/;"	v
 GutNew	Code/src/GutCalc.m	/^	GutNew = zeros(1,2);$/;"	v
@@ -373,16 +374,17 @@ glucose	Code/src/find_gl_glucose.m	/^		glucose = polyval(high_gl_glucose, time_s
 glucose	Code/src/find_gl_glucose.m	/^		glucose = polyval(low_gl_glucose, time_since_last_meal);$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^	glucose = glucose * 0.005551;$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^	glucose = glucose \/ 10;$/;"	v
-glucose_absorption	Code/src/glucose_absorption.m	/^function [glucose_usage] = glucose_absorption(gutglucose, GutFlowRate, step)$/;"	f
+glucose_absorption	Code/src/glucose_absorption.m	/^function [glucose_usage] = glucose_absorption(gutglucose, GutFlowRate, time_step)$/;"	f
 glucose_absorption_2	Code/src/glucose_absorption_2.m	/^function [glucose_change_plasma] = glucose_absorption_2(gutglucose, GutFlowRate, insulin, glucos/;"	f
 glucose_absorption_3	Code/src/glucose_absorption_3.m	/^function [GutOut_glucose,GutNew_glucose,J_glucose] = glucose_absorption_3(arterialglucose, gutgl/;"	f
+glucose_absorption_4	Code/src/glucose_absorption_4.m	/^function [glucose_usuage] = glucose_absorption_4(gut_glucose)$/;"	f
 glucose_change_plasma	Code/src/glucose_absorption_2.m	/^	glucose_change_plasma = dG_dt * step * GutFlowRate;$/;"	v
 glucose_change_plasma_values	Code/src/testing.m	/^glucose_change_plasma_values = zeros(size(time));$/;"	v
 glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption - glucose_output; % net glucose$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^        glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^        glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
 glucose_output_model	Code/src/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, I/;"	f
-glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = (vmax * gutglucose \/ (km + gutglucose)) * step;$/;"	v
+glucose_usage	Code/src/glucose_absorption.m	/^	glucose_usage = v * time_step \/ GutFlowRate; % someone needs to check the logic here, but this/;"	v
 glucoseoutput	Code/src/testing.m	/^glucoseoutput = GUT_PARAMS.setget_glucose_output;$/;"	v
 glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto	Research/GITTransportModel.bib	/^@article{glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto,$/;"	a
 glycemic_load	Code/src/glycemic_load.m	/^    glycemic_load = 19.27+(0.39*carbs)-(0.21*lipids)-(0.01*proteins^2)-(0.01*fibre^2);$/;"	v
@@ -579,6 +581,7 @@ useHierarchy	.obsidian/workspace.json	/^                "useHierarchy": true$/;"
 useMarkdownLinks	.obsidian/app.json	/^  "useMarkdownLinks": true,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/data.json	/^  "useWikiLinks": false,$/;"	b
 useWikiLinks	.obsidian/plugins/waypoint/main.js	/^  useWikiLinks: true,$/;"	p	variable:DEFAULT_SETTINGS
+v	Code/src/glucose_absorption.m	/^	v = (vmax * gutglucose \/ (km + gutglucose));$/;"	v
 value	.obsidian/plugins/waypoint/main.js	/^  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) :/;"	p	variable:anonymousObject1674d7360605
 value	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	p	variable:anonymousObject1674d7360105
 version	.obsidian/plugins/waypoint/manifest.json	/^	"version": "1.4.0",$/;"	s
