@@ -13,6 +13,10 @@ ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [40,1]; % initialising Gut to what we'll recommend
+gender = 0;
+weight =70; 
+height= 170; 
+age= 25;
 %fprintf('%f\n', round(Gut(2)));
 %Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
 if isnan(Gut(2))
@@ -42,7 +46,7 @@ Glycemic_load_vector = zeros(1,duration/time_step);
 Gut_Glucose_Output_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
-	[Gut1,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
+	[Gut1,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step, gender, weight, height, age);
 
 	Gut_SpO2_vector((i/time_step)+1) = Gut1(1);
 
