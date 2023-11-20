@@ -12,7 +12,7 @@ ArterialInsulin = 10;
 ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
-Gut = [40,1]; % initialising Gut to what we'll recommend
+Gut = [40,6]; % initialising Gut to what we'll recommend
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
 	fprintf('Glucose input is a NaN')
@@ -29,6 +29,7 @@ GUT_PARAMS.setget_current_glycemic_load(0); % always intialise glycemic load to 
 GUT_PARAMS.setget_glucose_output(0); % always intialise glucose output to 0
 GUT_PARAMS.setget_glucose_absorption(cast(0.0035, 'double'));
 GUT_PARAMS.setget_initial_insulin_input(ArterialInsulin);
+GUT_PARAMS.setget_glucose_input(Gut(2));
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
@@ -45,11 +46,11 @@ Gut_Oxygen_vector = zeros(1,duration/time_step);
 Gut_Co2_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
-	[Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
+	[GutNew,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
 
-	Gut_SpO2_vector((i/time_step)+1) = Gut(1);
+	Gut_SpO2_vector((i/time_step)+1) = GutNew(1);
 
-	Gut_Glucose_vector((i/time_step)+1) = Gut(2);
+	Gut_Glucose_vector((i/time_step)+1) = GutNew(2);
 
 	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption;
 
@@ -75,16 +76,15 @@ end
 % plotting things
 % convert time vector to hours -> 24h00 format
 Time_vector = Time_vector/3600;
-fprintf('Time: %d\n', Time_vector(1))
-for i = 1:duration/3600
-	index = i*2*3600;
-	fprintf('Time: %d\n', int8(Time_vector(index)))
-end        
+%fprintf('Time: %d\n', Time_vector(1))
+%for i = 1:duration/3600
+%	index = i*2*3600;
+%	fprintf('Time: %d\n', int8(Time_vector(index)))
+%end        
 % convert time since last meal to minutes
 Time_since_last_meal_vector = Time_since_last_meal_vector/3600;
 %% plotting Gut things
 figure(1)
-
 
 subplot(4,1,1)
 plot(Time_vector,Gut_Glucose_vector)
