@@ -15,6 +15,7 @@
 	- [delta_gut.m](./src/delta_gut.m)
 	- [find_gl_glucose.m](./src/find_gl_glucose.m)
 	- [food.m](./src/food.m)
+	- [gluconeogenesis.m](./src/gluconeogenesis.m)
 	- [glucose_absorption_2.m](./src/glucose_absorption_2.m)
 	- [glucose_absorption_3.m](./src/glucose_absorption_3.m)
 	- [glucose_absorption.m](./src/glucose_absorption.m)
