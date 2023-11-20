@@ -13,9 +13,9 @@ time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;
 
 if time_since_last_meal == -1
     O2_usage = 0.15;
-elseif time_since_last_meal < (30*60) && time_since_last_meal >= 0  % half an hour
+elseif time_since_last_meal <= (30*60) && time_since_last_meal >= 0  % half an hour
     O2_usage = (1/3600)*time_since_last_meal + 0.15;
-elseif time_since_last_meal > (30*60) && time_since_last_meal < 12600
+elseif time_since_last_meal > (30*60) && time_since_last_meal <= 12600
     O2_usage = 0.65;
 elseif time_since_last_meal > 12600
     O2_usage = (-1/3600) * time_since_last_meal + 4.15;
