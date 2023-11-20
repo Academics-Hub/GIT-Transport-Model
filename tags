@@ -114,7 +114,7 @@
 29	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
 30	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 31	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 32	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
@@ -125,18 +125,20 @@
 37	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png",$/;"	s	array:lastOpenFiles
 38	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174301.png"$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
+AGE	Code/src/GUT_PARAMS.m	/^            AGE = A_storage;$/;"	v
+A_storage	Code/src/GUT_PARAMS.m	/^                A_storage = age;$/;"	v
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
 Arterial	Code/src/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
 Arterial	Code/src/OverallLoop.m	/^    Arterial = LungOut;$/;"	v
@@ -179,6 +181,7 @@ Dom	Meeting logs/2023-11-07.md	/^### Dom$/;"	S	section:Agenda""Who is doing what
 FolderNoteType	.obsidian/plugins/waypoint/main.js	/^var FolderNoteType;$/;"	v
 GA_storage	Code/src/GUT_PARAMS.m	/^                GA_storage = glucose_absorption;$/;"	v
 GCO2_storage	Code/src/GUT_PARAMS.m	/^                GCO2_storage = gut_CO2;$/;"	v
+GENDER	Code/src/GUT_PARAMS.m	/^            GENDER = G_storage;$/;"	v
 GIT Transport Model	README.md	/^# GIT Transport Model$/;"	c
 GI_storage	Code/src/GUT_PARAMS.m	/^                GI_storage = glucose_input;$/;"	v
 GL	Code/src/food.m	/^    GL = glycemic_load(carbs, lipids, protein, fibre);$/;"	v
@@ -191,6 +194,7 @@ GUT_CO2	Code/src/GUT_PARAMS.m	/^            GUT_CO2 = GCO2_storage; $/;"	v
 GUT_O2	Code/src/GUT_PARAMS.m	/^            GUT_O2 = GO2_storage; $/;"	v
 GUT_PARAMS	Code/src/GUT_PARAMS.m	/^classdef GUT_PARAMS$/;"	c
 G_b	Code/src/glucose_absorption_2.m	/^	G_b = 5.6; %fasting glcuose mmol\/L$/;"	v
+G_storage	Code/src/GUT_PARAMS.m	/^                G_storage = gender;$/;"	v
 Glycemic_load_vector	Code/src/Main.m	/^Glycemic_load_vector = zeros(1,duration\/time_step);$/;"	v
 Gut	Code/src/Main.m	/^Gut = [0.4,5]; % initialising Gut to what we'll recommend$/;"	v
 Gut	Code/src/OverallLoop.m	/^Gut = [40,1];$/;"	v
@@ -221,6 +225,8 @@ Gut_Oxygen_vector	Code/src/Main.m	/^Gut_Oxygen_vector = zeros(1,duration\/time_s
 Gut_SpO2_vector	Code/src/Main.m	/^Gut_SpO2_vector = Gut_SpO2_vector * 100; % decimal -> percentage$/;"	v
 Gut_SpO2_vector	Code/src/Main.m	/^Gut_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_spO2_values	Code/src/testing_O2.m	/^Gut_spO2_values = zeros(size(time));$/;"	v
+HEIGHT	Code/src/GUT_PARAMS.m	/^            HEIGHT = H_storage;$/;"	v
+H_storage	Code/src/GUT_PARAMS.m	/^                H_storage = height;$/;"	v
 Hb	Code/src/delta_gut.m	/^	Hb = 140; $/;"	v
 Hb	Code/src/testing_O2.m	/^Hb = 140;$/;"	v
 III_storage	Code/src/GUT_PARAMS.m	/^                III_storage = initial_insulin_input;$/;"	v
@@ -280,6 +286,8 @@ VenousMixedSpO2	Code/src/OverallLoop.m	/^VenousMixedSpO2 = 0.98;%initializing ve
 Venous_SpO2_vector	Code/src/Main.m	/^Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage$/;"	v
 Venous_SpO2_vector	Code/src/Main.m	/^Venous_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
 Victoria	Meeting logs/2023-11-07.md	/^### Victoria$/;"	S	section:Agenda""Who is doing what
+WEIGHT	Code/src/GUT_PARAMS.m	/^            WEIGHT = W_storage;$/;"	v
+W_storage	Code/src/GUT_PARAMS.m	/^                W_storage = weight;$/;"	v
 Waypoint	.obsidian/plugins/waypoint/main.js	/^var Waypoint = _Waypoint;$/;"	v
 WaypointSettingsTab	.obsidian/plugins/waypoint/main.js	/^var WaypointSettingsTab = class extends import_obsidian.PluginSettingTab {$/;"	c
 Who is doing what	Meeting logs/2023-11-07.md	/^## Who is doing what$/;"	s	chapter:Agenda
@@ -540,16 +548,20 @@ searchQuery	.obsidian/workspace.json	/^                "searchQuery": "",$/;"	s	
 sensitivity	.obsidian/plugins/waypoint/main.js	/^            return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });$/;"	p	variable:anonymousObject1674d7361205
 set_meal	Code/src/glucose_output_model.m	/^function[carbs,lipids,proteins,fibre] = set_meal(time_of_day)$/;"	f
 setget_O2_consumption	Code/src/GUT_PARAMS.m	/^        function O2_CONSUMPTION = setget_O2_consumption(O2_consumption)$/;"	f
+setget_age	Code/src/GUT_PARAMS.m	/^        function AGE = setget_age(age)$/;"	f
 setget_current_glycemic_load	Code/src/GUT_PARAMS.m	/^        function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)$/;"	f
+setget_gender	Code/src/GUT_PARAMS.m	/^        function GENDER = setget_gender(gender)$/;"	f
 setget_glucose_absorption	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_ABSORPTION = setget_glucose_absorption(glucose_absorption)$/;"	f
 setget_glucose_input	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)$/;"	f
 setget_glucose_output	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_OUTPUT = setget_glucose_output(glucose_output)$/;"	f
 setget_gut_CO2	Code/src/GUT_PARAMS.m	/^        function GUT_CO2 = setget_gut_CO2(gut_CO2)$/;"	f
 setget_gut_O2	Code/src/GUT_PARAMS.m	/^        function GUT_O2 = setget_gut_O2(gut_O2)$/;"	f
+setget_height	Code/src/GUT_PARAMS.m	/^        function HEIGHT = setget_height(height)$/;"	f
 setget_initial_insulin_input	Code/src/GUT_PARAMS.m	/^        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)$/;"	f
 setget_previous_time	Code/src/GUT_PARAMS.m	/^        function PREVIOUS_TIME = setget_previous_time(previous_time)$/;"	f
 setget_time	Code/src/GUT_PARAMS.m	/^        function TIME = setget_time(time)$/;"	f
 setget_time_since_last_meal	Code/src/GUT_PARAMS.m	/^        function TIME_SINCE_LAST_MEAL = setget_time_since_last_meal(time_since_last_meal)$/;"	f
+setget_weight	Code/src/GUT_PARAMS.m	/^        function WEIGHT = setget_weight(weight)$/;"	f
 showEnclosingNote	.obsidian/plugins/waypoint/data.json	/^  "showEnclosingNote": false,$/;"	b
 showEnclosingNote	.obsidian/plugins/waypoint/main.js	/^  showEnclosingNote: false,$/;"	p	variable:DEFAULT_SETTINGS
 showFolderNotes	.obsidian/plugins/waypoint/data.json	/^  "showFolderNotes": false,$/;"	b

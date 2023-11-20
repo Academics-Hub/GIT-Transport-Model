@@ -11,6 +11,10 @@ classdef GUT_PARAMS
     %   - gut O2
     %   - gut CO2
     %   - glucose input
+    %   - gender
+    %   - age
+    %   - weight
+    %   - height
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -103,6 +107,38 @@ classdef GUT_PARAMS
                 GI_storage = glucose_input;
             end
             GLUCOSE_INPUT = GI_storage; 
+        end
+        % function to set and get gender
+        function GENDER = setget_gender(gender)
+            persistent G_storage;
+            if nargin
+                G_storage = gender;
+            end
+            GENDER = G_storage;
+        end
+        % function to set and get age
+        function AGE = setget_age(age)
+            persistent A_storage;
+            if nargin
+                A_storage = age;
+            end
+            AGE = A_storage;
+        end
+        % function to set and get weight
+        function WEIGHT = setget_weight(weight)
+            persistent W_storage;
+            if nargin
+                W_storage = weight;
+            end
+            WEIGHT = W_storage;
+        end
+        % function to set and get height
+        function HEIGHT = setget_height(height)
+            persistent H_storage;
+            if nargin
+                H_storage = height;
+            end
+            HEIGHT = H_storage;
         end
     end
 end
