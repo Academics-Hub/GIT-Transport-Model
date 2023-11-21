@@ -5,7 +5,7 @@ cla
 %suite = testsuite;
 
 % testing overall model things
-GutFlowRate = 500/1000;
+GutFlowRate = 500;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
@@ -13,18 +13,18 @@ ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
 ArterialGlucose = cast(ArterialGlucose, 'double');
-ArterialInsulin = cast(ArterialInsulin, 'double');
-Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [0.4,5]; % initialising Gut to what we'll recommend
+ArterialInsulin = cast(ArterialInsulin, 'double');
 %% check initial input values
-% need normal gut flow rates
+assert( GutFlowRate >= 500 && GutFlowRate <= 750, 'Gut Flow Rate is not initialised to an appropriate physiological value\nIt should be between 500 and 750mL/min')
 assert( ArterialSpO2 > 0 && ArterialSpO2 < 1, 'Arterial SpO2 is not initialised to an appropriate physiological value\nIt should be between 0 and 1')
 assert( ArterialGlucose > 0 && ArterialGlucose < 5.6, 'Arterial Glucose is not initialised to an appropriate physiological value\nIt should be between 0 and 5.6mmol/L in a fasting state')
 assert( ArterialInsulin > 0 && ArterialInsulin < 15, 'Arterial Insulin is not initialised to an appropriate physiological value\nIt should be between 0 and 15mU/L in a fasting state')
 assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an appropriate physiological value\nIt should be between 0.076(7.6%) and 0.98(98%)')
 % need normal gut glucose levels
-
+ArterialGlucose = ArterialGlucose * 10; % conversion to mmol/L
+Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
@@ -43,7 +43,7 @@ duration = 24*3600; % seconds
 % 5 - smoothing spline fitting
 % 6 - sum of sines fitting
 % 7 - Gaylard fit
-initialise_gut_params(7, Gut(2), ArterialInsulin, time_step);
+initialise_gut_params(3, Gut(2), ArterialInsulin, time_step);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
