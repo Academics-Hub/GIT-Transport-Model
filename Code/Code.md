@@ -25,6 +25,7 @@
 	- [gl_gaussian_fit.m](./src/gl_gaussian_fit.m)
 	- [gl_Gaylard_fit.asv](./src/gl_Gaylard_fit.asv)
 	- [gl_Gaylard_fit.m](./src/gl_Gaylard_fit.m)
+	- [gl_Gaylard2_fit.m](./src/gl_Gaylard2_fit.m)
 	- [gl_interpolation_fit.m](./src/gl_interpolation_fit.m)
 	- [gl_polynomial_fit.m](./src/gl_polynomial_fit.m)
 	- [gl_smoothing_spline_fit.m](./src/gl_smoothing_spline_fit.m)
