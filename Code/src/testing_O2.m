@@ -19,7 +19,7 @@ Arterial = [ArterialSpO2, ArterialGlucose, ArterialInsulin];
 
 step = 0.5; % seconds
 Gut = [40, 1]; % initializing Gut to what we'll recommend
-
+Gut(2) = cast(Gut(2)*10, 'double'); % conversion to mmol/L
 % Simulation time
 duration = 24 * 3600; % 24 hours in seconds
 time = 0:step:duration;
@@ -35,7 +35,7 @@ Gut_CO2_values = zeros(size(time));
 
 % Run the simulation
 for i = 1:length(time)
-    [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(1, GutFlowRate, ArterialSpO2, Cb, Hb);
+    [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb);
 
     % Store results
     Gut_O2_values(i) = gut_O2;
