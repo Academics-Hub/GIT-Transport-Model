@@ -7,7 +7,7 @@
 % Hb: haemoglobin concentration (g/l)
 
 function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
-
+    time_step = GUT_PARAMS.setget_time_step;
     time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;
     % time_since_last_meal = 14399;
 
@@ -38,14 +38,18 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
     %change units to mol
     %O2: 32 g/mol
     gut_O2_mol = gut_O2_g / 32;
+    % conversion from mol/min mol/(s/time_step)
+    gut_O2_mol = gut_O2_mol / (60/time_step);
+    gut_O2 = gut_O2_mol;
 
     %gut_O2_mol
 
     gut_CO2_mol = gut_O2_mol;
+    gut_CO2 = gut_CO2_mol;
 
     %CO2: 44 g/mol 
-    gut_CO2_g = gut_CO2_mol * 44;
+    %gut_CO2_g = gut_CO2_mol * 44;
 
-    gut_CO2 = gut_CO2_g * 1000;
+    %gut_CO2 = gut_CO2_g * 1000;
 
 end

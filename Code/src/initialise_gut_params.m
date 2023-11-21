@@ -1,4 +1,4 @@
-function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin)
+function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step)
     % This function initialises the parameters for the gut model
     GUT_PARAMS.setget_time(0); % always intialise time to 0
     GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
@@ -8,6 +8,7 @@ function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialIns
     GUT_PARAMS.setget_glucose_absorption(cast(0.0035, 'double'));
     GUT_PARAMS.setget_initial_insulin_input(ArterialInsulin);
     GUT_PARAMS.setget_glucose_input(InitialGlucose);
+    GUT_PARAMS.setget_time_step(time_step);
     time_series = [0,900,1800,2700,3600,5400,7200]; % seconds
     low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];
     high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];
@@ -24,6 +25,8 @@ function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialIns
             [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_smoothing_spline_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
         case 6
             [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_sum_of_sines_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
+        case 7
+            [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_Gaylard_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
     end
     GUT_PARAMS.setget_interpolation_fit(low_gl_fit, high_gl_fit);
 end

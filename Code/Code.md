@@ -1,6 +1,8 @@
 %% Begin Waypoint %%
 - **docs**
 	- [Arterial](./docs/Arterial.md)
+	- [Dependency Graph Hor.png](./docs/Dependency%20Graph%20Hor.png)
+	- [Dependency Graph Vert.png](./docs/Dependency%20Graph%20Vert.png)
 	- [Dependency Graph.png](./docs/Dependency%20Graph.png)
 	- [find_gl_glucose](./docs/find_gl_glucose.md)
 	- [Food](./docs/Food.md)
@@ -21,6 +23,8 @@
 	- [gl_fit_testing.m](./src/gl_fit_testing.m)
 	- [gl_fourier_fit.m](./src/gl_fourier_fit.m)
 	- [gl_gaussian_fit.m](./src/gl_gaussian_fit.m)
+	- [gl_Gaylard_fit.asv](./src/gl_Gaylard_fit.asv)
+	- [gl_Gaylard_fit.m](./src/gl_Gaylard_fit.m)
 	- [gl_interpolation_fit.m](./src/gl_interpolation_fit.m)
 	- [gl_polynomial_fit.m](./src/gl_polynomial_fit.m)
 	- [gl_smoothing_spline_fit.m](./src/gl_smoothing_spline_fit.m)
@@ -39,8 +43,6 @@
 	- [O2_fed_fasting.m](./src/O2_fed_fasting.m)
 	- [OverallLoop.m](./src/OverallLoop.m)
 	- [sigfit.m](./src/sigfit.m)
-	- [testing_O2.m](./src/testing_O2.m)
-	- [testing.m](./src/testing.m)
 	- [unit_tests.m](./src/unit_tests.m)
 
 %% End Waypoint %%
