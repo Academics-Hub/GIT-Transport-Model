@@ -41,11 +41,9 @@
 	- [Main.m](./src/Main.m)
 	- [O2_Absorption.m](./src/O2_Absorption.m)
 	- [O2_CO2.m](./src/O2_CO2.m)
-	- [O2_fed_fasting.asv](./src/O2_fed_fasting.asv)
 	- [O2_fed_fasting.m](./src/O2_fed_fasting.m)
 	- [OverallLoop.m](./src/OverallLoop.m)
 	- [sigfit.m](./src/sigfit.m)
-	- [thermo.asv](./src/thermo.asv)
 	- [thermo.m](./src/thermo.m)
 	- [unit_tests.m](./src/unit_tests.m)
 
