@@ -75,73 +75,74 @@
 0	.obsidian/workspace.json	/^      {$/;"	o	array:left.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:main.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:right.children
-0	.obsidian/workspace.json	/^    "Research-notes\/Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
+0	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
 1	.obsidian/core-plugins.json	/^  "global-search",$/;"	s
 1	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-1	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
+1	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
-10	.obsidian/workspace.json	/^    "Research\/Regulation of Intestinal Blood Flow.pdf",$/;"	s	array:lastOpenFiles
+10	.obsidian/workspace.json	/^    "Research\/Partial pressure of oxygen in the human body: a general review.pdf",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
-11	.obsidian/workspace.json	/^    "Research\/Physiologic hypoxia and oxygen homeostasis in the healthy intestine.A Review in t/;"	s	array:lastOpenFiles
+11	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
 12	.obsidian/core-plugins.json	/^  "command-palette",$/;"	s
-12	.obsidian/workspace.json	/^    "Research\/Physiologic evaluation of factors controlling glucose tolerance in man: measureme/;"	s	array:lastOpenFiles
+12	.obsidian/workspace.json	/^    "Research-notes\/Resource links.md",$/;"	s	array:lastOpenFiles
 13	.obsidian/core-plugins.json	/^  "editor-status",$/;"	s
-13	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
+13	.obsidian/workspace.json	/^    "Research-notes\/Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
 14	.obsidian/core-plugins.json	/^  "bookmarks",$/;"	s
-14	.obsidian/workspace.json	/^    "Research-notes\/Resource links.md",$/;"	s	array:lastOpenFiles
+14	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
 15	.obsidian/core-plugins.json	/^  "outline",$/;"	s
-15	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
+15	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
 16	.obsidian/core-plugins.json	/^  "word-count",$/;"	s
-16	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fits.png",$/;"	s	array:lastOpenFiles
+16	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
 17	.obsidian/core-plugins.json	/^  "file-recovery"$/;"	s
-17	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fits.png",$/;"	s	array:lastOpenFiles
-18	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Vert.png",$/;"	s	array:lastOpenFiles
-19	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Hor.png",$/;"	s	array:lastOpenFiles
+17	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fits.png",$/;"	s	array:lastOpenFiles
+18	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fits.png",$/;"	s	array:lastOpenFiles
+19	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Vert.png",$/;"	s	array:lastOpenFiles
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
-20	.obsidian/workspace.json	/^    "Resource links.md",$/;"	s	array:lastOpenFiles
-21	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
-22	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
-23	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_polyfit.png",$/;"	s	array:lastOpenFiles
-24	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_polyfit.png",$/;"	s	array:lastOpenFiles
-25	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
-26	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
-27	.obsidian/workspace.json	/^    "Code\/docs\/git_transport_model_flow.png",$/;"	s	array:lastOpenFiles
-28	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
-29	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "Research\/nutritional_goals.pdf",$/;"	s	array:lastOpenFiles
+20	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Hor.png",$/;"	s	array:lastOpenFiles
+21	.obsidian/workspace.json	/^    "Resource links.md",$/;"	s	array:lastOpenFiles
+22	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
+23	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
+24	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_polyfit.png",$/;"	s	array:lastOpenFiles
+25	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_polyfit.png",$/;"	s	array:lastOpenFiles
+26	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
+27	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
+28	.obsidian/workspace.json	/^    "Code\/docs\/git_transport_model_flow.png",$/;"	s	array:lastOpenFiles
+29	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
-30	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
-31	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
-32	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
-33	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
-34	.obsidian/workspace.json	/^    "Code\/docs\/Arterial.md",$/;"	s	array:lastOpenFiles
-35	.obsidian/workspace.json	/^    "Code\/Code.md",$/;"	s	array:lastOpenFiles
-36	.obsidian/workspace.json	/^    "CHANGELOG.md",$/;"	s	array:lastOpenFiles
-37	.obsidian/workspace.json	/^    "Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
-38	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
-39	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Research\/Why is the partial oxygen pressure of human tissues a crucial parameter? Small mo/;"	s	array:lastOpenFiles
+30	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
+31	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+32	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
+33	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
+34	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
+35	.obsidian/workspace.json	/^    "Code\/docs\/Arterial.md",$/;"	s	array:lastOpenFiles
+36	.obsidian/workspace.json	/^    "Code\/Code.md",$/;"	s	array:lastOpenFiles
+37	.obsidian/workspace.json	/^    "CHANGELOG.md",$/;"	s	array:lastOpenFiles
+38	.obsidian/workspace.json	/^    "Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
+39	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
-40	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
-41	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
-42	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
-43	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
-44	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md"$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Research\/The role of kidney in the inter-organ coordination of endogenous glucose producti/;"	s	array:lastOpenFiles
+40	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
+41	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
+42	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+43	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
+44	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
+45	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md"$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Research\/nutritional_goals.pdf",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "Research\/Reserve capacities of the small intestine for absorption of energy.pdf",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Research\/Why is the partial oxygen pressure of human tissues a crucial parameter? Small mo/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Research\/Regulation of Oxygen Homeostasis at the Intestinal Epithelial Barrier Site.pdf",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Research\/The role of kidney in the inter-organ coordination of endogenous glucose producti/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Research\/Regulation of Intestinal Blood Flow.pdf",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Research\/Reserve capacities of the small intestine for absorption of energy.pdf",$/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Research\/Physiologic hypoxia and oxygen homeostasis in the healthy intestine.A Review in t/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Research\/Regulation of Oxygen Homeostasis at the Intestinal Epithelial Barrier Site.pdf",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Research\/Physiologic evaluation of factors controlling glucose tolerance in man: measureme/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Additional resource links for the overleaf	Research-notes/Resource links.md	/^# Additional resource links for the overleaf$/;"	c
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
@@ -251,11 +252,13 @@ O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = (-1\/3600) * time_since_
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = (1\/3600)*time_since_last_meal + 0.15;$/;"	v
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = 0.15;$/;"	v
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = 0.65;$/;"	v
+P	Code/src/thermo.m	/^P = 59\/760; %(atm)$/;"	v
 PREVIOUS_TIME	Code/src/GUT_PARAMS.m	/^            PREVIOUS_TIME = PT_storage; $/;"	v
 PT_storage	Code/src/GUT_PARAMS.m	/^                PT_storage = previous_time;$/;"	v
 Pancreas	Code/src/OverallLoop.m	/^Pancreas = [40,1];$/;"	v
 PancreasFlowRate	Code/src/OverallLoop.m	/^PancreasFlowRate   =   300;$/;"	v
 Pull request patterns	README.md	/^## Pull request patterns$/;"	s	chapter:GIT Transport Model
+R	Code/src/thermo.m	/^R = 0.08206; %((L*atm)\/(mol*K))$/;"	v
 Repository index	README.md	/^# Repository index$/;"	c
 Research progress	Meeting logs/2023-11-07.md	/^## Research progress$/;"	s	chapter:Agenda
 START_TIME	Code/src/GUT_PARAMS.m	/^            START_TIME = ST_storage; $/;"	v
@@ -264,6 +267,7 @@ SpO2_new	Code/src/delta_gut.m	/^    SpO2_new = smooth_to_basal(SpO2, O2_usage);$
 Step 1:	Research-notes/Absorption in the GIT.md	/^# Step 1:$/;"	c
 Step 2:	Research-notes/Absorption in the GIT.md	/^# Step 2:$/;"	c
 Step 3	Research-notes/Absorption in the GIT.md	/^# Step 3 $/;"	c
+T	Code/src/thermo.m	/^T = 310; %(K)$/;"	v
 TIME	Code/src/GUT_PARAMS.m	/^            TIME = T_storage; $/;"	v
 TIME_SINCE_LAST_MEAL	Code/src/GUT_PARAMS.m	/^            TIME_SINCE_LAST_MEAL = TSLM_storage; $/;"	v
 TIME_STEP	Code/src/GUT_PARAMS.m	/^            TIME_STEP = TS_storage; $/;"	v
@@ -277,6 +281,7 @@ Time_vector	Code/src/Main.m	/^Time_vector = Time_vector\/3600;$/;"	v
 Time_vector	Code/src/Main.m	/^Time_vector = zeros(1,duration\/time_step);$/;"	v
 TotalFlowRate	Code/src/OverallLoop.m	/^TotalFlowRate  =  KidneyFlowRate + BrainFlowRate + GutFlowRate + LiverFlowRate + MuscleFlowRate /;"	v
 V	Code/src/glucose_absorption.m	/^    V = 12.7*10; %volume of distribution of glucose dL -> from Glucose uptake saturation explain/;"	v
+V	Code/src/thermo.m	/^V = 0.03712; %(ml\/min)$/;"	v
 Venous	Code/src/OverallLoop.m	/^    Venous = [MixedVenousSpO2,MixedVenousGlucose,MixedVenousInsulin];$/;"	v
 VenousMixedSpO2	Code/src/OverallLoop.m	/^VenousMixedSpO2 = 0.98;%initializing venous SpO2 at same as ArterialSpO2 for testing the 'nothin/;"	v
 Venous_Glucose_vector	Code/src/Main.m	/^Venous_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
@@ -379,6 +384,7 @@ debugLogging	.obsidian/plugins/waypoint/data.json	/^  "debugLogging": false,$/;"
 debugLogging	.obsidian/plugins/waypoint/main.js	/^  debugLogging: false,$/;"	p	variable:DEFAULT_SETTINGS
 definingcriticallimitoxygenextractionhumansmallintestine-desai	Research/GITTransportModel.bib	/^@article{definingcriticallimitoxygenextractionhumansmallintestine-desai,$/;"	a
 delta_arterial	Code/src/delta_arterial.m	/^function [venous_SpO2_new, venous_glucose_new, venous_insulin_new] = delta_arterial(arterial_SpO/;"	f
+delta_blood_glucose	Code/src/thermo.m	/^delta_blood_glucose = food_energy * (1\/4.4) * (1\/180.15588)* GutFlowRate;/;"	v
 delta_gut	Code/src/delta_gut.m	/^function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRate,time_step)$/;"	f
 description	.obsidian/plugins/waypoint/manifest.json	/^	"description": "Easily generate dynamic content maps in your folder notes. Enables folders to s/;"	s
 detectWaypointFlag	.obsidian/plugins/waypoint/main.js	/^    this.detectWaypointFlag = (file) => __async(this, null, function* () {$/;"	f	method:_Waypoint.constructor
@@ -416,6 +422,7 @@ find_gl_glucose	Code/src/find_gl_glucose.m	/^function [glucose] = find_gl_glucos
 folderNoteType	.obsidian/plugins/waypoint/data.json	/^  "folderNoteType": "INSIDE_FOLDER"$/;"	s
 folderNoteType	.obsidian/plugins/waypoint/main.js	/^  folderNoteType: FolderNoteType.InsideFolder$/;"	p	variable:DEFAULT_SETTINGS
 food	Code/src/food.m	/^function [food_glucose,GL] = food(carbs, lipids, protein, fibre, time_since_last_meal)$/;"	f
+food_energy	Code/src/thermo.m	/^food_energy = 0.95 * (carbs * 4) + 0.7 * (protein * 4) + 0.95 * (lipids * 9); %(kcal)$/;"	v
 food_glucose	Code/src/food.m	/^    food_glucose = find_gl_glucose(time_since_last_meal, GL);$/;"	v
 ft	Code/src/gl_Gaylard2_fit.m	/^ft = fittype( 'a*x^(b*x^(-c))', 'independent', 'x', 'dependent', 'y' );$/;"	v
 ft	Code/src/gl_Gaylard_fit.m	/^ft = fittype( 'x\/(1+a*x+b*sqrt(x))', 'independent', 'x', 'dependent', 'y' );$/;"	v
@@ -573,6 +580,8 @@ minAppVersion	.obsidian/plugins/waypoint/manifest.json	/^	"minAppVersion": "0.12
 minimalmodelestimationglucoseabsorptioninsulinsensitivityoraltestvalidationtracermethod-dallaman	Research/GITTransportModel.bib	/^@article{minimalmodelestimationglucoseabsorptioninsulinsensitivityoraltestvalidationtracermethod/;"	a
 mode	.obsidian/workspace.json	/^                "mode": "source",$/;"	s	object:main.children.0.children.0.state.state
 modelbasedanalysispostprandialglycemicresponsedynamicsdifferenttypesfood-rozendaal	Research/GITTransportModel.bib	/^@article{modelbasedanalysispostprandialglycemicresponsedynamicsdifferenttypesfood-rozendaal,$/;"	a
+n_O2	Code/src/thermo.m	/^n_O2 = (P*V)\/(R*T); %(mol\/min)$/;"	v
+n_glucose	Code/src/thermo.m	/^n_glucose = n_O2 \/ 6 %(mol\/min)$/;"	v
 name	.obsidian/plugins/waypoint/manifest.json	/^	"name": "Waypoint",$/;"	s
 newLinkFormat	.obsidian/app.json	/^  "newLinkFormat": "relative",$/;"	s
 new_time	Code/src/GutCalc.m	/^	new_time = calc_new_time(previous_time,TIME_STEP);$/;"	v
@@ -703,6 +712,7 @@ text	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", {
 text	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createSpan({ text: " or get in touch with the author " });$/;"	p	variable:anonymousObject1674d7362305
 text	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createSpan({ text: "For instructions on how to use this plugin, check out/;"	p	variable:anonymousObject1674d7362105
 theoryoxygentransporttissue-popel	Research/GITTransportModel.bib	/^@article{theoryoxygentransporttissue-popel,$/;"	a
+thermo	Code/src/thermo.m	/^function [food_energy, delta_blood_glucose] = thermo(carbs, protein, lipids)$/;"	f
 thickeness	Code/src/glucose_absorption_3.m	/^	thickeness = 0.005; % small intestin is 5mm thick$/;"	v
 time	Code/src/check_meal_time.m	/^    time = mod(time,86400)\/3600;$/;"	v
 time_of_day	Code/src/check_meal_time.m	/^        time_of_day = 0;$/;"	v
