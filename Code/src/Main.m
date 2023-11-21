@@ -25,6 +25,7 @@ assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an app
 % need normal gut glucose levels
 ArterialGlucose = ArterialGlucose * 10; % conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
+GutFlowRate = GutFlowRate/(1000*60); % conversion to L/s
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
@@ -43,7 +44,7 @@ duration = 24*3600; % seconds
 % 5 - smoothing spline fitting
 % 6 - sum of sines fitting
 % 7 - Gaylard fit
-initialise_gut_params(3, Gut(2), ArterialInsulin, time_step);
+initialise_gut_params(5, Gut(2), ArterialInsulin, time_step);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
@@ -152,7 +153,7 @@ subplot(3,2,2)
 plot(Time_vector,Insulin_vector)
 title('Change in Insulin')
 xlabel('Time (hrs)')
-ylabel('Insulin (mU/L)', 'Rotation', 0)
+ylabel('Insulin (\muU/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)

@@ -195,6 +195,7 @@ Gut	Code/src/Main.m	/^Gut = [0.4,5]; % initialising Gut to what we'll recommend$
 Gut	Code/src/OverallLoop.m	/^Gut = [40,1];$/;"	v
 GutCalc	Code/src/GutCalc.m	/^function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)$/;"	f
 GutFlowRate	Code/src/Main.m	/^GutFlowRate = 500;$/;"	v
+GutFlowRate	Code/src/Main.m	/^GutFlowRate = GutFlowRate\/(1000*60); % conversion to L\/s$/;"	v
 GutFlowRate	Code/src/OverallLoop.m	/^GutFlowRate = 500;$/;"	v
 GutFlowRate	Code/src/glucose_absorption_2.m	/^	GutFlowRate = GutFlowRate * 1000 \/ (60 * time_step); % L\/time_step -> L\/s$/;"	v
 GutNew	Code/src/GutCalc.m	/^	GutNew = zeros(1,2);$/;"	v
@@ -452,7 +453,7 @@ glucose_absorption_3	Code/src/glucose_absorption_3.m	/^function [GutOut_glucose,
 glucose_change_plasma	Code/src/glucose_absorption.m	/^    glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) + glucose_output\/(p1*V); /;"	v
 glucose_change_plasma	Code/src/glucose_absorption.m	/^    glucose_change_plasma = glucose_change_plasma \/ 18.0182; %convert to mmol\/L$/;"	v
 glucose_input	Code/src/glucose_absorption.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input * 18; %convert to mg\/dL$/;"	v
-glucose_new	Code/src/delta_gut.m	/^	glucose_new = absorption - glucose_output; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^	glucose_new = glucose_output - absorption; % net glucose$/;"	v
 glucose_output	Code/src/glucose_absorption.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
