@@ -25,7 +25,7 @@ assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an app
 % need normal gut glucose levels
 ArterialGlucose = ArterialGlucose * 10; % conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
-GutFlowRate = GutFlowRate/(1000*60); % conversion to L/s
+GutFlowRate = GutFlowRate/(1000); % conversion to L/min
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
@@ -45,7 +45,33 @@ duration = 24*3600; % seconds
 % 6 - sum of sines fitting
 % 7 - Gaylard fit
 % 8 - Gaylard2 fit
-initialise_gut_params(5, Gut(2), ArterialInsulin, time_step);
+
+% start_time -> will shift the meal times -> 24h00 format
+start_time = 0;
+% Meal times -> 24h00 format
+Meal_times = [ 7 , 13, 19 ];
+% Meals -> must equal the number of meal times -> each row -> carbs proteins lipids fibres -> grams
+% values assuming an RDA for a 19-30yr old, eating 2400kcal per day, weighing 70kg
+	% for a 2400kcal diet, it is recommended that 25-35% be lipids. Therefore 2400*0.275 = 660kcal
+	% 1g of lipids = 9kcal, therefore 660/9 = 73.33g total
+	% for proteins 0.66 g/kg of body weight is recommended, therefore 0.66*70 = 46.2g
+	% 14g of fibre per 1000kcal is recommended, therefore 14*2.4 = 33.6g
+
+Meals = [   43.33 24.44 15.4 11.2;
+            43.33 24.44 15.4 11.2;
+            43.33 24.44 15.4 11.2
+        ];
+%% Test meals = meal time
+assert( size(Meals,1) == numel(Meal_times), 'Meals does not have the same number of rows as number of meal times')
+% define patient
+% sex: male = 0
+% sex: female = 1
+sex = 0;
+weight = 70; %kg
+height = 180; %cm
+age = 25; %years
+patient = [ sex, weight, height, age ];
+initialise_gut_params(5, Gut(2), ArterialInsulin, time_step, start_time, Meal_times, Meals, patient);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);

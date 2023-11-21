@@ -12,10 +12,6 @@ classdef GUT_PARAMS
     %   - gut O2
     %   - gut CO2
     %   - glucose input
-    %   - gender
-    %   - age
-    %   - weight
-    %   - height
     %   - meal
     %   - meal times
     %   - start time
@@ -132,7 +128,7 @@ classdef GUT_PARAMS
             LOW_GL_FIT = LOW_GL_FIT_STORAGE;
         end
         % function to set and get meals
-        function MEALS = setget_mealS(meals)
+        function MEALS = setget_meals(meals)
             persistent M_storage;
             if nargin
                 M_storage = meals;
@@ -154,6 +150,14 @@ classdef GUT_PARAMS
                 ST_storage = start_time;
             end
             START_TIME = ST_storage; 
+        end
+        % function to set and get a patient array
+        function PATIENT = setget_patient(patient)
+            persistent P_storage;
+            if nargin
+                P_storage = patient;
+            end
+            PATIENT = P_storage; 
         end
     end
 end

@@ -6,12 +6,12 @@
 % Age (years)
 % GutFlowRate (l/min)
 
-function[delta_blood_glucose] = BMR(step, gender, weight, height, age, GutFlowRate)
+function[delta_blood_glucose] = BMR(step, sex, weight, height, age, GutFlowRate)
 
 % Gender: male = 0
 % Gender: female = 1
 
-if gender == 0
+if sex == 0
     total_basal_metabolic_rate = 88.362 + 13.397 * weight + 4.799 * height - 5.677 * age;
 else
     total_basal_metabolic_rate = 447.593 + 9.247 * weight + 3.098 * height - 4.330 * age;

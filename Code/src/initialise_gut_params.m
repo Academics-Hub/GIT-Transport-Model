@@ -1,4 +1,4 @@
-function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step)
+function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step, start_time, Meal_times, Meals, patient)
     % This function initialises the parameters for the gut model
     GUT_PARAMS.setget_time(0); % always intialise time to 0
     GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
@@ -31,4 +31,11 @@ function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialIns
             [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_Gaylard2_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
     end
     GUT_PARAMS.setget_interpolation_fit(low_gl_fit, high_gl_fit);
-end
+    GUT_PARAMS.setget_start_time(start_time);
+    % adjust meal times to be relative to start time
+    Meal_times = Meal_times - start_time;
+    GUT_PARAMS.setget_meal_times(Meal_times);
+    GUT_PARAMS.setget_meals(Meals);
+    GUT_PARAMS.setget_time_step(time_step);
+    GUT_PARAMS.setget_patient(patient);
+end 
