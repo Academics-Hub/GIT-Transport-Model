@@ -30,4 +30,17 @@ function [glucose] = find_gl_glucose(time_since_last_meal, glycemic_load)
 		fprintf('glucose: %f\n',glucose);
 	end
 
+    % temp plot to evaluate the fitting
+    t = 0:1:7200;
+    figure('Name','low glycemic load glucose');
+    plot(time_series,low_gl_glucose_data,'o',t,polyval(low_gl_glucose,t),'-');
+    legend('data','3rd degree polynomial fit');
+    xlabel('time (s)');
+    ylabel('glucose (mg/dL)');
+
+    figure('Name','high glycemic load glucose');
+    plot(time_series,high_gl_glucose_data,'o',t,polyval(high_gl_glucose,t),'-');
+    legend('data','3rd degree polynomial fit');
+    xlabel('time (s)');
+    ylabel('glucose (mg/dL)');
 end

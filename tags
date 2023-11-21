@@ -81,61 +81,66 @@
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
 1	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
-10	.obsidian/workspace.json	/^    "Code\/src\/delta_arterial.m~",$/;"	s	array:lastOpenFiles
+10	.obsidian/workspace.json	/^    "Code\/src\/gl_curve_fitting.sfit",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
-11	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
+11	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
 12	.obsidian/core-plugins.json	/^  "command-palette",$/;"	s
-12	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
+12	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
 13	.obsidian/core-plugins.json	/^  "editor-status",$/;"	s
-13	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
+13	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_polyfit.png",$/;"	s	array:lastOpenFiles
 14	.obsidian/core-plugins.json	/^  "bookmarks",$/;"	s
-14	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
+14	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_polyfit.png",$/;"	s	array:lastOpenFiles
 15	.obsidian/core-plugins.json	/^  "outline",$/;"	s
-15	.obsidian/workspace.json	/^    "Code\/docs\/git_transport_model_flow.png",$/;"	s	array:lastOpenFiles
+15	.obsidian/workspace.json	/^    "Research-notes\/Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
 16	.obsidian/core-plugins.json	/^  "word-count",$/;"	s
-16	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
+16	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
 17	.obsidian/core-plugins.json	/^  "file-recovery"$/;"	s
-17	.obsidian/workspace.json	/^    "Code\/Code.md",$/;"	s	array:lastOpenFiles
-18	.obsidian/workspace.json	/^    "CHANGELOG.md",$/;"	s	array:lastOpenFiles
-19	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231111150050.png",$/;"	s	array:lastOpenFiles
+17	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
+18	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
+19	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-20.m",$/;"	s	array:lastOpenFiles
-20	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
-21	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
-22	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
-23	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
-24	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
-25	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
-26	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
-27	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
-28	.obsidian/workspace.json	/^    "Code\/docs\/Arterial.md",$/;"	s	array:lastOpenFiles
-29	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "Code\/src\/gl_fit_testing.m~",$/;"	s	array:lastOpenFiles
+20	.obsidian/workspace.json	/^    "Code\/docs\/git_transport_model_flow.png",$/;"	s	array:lastOpenFiles
+21	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
+22	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
+23	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+24	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
+25	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
+26	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
+27	.obsidian/workspace.json	/^    "Code\/docs\/Arterial.md",$/;"	s	array:lastOpenFiles
+28	.obsidian/workspace.json	/^    "Code\/Code.md",$/;"	s	array:lastOpenFiles
+29	.obsidian/workspace.json	/^    "CHANGELOG.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/Main.m~",$/;"	s	array:lastOpenFiles
-30	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
-31	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
-32	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
-33	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
-34	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md",$/;"	s	array:lastOpenFiles
-35	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174942.png",$/;"	s	array:lastOpenFiles
-36	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174522.png",$/;"	s	array:lastOpenFiles
-37	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png",$/;"	s	array:lastOpenFiles
-38	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174301.png"$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/src\/gl_interpolation_fit.m~",$/;"	s	array:lastOpenFiles
+30	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231111150050.png",$/;"	s	array:lastOpenFiles
+31	.obsidian/workspace.json	/^    "Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
+32	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
+33	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
+34	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
+35	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
+36	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
+37	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+38	.obsidian/workspace.json	/^    "docs\/Food.md",$/;"	s	array:lastOpenFiles
+39	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "tags",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/src\/gl_fit_testing.m",$/;"	s	array:lastOpenFiles
+40	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md",$/;"	s	array:lastOpenFiles
+41	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174942.png",$/;"	s	array:lastOpenFiles
+42	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174522.png",$/;"	s	array:lastOpenFiles
+43	.obsidian/workspace.json	/^    "Attachments\/Pasted image 20231025174348.png"$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Code\/src\/testing.m",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "Code\/src\/gl_interpolation_fit.m",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Code\/src\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/src\/gl_gaussian_fit.m",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Code\/src\/glucose_aborption_2.m",$/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Code\/src\/gl_polynomial_fit.m",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Code\/src\/gl_sum_of_sines_fit.m",$/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Code\/src\/delta_gut.m~",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Code\/src\/gl_smoothing_spline_fit.m",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
 Arterial	Code/src/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
@@ -198,7 +203,7 @@ Gut	Code/src/testing.m	/^    Gut = [glucose_change_plasma, 1]; % assuming 1 for 
 Gut	Code/src/testing.m	/^Gut = [40, 1]; % initializing Gut to what we'll recommend$/;"	v
 Gut	Code/src/testing_O2.m	/^Gut = [40, 1]; % initializing Gut to what we'll recommend$/;"	v
 GutCalc	Code/src/GutCalc.m	/^function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)$/;"	f
-GutFlowRate	Code/src/Main.m	/^GutFlowRate = 500;$/;"	v
+GutFlowRate	Code/src/Main.m	/^GutFlowRate = 500\/1000;$/;"	v
 GutFlowRate	Code/src/OverallLoop.m	/^GutFlowRate = 500;$/;"	v
 GutFlowRate	Code/src/glucose_absorption.m	/^	GutFlowRate = GutFlowRate * 1000 \/ (60 * time_step); % L\/time_step -> L\/s$/;"	v
 GutFlowRate	Code/src/testing.m	/^GutFlowRate = 500; %ml \/ min$/;"	v
@@ -390,10 +395,10 @@ extraContext	.obsidian/workspace.json	/^                "extraContext": false,$/
 extraContext	.obsidian/workspace.json	/^                "extraContext": false,$/;"	b	object:right.children.0.children.0.state.state
 fibre	Code/src/glucose_output_model.m	/^	    fibre = 0;$/;"	v
 fibre	Code/src/glucose_output_model.m	/^	    fibre = single(11.2);$/;"	v
-file	.obsidian/workspace.json	/^                "file": "Code\/docs\/find_gl_glucose.md"$/;"	s	object:right.children.0.children.3.state.state
-file	.obsidian/workspace.json	/^                "file": "Code\/docs\/find_gl_glucose.md",$/;"	s	object:main.children.0.children.0.state.state
-file	.obsidian/workspace.json	/^                "file": "Code\/docs\/find_gl_glucose.md",$/;"	s	object:right.children.0.children.0.state.state
-file	.obsidian/workspace.json	/^                "file": "Code\/docs\/find_gl_glucose.md",$/;"	s	object:right.children.0.children.1.state.state
+file	.obsidian/workspace.json	/^                "file": "README.md"$/;"	s	object:right.children.0.children.3.state.state
+file	.obsidian/workspace.json	/^                "file": "README.md",$/;"	s	object:main.children.0.children.0.state.state
+file	.obsidian/workspace.json	/^                "file": "README.md",$/;"	s	object:right.children.0.children.0.state.state
+file	.obsidian/workspace.json	/^                "file": "README.md",$/;"	s	object:right.children.0.children.1.state.state
 file-explorer	.obsidian/core-plugins-migration.json	/^  "file-explorer": true,$/;"	b
 file-recovery	.obsidian/core-plugins-migration.json	/^  "file-recovery": true,$/;"	b
 find_gl_glucose	Code/src/find_gl_glucose.m	/^function [glucose] = find_gl_glucose(time_since_last_meal, glycemic_load)$/;"	f
@@ -401,6 +406,12 @@ folderNoteType	.obsidian/plugins/waypoint/data.json	/^  "folderNoteType": "INSID
 folderNoteType	.obsidian/plugins/waypoint/main.js	/^  folderNoteType: FolderNoteType.InsideFolder$/;"	p	variable:DEFAULT_SETTINGS
 food	Code/src/food.m	/^function [food_glucose,GL] = food(carbs, lipids, protein, fibre, time_since_last_meal)$/;"	f
 food_glucose	Code/src/food.m	/^    food_glucose = find_gl_glucose(time_since_last_meal, GL);$/;"	v
+ft	Code/src/gl_fourier_fit.m	/^ft = fittype( 'fourier2' );$/;"	v
+ft	Code/src/gl_gaussian_fit.m	/^ft = fittype( 'gauss2' );$/;"	v
+ft	Code/src/gl_interpolation_fit.m	/^ft = 'pchipinterp';$/;"	v
+ft	Code/src/gl_polynomial_fit.m	/^ft = fittype( 'poly4' );$/;"	v
+ft	Code/src/gl_smoothing_spline_fit.m	/^ft = fittype( 'smoothingspline' );$/;"	v
+ft	Code/src/gl_sum_of_sines_fit.m	/^ft = fittype( 'sin2' );$/;"	v
 ft	Code/src/sigfit.m	/^ft = fittype( 'logistic' );$/;"	v
 fulfilled	.obsidian/plugins/waypoint/main.js	/^    var fulfilled = (value) => {$/;"	f
 get	.obsidian/plugins/waypoint/main.js	/^    __defProp(target, name, { get: all[name], enumerable: true });$/;"	p	variable:anonymousObject1674d7360205
@@ -408,6 +419,12 @@ getCleanParentPath	.obsidian/plugins/waypoint/main.js	/^  getCleanParentPath(nod
 getEncodedUri	.obsidian/plugins/waypoint/main.js	/^  getEncodedUri(rootNode, node) {$/;"	m	class:_Waypoint
 getFileTreeRepresentation	.obsidian/plugins/waypoint/main.js	/^  getFileTreeRepresentation(rootNode, node, indentLevel, topLevel = false) {$/;"	m	class:_Waypoint
 getParentFolder	.obsidian/plugins/waypoint/main.js	/^  getParentFolder(path) {$/;"	m	class:_Waypoint
+gl_fourier_fit	Code/src/gl_fourier_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_gaussian_fit	Code/src/gl_gaussian_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_interpolation_fit	Code/src/gl_interpolation_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_polynomial_fit	Code/src/gl_polynomial_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_smoothing_spline_fit	Code/src/gl_smoothing_spline_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_sum_of_sines_fit	Code/src/gl_sum_of_sines_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 global-search	.obsidian/core-plugins-migration.json	/^  "global-search": true,$/;"	b
 glucose	Code/src/find_gl_glucose.m	/^		glucose = 0;$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^		glucose = polyval(high_gl_glucose, time_since_last_meal);$/;"	v
@@ -420,7 +437,7 @@ glucose_absorption_3	Code/src/glucose_absorption_3.m	/^function [GutOut_glucose,
 glucose_change_plasma	Code/src/glucose_absorption_2.m	/^    glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) - glucose_output\/(p1*V);$/;"	v
 glucose_change_plasma_values	Code/src/testing.m	/^glucose_change_plasma_values = zeros(size(time));$/;"	v
 glucose_input	Code/src/glucose_absorption_2.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input;$/;"	v
-glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption - glucose_output; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^	glucose_new = gut_glucose + absorption; % net glucose$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
 glucose_output_model	Code/src/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, I/;"	f
@@ -453,8 +470,20 @@ high_gl_glucose	Code/src/find_gl_glucose.m	/^	high_gl_glucose = polyfit(time_ser
 high_gl_glucose	Code/src/sigfit.m	/^high_gl_glucose = fit( xData, yData, ft, opts );$/;"	v
 high_gl_glucose_data	Code/src/find_gl_glucose.m	/^	high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
 high_gl_glucose_data	Code/src/find_gl_glucose.m	/^	high_gl_glucose_data = zscore(high_gl_glucose_data);$/;"	v
+high_gl_glucose_data	Code/src/gl_fit_testing.m	/^high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
 high_gl_glucose_data	Code/src/sigfit.m	/^high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
-high_gl_glucose_data	Code/src/sigfit.m	/^high_gl_glucose_data = zscore(high_gl_glucose_data);$/;"	v
+high_gl_xdata	Code/src/gl_fourier_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Code/src/gl_gaussian_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Code/src/gl_interpolation_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Code/src/gl_polynomial_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Code/src/gl_smoothing_spline_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Code/src/gl_sum_of_sines_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_ydata	Code/src/gl_fourier_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Code/src/gl_gaussian_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Code/src/gl_interpolation_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Code/src/gl_polynomial_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Code/src/gl_smoothing_spline_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Code/src/gl_sum_of_sines_fit.m	/^high_gl_ydata = yData;$/;"	v
 href	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/github.com\/IdreesInc\/Waypoin/;"	p	property:anonymousObject1674d7362205.attr
 href	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/twitter.com\/IdreesInc" }, tex/;"	p	property:anonymousObject1674d7362405.attr
 id	.obsidian/plugins/waypoint/manifest.json	/^	"id": "waypoint",$/;"	s
@@ -489,8 +518,20 @@ low_gl_glucose	Code/src/find_gl_glucose.m	/^	low_gl_glucose = polyfit(time_serie
 low_gl_glucose	Code/src/sigfit.m	/^low_gl_glucose = fit( xData, yData, ft, opts );$/;"	v
 low_gl_glucose_data	Code/src/find_gl_glucose.m	/^	low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
 low_gl_glucose_data	Code/src/find_gl_glucose.m	/^	low_gl_glucose_data = zscore(low_gl_glucose_data);$/;"	v
+low_gl_glucose_data	Code/src/gl_fit_testing.m	/^low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
 low_gl_glucose_data	Code/src/sigfit.m	/^low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
-low_gl_glucose_data	Code/src/sigfit.m	/^low_gl_glucose_data = zscore(low_gl_glucose_data);$/;"	v
+low_gl_xdata	Code/src/gl_fourier_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Code/src/gl_gaussian_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Code/src/gl_interpolation_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Code/src/gl_polynomial_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Code/src/gl_smoothing_spline_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Code/src/gl_sum_of_sines_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_ydata	Code/src/gl_fourier_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Code/src/gl_gaussian_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Code/src/gl_interpolation_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Code/src/gl_polynomial_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Code/src/gl_smoothing_spline_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Code/src/gl_sum_of_sines_fit.m	/^low_gl_ydata = yData;$/;"	v
 main	.obsidian/workspace.json	/^  "main": {$/;"	o
 markdown-importer	.obsidian/core-plugins-migration.json	/^  "markdown-importer": false,$/;"	b
 matchingCase	.obsidian/workspace.json	/^                "matchingCase": false,$/;"	b	object:left.children.0.children.1.state.state
@@ -507,6 +548,11 @@ note-composer	.obsidian/core-plugins-migration.json	/^  "note-composer": true,$/
 numeric	.obsidian/plugins/waypoint/main.js	/^            return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });$/;"	p	variable:anonymousObject1674d7361205
 onload	.obsidian/plugins/waypoint/main.js	/^  onload() {$/;"	m	class:_Waypoint
 onunload	.obsidian/plugins/waypoint/main.js	/^  onunload() {$/;"	m	class:_Waypoint
+opts	Code/src/gl_fourier_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Code/src/gl_gaussian_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Code/src/gl_interpolation_fit.m	/^opts = fitoptions( 'Method', 'PchipInterpolant' );$/;"	v
+opts	Code/src/gl_polynomial_fit.m	/^opts = fitoptions( 'Method', 'LinearLeastSquares' );$/;"	v
+opts	Code/src/gl_sum_of_sines_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
 opts	Code/src/sigfit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
 outgoing-link	.obsidian/core-plugins-migration.json	/^  "outgoing-link": true,$/;"	b
 outline	.obsidian/core-plugins-migration.json	/^  "outline": true,$/;"	b
@@ -600,9 +646,11 @@ stopScanAtFolderNotes	.obsidian/plugins/waypoint/main.js	/^  stopScanAtFolderNot
 switcher	.obsidian/core-plugins-migration.json	/^  "switcher": true,$/;"	b
 switcher:Open quick switcher	.obsidian/workspace.json	/^      "switcher:Open quick switcher": false,$/;"	b	object:left-ribbon.hiddenItems
 sync	.obsidian/core-plugins-migration.json	/^  "sync": false$/;"	b
+t	Code/src/find_gl_glucose.m	/^    t = 0:1:7200;$/;"	v
 tag-pane	.obsidian/core-plugins-migration.json	/^  "tag-pane": true,$/;"	b
 templates	.obsidian/core-plugins-migration.json	/^  "templates": true,$/;"	b
 templates:Insert template	.obsidian/workspace.json	/^      "templates:Insert template": false,$/;"	b	object:left-ribbon.hiddenItems
+tests	Code/src/unit_tests.m	/^    tests = functiontests(localfunctions);$/;"	v
 text	.obsidian/plugins/waypoint/main.js	/^    containerEl.createEl("h2", { text: "Waypoint Settings" });$/;"	p	variable:anonymousObject1674d7361705
 text	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/github.com\/IdreesInc\/Waypoin/;"	p	variable:anonymousObject1674d7362205
 text	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/twitter.com\/IdreesInc" }, tex/;"	p	variable:anonymousObject1674d7362405
@@ -619,7 +667,8 @@ time_of_day	Code/src/check_meal_time.m	/^        time_of_day = 2;$/;"	v
 time_of_day	Code/src/check_meal_time.m	/^        time_of_day = 3;$/;"	v
 time_of_day	Code/src/glucose_output_model.m	/^	time_of_day = check_meal_time(time);$/;"	v
 time_series	Code/src/find_gl_glucose.m	/^	time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
-time_series	Code/src/sigfit.m	/^time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
+time_series	Code/src/gl_fit_testing.m	/^time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
+time_series	Code/src/sigfit.m	/^time_series = [0.00000000001,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = -1;$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = 0;$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = time_since_last_meal + time_step;$/;"	v
@@ -648,6 +697,7 @@ type	.obsidian/workspace.json	/^        "type": "tabs",$/;"	s	object:right.child
 type	.obsidian/workspace.json	/^    "type": "split",$/;"	s	object:left
 type	.obsidian/workspace.json	/^    "type": "split",$/;"	s	object:main
 type	.obsidian/workspace.json	/^    "type": "split",$/;"	s	object:right
+unit_tests	Code/src/unit_tests.m	/^function tests = unit_tests$/;"	f
 unlinkedCollapsed	.obsidian/workspace.json	/^                "unlinkedCollapsed": true$/;"	b	object:right.children.0.children.0.state.state
 unlinkedCollapsed	.obsidian/workspace.json	/^                "unlinkedCollapsed": true$/;"	b	object:right.children.0.children.1.state.state
 updateChangedFolders	.obsidian/plugins/waypoint/main.js	/^    this.updateChangedFolders = () => __async(this, null, function* () {$/;"	f	method:_Waypoint.constructor
