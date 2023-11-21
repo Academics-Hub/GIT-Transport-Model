@@ -1,3 +1,4 @@
-function tests = unit_tests
-    tests = functiontests(localfunctions);
-end
+%function tests = unit_tests
+%    tests = functiontests(localfunctions);
+%end
+result = runtests('Main.m');

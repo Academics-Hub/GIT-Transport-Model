@@ -3,6 +3,7 @@ classdef GUT_PARAMS
     %   - time
     %   - previous time
     %   - time since last meal
+    %   - time step
     %   - current glycemic load
     %   - glucose output
     %   - glucose absorption
@@ -15,6 +16,9 @@ classdef GUT_PARAMS
     %   - age
     %   - weight
     %   - height
+    %   - meal
+    %   - meal times
+    %   - start time
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -43,6 +47,14 @@ classdef GUT_PARAMS
                 TSLM_storage = time_since_last_meal;
             end
             TIME_SINCE_LAST_MEAL = TSLM_storage; 
+        end
+        % function to set and get the time step
+        function TIME_STEP = setget_time_step(time_step)
+            persistent TS_storage;
+            if nargin
+                TS_storage = time_step;
+            end
+            TIME_STEP = TS_storage; 
         end
         % function to set and get the current glycemic load
         function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)
@@ -118,6 +130,30 @@ classdef GUT_PARAMS
             end
             HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;
             LOW_GL_FIT = LOW_GL_FIT_STORAGE;
+        end
+        % function to set and get meals
+        function MEALS = setget_mealS(meals)
+            persistent M_storage;
+            if nargin
+                M_storage = meals;
+            end
+            MEALS = M_storage; 
+        end
+        % function to set and get meal times    
+        function MEAL_TIMES = setget_meal_times(meal_times)
+            persistent MT_storage;
+            if nargin
+                MT_storage = meal_times;
+            end
+            MEAL_TIMES = MT_storage; 
+        end
+        % function to set and get start time
+        function START_TIME = setget_start_time(start_time)
+            persistent ST_storage;
+            if nargin
+                ST_storage = start_time;
+            end
+            START_TIME = ST_storage; 
         end
     end
 end

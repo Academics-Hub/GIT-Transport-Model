@@ -40,8 +40,8 @@ opts.StartPoint = [0.695140499551737 0.0679927684700106];
 %% Fit: 'LowGL Gaylard fit'.
 [xData, yData] = prepareCurveData( time_series, low_gl_glucose_data );
 
-low_gl_xData = xData;
-low_gl_yData = yData;
+low_gl_xdata = xData;
+low_gl_ydata = yData;
 % Set up fittype and options.
 ft = fittype( 'x/(1+a*x+b*sqrt(x))', 'independent', 'x', 'dependent', 'y' );
 opts = fitoptions( 'Method', 'NonlinearLeastSquares' );

@@ -2,6 +2,7 @@ clear
 clc
 cla
 % main script to test functions
+%suite = testsuite;
 
 % testing overall model things
 GutFlowRate = 500/1000;
@@ -9,13 +10,21 @@ GutFlowRate = 500/1000;
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
 ArterialInsulin = 10;
-ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
+%ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
 ArterialGlucose = cast(ArterialGlucose, 'double');
 ArterialInsulin = cast(ArterialInsulin, 'double');
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
 time_step = 0.5; % seconds
 Gut = [0.4,5]; % initialising Gut to what we'll recommend
+%% check initial input values
+% need normal gut flow rates
+assert( ArterialSpO2 > 0 && ArterialSpO2 < 1, 'Arterial SpO2 is not initialised to an appropriate physiological value\nIt should be between 0 and 1')
+assert( ArterialGlucose > 0 && ArterialGlucose < 5.6, 'Arterial Glucose is not initialised to an appropriate physiological value\nIt should be between 0 and 5.6mmol/L in a fasting state')
+assert( ArterialInsulin > 0 && ArterialInsulin < 15, 'Arterial Insulin is not initialised to an appropriate physiological value\nIt should be between 0 and 15mU/L in a fasting state')
+assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an appropriate physiological value\nIt should be between 0.076(7.6%) and 0.98(98%)')
+% need normal gut glucose levels
+
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
@@ -33,7 +42,8 @@ duration = 24*3600; % seconds
 % 4 - interpolation fitting
 % 5 - smoothing spline fitting
 % 6 - sum of sines fitting
-initialise_gut_params(6, Gut(2), ArterialInsulin);
+% 7 - Gaylard fit
+initialise_gut_params(7, Gut(2), ArterialInsulin, time_step);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
@@ -142,7 +152,7 @@ subplot(3,2,2)
 plot(Time_vector,Insulin_vector)
 title('Change in Insulin')
 xlabel('Time (hrs)')
-ylabel('Insulin (mmol/L)', 'Rotation', 0)
+ylabel('Insulin (mU/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -150,7 +160,7 @@ xticks(0:1:duration/3600)
 subplot(3,2,3)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
 plot(Time_vector,Gut_Oxygen_vector)
-title('Gut Oxygen')
+title('Change of Gut O2')
 xlabel('Time (hrs)')
 ylabel('Oxygen (mole)', 'Rotation', 0)
 grid on
@@ -160,7 +170,7 @@ xticks(0:1:duration/3600)
 subplot(3,2,4)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
 plot(Time_vector,Gut_Co2_vector)
-title('Gut CO2')
+title('Change of Gut CO2')
 xlabel('Time (hrs)')
 ylabel('CO2 (mole)', 'Rotation', 0)
 grid on
@@ -192,3 +202,5 @@ xticks(0:1:duration/3600)
 %for i = 1:20
 %    fprintf('Gut SpO2: %d\n', Gut_SpO2_vector(i))
 %end
+
+
