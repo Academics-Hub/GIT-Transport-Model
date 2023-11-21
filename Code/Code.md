@@ -10,6 +10,8 @@
 	- [GutCalc](./docs/GutCalc.md)
 	- [README](./docs/README.md)
 - **src**
+	- [BMR.asv](./src/BMR.asv)
+	- [BMR.m](./src/BMR.m)
 	- [check_meal_time.m](./src/check_meal_time.m)
 	- [delta_arterial.m](./src/delta_arterial.m)
 	- [delta_gut.m](./src/delta_gut.m)

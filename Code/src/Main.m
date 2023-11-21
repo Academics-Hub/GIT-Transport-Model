@@ -4,7 +4,7 @@ cla
 % main script to test functions
 
 % testing overall model things
-GutFlowRate = 500;
+GutFlowRate = 500/1000;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
@@ -121,7 +121,7 @@ subplot(4,1,4)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -133,7 +133,7 @@ subplot(3,2,1)
 plot(Time_vector,Arterial_Glucose_vector)
 title('Change in Arterial Glucose')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/dL)', 'Rotation', 0)
+ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
