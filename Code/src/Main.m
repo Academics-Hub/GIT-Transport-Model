@@ -5,7 +5,7 @@ cla
 %suite = testsuite;
 
 % testing overall model things
-GutFlowRate = 500;
+GutFlowRate = 500/1000;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
