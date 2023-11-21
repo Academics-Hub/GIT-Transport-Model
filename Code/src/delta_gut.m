@@ -12,9 +12,9 @@ function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRat
 	GUT_PARAMS.setget_glucose_absorption(absorption);
     % piecewise function for glucose_new    
     if GUT_PARAMS.setget_time == 0 || GUT_PARAMS.setget_time == 0.5 
-        glucose_new = GUT_PARAMS.setget_glucose_input + glucose_output - absorption; % net glucose
+        glucose_new = GUT_PARAMS.setget_glucose_input + GUT_PARAMS.setget_BMR + glucose_output - absorption; % net glucose
     else
-        glucose_new = glucose_output - absorption; % net glucose
+        glucose_new = GUT_PARAMS.setget_BMR + glucose_output - absorption; % net glucose
     end
 	if isnan(glucose_new)
 		fprintf('glucose_new is NaN at delta_gut at time: %d\n', GUT_PARAMS.setget_time)

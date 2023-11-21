@@ -160,6 +160,8 @@ ArterialSpO2	Code/src/Main.m	/^ArterialSpO2 = 0.98;$/;"	v
 ArterialSpO2	Code/src/Main.m	/^ArterialSpO2 = cast(ArterialSpO2, 'double');$/;"	v
 ArterialSpO2	Code/src/OverallLoop.m	/^ArterialSpO2 = 0.98; % initializing the blood saturation at 98%$/;"	v
 BMR	Code/src/BMR.m	/^function[delta_blood_glucose] = BMR(step, sex, weight, height, age, GutFlowRate)$/;"	f
+BMR	Code/src/GUT_PARAMS.m	/^            BMR = BMR_storage; $/;"	v
+BMR_storage	Code/src/GUT_PARAMS.m	/^                BMR_storage = BMR;$/;"	v
 Blood Gases	Research-notes/Final Values for Comparative Testing.md	/^# Blood Gases$/;"	c
 Brain	Code/src/OverallLoop.m	/^Brain = [40,1];$/;"	v
 BrainFlowRate	Code/src/OverallLoop.m	/^BrainFlowRate = 700;$/;"	v
@@ -473,8 +475,8 @@ glucose_change_plasma	Code/src/glucose_absorption.m	/^    glucose_change_plasma 
 glucose_g	Code/src/BMR.m	/^glucose_g = gut_basal_metabolic_rate \/ 4;$/;"	v
 glucose_input	Code/src/glucose_absorption.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input * 18; %convert to mg\/dL$/;"	v
 glucose_mol	Code/src/BMR.m	/^glucose_mol = glucose_g * (1\/180.15588) * (1\/1440);$/;"	v
-glucose_new	Code/src/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_glucose_input + glucose_output - absorption; % net gluco/;"	v
-glucose_new	Code/src/delta_gut.m	/^        glucose_new = glucose_output - absorption; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_BMR + glucose_output - absorption; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_glucose_input + GUT_PARAMS.setget_BMR + glucose_output -/;"	v
 glucose_output	Code/src/glucose_absorption.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
 glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
@@ -625,6 +627,7 @@ p1	Code/src/glucose_absorption.m	/^    p1 = 0.035; %net glucose utilization with
 page-preview	.obsidian/core-plugins-migration.json	/^  "page-preview": true,$/;"	b
 partialpressureoxygenhumanbodygeneralreview-ortiz-prado	Research/GITTransportModel.bib	/^@article{partialpressureoxygenhumanbodygeneralreview-ortiz-prado,$/;"	a
 partition_coef	Code/src/glucose_absorption_3.m	/^	partition_coef = 6.5e-5; %m^2 \/ sec$/;"	v
+patient	Code/src/GutCalc.m	/^    patient = GUT_PARAMS.setget_patient;$/;"	v
 patient	Code/src/Main.m	/^patient = [ sex, weight, height, age ];$/;"	v
 physiologicevaluationfactorscontrollingglucosetolerancemanmeasurementinsulinsensitivitybetacellglucosesensitivityresponseintravenousglucose-bergman	Research/GITTransportModel.bib	/^@article{physiologicevaluationfactorscontrollingglucosetolerancemanmeasurementinsulinsensitivity/;"	a
 physiologichypoxiaoxygenhomeostasishealthyintestinereviewthemecellularresponseshypoxia-zheng	Research/GITTransportModel.bib	/^@article{physiologichypoxiaoxygenhomeostasishealthyintestinereviewthemecellularresponseshypoxia-/;"	a
@@ -656,6 +659,7 @@ saveSettings	.obsidian/plugins/waypoint/main.js	/^  saveSettings() {$/;"	m	class
 searchQuery	.obsidian/workspace.json	/^                "searchQuery": "",$/;"	s	object:right.children.0.children.0.state.state
 sensitivity	.obsidian/plugins/waypoint/main.js	/^            return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });$/;"	p	variable:anonymousObject1674d7361205
 set_meal	Code/src/glucose_output_model.m	/^function[carbs,lipids,proteins,fibre] = set_meal(time_of_day)$/;"	f
+setget_BMR	Code/src/GUT_PARAMS.m	/^        function BMR = setget_BMR(BMR)$/;"	f
 setget_O2_consumption	Code/src/GUT_PARAMS.m	/^        function O2_CONSUMPTION = setget_O2_consumption(O2_consumption)$/;"	f
 setget_current_glycemic_load	Code/src/GUT_PARAMS.m	/^        function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)$/;"	f
 setget_glucose_absorption	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_ABSORPTION = setget_glucose_absorption(glucose_absorption)$/;"	f

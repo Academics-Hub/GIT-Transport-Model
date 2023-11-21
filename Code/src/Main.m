@@ -94,7 +94,7 @@ for i = 0:time_step:duration-0.5 % looping over seconds in a day
 
 	Gut_Glucose_vector((i/time_step)+1) = Gut(2);
 
-	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption;
+	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption + GUT_PARAMS.setget_BMR;
 
 	Time_vector((i/time_step)+1) = GUT_PARAMS.setget_time-0.5;
 

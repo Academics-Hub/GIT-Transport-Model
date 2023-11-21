@@ -15,6 +15,7 @@ classdef GUT_PARAMS
     %   - meal
     %   - meal times
     %   - start time
+    %   - BMR
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -158,6 +159,14 @@ classdef GUT_PARAMS
                 P_storage = patient;
             end
             PATIENT = P_storage; 
+        end
+        % function to set and get BMR
+        function BMR = setget_BMR(BMR)
+            persistent BMR_storage;
+            if nargin
+                BMR_storage = BMR;
+            end
+            BMR = BMR_storage; 
         end
     end
 end
