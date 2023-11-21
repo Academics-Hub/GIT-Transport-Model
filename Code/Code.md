@@ -8,6 +8,8 @@
 	- [git_transport_model_flow.png](./docs/git_transport_model_flow.png)
 	- [GlycemicLoad](./docs/GlycemicLoad.md)
 	- [GutCalc](./docs/GutCalc.md)
+	- [high_gl_fits.png](./docs/high_gl_fits.png)
+	- [low_gl_fits.png](./docs/low_gl_fits.png)
 	- [README](./docs/README.md)
 - **src**
 	- [check_meal_time.m](./src/check_meal_time.m)
@@ -15,6 +17,14 @@
 	- [delta_gut.m](./src/delta_gut.m)
 	- [find_gl_glucose.m](./src/find_gl_glucose.m)
 	- [food.m](./src/food.m)
+	- [gl_curve_fitting.sfit](./src/gl_curve_fitting.sfit)
+	- [gl_fit_testing.m](./src/gl_fit_testing.m)
+	- [gl_fourier_fit.m](./src/gl_fourier_fit.m)
+	- [gl_gaussian_fit.m](./src/gl_gaussian_fit.m)
+	- [gl_interpolation_fit.m](./src/gl_interpolation_fit.m)
+	- [gl_polynomial_fit.m](./src/gl_polynomial_fit.m)
+	- [gl_smoothing_spline_fit.m](./src/gl_smoothing_spline_fit.m)
+	- [gl_sum_of_sines_fit.m](./src/gl_sum_of_sines_fit.m)
 	- [glucose_absorption_2.m](./src/glucose_absorption_2.m)
 	- [glucose_absorption_3.m](./src/glucose_absorption_3.m)
 	- [glucose_absorption.m](./src/glucose_absorption.m)
@@ -22,6 +32,7 @@
 	- [glycemic_load.m](./src/glycemic_load.m)
 	- [GUT_PARAMS.m](./src/GUT_PARAMS.m)
 	- [GutCalc.m](./src/GutCalc.m)
+	- [initialise_gut_params.m](./src/initialise_gut_params.m)
 	- [Main.m](./src/Main.m)
 	- [O2_Absorption.m](./src/O2_Absorption.m)
 	- [O2_CO2.m](./src/O2_CO2.m)
@@ -30,5 +41,6 @@
 	- [sigfit.m](./src/sigfit.m)
 	- [testing_O2.m](./src/testing_O2.m)
 	- [testing.m](./src/testing.m)
+	- [unit_tests.m](./src/unit_tests.m)
 
 %% End Waypoint %%

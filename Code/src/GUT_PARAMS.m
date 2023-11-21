@@ -108,37 +108,16 @@ classdef GUT_PARAMS
             end
             GLUCOSE_INPUT = GI_storage; 
         end
-        % function to set and get gender
-        function GENDER = setget_gender(gender)
-            persistent G_storage;
+        % function to do interpolation fit once for efficiency
+        function [HIGH_GL_FIT, LOW_GL_FIT] = setget_interpolation_fit(high_gl_fit, low_gl_fit)
+            persistent LOW_GL_FIT_STORAGE;
+            persistent HIGH_GL_FIT_STORAGE;
             if nargin
-                G_storage = gender;
+                LOW_GL_FIT_STORAGE = low_gl_fit;
+                HIGH_GL_FIT_STORAGE = high_gl_fit;
             end
-            GENDER = G_storage;
-        end
-        % function to set and get age
-        function AGE = setget_age(age)
-            persistent A_storage;
-            if nargin
-                A_storage = age;
-            end
-            AGE = A_storage;
-        end
-        % function to set and get weight
-        function WEIGHT = setget_weight(weight)
-            persistent W_storage;
-            if nargin
-                W_storage = weight;
-            end
-            WEIGHT = W_storage;
-        end
-        % function to set and get height
-        function HEIGHT = setget_height(height)
-            persistent H_storage;
-            if nargin
-                H_storage = height;
-            end
-            HEIGHT = H_storage;
+            HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;
+            LOW_GL_FIT = LOW_GL_FIT_STORAGE;
         end
     end
 end
