@@ -17,9 +17,9 @@ else
     total_basal_metabolic_rate = 447.593 + 9.247 * weight + 3.098 * height - 4.330 * age;
 end
 
-%O2 usage at rest (of all body O2 usage) = 16%
+% O2 usage at rest (of all body O2 usage) = 16%
 % gut_basal_metabolic_rate (kcal)
-gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.0972;
+gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.1298;
 
 % glucose calorimetric density = 4 kcal/g
 % glucose_g (g/day)
