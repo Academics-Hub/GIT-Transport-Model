@@ -32,6 +32,7 @@
 	- [glycemic_load.m](./src/glycemic_load.m)
 	- [GUT_PARAMS.m](./src/GUT_PARAMS.m)
 	- [GutCalc.m](./src/GutCalc.m)
+	- [initialise_gut_params.m](./src/initialise_gut_params.m)
 	- [Main.m](./src/Main.m)
 	- [O2_Absorption.m](./src/O2_Absorption.m)
 	- [O2_CO2.m](./src/O2_CO2.m)

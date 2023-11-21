@@ -26,21 +26,21 @@ duration = 24*3600; % seconds
 
 
 % storing gut parameters
-GUT_PARAMS.setget_time(0); % always intialise time to 0
-GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
-GUT_PARAMS.setget_time_since_last_meal(-1); % always intialise time since last meal to -1
-GUT_PARAMS.setget_current_glycemic_load(0); % always intialise glycemic load to 0
-GUT_PARAMS.setget_glucose_output(0); % always intialise glucose output to 0
-GUT_PARAMS.setget_glucose_absorption(cast(0.0035, 'double'));
-GUT_PARAMS.setget_initial_insulin_input(ArterialInsulin);
-GUT_PARAMS.setget_glucose_input(Gut(2));
+% to chooose a type of curve fitting for the glucose output, choose one of the following numbers:
+% 1 - polynomial fitting
+% 2 - fourier fitting
+% 3 - gaussian fitting
+% 4 - interpolation fitting
+% 5 - smoothing spline fitting
+% 6 - sum of sines fitting
+initialise_gut_params(6, Gut(2), ArterialInsulin);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
 Gut_Glucose_vector = zeros(1,duration/time_step);
 Gut_Glucose_Absorption_vector = zeros(1,duration/time_step);
 Venous_SpO2_vector = zeros(1,duration/time_step);
-Arterial_Glucose_vector = zeros(1,duration/time_step);
+Venous_Glucose_vector = zeros(1,duration/time_step);
 Insulin_vector = zeros(1,duration/time_step);
 Time_vector = zeros(1,duration/time_step);
 Time_since_last_meal_vector = zeros(1,duration/time_step);
@@ -66,7 +66,7 @@ for i = 0:time_step:duration-0.5 % looping over seconds in a day
 
 	Venous_SpO2_vector((i/time_step)+1) = GutOut(1);
 
-	Arterial_Glucose_vector((i/time_step)+1) = GutOut(2);
+	Venous_Glucose_vector((i/time_step)+1) = GutOut(2);
 
 	Insulin_vector((i/time_step)+1) = GutOut(3);
 
@@ -130,8 +130,8 @@ xticks(0:1:duration/3600)
 figure(2)
 
 subplot(3,2,1)
-plot(Time_vector,Arterial_Glucose_vector)
-title('Change in Arterial Glucose')
+plot(Time_vector,Venous_Glucose_vector)
+title('Change in Venous Glucose')
 xlabel('Time (hrs)')
 ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on

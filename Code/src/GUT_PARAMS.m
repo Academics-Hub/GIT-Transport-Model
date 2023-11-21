@@ -104,5 +104,16 @@ classdef GUT_PARAMS
             end
             GLUCOSE_INPUT = GI_storage; 
         end
+        % function to do interpolation fit once for efficiency
+        function [HIGH_GL_FIT, LOW_GL_FIT] = setget_interpolation_fit(high_gl_fit, low_gl_fit)
+            persistent LOW_GL_FIT_STORAGE;
+            persistent HIGH_GL_FIT_STORAGE;
+            if nargin
+                LOW_GL_FIT_STORAGE = low_gl_fit;
+                HIGH_GL_FIT_STORAGE = high_gl_fit;
+            end
+            HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;
+            LOW_GL_FIT = LOW_GL_FIT_STORAGE;
+        end
     end
 end
