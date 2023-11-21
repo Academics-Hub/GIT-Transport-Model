@@ -6,6 +6,8 @@
 
 **Implemented enhancements:**
 
+- oxygen and carbon dioxide model [\#35](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/35)
+- First code refinement [\#24](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/24)
 - Code first draft [\#19](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/19)
 - Research outputs - colon [\#13](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/13)
 - Research outputs - small intestine [\#12](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/12)
@@ -19,15 +21,14 @@
 - Research inputs - mouth [\#4](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/4)
 - Research outputs [\#3](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/3)
 - Research inputs [\#2](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/2)
+- Code staging -\> main [\#85](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/85) ([JonoLF](https://github.com/JonoLF))
 - Merge Code staging to main [\#83](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/83) ([JonoLF](https://github.com/JonoLF))
 - 35 oxygen and carbon dioxide model [\#65](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/65) ([JustMeJuls](https://github.com/JustMeJuls))
-- Merge code staging into main with newest updates [\#44](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/44) ([JonoLF](https://github.com/JonoLF))
-- Update main code [\#38](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/38) ([JonoLF](https://github.com/JonoLF))
-- 34 glucose model [\#37](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/37) ([JonoLF](https://github.com/JonoLF))
 
 **Closed issues:**
 
 - Fix file structure in research [\#26](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/26)
+- Document first code draft [\#25](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/issues/25)
 
 **Merged pull requests:**
 
@@ -70,10 +71,6 @@
 - Updated CHANGELOG [\#46](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/46) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#45](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/45) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Update Changelog [\#43](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/43) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Update Changelog [\#42](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/42) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Update Changelog [\#40](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/40) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Update Changelog [\#39](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/39) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Initial skeleton of O2 CO2 model. [\#36](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/36) ([JustMeJuls](https://github.com/JustMeJuls))
 
 
 
