@@ -1,4 +1,4 @@
-function [low_gl_fit, high_gl_fit, gof] = createFit(time_series, high_gl_glucose_data)
+function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof] = gl_Gaylard_fit(time_series, low_gl_glucose_data, high_gl_glucose_data)
 %CREATEFIT(TIME_SERIES,HIGH_GL_GLUCOSE_DATA)
 %  Create a fit.
 %
