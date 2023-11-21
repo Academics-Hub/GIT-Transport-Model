@@ -1,9 +1,8 @@
 % my rework of the gut function, to make it more modular
 function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
-	%intialze constants to be used by glucose absorption and o2 absorption functions
-	%vmax =
-	%km =
-
+    % calculate the BMR
+    patient = GUT_PARAMS.setget_patient;
+    GUT_PARAMS.setget_BMR(BMR(patient(1), patient(2), patient(3), patient(4), GutFlowRate));
 	% Setting gut parameters
 	TIME_STEP = time_step;
 	previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case
@@ -37,10 +36,6 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	% Remember that we receive the previous Gut and Aterial values, at the beginning of each iteration of the function in OverallLoop
 	gut_spO2 = cast(Gut(1), 'double'); % typecasting just in case (shouldn't be necessary)
 	gut_glucose = cast(Gut(2), 'double');
-	if isnan(gut_glucose)
-		    fprintf('glucose is NaN at gutcalc at time: %f\n', new_time)
-		    return
-	end
 	arterial_spO2 = Arterial(1);
 	arterial_glucose = Arterial(2);
 	arterial_insulin = Arterial(3);
