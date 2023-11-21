@@ -21,8 +21,6 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
     end
     gut_spO2 = O2_usage;
 
-    GutFlowRate = GutFlowRate / 1000; % (L/min)
-
     %arterial_spO2_new = arterial_spO2 - O2_usage;
 
     gut_O2_mg = O2_usage * GutFlowRate * Hb * Cb;

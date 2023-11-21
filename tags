@@ -75,13 +75,13 @@
 0	.obsidian/workspace.json	/^      {$/;"	o	array:left.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:main.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:right.children
-0	.obsidian/workspace.json	/^    "Code\/src\/BMR.m",$/;"	s	array:lastOpenFiles
+0	.obsidian/workspace.json	/^    "Code\/src\/thermo.asv",$/;"	s	array:lastOpenFiles
 1	.obsidian/core-plugins.json	/^  "global-search",$/;"	s
 1	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-1	.obsidian/workspace.json	/^    "Code\/src\/BMR.asv",$/;"	s	array:lastOpenFiles
+1	.obsidian/workspace.json	/^    "Code\/src\/O2_fed_fasting.asv",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
-10	.obsidian/workspace.json	/^    "Research\/Partial pressure of oxygen in the human body: a general review.pdf",$/;"	s	array:lastOpenFiles
+10	.obsidian/workspace.json	/^    "Research\/Regulation of Oxygen Homeostasis at the Intestinal Epithelial Barrier Site.pdf",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
 11	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
 12	.obsidian/core-plugins.json	/^  "command-palette",$/;"	s
@@ -101,7 +101,7 @@
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "Research\/nutritional_goals.pdf",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "Code\/src\/BMR.m",$/;"	s	array:lastOpenFiles
 20	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
 21	.obsidian/workspace.json	/^    "Resource links.md",$/;"	s	array:lastOpenFiles
 22	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
@@ -114,7 +114,7 @@
 29	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Research\/Why is the partial oxygen pressure of human tissues a crucial parameter? Small mo/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/src\/BMR.asv",$/;"	s	array:lastOpenFiles
 30	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
 31	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
 32	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
@@ -126,7 +126,7 @@
 38	.obsidian/workspace.json	/^    "Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
 39	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "Research\/The role of kidney in the inter-organ coordination of endogenous glucose producti/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
 40	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
 41	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 42	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
@@ -134,15 +134,15 @@
 44	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
 45	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md"$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Research\/Reserve capacities of the small intestine for absorption of energy.pdf",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Research\/Regulation of Oxygen Homeostasis at the Intestinal Epithelial Barrier Site.pdf",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Research\/nutritional_goals.pdf",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Research\/Regulation of Intestinal Blood Flow.pdf",$/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Research\/Why is the partial oxygen pressure of human tissues a crucial parameter? Small mo/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Research\/Physiologic hypoxia and oxygen homeostasis in the healthy intestine.A Review in t/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Research\/The role of kidney in the inter-organ coordination of endogenous glucose producti/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Research\/Physiologic evaluation of factors controlling glucose tolerance in man: measureme/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Research\/Reserve capacities of the small intestine for absorption of energy.pdf",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Additional resource links for the overleaf	Research-notes/Resource links.md	/^# Additional resource links for the overleaf$/;"	c
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
@@ -482,13 +482,13 @@ glycemic_load_new	Code/src/glucose_output_model.m	/^	    glycemic_load_new = gly
 graph	.obsidian/core-plugins-migration.json	/^  "graph": true,$/;"	b
 graph:Open graph view	.obsidian/workspace.json	/^      "graph:Open graph view": false,$/;"	b	object:left-ribbon.hiddenItems
 gut_CO2	Code/src/O2_fed_fasting.m	/^    gut_CO2 = gut_CO2_mol;$/;"	v
-gut_CO2_mol	Code/src/O2_fed_fasting.m	/^    gut_CO2_mol = gut_O2_mol;$/;"	v
+gut_CO2_mol	Code/src/O2_fed_fasting.m	/^    gut_CO2_mol = gut_O2_mol_timestep;$/;"	v
 gut_O2	Code/src/O2_Absorption.m	/^gut_O2 = 02_usage * GutFlowRate * Hb * Cb;$/;"	v
-gut_O2	Code/src/O2_fed_fasting.m	/^    gut_O2 = O2_usage * GutFlowRate * Hb * Cb;$/;"	v
-gut_O2	Code/src/O2_fed_fasting.m	/^    gut_O2 = gut_O2_mol;$/;"	v
-gut_O2_g	Code/src/O2_fed_fasting.m	/^    gut_O2_g = gut_O2 \/ 1000;$/;"	v
-gut_O2_mol	Code/src/O2_fed_fasting.m	/^    gut_O2_mol = gut_O2_g \/ 32;$/;"	v
-gut_O2_mol	Code/src/O2_fed_fasting.m	/^    gut_O2_mol = gut_O2_mol \/ (60\/time_step);$/;"	v
+gut_O2	Code/src/O2_fed_fasting.m	/^    gut_O2 = gut_O2_mol_timestep;$/;"	v
+gut_O2_g	Code/src/O2_fed_fasting.m	/^    gut_O2_g = gut_O2_mg \/ 1000;$/;"	v
+gut_O2_mg	Code/src/O2_fed_fasting.m	/^    gut_O2_mg = O2_usage * GutFlowRate * Hb * Cb;$/;"	v
+gut_O2_mol	Code/src/O2_fed_fasting.m	/^    gut_O2_mol = gut_O2_g \/ 32$/;"	v
+gut_O2_mol_timestep	Code/src/O2_fed_fasting.m	/^    gut_O2_mol_timestep = gut_O2_mol \/ (60*time_step);$/;"	v
 gut_basal_metabolic_rate	Code/src/BMR.m	/^gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.0972;$/;"	v
 gut_glucose	Code/src/GutCalc.m	/^	gut_glucose = cast(Gut(2), 'double');$/;"	v
 gut_spO2	Code/src/GutCalc.m	/^	gut_spO2 = cast(Gut(1), 'double'); % typecasting just in case (shouldn't be necessary)$/;"	v
