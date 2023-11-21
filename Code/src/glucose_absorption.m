@@ -1,14 +1,14 @@
 function [glucose_change_plasma] = glucose_absorption(gut_glucose, glucose_output, time_step) %need glucose_output from jono
     glucose_output = glucose_output * 18.0182; %convert to mg/dL
 	%normal basal values 
-	G_b = 5.6; %fasting glcuose mmol/L
-    G_b = G_b * 18.0182; %convert to mg/dL
-	p1 = 0.035; %net glucose utilization without dynamic insulin response min^-1
-    V = 1350 * 10000; %volume of distribution of glucose dL
-    glucose_input = GUT_PARAMS.setget_glucose_input * 18.0182; %convert to mg/dL
+	%G_b = 5.6; %fasting glcuose mmol/L
+    G_b = 80; %-> Dynamic Modeling of Exercise Effects on Plasma Glucose and Insulin Levels
+    p1 = 0.035; %net glucose utilization without dynamic insulin response min^-1
+    V = 12.7*10; %volume of distribution of glucose dL -> from Glucose uptake saturation explains glucose kinetics profiles measured by different tests
+    glucose_input = GUT_PARAMS.setget_glucose_input * 18; %convert to mg/dL
     C = glucose_input - G_b - glucose_output/(p1*V);
+    %p1 = p1 / (60*time_step); % if p1 is in min^-1, then p1 needs to be converted to step^-1 cause we calculate everytime sec/step
 	% X(t) is the interstitial insulin at time t. assumed to be the blood insulin
-	p1 = p1 / (60*time_step); % if p1 is in min^-1, then p1 needs to be converted to step^-1 cause we calculate everytime sec/step
 	if isnan(gut_glucose)
 		fprintf('gut_glucose is NaN at glucose_absorption_2 at time: %f\n', GUT_PARAMS.setget_time);
 		return
