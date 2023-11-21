@@ -8,7 +8,7 @@ cla
 GutFlowRate = 500;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
-ArterialGlucose = 4;
+ArterialGlucose = 0.4;
 ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');

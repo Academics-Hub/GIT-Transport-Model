@@ -27,9 +27,8 @@ glucose_g = gut_basal_metabolic_rate / 4;
 
 % glucose_mol (mol/min)
 % 1440 minutes per day
-glucose_mol = glucose_g * (1/180.15588) * (1/1440);
+glucose_mol = glucose_g * (1/180.15588) * 1/1440;
 
 % delta_blood_glucose (mmol/l)
-delta_blood_glucose = glucose_mol * 1000 * 1/GutFlowRate * step;
-
+delta_blood_glucose = glucose_mol * 1000;
 end
