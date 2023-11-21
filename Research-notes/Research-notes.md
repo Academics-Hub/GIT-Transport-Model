@@ -21,6 +21,7 @@
 - [postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf](./postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur.pdf)
 - [regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf](./regulationintestinalglucoseabsorptionionchannelstransporters-chen.pdf)
 - [regulationoxygenhomeostasisintestinalepithelialbarriersite-konjar.pdf](./regulationoxygenhomeostasisintestinalepithelialbarriersite-konjar.pdf)
+- [Resource links](./Resource%20links.md)
 - [reviewfooddigestiondigestivetractusedvitromodels-sensoy.pdf](./reviewfooddigestiondigestivetractusedvitromodels-sensoy.pdf)
 - [rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-Holst.pdf](./rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-Holst.pdf)
 - [silicomodellingmasstransferabsorptionhumangut-moxon.pdf](./silicomodellingmasstransferabsorptionhumangut-moxon.pdf)

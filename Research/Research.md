@@ -32,6 +32,7 @@
 - [Intestinal glucose transport using perfused rat jejunum .pdf](./Intestinal%20glucose%20transport%20using%20perfused%20rat%20jejunum%20.pdf)
 - [Is the small intestine a gluconeogenic organ.pdf](./Is%20the%20small%20intestine%20a%20gluconeogenic%20organ.pdf)
 - [Mechanisms of Glucose Absorption in the Small Intestinein Health and Metabolic Diseases and Their Role in Appetite Regulation.pdf](./Mechanisms%20of%20Glucose%20Absorption%20in%20the%20Small%20Intestinein%20Health%20and%20Metabolic%20Diseases%20and%20Their%20Role%20in%20Appetite%20Regulation.pdf)
+- [Michaelis-Menten Kinetics.pdf](./Michaelis-Menten%20Kinetics.pdf)
 - [Minimal model estimation of glucose absorption and insulin sensitivity from oral test: validation with a tracer method.pdf](./Minimal%20model%20estimation%20of%20glucose%20absorption%20and%20insulin%20sensitivity%20from%20oral%20test:%20validation%20with%20a%20tracer%20method.pdf)
 - [Model-based analysis of postprandial glycemic response dynamics for different types of food.pdf](./Model-based%20analysis%20of%20postprandial%20glycemic%20response%20dynamics%20for%20different%20types%20of%20food.pdf)
 - [Normal cardiac output, oxygen delivery and oxygen extraction.pdf](./Normal%20cardiac%20output,%20oxygen%20delivery%20and%20oxygen%20extraction.pdf)
