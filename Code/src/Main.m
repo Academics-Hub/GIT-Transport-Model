@@ -86,6 +86,7 @@ Glycemic_load_vector = zeros(1,duration/time_step);
 Gut_Glucose_Output_vector = zeros(1,duration/time_step);
 Gut_Oxygen_vector = zeros(1,duration/time_step);
 Gut_Co2_vector = zeros(1,duration/time_step);
+Gut_BMR_vector = zeros(1,duration/time_step);
 
 for i = 0:time_step:duration-0.5 % looping over seconds in a day
 	[Gut,GutOut] = GutCalc(GutFlowRate,Gut,Arterial,time_step);
@@ -95,6 +96,8 @@ for i = 0:time_step:duration-0.5 % looping over seconds in a day
 	Gut_Glucose_vector((i/time_step)+1) = Gut(2);
 
 	Gut_Glucose_Absorption_vector((i/time_step)+1) = GUT_PARAMS.setget_glucose_absorption + GUT_PARAMS.setget_BMR;
+
+    Gut_BMR_vector((i/time_step)+1) = GUT_PARAMS.setget_BMR;
 
 	Time_vector((i/time_step)+1) = GUT_PARAMS.setget_time-0.5;
 
@@ -128,7 +131,7 @@ Time_since_last_meal_vector = Time_since_last_meal_vector/3600;
 % plotting Gut things
 figure(1)
 
-subplot(4,1,1)
+subplot(5,1,1)
 plot(Time_vector,Gut_Glucose_vector)
 title('Gut Glucose')
 xlabel('Time (hrs)')
@@ -137,7 +140,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,2)
+subplot(5,1,2)
 plot(Time_vector, Gut_Glucose_Absorption_vector)
 title('Change in Gut Glucose Absorption')
 xlabel('Time (hrs)')
@@ -146,7 +149,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,3)
+subplot(5,1,3)
 plot(Time_vector,Glycemic_load_vector)
 title('Glycemic load')
 xlabel('Time (hrs)')
@@ -155,11 +158,20 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(4,1,4)
+subplot(5,1,4)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
 ylabel('Glucose (mmol/L)', 'Rotation', 0)
+grid on
+xlim([0, duration/3600])
+xticks(0:1:duration/3600)
+
+subplot(5,1,5)
+plot(Time_vector,Gut_BMR_vector)
+title('Gut BMR')
+xlabel('Time (hrs)')
+ylabel('BMR (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
