@@ -1,4 +1,4 @@
-function [n] = thermo(carbs, protein, lipids)
+function [food_energy, delta_blood_glucose] = thermo(carbs, protein, lipids)
 
 P = 59/760; %(atm)
 V = 0.03712; %(ml/min)
@@ -17,4 +17,4 @@ food_energy = 0.95 * (carbs * 4) + 0.7 * (protein * 4) + 0.95 * (lipids * 9);
 % glucose calorimetric density: 4 kcal/g
 % glucose molecular density: 180.15588 g/mol
 
-delta_blood_glucose = food_energy * 
+delta_blood_glucose = food_energy * (1/4.4) * (1/180.15588)* GutFlowRate;
