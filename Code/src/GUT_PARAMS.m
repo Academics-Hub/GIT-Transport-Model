@@ -3,11 +3,22 @@ classdef GUT_PARAMS
     %   - time
     %   - previous time
     %   - time since last meal
+    %   - time step
     %   - current glycemic load
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
-    %   - current increment of simulation, where total increments = simulation duration / time step
+    %   - initial input of insulin
+    %   - gut O2
+    %   - gut CO2
+    %   - glucose input
+    %   - gender
+    %   - age
+    %   - weight
+    %   - height
+    %   - meal
+    %   - meal times
+    %   - start time
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -36,6 +47,14 @@ classdef GUT_PARAMS
                 TSLM_storage = time_since_last_meal;
             end
             TIME_SINCE_LAST_MEAL = TSLM_storage; 
+        end
+        % function to set and get the time step
+        function TIME_STEP = setget_time_step(time_step)
+            persistent TS_storage;
+            if nargin
+                TS_storage = time_step;
+            end
+            TIME_STEP = TS_storage; 
         end
         % function to set and get the current glycemic load
         function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)
@@ -68,6 +87,73 @@ classdef GUT_PARAMS
                 O2C_storage = O2_consumption;
             end
             O2_CONSUMPTION = O2C_storage; 
+        end
+        % function to set and get the initial insulin input
+        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)
+            persistent III_storage;
+            if nargin
+                III_storage = initial_insulin_input;
+            end
+            INITIAL_INSULIN_INPUT = III_storage; 
+        end
+        % function to set and get gut O2
+        function GUT_O2 = setget_gut_O2(gut_O2)
+            persistent GO2_storage;
+            if nargin
+                GO2_storage = gut_O2;
+            end
+            GUT_O2 = GO2_storage; 
+        end
+        % function to set and get gut CO2
+        function GUT_CO2 = setget_gut_CO2(gut_CO2)
+            persistent GCO2_storage;
+            if nargin
+                GCO2_storage = gut_CO2;
+            end
+            GUT_CO2 = GCO2_storage; 
+        end
+        % function to set and get glucose input 
+        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)
+            persistent GI_storage;
+            if nargin
+                GI_storage = glucose_input;
+            end
+            GLUCOSE_INPUT = GI_storage; 
+        end
+        % function to do interpolation fit once for efficiency
+        function [HIGH_GL_FIT, LOW_GL_FIT] = setget_interpolation_fit(high_gl_fit, low_gl_fit)
+            persistent LOW_GL_FIT_STORAGE;
+            persistent HIGH_GL_FIT_STORAGE;
+            if nargin
+                LOW_GL_FIT_STORAGE = low_gl_fit;
+                HIGH_GL_FIT_STORAGE = high_gl_fit;
+            end
+            HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;
+            LOW_GL_FIT = LOW_GL_FIT_STORAGE;
+        end
+        % function to set and get meals
+        function MEALS = setget_mealS(meals)
+            persistent M_storage;
+            if nargin
+                M_storage = meals;
+            end
+            MEALS = M_storage; 
+        end
+        % function to set and get meal times    
+        function MEAL_TIMES = setget_meal_times(meal_times)
+            persistent MT_storage;
+            if nargin
+                MT_storage = meal_times;
+            end
+            MEAL_TIMES = MT_storage; 
+        end
+        % function to set and get start time
+        function START_TIME = setget_start_time(start_time)
+            persistent ST_storage;
+            if nargin
+                ST_storage = start_time;
+            end
+            START_TIME = ST_storage; 
         end
     end
 end
