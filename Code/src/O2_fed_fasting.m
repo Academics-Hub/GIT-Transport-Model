@@ -31,7 +31,7 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
 
     %change units to mol
     %O2: 32 g/mol
-    gut_O2_mol = gut_O2_g / 32
+    gut_O2_mol = gut_O2_g / 32;
     % conversion from mol/min to mol/(s*time_step)
     gut_O2_mol_timestep = gut_O2_mol / (60*time_step);
     gut_O2 = gut_O2_mol_timestep;

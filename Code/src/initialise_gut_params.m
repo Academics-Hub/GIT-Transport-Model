@@ -27,6 +27,8 @@ function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialIns
             [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_sum_of_sines_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
         case 7
             [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_Gaylard_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
+        case 8
+            [low_gl_fit, high_gl_fit, ~, ~, ~, ~] = gl_Gaylard2_fit(time_series, low_gl_glucose_data, high_gl_glucose_data);
     end
     GUT_PARAMS.setget_interpolation_fit(low_gl_fit, high_gl_fit);
 end

@@ -5,7 +5,7 @@ cla
 %suite = testsuite;
 
 % testing overall model things
-GutFlowRate = 500/1000;
+GutFlowRate = 500;
 % intialising Arterial things
 ArterialSpO2 = 0.98;
 ArterialGlucose = 4;
@@ -44,6 +44,7 @@ duration = 24*3600; % seconds
 % 5 - smoothing spline fitting
 % 6 - sum of sines fitting
 % 7 - Gaylard fit
+% 8 - Gaylard2 fit
 initialise_gut_params(5, Gut(2), ArterialInsulin, time_step);
 
 % creating storage vectors for things we want to plot
