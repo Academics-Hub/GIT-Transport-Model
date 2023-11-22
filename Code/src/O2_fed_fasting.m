@@ -9,7 +9,8 @@
 function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
     time_step = GUT_PARAMS.setget_time_step;
     time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;
-    % time_since_last_meal = 14399;
+    % gutflow rate to l/min
+    GutFlowRate = GutFlowRate / 1000;
 
     if time_since_last_meal == -1
         O2_usage = 0.15;
@@ -40,7 +41,7 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
     gut_O2_mol = gut_O2_g / 32;
 
     % conversion from mol/min to mol/(s*time_step)
-    gut_O2_mol_timestep = gut_O2_mol / (60*time_step);
+    gut_O2_mol_timestep = gut_O2_mol / (60);
     gut_O2 = gut_O2_mol_timestep;
 
     %gut_O2_mol

@@ -5,10 +5,10 @@ cla
 %suite = testsuite;
 
 % testing overall model things
-GutFlowRate = 500;
+GutFlowRate = 500; % ml/min
 % intialising Arterial things
 ArterialSpO2 = 0.98;
-ArterialGlucose = 0.4;
+ArterialGlucose = 0.4; % mmol/dL
 ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
@@ -25,7 +25,7 @@ assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an app
 % need normal gut glucose levels
 ArterialGlucose = ArterialGlucose * 10; % conversion to mmol/L
 Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];
-GutFlowRate = GutFlowRate/(1000); % conversion to L/min
+%GutFlowRate = 60 * GutFlowRate/(1000); % conversion to L/s
 Gut(1) = cast(Gut(1), 'double');
 Gut(2) = cast(Gut(2), 'double');
 if isnan(Gut(2))
