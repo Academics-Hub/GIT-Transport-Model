@@ -224,7 +224,7 @@ ylabel('CO2 (mole)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_of_gut_CO2
+print -dpng change_in_gut_glucose_absorption
 
 %subplot(3,2,5)
 Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
@@ -235,7 +235,7 @@ ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng venous_SpO2
+print -dpng change_in_gut_glucose_absorption
 
 %subplot(3,2,6)
 %figure(3)
@@ -247,7 +247,7 @@ ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0,duration/3600])
 xticks(0:1:duration/3600)
-print -dpng gut_SpO2
+print -dpng change_in_gut_glucose_absorption
 
 % print the first 20 values of the Gut_SpO2_vector
 % for i = 1:20
