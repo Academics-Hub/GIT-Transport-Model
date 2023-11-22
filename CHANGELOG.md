@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/tree/HEAD)
 
-[Full Changelog](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/compare/1eb481404ac38d3d3dc325e19f7d927b0afe4b33...HEAD)
+[Full Changelog](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/compare/v1.0.0-alpha...HEAD)
+
+**Merged pull requests:**
+
+- added needed files [\#86](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/86) ([nagarium](https://github.com/nagarium))
+
+## [v1.0.0-alpha](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/tree/v1.0.0-alpha) (2023-11-21)
+
+[Full Changelog](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/compare/1eb481404ac38d3d3dc325e19f7d927b0afe4b33...v1.0.0-alpha)
 
 **Implemented enhancements:**
 
@@ -61,16 +69,6 @@
 - Updated CHANGELOG [\#56](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/56) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#55](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/55) ([github-actions[bot]](https://github.com/apps/github-actions))
 - Updated CHANGELOG [\#54](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/54) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#53](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/53) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#52](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/52) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#51](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/51) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#50](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/50) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#49](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/49) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#48](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/48) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#47](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/47) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#46](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/46) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Updated CHANGELOG [\#45](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/45) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Update Changelog [\#43](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/43) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 
 
