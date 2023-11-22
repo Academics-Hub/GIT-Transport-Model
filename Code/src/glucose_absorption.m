@@ -24,7 +24,7 @@ function [glucose_change_plasma] = glucose_absorption(gut_glucose, glucose_outpu
 	%dG_dt = -p1*gut_glucose + p1*G_b + glucose_output/300;
     % solution to ODE
     glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) + glucose_output/(p1*V); % this is mg/dL
-    glucose_change_plasma = glucose_change_plasma / 18.0182; %convert to mmol/L
+    glucose_change_plasma = glucose_change_plasma / 18.0182 ; %convert to mmol/L
 end
 
 

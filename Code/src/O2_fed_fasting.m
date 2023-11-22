@@ -1,7 +1,8 @@
 % amount of O2 absorbed from arterial (hopefully)
 
 % Inputs:
-% GutFlowRate: rate of blood flow to gut (ml/min)
+% GutFlowRate: rate of blood flow to gut (l/min)
+% arterial_spO2: oxygen saturation of entering blood (%)
 % Cb: oxygen carrying capacity (mg/g)
 % Hb: haemoglobin concentration (g/l)
 
@@ -29,27 +30,25 @@ function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)
 
     %arterial_spO2_new = arterial_spO2 - O2_usage;
 
-    gut_O2_mg = O2_usage * GutFlowRate * Hb * Cb;
-    % gut_O2_mg in mg/min
+    gut_O2 = O2_usage * GutFlowRate * Hb * Cb;
+    % gut_O2 in mg/min
 
     %change units to g/min
-    gut_O2_g = gut_O2_mg / 1000;
+    gut_O2_g = gut_O2 / 1000;
 
     %change units to mol
     %O2: 32 g/mol
     gut_O2_mol = gut_O2_g / 32;
+
     % conversion from mol/min to mol/(s*time_step)
     gut_O2_mol_timestep = gut_O2_mol / (60);
     gut_O2 = gut_O2_mol_timestep;
 
     %gut_O2_mol
 
-    gut_CO2_mol = gut_O2_mol_timestep;
+    gut_CO2_mol = gut_O2_mol;
     gut_CO2 = gut_CO2_mol;
 
     %CO2: 44 g/mol 
     %gut_CO2_g = gut_CO2_mol * 44;
-
-    %gut_CO2 = gut_CO2_g * 1000;
-
 end
