@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- updated release folder [\#87](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/87) ([nagarium](https://github.com/nagarium))
 - added needed files [\#86](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/pull/86) ([nagarium](https://github.com/nagarium))
 
 ## [v1.0.0-alpha](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/tree/v1.0.0-alpha) (2023-11-21)
