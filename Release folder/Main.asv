@@ -57,9 +57,9 @@ Meal_times = [ 7 , 13, 19 ];
 	% for proteins 0.66 g/kg of body weight is recommended, therefore 0.66*70 = 46.2g
 	% 14g of fibre per 1000kcal is recommended, therefore 14*2.4 = 33.6g
 
-Meals = [   43.33 24.44 15.4 11.2;
-            43.33 24.44 15.4 11.2;
-            43.33 24.44 15.4 11.2
+Meals = [   23 13 6.5 5.2;
+            23 13 6.5 11.2;
+            23 13 6.5 11.2
         ];
 %% Test meals = meal time
 assert( size(Meals,1) == numel(Meal_times), 'Meals does not have the same number of rows as number of meal times')
@@ -139,7 +139,7 @@ ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng gut_glucose
+print -dpng vary_gut_glucose
 
 % subplot(5,1,2)
 plot(Time_vector, Gut_Glucose_Absorption_vector)
@@ -149,7 +149,7 @@ ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_gut_glucose_absorption
+print -dpng vary_change_in_gut_glucose_absorption
 % 
 %subplot(5,1,3)
 plot(Time_vector,Glycemic_load_vector)
@@ -159,7 +159,7 @@ ylabel('Glycemic load', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng glycaemic_load
+print -dpng vary_glycaemic_load
 
 %subplot(5,1,4)
 plot(Time_vector,Gut_Glucose_Output_vector)
@@ -169,7 +169,7 @@ ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng gut_glucose_output
+print -dpng vary_gut_glucose_output
 
 %subplot(5,1,5)
 plot(Time_vector,Gut_BMR_vector)
@@ -179,7 +179,7 @@ ylabel('BMR (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng gut_BMR
+print -dpng vary_gut_BMR
 
 % plotting Arterial things
 %figure(2)
@@ -192,7 +192,7 @@ ylabel('Glucose (mmol/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_venous_glucose
+print -dpng vary_change_in_venous_glucose
 
 %subplot(3,2,2)
 plot(Time_vector,Insulin_vector)
@@ -202,7 +202,7 @@ ylabel('Insulin (\muU/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_insulin
+print -dpng vary_change_in_insulin
 
 %subplot(3,2,3)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
@@ -213,7 +213,7 @@ ylabel('Oxygen (mole)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_of_gut_O2
+print -dpng vary_change_of_gut_O2
 
 %subplot(3,2,4)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
@@ -224,7 +224,7 @@ ylabel('CO2 (mole)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_gut_glucose_absorption
+print -dpng vary_change_of_gut_CO2
 
 %subplot(3,2,5)
 Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
@@ -235,7 +235,7 @@ ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_gut_glucose_absorption
+print -dpng vary_venous_SpO2
 
 %subplot(3,2,6)
 %figure(3)
@@ -247,7 +247,7 @@ ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0,duration/3600])
 xticks(0:1:duration/3600)
-print -dpng change_in_gut_glucose_absorption
+print -dpng vary_gut_SpO2
 
 % print the first 20 values of the Gut_SpO2_vector
 % for i = 1:20
