@@ -8,7 +8,7 @@ cla
 GutFlowRate = 500; % ml/min
 % intialising Arterial things
 ArterialSpO2 = 0.98;
-ArterialGlucose = 0.4; % mmol/dL
+ArterialGlucose = 0.2; % mmol/dL
 ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
@@ -17,7 +17,7 @@ time_step = 0.5; % seconds
 Gut = [0.4,5]; % initialising Gut to what we'll recommend
 ArterialInsulin = cast(ArterialInsulin, 'double');
 %% check initial input values
-assert( GutFlowRate >= 500 && GutFlowRate <= 750, 'Gut Flow Rate is not initialised to an appropriate physiological value\nIt should be between 500 and 750mL/min')
+assert( GutFlowRate >= 100 && GutFlowRate <= 750, 'Gut Flow Rate is not initialised to an appropriate physiological value\nIt should be between 500 and 750mL/min')
 assert( ArterialSpO2 > 0 && ArterialSpO2 < 1, 'Arterial SpO2 is not initialised to an appropriate physiological value\nIt should be between 0 and 1')
 assert( ArterialGlucose > 0 && ArterialGlucose < 5.6, 'Arterial Glucose is not initialised to an appropriate physiological value\nIt should be between 0 and 5.6mmol/L in a fasting state')
 assert( ArterialInsulin > 0 && ArterialInsulin < 15, 'Arterial Insulin is not initialised to an appropriate physiological value\nIt should be between 0 and 15mU/L in a fasting state')
@@ -57,9 +57,9 @@ Meal_times = [ 7 , 13, 19 ];
 	% for proteins 0.66 g/kg of body weight is recommended, therefore 0.66*70 = 46.2g
 	% 14g of fibre per 1000kcal is recommended, therefore 14*2.4 = 33.6g
 
-Meals = [   92 52 24.9 11.2;
-            92 52 24.9 11.2;
-            92 52 24.9 11.2
+Meals = [   100 100 100 100;
+            100 100 100 100;
+            100 100 100 100
         ];
 %% Test meals = meal time
 assert( size(Meals,1) == numel(Meal_times), 'Meals does not have the same number of rows as number of meal times')
