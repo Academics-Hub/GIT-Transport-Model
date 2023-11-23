@@ -8,7 +8,7 @@ cla
 GutFlowRate = 500; % ml/min
 % intialising Arterial things
 ArterialSpO2 = 0.98;
-ArterialGlucose = 0.2; % mmol/dL
+ArterialGlucose = 0.4; % mmol/dL
 ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
@@ -57,9 +57,9 @@ Meal_times = [ 7 , 13, 19 ];
 	% for proteins 0.66 g/kg of body weight is recommended, therefore 0.66*70 = 46.2g
 	% 14g of fibre per 1000kcal is recommended, therefore 14*2.4 = 33.6g
 
-Meals = [   100 100 100 100;
-            100 100 100 100;
-            100 100 100 100
+Meals = [   43.33 24.44 15.4 11.2;
+            43.33 24.44 15.4 11.2;
+            43.33 24.44 15.4 11.2
         ];
 %% Test meals = meal time
 assert( size(Meals,1) == numel(Meal_times), 'Meals does not have the same number of rows as number of meal times')
@@ -71,7 +71,7 @@ weight = 70; %kg
 height = 180; %cm
 age = 25; %years
 patient = [ sex, weight, height, age ];
-initialise_gut_params(5, Gut(2), ArterialInsulin, time_step, start_time, Meal_times, Meals, patient);
+initialise_gut_params(7, Gut(2), ArterialInsulin, time_step, start_time, Meal_times, Meals, patient);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
