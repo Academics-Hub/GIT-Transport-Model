@@ -75,58 +75,58 @@
 0	.obsidian/workspace.json	/^      {$/;"	o	array:left.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:main.children
 0	.obsidian/workspace.json	/^      {$/;"	o	array:right.children
-0	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
+0	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha.zip",$/;"	s	array:lastOpenFiles
 1	.obsidian/core-plugins.json	/^  "global-search",$/;"	s
 1	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 1	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-1	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
+1	.obsidian/workspace.json	/^    "Code\/src\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
 10	.obsidian/core-plugins.json	/^  "templates",$/;"	s
-10	.obsidian/workspace.json	/^    "Research\/Regulation of Oxygen Homeostasis at the Intestinal Epithelial Barrier Site.pdf",$/;"	s	array:lastOpenFiles
+10	.obsidian/workspace.json	/^    "Code\/src\/Gut Glucose.png",$/;"	s	array:lastOpenFiles
 11	.obsidian/core-plugins.json	/^  "note-composer",$/;"	s
-11	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
+11	.obsidian/workspace.json	/^    "Code\/src\/Main.asv",$/;"	s	array:lastOpenFiles
 12	.obsidian/core-plugins.json	/^  "command-palette",$/;"	s
-12	.obsidian/workspace.json	/^    "Research-notes\/Resource links.md",$/;"	s	array:lastOpenFiles
+12	.obsidian/workspace.json	/^    "tags.temp",$/;"	s	array:lastOpenFiles
 13	.obsidian/core-plugins.json	/^  "editor-status",$/;"	s
-13	.obsidian/workspace.json	/^    "Research-notes\/Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
+13	.obsidian/workspace.json	/^    "tags.lock",$/;"	s	array:lastOpenFiles
 14	.obsidian/core-plugins.json	/^  "bookmarks",$/;"	s
-14	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
+14	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/initialise_gut_params.m",$/;"	s	array:lastOpenFiles
 15	.obsidian/core-plugins.json	/^  "outline",$/;"	s
-15	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fits.png",$/;"	s	array:lastOpenFiles
+15	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/glucose_output_model.m",$/;"	s	array:lastOpenFiles
 16	.obsidian/core-plugins.json	/^  "word-count",$/;"	s
-16	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fits.png",$/;"	s	array:lastOpenFiles
+16	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/glucose_absorption_2.m",$/;"	s	array:lastOpenFiles
 17	.obsidian/core-plugins.json	/^  "file-recovery"$/;"	s
-17	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Vert.png",$/;"	s	array:lastOpenFiles
-18	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph Hor.png",$/;"	s	array:lastOpenFiles
-19	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
+17	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/glucose_absorption.m",$/;"	s	array:lastOpenFiles
+18	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/gl_sum_of_sines_fit.m",$/;"	s	array:lastOpenFiles
+19	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/gl_smoothing_spline_fit.m",$/;"	s	array:lastOpenFiles
 2	.obsidian/core-plugins.json	/^  "switcher",$/;"	s
 2	.obsidian/workspace.json	/^          {$/;"	o	array:left.children.0.children
 2	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-2	.obsidian/workspace.json	/^    "Code\/src\/thermo.asv",$/;"	s	array:lastOpenFiles
-20	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
-21	.obsidian/workspace.json	/^    "Resource links.md",$/;"	s	array:lastOpenFiles
-22	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
-23	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_fourierfit.png",$/;"	s	array:lastOpenFiles
-24	.obsidian/workspace.json	/^    "Code\/docs\/high_gl_polyfit.png",$/;"	s	array:lastOpenFiles
-25	.obsidian/workspace.json	/^    "Code\/docs\/low_gl_polyfit.png",$/;"	s	array:lastOpenFiles
-26	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
-27	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
-28	.obsidian/workspace.json	/^    "Code\/docs\/git_transport_model_flow.png",$/;"	s	array:lastOpenFiles
-29	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
+2	.obsidian/workspace.json	/^    "Code\/docs\/Change of Gut O2.png",$/;"	s	array:lastOpenFiles
+20	.obsidian/workspace.json	/^    "Release folders\/v1.0.0-alpha\/gl_polynomial_fit.m",$/;"	s	array:lastOpenFiles
+21	.obsidian/workspace.json	/^    "Research\/Daily Intake Guide.md",$/;"	s	array:lastOpenFiles
+22	.obsidian/workspace.json	/^    "Research-notes\/Resource links.md",$/;"	s	array:lastOpenFiles
+23	.obsidian/workspace.json	/^    "Research-notes\/Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
+24	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-12.md",$/;"	s	array:lastOpenFiles
+25	.obsidian/workspace.json	/^    "Research-notes\/Research-notes.md",$/;"	s	array:lastOpenFiles
+26	.obsidian/workspace.json	/^    "README.md",$/;"	s	array:lastOpenFiles
+27	.obsidian/workspace.json	/^    "Resource links.md",$/;"	s	array:lastOpenFiles
+28	.obsidian/workspace.json	/^    "Textbooks\/Textbooks.md",$/;"	s	array:lastOpenFiles
+29	.obsidian/workspace.json	/^    "Research\/Research.md",$/;"	s	array:lastOpenFiles
 3	.obsidian/core-plugins.json	/^  "graph",$/;"	s
 3	.obsidian/workspace.json	/^          {$/;"	o	array:right.children.0.children
-3	.obsidian/workspace.json	/^    "Code\/src\/O2_fed_fasting.asv",$/;"	s	array:lastOpenFiles
-30	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
-31	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
-32	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
-33	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
-34	.obsidian/workspace.json	/^    "Code\/docs\/Dependency Graph.png",$/;"	s	array:lastOpenFiles
+3	.obsidian/workspace.json	/^    "Code\/docs\/Gut BMR.png",$/;"	s	array:lastOpenFiles
+30	.obsidian/workspace.json	/^    "Code\/docs\/find_gl_glucose.md",$/;"	s	array:lastOpenFiles
+31	.obsidian/workspace.json	/^    "Code\/docs\/README.md",$/;"	s	array:lastOpenFiles
+32	.obsidian/workspace.json	/^    "Code\/docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
+33	.obsidian/workspace.json	/^    "Code\/docs\/GlycemicLoad.md",$/;"	s	array:lastOpenFiles
+34	.obsidian/workspace.json	/^    "Code\/docs\/Food.md",$/;"	s	array:lastOpenFiles
 35	.obsidian/workspace.json	/^    "Code\/docs\/Arterial.md",$/;"	s	array:lastOpenFiles
 36	.obsidian/workspace.json	/^    "Code\/Code.md",$/;"	s	array:lastOpenFiles
 37	.obsidian/workspace.json	/^    "CHANGELOG.md",$/;"	s	array:lastOpenFiles
 38	.obsidian/workspace.json	/^    "Final Values for Comparative Testing.md",$/;"	s	array:lastOpenFiles
 39	.obsidian/workspace.json	/^    "Research-notes\/THEORY OF OXYGEN TRANSPORT TO TISSUE.md",$/;"	s	array:lastOpenFiles
 4	.obsidian/core-plugins.json	/^  "backlink",$/;"	s
-4	.obsidian/workspace.json	/^    "Code\/src\/BMR.m",$/;"	s	array:lastOpenFiles
+4	.obsidian/workspace.json	/^    "Code\/docs\/Gut Glucose Output.png",$/;"	s	array:lastOpenFiles
 40	.obsidian/workspace.json	/^    "Research-notes\/Absorption in the GIT.md",$/;"	s	array:lastOpenFiles
 41	.obsidian/workspace.json	/^    "docs\/README.md",$/;"	s	array:lastOpenFiles
 42	.obsidian/workspace.json	/^    "docs\/GutCalc.md",$/;"	s	array:lastOpenFiles
@@ -134,96 +134,161 @@
 44	.obsidian/workspace.json	/^    "docs\/Arterial.md",$/;"	s	array:lastOpenFiles
 45	.obsidian/workspace.json	/^    "Meeting logs\/2023-11-07.md"$/;"	s	array:lastOpenFiles
 5	.obsidian/core-plugins.json	/^  "canvas",$/;"	s
-5	.obsidian/workspace.json	/^    "Code\/src\/BMR.asv",$/;"	s	array:lastOpenFiles
+5	.obsidian/workspace.json	/^    "Code\/docs\/Glycemic load.png",$/;"	s	array:lastOpenFiles
 6	.obsidian/core-plugins.json	/^  "outgoing-link",$/;"	s
-6	.obsidian/workspace.json	/^    "Research\/nutritional_goals.pdf",$/;"	s	array:lastOpenFiles
+6	.obsidian/workspace.json	/^    "Code\/docs\/Gut Glucose.png",$/;"	s	array:lastOpenFiles
 7	.obsidian/core-plugins.json	/^  "tag-pane",$/;"	s
-7	.obsidian/workspace.json	/^    "Research\/Why is the partial oxygen pressure of human tissues a crucial parameter? Small mo/;"	s	array:lastOpenFiles
+7	.obsidian/workspace.json	/^    "Code\/docs\/Change in Venous Glucose.png",$/;"	s	array:lastOpenFiles
 8	.obsidian/core-plugins.json	/^  "page-preview",$/;"	s
-8	.obsidian/workspace.json	/^    "Research\/The role of kidney in the inter-organ coordination of endogenous glucose producti/;"	s	array:lastOpenFiles
+8	.obsidian/workspace.json	/^    "Code\/docs\/Change in Gut Glucose Absorption.png",$/;"	s	array:lastOpenFiles
 9	.obsidian/core-plugins.json	/^  "daily-notes",$/;"	s
-9	.obsidian/workspace.json	/^    "Research\/Reserve capacities of the small intestine for absorption of energy.pdf",$/;"	s	array:lastOpenFiles
+9	.obsidian/workspace.json	/^    "Code\/docs\/Change in Insulin.png",$/;"	s	array:lastOpenFiles
 A	Code/src/glucose_absorption_3.m	/^	A = 300; % define surface area of gut in m^2$/;"	v
 Additional resource links for the overleaf	Research-notes/Resource links.md	/^# Additional resource links for the overleaf$/;"	c
 Agenda	Meeting logs/2023-11-07.md	/^# Agenda$/;"	c
 Arterial	Code/src/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
 Arterial	Code/src/OverallLoop.m	/^    Arterial = LungOut;$/;"	v
 Arterial	Code/src/OverallLoop.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
+Arterial	Release folder/Main.m	/^Arterial = [ArterialSpO2,ArterialGlucose,ArterialInsulin];$/;"	v
 ArterialGlucose	Code/src/Main.m	/^ArterialGlucose = 0.4; % mmol\/dL$/;"	v
 ArterialGlucose	Code/src/Main.m	/^ArterialGlucose = ArterialGlucose * 10; % conversion to mmol\/L$/;"	v
-ArterialGlucose	Code/src/Main.m	/^ArterialGlucose = cast(ArterialGlucose, 'double');$/;"	v
+ArterialGlucose	Code/src/Main.m	/^ArterialGlucose = cast(ArterialGlucose*10, 'double');$/;"	v
 ArterialGlucose	Code/src/OverallLoop.m	/^ArterialGlucose = 4; %mmol \/ dL initializing at normal level$/;"	v
+ArterialGlucose	Release folder/Main.m	/^ArterialGlucose = 0.4; % mmol\/dL$/;"	v
+ArterialGlucose	Release folder/Main.m	/^ArterialGlucose = ArterialGlucose * 10; % conversion to mmol\/L$/;"	v
+ArterialGlucose	Release folder/Main.m	/^ArterialGlucose = cast(ArterialGlucose, 'double');$/;"	v
 ArterialInsulin	Code/src/Main.m	/^ArterialInsulin = 10;$/;"	v
 ArterialInsulin	Code/src/Main.m	/^ArterialInsulin = cast(ArterialInsulin, 'double');$/;"	v
 ArterialInsulin	Code/src/OverallLoop.m	/^ArterialInsulin = 10;%μU \/ mL initializing at normal level$/;"	v
+ArterialInsulin	Release folder/Main.m	/^ArterialInsulin = 10;$/;"	v
+ArterialInsulin	Release folder/Main.m	/^ArterialInsulin = cast(ArterialInsulin, 'double');$/;"	v
 ArterialSpO2	Code/src/Main.m	/^ArterialSpO2 = 0.98;$/;"	v
 ArterialSpO2	Code/src/Main.m	/^ArterialSpO2 = cast(ArterialSpO2, 'double');$/;"	v
 ArterialSpO2	Code/src/OverallLoop.m	/^ArterialSpO2 = 0.98; % initializing the blood saturation at 98%$/;"	v
+ArterialSpO2	Release folder/Main.m	/^ArterialSpO2 = 0.98;$/;"	v
+ArterialSpO2	Release folder/Main.m	/^ArterialSpO2 = cast(ArterialSpO2, 'double');$/;"	v
+BASAL_INSULIN	Code/src/GUT_PARAMS.m	/^            BASAL_INSULIN = BI_storage; $/;"	v
+BI_storage	Code/src/GUT_PARAMS.m	/^                BI_storage = basal_insulin;$/;"	v
 BMR	Code/src/BMR.m	/^function[delta_blood_glucose] = BMR(sex, weight, height, age, GutFlowRate)$/;"	f
 BMR	Code/src/GUT_PARAMS.m	/^            BMR = BMR_storage; $/;"	v
+BMR	Release folder/BMR.m	/^function[delta_blood_glucose] = BMR(sex, weight, height, age, GutFlowRate)$/;"	f
+BMR	Release folder/GUT_PARAMS.m	/^            BMR = BMR_storage; $/;"	v
 BMR_storage	Code/src/GUT_PARAMS.m	/^                BMR_storage = BMR;$/;"	v
+BMR_storage	Release folder/GUT_PARAMS.m	/^                BMR_storage = BMR;$/;"	v
+BW	Code/src/glucose_output_model2.m	/^        BW = patient(2); % body weight in kg$/;"	v
 Blood Gases	Research-notes/Final Values for Comparative Testing.md	/^# Blood Gases$/;"	c
 Brain	Code/src/OverallLoop.m	/^Brain = [40,1];$/;"	v
 BrainFlowRate	Code/src/OverallLoop.m	/^BrainFlowRate = 700;$/;"	v
-C	Code/src/glucose_absorption.m	/^    C = glucose_input - G_b - glucose_output\/(p1*V);$/;"	v
+C	Release folder/glucose_absorption.m	/^    C = glucose_input - G_b - glucose_output\/(p1*V);$/;"	v
 CGL_storage	Code/src/GUT_PARAMS.m	/^                CGL_storage = current_glycemic_load;$/;"	v
+CGL_storage	Release folder/GUT_PARAMS.m	/^                CGL_storage = current_glycemic_load;$/;"	v
 CO2_production	Code/src/O2_CO2.m	/^  CO2_production = GutNew(1) \/ (1 - GutNew(1)) * O2_absorption \/ henrys_const;$/;"	v
 CURRENT_GLYCEMIC_LOAD	Code/src/GUT_PARAMS.m	/^            CURRENT_GLYCEMIC_LOAD = CGL_storage; $/;"	v
+CURRENT_GLYCEMIC_LOAD	Release folder/GUT_PARAMS.m	/^            CURRENT_GLYCEMIC_LOAD = CGL_storage; $/;"	v
 Cb	Code/src/delta_gut.m	/^	Cb = 1.92;$/;"	v
+Cb	Release folder/delta_gut.m	/^	Cb = 1.92;$/;"	v
 Changelog	CHANGELOG.md	/^# Changelog$/;"	c
 Code	Meeting logs/2023-11-07.md	/^## Code$/;"	s	chapter:Agenda
 D	Code/src/glucose_absorption_3.m	/^	D = 5.7e-10; %define diffusibility $/;"	v
+D	Code/src/glucose_output_model2.m	/^        D = D*1000; % convert to mg$/;"	v
+D	Code/src/glucose_output_model2.m	/^        D = grams_carbs; % g$/;"	v
+D	Code/src/insulin_sensitivity.m	/^        D = D*1000; % convert to mg$/;"	v
+D	Code/src/insulin_sensitivity.m	/^    D = grams_carbs; % g$/;"	v
 DEFAULT_SETTINGS	.obsidian/plugins/waypoint/main.js	/^var DEFAULT_SETTINGS = {$/;"	v
+DURATION	Code/src/GUT_PARAMS.m	/^            DURATION = SD_storage; $/;"	v
 Dinal	Meeting logs/2023-11-07.md	/^### Dinal$/;"	S	section:Agenda""Who is doing what
 Dom	Meeting logs/2023-11-07.md	/^### Dom$/;"	S	section:Agenda""Who is doing what
 FolderNoteType	.obsidian/plugins/waypoint/main.js	/^var FolderNoteType;$/;"	v
+G	Code/src/glucose_absorption.m	/^    G = GUT_PARAMS.setget_plasma_glucose * 18.0182; %convert to mg\/dL$/;"	v
 GA_storage	Code/src/GUT_PARAMS.m	/^                GA_storage = glucose_absorption;$/;"	v
+GA_storage	Release folder/GUT_PARAMS.m	/^                GA_storage = glucose_absorption;$/;"	v
 GCO2_storage	Code/src/GUT_PARAMS.m	/^                GCO2_storage = gut_CO2;$/;"	v
-GIT	Code/src/gluconeogenesis.m	/^      GIT = 20-25% of gn, will use 22.5%$/;"	v
-GIT	Code/src/gluconeogenesis.m	/^      GIT = 5-7% of gn, will use 6%$/;"	v
+GCO2_storage	Release folder/GUT_PARAMS.m	/^                GCO2_storage = gut_CO2;$/;"	v
 GIT Transport Model	README.md	/^# GIT Transport Model$/;"	c
 GI_storage	Code/src/GUT_PARAMS.m	/^                GI_storage = glucose_input;$/;"	v
+GI_storage	Release folder/GUT_PARAMS.m	/^                GI_storage = glucose_input;$/;"	v
 GL	Code/src/food.m	/^    GL = glycemic_load(carbs, lipids, protein, fibre);$/;"	v
+GL	Release folder/food.m	/^    GL = glycemic_load(carbs, lipids, protein, fibre);$/;"	v
 GLUCOSE_ABSORPTION	Code/src/GUT_PARAMS.m	/^            GLUCOSE_ABSORPTION = GA_storage; $/;"	v
+GLUCOSE_ABSORPTION	Release folder/GUT_PARAMS.m	/^            GLUCOSE_ABSORPTION = GA_storage; $/;"	v
 GLUCOSE_INPUT	Code/src/GUT_PARAMS.m	/^            GLUCOSE_INPUT = GI_storage; $/;"	v
+GLUCOSE_INPUT	Release folder/GUT_PARAMS.m	/^            GLUCOSE_INPUT = GI_storage; $/;"	v
 GLUCOSE_OUTPUT	Code/src/GUT_PARAMS.m	/^            GLUCOSE_OUTPUT = GO_storage; $/;"	v
+GLUCOSE_OUTPUT	Release folder/GUT_PARAMS.m	/^            GLUCOSE_OUTPUT = GO_storage; $/;"	v
+GLUCOSE_OUTPUT_MODEL	Code/src/GUT_PARAMS.m	/^            GLUCOSE_OUTPUT_MODEL = GOM_storage; $/;"	v
 GO2_storage	Code/src/GUT_PARAMS.m	/^                GO2_storage = gut_O2;$/;"	v
+GO2_storage	Release folder/GUT_PARAMS.m	/^                GO2_storage = gut_O2;$/;"	v
+GOM_storage	Code/src/GUT_PARAMS.m	/^                GOM_storage = glucose_output_model;$/;"	v
 GO_storage	Code/src/GUT_PARAMS.m	/^                GO_storage = glucose_output;$/;"	v
+GO_storage	Release folder/GUT_PARAMS.m	/^                GO_storage = glucose_output;$/;"	v
 GUT_CO2	Code/src/GUT_PARAMS.m	/^            GUT_CO2 = GCO2_storage; $/;"	v
+GUT_CO2	Release folder/GUT_PARAMS.m	/^            GUT_CO2 = GCO2_storage; $/;"	v
 GUT_O2	Code/src/GUT_PARAMS.m	/^            GUT_O2 = GO2_storage; $/;"	v
+GUT_O2	Release folder/GUT_PARAMS.m	/^            GUT_O2 = GO2_storage; $/;"	v
 GUT_PARAMS	Code/src/GUT_PARAMS.m	/^classdef GUT_PARAMS$/;"	c
+GUT_PARAMS	Release folder/GUT_PARAMS.m	/^classdef GUT_PARAMS$/;"	c
 G_b	Code/src/glucose_absorption.m	/^    G_b = 80; %-> Dynamic Modeling of Exercise Effects on Plasma Glucose and Insulin Levels$/;"	v
+G_b	Code/src/glucose_absorption4.m	/^    G_b = 80; % convert to mg\/dL$/;"	v
+G_b	Code/src/glucose_output_model2.m	/^        G_b = 80; % convert to mg\/dL$/;"	v
+G_b	Code/src/insulin_sensitivity.m	/^     G_b = 80; % convert to mg\/dL$/;"	v
+G_b	Release folder/glucose_absorption.m	/^    G_b = 80; %-> Dynamic Modeling of Exercise Effects on Plasma Glucose and Insulin Levels$/;"	v
+G_t	Code/src/glucose_absorption4.m	/^    G_t = (G_b*S_G)\/(S_G*V+X_t*V) + c_g * exp(-S_G*GUT_PARAMS.setget_time-X_t*GUT_PARAMS.setget/;"	v
+G_t	Code/src/glucose_absorption4.m	/^    G_t = G_t * 18.0182; % convert to mmol\/L$/;"	v
 Glucose values	Research-notes/Final Values for Comparative Testing.md	/^# Glucose values$/;"	c
 Glycemic_load_vector	Code/src/Main.m	/^Glycemic_load_vector = zeros(1,duration\/time_step);$/;"	v
+Glycemic_load_vector	Release folder/Main.m	/^Glycemic_load_vector = zeros(1,duration\/time_step);$/;"	v
 Gut	Code/src/Main.m	/^Gut = [0.4,5]; % initialising Gut to what we'll recommend$/;"	v
 Gut	Code/src/OverallLoop.m	/^Gut = [40,1];$/;"	v
+Gut	Release folder/Main.m	/^Gut = [0.4,5]; % initialising Gut to what we'll recommend$/;"	v
 GutCalc	Code/src/GutCalc.m	/^function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)$/;"	f
+GutCalc	Release folder/GutCalc.m	/^function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)$/;"	f
 GutFlowRate	Code/src/Main.m	/^GutFlowRate = 500; % ml\/min$/;"	v
 GutFlowRate	Code/src/O2_fed_fasting.m	/^    GutFlowRate = GutFlowRate \/ 1000;$/;"	v
 GutFlowRate	Code/src/OverallLoop.m	/^GutFlowRate = 500;$/;"	v
 GutFlowRate	Code/src/glucose_absorption_2.m	/^	GutFlowRate = GutFlowRate * 1000 \/ (60 * time_step); % L\/time_step -> L\/s$/;"	v
+GutFlowRate	Release folder/Main.m	/^GutFlowRate = 500; % ml\/min$/;"	v
+GutFlowRate	Release folder/O2_fed_fasting.m	/^    GutFlowRate = GutFlowRate \/ 1000;$/;"	v
+GutFlowRate	Release folder/glucose_absorption_2.m	/^	GutFlowRate = GutFlowRate * 1000 \/ (60 * time_step); % L\/time_step -> L\/s$/;"	v
 GutNew	Code/src/GutCalc.m	/^	GutNew = zeros(1,2);$/;"	v
+GutNew	Release folder/GutCalc.m	/^	GutNew = zeros(1,2);$/;"	v
 GutNew_glucose	Code/src/glucose_absorption_3.m	/^	GutNew_glucose = gutglucose + (step * GutFlowRate) * J_glucose;$/;"	v
 GutOut	Code/src/GutCalc.m	/^	GutOut = zeros(1,3);$/;"	v
+GutOut	Release folder/GutCalc.m	/^	GutOut = zeros(1,3);$/;"	v
 GutOut_glucose	Code/src/glucose_absorption_3.m	/^	GutOut_glucose = arterialglucose + (step * GutFlowRate) * J_glucose;$/;"	v
 Gut_BMR_vector	Code/src/Main.m	/^Gut_BMR_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_BMR_vector	Release folder/Main.m	/^Gut_BMR_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_Co2_vector	Code/src/Main.m	/^Gut_Co2_vector = Gut_Co2_vector * 60; % mol\/min -> mol\/sec $/;"	v
 Gut_Co2_vector	Code/src/Main.m	/^Gut_Co2_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_Co2_vector	Release folder/Main.m	/^Gut_Co2_vector = Gut_Co2_vector * 60; % mol\/min -> mol\/sec $/;"	v
+Gut_Co2_vector	Release folder/Main.m	/^Gut_Co2_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_Glucose_Absorption_vector	Code/src/Main.m	/^Gut_Glucose_Absorption_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_Glucose_Absorption_vector	Release folder/Main.m	/^Gut_Glucose_Absorption_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_Glucose_Output_vector	Code/src/Main.m	/^Gut_Glucose_Output_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_Glucose_Output_vector	Release folder/Main.m	/^Gut_Glucose_Output_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_Glucose_vector	Code/src/Main.m	/^Gut_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_Glucose_vector	Release folder/Main.m	/^Gut_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_Oxygen_vector	Code/src/Main.m	/^Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol\/min -> mol\/sec$/;"	v
 Gut_Oxygen_vector	Code/src/Main.m	/^Gut_Oxygen_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_Oxygen_vector	Release folder/Main.m	/^Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol\/min -> mol\/sec$/;"	v
+Gut_Oxygen_vector	Release folder/Main.m	/^Gut_Oxygen_vector = zeros(1,duration\/time_step);$/;"	v
 Gut_SpO2_vector	Code/src/Main.m	/^Gut_SpO2_vector = Gut_SpO2_vector * 100; % decimal -> percentage$/;"	v
 Gut_SpO2_vector	Code/src/Main.m	/^Gut_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
+Gut_SpO2_vector	Release folder/Main.m	/^Gut_SpO2_vector = Gut_SpO2_vector * 100; % decimal -> percentage$/;"	v
+Gut_SpO2_vector	Release folder/Main.m	/^Gut_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
 HIGH_GL_FIT	Code/src/GUT_PARAMS.m	/^            HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;$/;"	v
+HIGH_GL_FIT	Release folder/GUT_PARAMS.m	/^            HIGH_GL_FIT = HIGH_GL_FIT_STORAGE;$/;"	v
 HIGH_GL_FIT_STORAGE	Code/src/GUT_PARAMS.m	/^                HIGH_GL_FIT_STORAGE = high_gl_fit;$/;"	v
+HIGH_GL_FIT_STORAGE	Release folder/GUT_PARAMS.m	/^                HIGH_GL_FIT_STORAGE = high_gl_fit;$/;"	v
 Hb	Code/src/delta_gut.m	/^	Hb = 140; $/;"	v
-III_storage	Code/src/GUT_PARAMS.m	/^                III_storage = initial_insulin_input;$/;"	v
-INITIAL_INSULIN_INPUT	Code/src/GUT_PARAMS.m	/^            INITIAL_INSULIN_INPUT = III_storage; $/;"	v
+Hb	Release folder/delta_gut.m	/^	Hb = 140; $/;"	v
+III_storage	Release folder/GUT_PARAMS.m	/^                III_storage = initial_insulin_input;$/;"	v
+INITIAL_INSULIN_INPUT	Release folder/GUT_PARAMS.m	/^            INITIAL_INSULIN_INPUT = III_storage; $/;"	v
+I_b	Code/src/glucose_absorption4.m	/^    I_b = GUT_PARAMS.setget_basal_insulin;$/;"	v
+I_b	Code/src/glucose_output_model2.m	/^        I_b = GUT_PARAMS.setget_basal_insulin;$/;"	v
 Index	Code/docs/README.md	/^# Index$/;"	c
 Insulin values	Research-notes/Final Values for Comparative Testing.md	/^# Insulin values$/;"	c
 Insulin_vector	Code/src/Main.m	/^Insulin_vector = zeros(1,duration\/time_step);$/;"	v
+Insulin_vector	Release folder/Main.m	/^Insulin_vector = zeros(1,duration\/time_step);$/;"	v
 J_glucose	Code/src/glucose_absorption_3.m	/^	J_glucose = K * A * (gutglucose - arterialglucose);$/;"	v
 Jono	Meeting logs/2023-11-07.md	/^### Jono$/;"	S	section:Agenda""Who is doing what
 Julia	Meeting logs/2023-11-07.md	/^### Julia$/;"	S	section:Agenda""Who is doing what
@@ -231,77 +296,150 @@ K	Code/src/glucose_absorption_3.m	/^	K = D * partition_coef \/ thickeness; %calc
 Kidney	Code/src/OverallLoop.m	/^Kidney = [40,1];$/;"	v
 KidneyFlowRate	Code/src/OverallLoop.m	/^KidneyFlowRate = 1000;$/;"	v
 LOW_GL_FIT	Code/src/GUT_PARAMS.m	/^            LOW_GL_FIT = LOW_GL_FIT_STORAGE;$/;"	v
+LOW_GL_FIT	Release folder/GUT_PARAMS.m	/^            LOW_GL_FIT = LOW_GL_FIT_STORAGE;$/;"	v
 LOW_GL_FIT_STORAGE	Code/src/GUT_PARAMS.m	/^                LOW_GL_FIT_STORAGE = low_gl_fit;$/;"	v
+LOW_GL_FIT_STORAGE	Release folder/GUT_PARAMS.m	/^                LOW_GL_FIT_STORAGE = low_gl_fit;$/;"	v
 Leia	Meeting logs/2023-11-07.md	/^### Leia$/;"	S	section:Agenda""Who is doing what
 Liver	Code/src/OverallLoop.m	/^Liver = [40,1];$/;"	v
 LiverFlowRate	Code/src/OverallLoop.m	/^LiverFlowRate = 1500;%ml \/ min of blood$/;"	v
 Lung	Code/src/OverallLoop.m	/^Lung = [40,1];$/;"	v
 MEALS	Code/src/GUT_PARAMS.m	/^            MEALS = M_storage; $/;"	v
+MEALS	Release folder/GUT_PARAMS.m	/^            MEALS = M_storage; $/;"	v
 MEAL_ABSORPTION_TIME	Code/src/GutCalc.m	/^	MEAL_ABSORPTION_TIME = 4*3600; % this needs a researched value (hrs -> seconds)$/;"	v
+MEAL_ABSORPTION_TIME	Release folder/GutCalc.m	/^	MEAL_ABSORPTION_TIME = 4*3600; % this needs a researched value (hrs -> seconds)$/;"	v
 MEAL_TIMES	Code/src/GUT_PARAMS.m	/^            MEAL_TIMES = MT_storage; $/;"	v
+MEAL_TIMES	Release folder/GUT_PARAMS.m	/^            MEAL_TIMES = MT_storage; $/;"	v
 MT_storage	Code/src/GUT_PARAMS.m	/^                MT_storage = meal_times;$/;"	v
+MT_storage	Release folder/GUT_PARAMS.m	/^                MT_storage = meal_times;$/;"	v
 M_storage	Code/src/GUT_PARAMS.m	/^                M_storage = meals;$/;"	v
+M_storage	Release folder/GUT_PARAMS.m	/^                M_storage = meals;$/;"	v
+Meal	Code/src/glucose_absorption4.m	/^    Meal = GUT_PARAMS.setget_meals;$/;"	v
+Meal	Code/src/glucose_output_model2.m	/^        Meal = GUT_PARAMS.setget_meals;$/;"	v
 Meal_times	Code/src/Main.m	/^Meal_times = [ 7 , 13, 19 ];$/;"	v
 Meal_times	Code/src/check_meal_time.m	/^    Meal_times = GUT_PARAMS.setget_meal_times;$/;"	v
 Meal_times	Code/src/initialise_gut_params.m	/^    Meal_times = Meal_times - start_time;$/;"	v
+Meal_times	Release folder/Main.m	/^Meal_times = [ 7 , 13, 19 ];$/;"	v
+Meal_times	Release folder/check_meal_time.m	/^    Meal_times = GUT_PARAMS.setget_meal_times;$/;"	v
+Meal_times	Release folder/initialise_gut_params.m	/^    Meal_times = Meal_times - start_time;$/;"	v
 Meals	Code/src/Main.m	/^Meals = [   43.33 24.44 15.4 11.2;$/;"	v
-Meals	Code/src/glucose_output_model.m	/^	Meals = GUT_PARAMS.setget_meals;$/;"	v
+Meals	Code/src/set_meal.m	/^	Meals = GUT_PARAMS.setget_meals;$/;"	v
+Meals	Release folder/Main.m	/^Meals = [   43.33 24.44 15.4 11.2;$/;"	v
+Meals	Release folder/glucose_output_model.m	/^	Meals = GUT_PARAMS.setget_meals;$/;"	v
 MixedVenousGlucose	Code/src/OverallLoop.m	/^    MixedVenousGlucose = (LiverOut(2)*LiverFlowRate + PancreasOut(2)*PancreasFlowRate + KidneyOu/;"	v
 MixedVenousInsulin	Code/src/OverallLoop.m	/^    MixedVenousInsulin = (LiverOut(3)*LiverFlowRate + PancreasOut(3)*PancreasFlowRate + KidneyOu/;"	v
 MixedVenousSpO2	Code/src/OverallLoop.m	/^    MixedVenousSpO2 = (LiverOut(1)*LiverFlowRate + PancreasOut(1)*PancreasFlowRate + KidneyOut(1/;"	v
 Muscle	Code/src/OverallLoop.m	/^Muscle = [40,1];$/;"	v
 MuscleFlowRate	Code/src/OverallLoop.m	/^MuscleFlowRate = 1300;$/;"	v
 O2C_storage	Code/src/GUT_PARAMS.m	/^                O2C_storage = O2_consumption;$/;"	v
+O2C_storage	Release folder/GUT_PARAMS.m	/^                O2C_storage = O2_consumption;$/;"	v
 O2_Absorption	Code/src/O2_Absorption.m	/^function [gut_O2] = O2_Absorption(GutFlowRate, arterial_spO2, Cb, Hb, O2_usage)$/;"	f
 O2_CO2	Code/src/O2_CO2.m	/^function [GutNew, GutOut] = O2_CO2(GutFlowRate, Gut, Arterial, step, A)$/;"	f
 O2_CONSUMPTION	Code/src/GUT_PARAMS.m	/^            O2_CONSUMPTION = O2C_storage; $/;"	v
+O2_CONSUMPTION	Release folder/GUT_PARAMS.m	/^            O2_CONSUMPTION = O2C_storage; $/;"	v
 O2_absorption	Code/src/O2_CO2.m	/^  O2_absorption = henrys_const * arterial_spO2 + k * A * (gut_spO2 - arterial_spO2);$/;"	v
 O2_fed_fasting	Code/src/O2_fed_fasting.m	/^function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)$/;"	f
+O2_fed_fasting	Release folder/O2_fed_fasting.m	/^function [gut_O2, gut_spO2, gut_CO2] = O2_fed_fasting(GutFlowRate, Cb, Hb)$/;"	f
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = (-1\/3600) * time_since_last_meal + 4.15;$/;"	v
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = (1\/3600)*time_since_last_meal + 0.15;$/;"	v
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = 0.15;$/;"	v
 O2_usage	Code/src/O2_fed_fasting.m	/^        O2_usage = 0.65;$/;"	v
+O2_usage	Release folder/O2_fed_fasting.m	/^        O2_usage = (-1\/3600) * time_since_last_meal + 4.15;$/;"	v
+O2_usage	Release folder/O2_fed_fasting.m	/^        O2_usage = (1\/3600)*time_since_last_meal + 0.15;$/;"	v
+O2_usage	Release folder/O2_fed_fasting.m	/^        O2_usage = 0.15;$/;"	v
+O2_usage	Release folder/O2_fed_fasting.m	/^        O2_usage = 0.65;$/;"	v
 P	Code/src/thermo.m	/^P = 59\/760; %(atm)$/;"	v
 PATIENT	Code/src/GUT_PARAMS.m	/^            PATIENT = P_storage; $/;"	v
+PATIENT	Release folder/GUT_PARAMS.m	/^            PATIENT = P_storage; $/;"	v
+PG_storage	Code/src/GUT_PARAMS.m	/^                PG_storage = plasma_glucose;$/;"	v
+PLASMA_GLUCOSE	Code/src/GUT_PARAMS.m	/^            PLASMA_GLUCOSE = PG_storage; $/;"	v
 PREVIOUS_TIME	Code/src/GUT_PARAMS.m	/^            PREVIOUS_TIME = PT_storage; $/;"	v
+PREVIOUS_TIME	Release folder/GUT_PARAMS.m	/^            PREVIOUS_TIME = PT_storage; $/;"	v
 PT_storage	Code/src/GUT_PARAMS.m	/^                PT_storage = previous_time;$/;"	v
+PT_storage	Release folder/GUT_PARAMS.m	/^                PT_storage = previous_time;$/;"	v
 P_storage	Code/src/GUT_PARAMS.m	/^                P_storage = patient;$/;"	v
+P_storage	Release folder/GUT_PARAMS.m	/^                P_storage = patient;$/;"	v
 Pancreas	Code/src/OverallLoop.m	/^Pancreas = [40,1];$/;"	v
 PancreasFlowRate	Code/src/OverallLoop.m	/^PancreasFlowRate   =   300;$/;"	v
+Patient	Code/src/BMR.m	/^    Patient = GUT_PARAMS.setget_patient;$/;"	v
+Patient	Code/src/glucose_absorption4.m	/^    Patient = GUT_PARAMS.setget_patient;$/;"	v
+Patient	Code/src/insulin_sensitivity.m	/^    Patient = GUT_PARAMS.setget_patient;$/;"	v
 Pull request patterns	README.md	/^## Pull request patterns$/;"	s	chapter:GIT Transport Model
+Q_gut	Code/src/glucose_output_model2.m	/^            Q_gut = 0;$/;"	v
+Q_gut	Code/src/glucose_output_model2.m	/^    Q_gut = c_gut * exp(-k_constant*t) + (k_emptying*Q_liquid\/k_constant);$/;"	v
+Q_liquid	Code/src/glucose_output_model2.m	/^            Q_liquid = 0;$/;"	v
+Q_liquid	Code/src/glucose_output_model2.m	/^    Q_liquid = c_liquid * exp(-k_emptying*t) + (k_grind*Q_solid\/k_emptying);$/;"	v
+Q_solid	Code/src/glucose_output_model2.m	/^            Q_solid = 0;$/;"	v
+Q_solid	Code/src/glucose_output_model2.m	/^    Q_solid = c_solid * exp(-k_grind*t) + (D\/k_grind);$/;"	v
+Q_stomach	Code/src/glucose_output_model2.m	/^        Q_stomach = Q_solid + Q_liquid;$/;"	v
 R	Code/src/thermo.m	/^R = 0.08206; %((L*atm)\/(mol*K))$/;"	v
+R_a	Code/src/glucose_absorption4.m	/^    R_a = glucose_output * 60 * GUT_PARAMS.setget_time_step; % mg\/min -> mg\/(s*time_step)$/;"	v
+R_a	Code/src/glucose_output_model2.m	/^        R_a = GUT_PARAMS.setget_glucose_output;$/;"	v
+R_a	Code/src/glucose_output_model2.m	/^        R_a = V * (delta_glucose - S_G * G_b + (S_G + S_I*conv(p_2*exp(-p_2*t), insulin - I_b)))/;"	v
 Repository index	README.md	/^# Repository index$/;"	c
 Research progress	Meeting logs/2023-11-07.md	/^## Research progress$/;"	s	chapter:Agenda
+SD_storage	Code/src/GUT_PARAMS.m	/^                SD_storage = simulation_duration;$/;"	v
 START_TIME	Code/src/GUT_PARAMS.m	/^            START_TIME = ST_storage; $/;"	v
-ST_storage	Code/src/GUT_PARAMS.m	/^                ST_storage = start_time;$/;"	v
+START_TIME	Release folder/GUT_PARAMS.m	/^            START_TIME = ST_storage; $/;"	v
+ST_storage	Code/src/GUT_PARAMS.m	/^                ST_storage = start_time; $/;"	v
+ST_storage	Release folder/GUT_PARAMS.m	/^                ST_storage = start_time;$/;"	v
+S_G	Code/src/glucose_absorption4.m	/^        S_G = GUT_PARAMS.setget_time_step*60*S_G; % convert to time_stime*s^-1$/;"	v
+S_G	Code/src/glucose_absorption4.m	/^    S_G = 0.025; % min^-1$/;"	v
+S_G	Code/src/glucose_output_model2.m	/^        S_G = 0.025; % min^-1$/;"	v
+S_G	Code/src/glucose_output_model2.m	/^        S_G = 60*S_G; % convert to s^-1$/;"	v
+S_G	Code/src/insulin_sensitivity.m	/^        S_G = 60*S_G; % convert to s^-1$/;"	v
+S_G	Code/src/insulin_sensitivity.m	/^    S_G = 0.025; % min^-1$/;"	v
+S_I	Code/src/glucose_absorption4.m	/^    S_I = insulin_sensitivity(grams_carbs, arterial_glucose, insulin);$/;"	v
+S_I	Code/src/glucose_output_model2.m	/^        S_I = insulin_sensitivity(D, gut_glucose, insulin);$/;"	v
 SpO2_new	Code/src/delta_gut.m	/^    SpO2_new = smooth_to_basal(SpO2, O2_usage);$/;"	v
+SpO2_new	Release folder/delta_gut.m	/^    SpO2_new = smooth_to_basal(SpO2, O2_usage);$/;"	v
 Step 1:	Research-notes/Absorption in the GIT.md	/^# Step 1:$/;"	c
 Step 2:	Research-notes/Absorption in the GIT.md	/^# Step 2:$/;"	c
 Step 3	Research-notes/Absorption in the GIT.md	/^# Step 3 $/;"	c
 T	Code/src/thermo.m	/^T = 310; %(K)$/;"	v
 TIME	Code/src/GUT_PARAMS.m	/^            TIME = T_storage; $/;"	v
+TIME	Release folder/GUT_PARAMS.m	/^            TIME = T_storage; $/;"	v
 TIME_SINCE_LAST_MEAL	Code/src/GUT_PARAMS.m	/^            TIME_SINCE_LAST_MEAL = TSLM_storage; $/;"	v
+TIME_SINCE_LAST_MEAL	Release folder/GUT_PARAMS.m	/^            TIME_SINCE_LAST_MEAL = TSLM_storage; $/;"	v
 TIME_STEP	Code/src/GUT_PARAMS.m	/^            TIME_STEP = TS_storage; $/;"	v
 TIME_STEP	Code/src/GutCalc.m	/^	TIME_STEP = time_step;$/;"	v
+TIME_STEP	Release folder/GUT_PARAMS.m	/^            TIME_STEP = TS_storage; $/;"	v
+TIME_STEP	Release folder/GutCalc.m	/^	TIME_STEP = time_step;$/;"	v
 TSLM_storage	Code/src/GUT_PARAMS.m	/^                TSLM_storage = time_since_last_meal;$/;"	v
+TSLM_storage	Release folder/GUT_PARAMS.m	/^                TSLM_storage = time_since_last_meal;$/;"	v
 TS_storage	Code/src/GUT_PARAMS.m	/^                TS_storage = time_step;$/;"	v
+TS_storage	Release folder/GUT_PARAMS.m	/^                TS_storage = time_step;$/;"	v
 T_storage	Code/src/GUT_PARAMS.m	/^                T_storage = time;$/;"	v
+T_storage	Release folder/GUT_PARAMS.m	/^                T_storage = time;$/;"	v
 Time_since_last_meal_vector	Code/src/Main.m	/^Time_since_last_meal_vector = Time_since_last_meal_vector\/3600;$/;"	v
 Time_since_last_meal_vector	Code/src/Main.m	/^Time_since_last_meal_vector = zeros(1,duration\/time_step);$/;"	v
+Time_since_last_meal_vector	Release folder/Main.m	/^Time_since_last_meal_vector = Time_since_last_meal_vector\/3600;$/;"	v
+Time_since_last_meal_vector	Release folder/Main.m	/^Time_since_last_meal_vector = zeros(1,duration\/time_step);$/;"	v
 Time_vector	Code/src/Main.m	/^Time_vector = Time_vector\/3600;$/;"	v
 Time_vector	Code/src/Main.m	/^Time_vector = zeros(1,duration\/time_step);$/;"	v
+Time_vector	Release folder/Main.m	/^Time_vector = Time_vector\/3600;$/;"	v
+Time_vector	Release folder/Main.m	/^Time_vector = zeros(1,duration\/time_step);$/;"	v
 TotalFlowRate	Code/src/OverallLoop.m	/^TotalFlowRate  =  KidneyFlowRate + BrainFlowRate + GutFlowRate + LiverFlowRate + MuscleFlowRate /;"	v
-V	Code/src/glucose_absorption.m	/^    V = 12.7*10; %volume of distribution of glucose dL -> from Glucose uptake saturation explain/;"	v
+V	Code/src/BMR.m	/^    V = 1.45 * Patient(2); % volume of distribution of glucose in dL$/;"	v
+V	Code/src/BMR.m	/^    V = V \/ 10; % dL to L$/;"	v
+V	Code/src/glucose_absorption.m	/^    V = 1.45 * patient(2); %volume of distribution dL per kg$/;"	v
+V	Code/src/glucose_absorption4.m	/^    V = 1.45 * Patient(2); % volume of distribution of glucose in dL$/;"	v
+V	Code/src/glucose_output_model2.m	/^        V = 1.45 * BW; % volume of distribution of glucose in dL$/;"	v
+V	Code/src/insulin_sensitivity.m	/^    V = 1.45 * Patient(2); % volume of distribution of glucose in dL$/;"	v
 V	Code/src/thermo.m	/^V = 0.03712; %(ml\/min)$/;"	v
+V	Release folder/glucose_absorption.m	/^    V = 12.7*10; %volume of distribution of glucose dL -> from Glucose uptake saturation explain/;"	v
 Venous	Code/src/OverallLoop.m	/^    Venous = [MixedVenousSpO2,MixedVenousGlucose,MixedVenousInsulin];$/;"	v
 VenousMixedSpO2	Code/src/OverallLoop.m	/^VenousMixedSpO2 = 0.98;%initializing venous SpO2 at same as ArterialSpO2 for testing the 'nothin/;"	v
 Venous_Glucose_vector	Code/src/Main.m	/^Venous_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
+Venous_Glucose_vector	Release folder/Main.m	/^Venous_Glucose_vector = zeros(1,duration\/time_step);$/;"	v
 Venous_SpO2_vector	Code/src/Main.m	/^Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage$/;"	v
 Venous_SpO2_vector	Code/src/Main.m	/^Venous_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
+Venous_SpO2_vector	Release folder/Main.m	/^Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage$/;"	v
+Venous_SpO2_vector	Release folder/Main.m	/^Venous_SpO2_vector = zeros(1,duration\/time_step);$/;"	v
 Victoria	Meeting logs/2023-11-07.md	/^### Victoria$/;"	S	section:Agenda""Who is doing what
 Waypoint	.obsidian/plugins/waypoint/main.js	/^var Waypoint = _Waypoint;$/;"	v
 WaypointSettingsTab	.obsidian/plugins/waypoint/main.js	/^var WaypointSettingsTab = class extends import_obsidian.PluginSettingTab {$/;"	c
 Who is doing what	Meeting logs/2023-11-07.md	/^## Who is doing what$/;"	s	chapter:Agenda
+X_t	Code/src/glucose_absorption4.m	/^    X_t = c_x * exp(-p_2*GUT_PARAMS.setget_time) - c_x;$/;"	v
 [Unreleased](https://github.com/BiomedEngineering2ndBrain/GIT-Transport-Model/tree/HEAD)	CHANGELOG.md	/^## [Unreleased](https:\/\/github.com\/BiomedEngineering2ndBrain\/GIT-Transport-Model\/tree\/HEAD/;"	s	chapter:Changelog
 _Waypoint	.obsidian/plugins/waypoint/main.js	/^var _Waypoint = class extends import_obsidian.Plugin {$/;"	c
 __async	.obsidian/plugins/waypoint/main.js	/^var __async = (__this, __arguments, generator) => {$/;"	f
@@ -309,10 +447,15 @@ __export	.obsidian/plugins/waypoint/main.js	/^var __export = (target, all) => {$
 __markAsModule	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	f
 __reExport	.obsidian/plugins/waypoint/main.js	/^var __reExport = (target, module2, desc) => {$/;"	f
 __toModule	.obsidian/plugins/waypoint/main.js	/^var __toModule = (module2) => {$/;"	f
-absorption	Code/src/delta_gut.m	/^	absorption = glucose_absorption(gut_glucose, glucose_output, time_step);$/;"	v
+absorption	Code/src/delta_gut.m	/^                absorption = GUT_PARAMS.setget_BMR;$/;"	v
+absorption	Code/src/delta_gut.m	/^            absorption = absorption + shift;$/;"	v
+absorption	Code/src/delta_gut.m	/^            absorption = glucose_absorption(glucose_output, time_step);$/;"	v
+absorption	Code/src/delta_gut.m	/^            absorption = glucose_absorption4(gut_glucose, rate_glucose_appearance, time_step);$/;"	v
+absorption	Release folder/delta_gut.m	/^	absorption = glucose_absorption(gut_glucose, glucose_output, time_step);$/;"	v
 accentColor	.obsidian/appearance.json	/^  "accentColor": ""$/;"	s
 active	.obsidian/workspace.json	/^  "active": "e0c06fa0aa559213",$/;"	s
 age	Code/src/Main.m	/^age = 25; %years$/;"	v
+age	Release folder/Main.m	/^age = 25; %years$/;"	v
 alwaysUpdateLinks	.obsidian/app.json	/^  "alwaysUpdateLinks": true,$/;"	b
 anonymousFunction1674d7360800	.obsidian/plugins/waypoint/main.js	/^(function(FolderNoteType2) {$/;"	f
 anonymousFunction1674d7360a00	.obsidian/plugins/waypoint/main.js	/^    this.detectWaypointFlag = (file) => __async(this, null, function* () {$/;"	g	method:_Waypoint.constructor
@@ -345,30 +488,46 @@ anonymousObject1674d7362205	.obsidian/plugins/waypoint/main.js	/^    description
 anonymousObject1674d7362305	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createSpan({ text: " or get in touch with the author " });$/;"	v
 anonymousObject1674d7362405	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/twitter.com\/IdreesInc" }, tex/;"	v
 arterial_glucose	Code/src/GutCalc.m	/^	arterial_glucose = Arterial(2);$/;"	v
+arterial_glucose	Release folder/GutCalc.m	/^	arterial_glucose = Arterial(2);$/;"	v
 arterial_insulin	Code/src/GutCalc.m	/^	arterial_insulin = Arterial(3);$/;"	v
+arterial_insulin	Release folder/GutCalc.m	/^	arterial_insulin = Arterial(3);$/;"	v
 arterial_spO2	Code/src/GutCalc.m	/^	arterial_spO2 = Arterial(1);$/;"	v
 arterial_spO2	Code/src/O2_CO2.m	/^  arterial_spO2 = Aterial(1);$/;"	v
+arterial_spO2	Release folder/GutCalc.m	/^	arterial_spO2 = Arterial(1);$/;"	v
 attachmentFolderPath	.obsidian/app.json	/^  "attachmentFolderPath": "Attachments",$/;"	s
 attr	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/github.com\/IdreesInc\/Waypoin/;"	p	variable:anonymousObject1674d7362205
 attr	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/twitter.com\/IdreesInc" }, tex/;"	p	variable:anonymousObject1674d7362405
 audio-recorder	.obsidian/core-plugins-migration.json	/^  "audio-recorder": false,$/;"	b
 author	.obsidian/plugins/waypoint/manifest.json	/^	"author": "Idrees Hassan",$/;"	s
 authorUrl	.obsidian/plugins/waypoint/manifest.json	/^	"authorUrl": "https:\/\/idreesinc.com",$/;"	s
+b	Code/src/glucose_output_model2.m	/^    b = 0.82; % percentage of dose that causes a decrease to (k_max-k_min)\/2$/;"	v
 backlink	.obsidian/core-plugins-migration.json	/^  "backlink": true,$/;"	b
 backlinkCollapsed	.obsidian/workspace.json	/^                "backlinkCollapsed": false,$/;"	b	object:right.children.0.children.0.state.state
 basal_SpO2	Code/src/delta_gut.m	/^    basal_SpO2 = cast(0.076, 'double');$/;"	v
+basal_SpO2	Release folder/delta_gut.m	/^    basal_SpO2 = cast(0.076, 'double');$/;"	v
+basal_insulin	Code/src/Main.m	/^basal_insulin = ArterialInsulin; % microU\/mL -> assuming inputted insulin to system is basal in/;"	v
 biologyhumansodiumglucosetransporters-wright	Research/GITTransportModel.bib	/^@article{biologyhumansodiumglucosetransporters-wright,$/;"	a
 bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya	Research/GITTransportModel.bib	/^@article{bloodflowresponsesceliacsuperiormesentericarteriesinitialphasedigestion-someya,$/;"	a
 bookmarks	.obsidian/core-plugins-migration.json	/^  "bookmarks": true,$/;"	b
+c	Code/src/glucose_output_model2.m	/^    c = 0.00236; % percentage of dose that causes a rise back to (k_max-k_min)\/2$/;"	v
+c_g	Code/src/glucose_absorption4.m	/^    c_g = 80-(G_b\/V) - (R_a\/V);$/;"	v
+c_gut	Code/src/glucose_output_model2.m	/^    c_gut = -(k_emptying*Q_liquid\/k_constant);$/;"	v
+c_liquid	Code/src/glucose_output_model2.m	/^    c_liquid = -(k_grind*Q_solid\/k_emptying);$/;"	v
+c_solid	Code/src/glucose_output_model2.m	/^    c_solid = -(D\/k_grind);$/;"	v
+c_x	Code/src/glucose_absorption4.m	/^    c_x = -S_I * (insulin - I_b);$/;"	v
 calc_new_time	Code/src/GutCalc.m	/^function new_time = calc_new_time(previous_time,time_step)$/;"	f
+calc_new_time	Release folder/GutCalc.m	/^function new_time = calc_new_time(previous_time,time_step)$/;"	f
 caloriestotalmacronutrientintakeenergyexpenditurenetenergystores-health	Research/GITTransportModel.bib	/^@incollection{caloriestotalmacronutrientintakeenergyexpenditurenetenergystores-health,$/;"	I
 canvas	.obsidian/core-plugins-migration.json	/^  "canvas": true,$/;"	b
 canvas:Create new canvas	.obsidian/workspace.json	/^      "canvas:Create new canvas": false,$/;"	b	object:left-ribbon.hiddenItems
-carbs	Code/src/glucose_output_model.m	/^        carbs = 0;$/;"	v
-carbs	Code/src/glucose_output_model.m	/^        carbs = Meals(time_of_day,1);$/;"	v
+carbs	Code/src/set_meal.m	/^        carbs = 0;$/;"	v
+carbs	Code/src/set_meal.m	/^        carbs = Meals(time_of_day,1);$/;"	v
+carbs	Release folder/glucose_output_model.m	/^        carbs = 0;$/;"	v
+carbs	Release folder/glucose_output_model.m	/^        carbs = Meals(time_of_day,1);$/;"	v
 changeslivergastrointestinaltractenergydemandsresponsephysiologicalworkloadruminants-johnson	Research/GITTransportModel.bib	/^@article{changeslivergastrointestinaltractenergydemandsresponsephysiologicalworkloadruminants-jo/;"	a
 chaptercalculationenergycontentfoodsenergyconversionfactors-	Research/GITTransportModel.bib	/^@misc{chaptercalculationenergycontentfoodsenergyconversionfactors-,$/;"	n
-check_meal_time	Code/src/check_meal_time.m	/^function[time_of_day] = check_meal_time(time)$/;"	f
+check_meal_time	Code/src/check_meal_time.m	/^function time_of_day = check_meal_time(time)$/;"	f
+check_meal_time	Release folder/check_meal_time.m	/^function[time_of_day] = check_meal_time(time)$/;"	f
 children	.obsidian/workspace.json	/^        "children": [$/;"	a	object:left.children.0
 children	.obsidian/workspace.json	/^        "children": [$/;"	a	object:main.children.0
 children	.obsidian/workspace.json	/^        "children": [$/;"	a	object:right.children.0
@@ -389,17 +548,26 @@ computermodelsimulatinghumanglucoseabsorptionmetabolismhealthmetabolicdiseasesta
 configurationhemoglobinoxygendissociationcurvedemystifiedbasicmathematicalproofmedicalbiologicalsciencesundergraduates-leow	Research/GITTransportModel.bib	/^@article{configurationhemoglobinoxygendissociationcurvedemystifiedbasicmathematicalproofmedicalb/;"	a
 constructor	.obsidian/plugins/waypoint/main.js	/^  constructor() {$/;"	m	class:_Waypoint
 constructor	.obsidian/plugins/waypoint/main.js	/^  constructor(app, plugin) {$/;"	m	class:WaypointSettingsTab
+conv_term	Code/src/insulin_sensitivity.m	/^        conv_term = conv(p_2*exp(-p_2*GUT_PARAMS.setget_time),(insulin-GUT_PARAMS.setget_basal_i/;"	v
 costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren	Research/GITTransportModel.bib	/^@article{costchewingenergeticsevolutionarysignificancemasticationhumans-vancasteren,$/;"	a
+curve_fit	Code/src/Main.m	/^curve_fit = 8;$/;"	v
+dG_dt	Code/src/glucose_absorption.m	/^	dG_dt = -p1*G + p1*G_b + glucose_output\/V;$/;"	v
 daily-notes	.obsidian/core-plugins-migration.json	/^  "daily-notes": true,$/;"	b
 daily-notes:Open today's daily note	.obsidian/workspace.json	/^      "daily-notes:Open today's daily note": false,$/;"	b	object:left-ribbon.hiddenItems
 debugLogging	.obsidian/plugins/waypoint/data.json	/^  "debugLogging": false,$/;"	b
 debugLogging	.obsidian/plugins/waypoint/main.js	/^  debugLogging: false,$/;"	p	variable:DEFAULT_SETTINGS
 definingcriticallimitoxygenextractionhumansmallintestine-desai	Research/GITTransportModel.bib	/^@article{definingcriticallimitoxygenextractionhumansmallintestine-desai,$/;"	a
+delta_Q	Code/src/glucose_output_model2.m	/^function [delta_glucose_gut,gut_glucose] = delta_Q(D)$/;"	f
 delta_arterial	Code/src/delta_arterial.m	/^function [venous_SpO2_new, venous_glucose_new, venous_insulin_new] = delta_arterial(arterial_SpO/;"	f
-delta_blood_glucose	Code/src/BMR.m	/^    delta_blood_glucose = delta_blood_glucose \/ 1000;$/;"	v
-delta_blood_glucose	Code/src/BMR.m	/^    delta_blood_glucose = glucose_mol * 1000 * (1\/GutFlowRate);$/;"	v
+delta_arterial	Release folder/delta_arterial.m	/^function [venous_SpO2_new, venous_glucose_new, venous_insulin_new] = delta_arterial(arterial_SpO/;"	f
+delta_blood_glucose	Code/src/BMR.m	/^    delta_blood_glucose = glucose_mol;$/;"	v
 delta_blood_glucose	Code/src/thermo.m	/^delta_blood_glucose = food_energy * (1\/4.4) * (1\/180.15588)* GutFlowRate;/;"	v
+delta_blood_glucose	Release folder/BMR.m	/^    delta_blood_glucose = delta_blood_glucose \/ 1000;$/;"	v
+delta_blood_glucose	Release folder/BMR.m	/^    delta_blood_glucose = glucose_mol * 1000 * (1\/GutFlowRate);$/;"	v
+delta_glucose_gut	Code/src/glucose_output_model2.m	/^    delta_glucose_gut = -k_constant*Q_gut + k_emptying*Q_liquid;$/;"	v
 delta_gut	Code/src/delta_gut.m	/^function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRate,time_step)$/;"	f
+delta_gut	Release folder/delta_gut.m	/^function [SpO2_new, glucose_new] = delta_gut(SpO2,gut_glucose,Insulin,GutFlowRate,time_step)$/;"	f
+demoninator	Code/src/insulin_sensitivity.m	/^    demoninator = integral(integral_func,0,GUT_PARAMS.setget_duration);$/;"	v
 description	.obsidian/plugins/waypoint/manifest.json	/^	"description": "Easily generate dynamic content maps in your folder notes. Enables folders to s/;"	s
 detectWaypointFlag	.obsidian/plugins/waypoint/main.js	/^    this.detectWaypointFlag = (file) => __async(this, null, function* () {$/;"	f	method:_Waypoint.constructor
 developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee	Research/GITTransportModel.bib	/^@article{developmentpredictionmodelestimateglycemicloadreadytoeatmeals-lee,$/;"	a
@@ -409,6 +577,7 @@ direction	.obsidian/workspace.json	/^    "direction": "horizontal",$/;"	s	object
 direction	.obsidian/workspace.json	/^    "direction": "vertical"$/;"	s	object:main
 display	.obsidian/plugins/waypoint/main.js	/^  display() {$/;"	m	class:WaypointSettingsTab
 duration	Code/src/Main.m	/^duration = 24*3600; % seconds$/;"	v
+duration	Release folder/Main.m	/^duration = 24*3600; % seconds$/;"	v
 dynamicmodelingexerciseeffectsplasmaglucoseinsulinlevels-roy	Research/GITTransportModel.bib	/^@article{dynamicmodelingexerciseeffectsplasmaglucoseinsulinlevels-roy,$/;"	a
 dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenberger	Research/GITTransportModel.bib	/^@article{dynamicsglucoseinsulinconcentrationconnectedcellcyclemodeldevelopmentanalysis-gallenber/;"	a
 editor-status	.obsidian/core-plugins-migration.json	/^  "editor-status": true,$/;"	b
@@ -424,8 +593,12 @@ enumerable	.obsidian/plugins/waypoint/main.js	/^  return __reExport(__markAsModu
 explainSearch	.obsidian/workspace.json	/^                "explainSearch": false,$/;"	b	object:left.children.0.children.1.state.state
 extraContext	.obsidian/workspace.json	/^                "extraContext": false,$/;"	b	object:left.children.0.children.1.state.state
 extraContext	.obsidian/workspace.json	/^                "extraContext": false,$/;"	b	object:right.children.0.children.0.state.state
-fibre	Code/src/glucose_output_model.m	/^        fibre = 0;$/;"	v
-fibre	Code/src/glucose_output_model.m	/^        fibre = Meals(time_of_day,4);$/;"	v
+f	Code/src/glucose_output_model2.m	/^    f = 1; % simplifying assumption that all ingested carbs are absorbed$/;"	v
+f	Code/src/insulin_sensitivity.m	/^    f = 1; % assuming for simplicity -> fractional absorption of carbs$/;"	v
+fibre	Code/src/set_meal.m	/^        fibre = 0;$/;"	v
+fibre	Code/src/set_meal.m	/^        fibre = Meals(time_of_day,4);$/;"	v
+fibre	Release folder/glucose_output_model.m	/^        fibre = 0;$/;"	v
+fibre	Release folder/glucose_output_model.m	/^        fibre = Meals(time_of_day,4);$/;"	v
 ficklawdiffusionoverviewformulaapplication-	Research/GITTransportModel.bib	/^@misc{ficklawdiffusionoverviewformulaapplication-,$/;"	n
 file	.obsidian/workspace.json	/^                "file": "Research-notes\/Absorption in the GIT.md"$/;"	s	object:right.children.0.children.3.state.state
 file	.obsidian/workspace.json	/^                "file": "Research-notes\/Absorption in the GIT.md",$/;"	s	object:main.children.0.children.0.state.state
@@ -434,11 +607,14 @@ file	.obsidian/workspace.json	/^                "file": "Research-notes\/Absorpt
 file-explorer	.obsidian/core-plugins-migration.json	/^  "file-explorer": true,$/;"	b
 file-recovery	.obsidian/core-plugins-migration.json	/^  "file-recovery": true,$/;"	b
 find_gl_glucose	Code/src/find_gl_glucose.m	/^function [glucose] = find_gl_glucose(time_since_last_meal, glycemic_load)$/;"	f
+find_gl_glucose	Release folder/find_gl_glucose.m	/^function [glucose] = find_gl_glucose(time_since_last_meal, glycemic_load)$/;"	f
 folderNoteType	.obsidian/plugins/waypoint/data.json	/^  "folderNoteType": "INSIDE_FOLDER"$/;"	s
 folderNoteType	.obsidian/plugins/waypoint/main.js	/^  folderNoteType: FolderNoteType.InsideFolder$/;"	p	variable:DEFAULT_SETTINGS
 food	Code/src/food.m	/^function [food_glucose,GL] = food(carbs, lipids, protein, fibre, time_since_last_meal)$/;"	f
+food	Release folder/food.m	/^function [food_glucose,GL] = food(carbs, lipids, protein, fibre, time_since_last_meal)$/;"	f
 food_energy	Code/src/thermo.m	/^food_energy = 0.95 * (carbs * 4) + 0.7 * (protein * 4) + 0.95 * (lipids * 9); %(kcal)$/;"	v
 food_glucose	Code/src/food.m	/^    food_glucose = find_gl_glucose(time_since_last_meal, GL);$/;"	v
+food_glucose	Release folder/food.m	/^    food_glucose = find_gl_glucose(time_since_last_meal, GL);$/;"	v
 ft	Code/src/gl_Gaylard2_fit.m	/^ft = fittype( 'a*x^(b*x^(-c))', 'independent', 'x', 'dependent', 'y' );$/;"	v
 ft	Code/src/gl_Gaylard_fit.m	/^ft = fittype( 'x\/(1+a*x+b*sqrt(x))', 'independent', 'x', 'dependent', 'y' );$/;"	v
 ft	Code/src/gl_fourier_fit.m	/^ft = fittype( 'fourier2' );$/;"	v
@@ -448,77 +624,143 @@ ft	Code/src/gl_polynomial_fit.m	/^ft = fittype( 'poly4' );$/;"	v
 ft	Code/src/gl_smoothing_spline_fit.m	/^ft = fittype( 'smoothingspline' );$/;"	v
 ft	Code/src/gl_sum_of_sines_fit.m	/^ft = fittype( 'sin2' );$/;"	v
 ft	Code/src/sigfit.m	/^ft = fittype( 'logistic' );$/;"	v
+ft	Release folder/gl_Gaylard2_fit.m	/^ft = fittype( 'a*x^(b*x^(-c))', 'independent', 'x', 'dependent', 'y' );$/;"	v
+ft	Release folder/gl_Gaylard_fit.m	/^ft = fittype( 'x\/(1+a*x+b*sqrt(x))', 'independent', 'x', 'dependent', 'y' );$/;"	v
+ft	Release folder/gl_fourier_fit.m	/^ft = fittype( 'fourier2' );$/;"	v
+ft	Release folder/gl_gaussian_fit.m	/^ft = fittype( 'gauss2' );$/;"	v
+ft	Release folder/gl_interpolation_fit.m	/^ft = 'pchipinterp';$/;"	v
+ft	Release folder/gl_polynomial_fit.m	/^ft = fittype( 'poly4' );$/;"	v
+ft	Release folder/gl_smoothing_spline_fit.m	/^ft = fittype( 'smoothingspline' );$/;"	v
+ft	Release folder/gl_sum_of_sines_fit.m	/^ft = fittype( 'sin2' );$/;"	v
 fulfilled	.obsidian/plugins/waypoint/main.js	/^    var fulfilled = (value) => {$/;"	f
 gastrointestinalluminalpco2tonometryupdatephysiologymethodologyclinicalapplications-kolkman	Research/GITTransportModel.bib	/^@article{gastrointestinalluminalpco2tonometryupdatephysiologymethodologyclinicalapplications-kol/;"	a
+gastrointestinaltransportsimulationmodelcomprehensiveanalysisgutdynamicsglucoseoxygenhomeostasis-faller	Research/GITTransportModel.bib	/^@misc{gastrointestinaltransportsimulationmodelcomprehensiveanalysisgutdynamicsglucoseoxygenhomeo/;"	n
 get	.obsidian/plugins/waypoint/main.js	/^    __defProp(target, name, { get: all[name], enumerable: true });$/;"	p	variable:anonymousObject1674d7360205
 getCleanParentPath	.obsidian/plugins/waypoint/main.js	/^  getCleanParentPath(node) {$/;"	m	class:_Waypoint
 getEncodedUri	.obsidian/plugins/waypoint/main.js	/^  getEncodedUri(rootNode, node) {$/;"	m	class:_Waypoint
 getFileTreeRepresentation	.obsidian/plugins/waypoint/main.js	/^  getFileTreeRepresentation(rootNode, node, indentLevel, topLevel = false) {$/;"	m	class:_Waypoint
 getParentFolder	.obsidian/plugins/waypoint/main.js	/^  getParentFolder(path) {$/;"	m	class:_Waypoint
 gl_Gaylard2_fit	Code/src/gl_Gaylard2_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_Gaylard2_fit	Release folder/gl_Gaylard2_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_Gaylard_fit	Code/src/gl_Gaylard_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_Gaylard_fit	Release folder/gl_Gaylard_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_fourier_fit	Code/src/gl_fourier_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_fourier_fit	Release folder/gl_fourier_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_gaussian_fit	Code/src/gl_gaussian_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_gaussian_fit	Release folder/gl_gaussian_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_interpolation_fit	Code/src/gl_interpolation_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_interpolation_fit	Release folder/gl_interpolation_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_polynomial_fit	Code/src/gl_polynomial_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_polynomial_fit	Release folder/gl_polynomial_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_smoothing_spline_fit	Code/src/gl_smoothing_spline_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_smoothing_spline_fit	Release folder/gl_smoothing_spline_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 gl_sum_of_sines_fit	Code/src/gl_sum_of_sines_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
+gl_sum_of_sines_fit	Release folder/gl_sum_of_sines_fit.m	/^function [low_gl_fit, high_gl_fit, low_gl_xdata, low_gl_ydata, high_gl_xdata, high_gl_ydata, gof/;"	f
 global-search	.obsidian/core-plugins-migration.json	/^  "global-search": true,$/;"	b
 glucose	Code/src/find_gl_glucose.m	/^            glucose = 0;$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^            glucose = high_gl_glucose(time_since_last_meal);$/;"	v
 glucose	Code/src/find_gl_glucose.m	/^            glucose = low_gl_glucose(time_since_last_meal);$/;"	v
-glucose	Code/src/find_gl_glucose.m	/^        glucose = glucose * 0.005551;$/;"	v
-glucose	Code/src/find_gl_glucose.m	/^        glucose = glucose * 10;$/;"	v
-glucose_absorption	Code/src/glucose_absorption.m	/^function [glucose_change_plasma] = glucose_absorption(gut_glucose, glucose_output, time_step) %n/;"	f
+glucose	Code/src/find_gl_glucose.m	/^        glucose = glucose \/ 18.0182;$/;"	v
+glucose	Release folder/find_gl_glucose.m	/^            glucose = 0;$/;"	v
+glucose	Release folder/find_gl_glucose.m	/^            glucose = high_gl_glucose(time_since_last_meal);$/;"	v
+glucose	Release folder/find_gl_glucose.m	/^            glucose = low_gl_glucose(time_since_last_meal);$/;"	v
+glucose	Release folder/find_gl_glucose.m	/^        glucose = glucose * 0.005551;$/;"	v
+glucose	Release folder/find_gl_glucose.m	/^        glucose = glucose * 10;$/;"	v
+glucose_absorption	Code/src/glucose_absorption.m	/^    glucose_absorption = (glucose_absorption \/ 18.0182) \/ (60\/time_step); %convert to mmol\/L/;"	v
+glucose_absorption	Code/src/glucose_absorption.m	/^    glucose_absorption = dG_dt; %mg\/dL\/min$/;"	v
+glucose_absorption	Code/src/glucose_absorption.m	/^function [glucose_absorption] = glucose_absorption(glucose_output, time_step)$/;"	f
+glucose_absorption	Code/src/glucose_absorption4.m	/^    glucose_absorption = (plasma_glucose - G_t) ; %convert to mmol\/L$/;"	v
+glucose_absorption	Release folder/glucose_absorption.m	/^function [glucose_change_plasma] = glucose_absorption(gut_glucose, glucose_output, time_step) %n/;"	f
+glucose_absorption4	Code/src/glucose_absorption4.m	/^function [glucose_absorption] = glucose_absorption4(arterial_glucose, glucose_output, insulin) $/;"	f
 glucose_absorption_2	Code/src/glucose_absorption_2.m	/^function [glucose_usage] = glucose_absorption_2(gutglucose, GutFlowRate, time_step)$/;"	f
+glucose_absorption_2	Release folder/glucose_absorption_2.m	/^function [glucose_usage] = glucose_absorption_2(gutglucose, GutFlowRate, time_step)$/;"	f
 glucose_absorption_3	Code/src/glucose_absorption_3.m	/^function [GutOut_glucose,GutNew_glucose,J_glucose] = glucose_absorption_3(arterialglucose, gutgl/;"	f
-glucose_change_plasma	Code/src/glucose_absorption.m	/^    glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) + glucose_output\/(p1*V); /;"	v
-glucose_change_plasma	Code/src/glucose_absorption.m	/^    glucose_change_plasma = glucose_change_plasma \/ 18.0182; %convert to mmol\/L$/;"	v
+glucose_change_plasma	Release folder/glucose_absorption.m	/^    glucose_change_plasma = G_b + C * exp(-p1*GUT_PARAMS.setget_time) + glucose_output\/(p1*V); /;"	v
+glucose_change_plasma	Release folder/glucose_absorption.m	/^    glucose_change_plasma = glucose_change_plasma \/ 18.0182; %convert to mmol\/L$/;"	v
 glucose_g	Code/src/BMR.m	/^    glucose_g = gut_basal_metabolic_rate \/ 4;$/;"	v
-glucose_input	Code/src/glucose_absorption.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input * 18; %convert to mg\/dL$/;"	v
-glucose_mol	Code/src/BMR.m	/^    glucose_mol = glucose_g * (1\/180.15588) * (1\/1440);$/;"	v
-glucose_new	Code/src/delta_gut.m	/^        glucose_new = 0;$/;"	v
-glucose_new	Code/src/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_BMR + absorption - glucose_output; % net glucose$/;"	v
-glucose_new	Code/src/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_glucose_input + GUT_PARAMS.setget_BMR + absorption -gluc/;"	v
-glucose_output	Code/src/glucose_absorption.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL$/;"	v
-glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
-glucose_output	Code/src/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
+glucose_g	Release folder/BMR.m	/^    glucose_g = gut_basal_metabolic_rate \/ 4;$/;"	v
+glucose_input	Release folder/glucose_absorption.m	/^    glucose_input = GUT_PARAMS.setget_glucose_input * 18; %convert to mg\/dL$/;"	v
+glucose_mol	Code/src/BMR.m	/^    glucose_mol = ((glucose_g * (1\/180.15588))\/ GutFlowRate ) \/ (60\/GUT_PARAMS.setget_time_s/;"	v
+glucose_mol	Release folder/BMR.m	/^    glucose_mol = glucose_g * (1\/180.15588) * (1\/1440);$/;"	v
+glucose_new	Code/src/delta_gut.m	/^                glucose_new = 0;$/;"	v
+glucose_new	Code/src/delta_gut.m	/^                glucose_new = GUT_PARAMS.setget_glucose_input + gut_glucose_new; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^                glucose_new = gut_glucose_new; % net glucose$/;"	v
+glucose_new	Code/src/delta_gut.m	/^            glucose_new =  gut_glucose + absorption - glucose_output - GUT_PARAMS.setget_BMR; % /;"	v
+glucose_new	Release folder/delta_gut.m	/^        glucose_new = 0;$/;"	v
+glucose_new	Release folder/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_BMR + absorption - glucose_output; % net glucose$/;"	v
+glucose_new	Release folder/delta_gut.m	/^        glucose_new = GUT_PARAMS.setget_glucose_input + GUT_PARAMS.setget_BMR + absorption -gluc/;"	v
+glucose_output	Code/src/glucose_absorption.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL\/time_step$/;"	v
+glucose_output	Code/src/glucose_absorption4.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL$/;"	v
+glucose_output	Code/src/glucose_output_model.m	/^        glucose_output = 0;$/;"	v
+glucose_output	Code/src/glucose_output_model.m	/^        glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
+glucose_output	Code/src/glucose_output_model.m	/^    glucose_output = glucose_output \/ (60\/time_step); % convert to mmol\/L\/time_step$/;"	v
+glucose_output	Release folder/glucose_absorption.m	/^    glucose_output = glucose_output * 18.0182; %convert to mg\/dL$/;"	v
+glucose_output	Release folder/glucose_output_model.m	/^	    glucose_output = 0;$/;"	v
+glucose_output	Release folder/glucose_output_model.m	/^	    glucose_output = find_gl_glucose(time_since_last_meal, glycemic_load);$/;"	v
+glucose_output_model	Code/src/Main.m	/^glucose_output_model = 1;$/;"	v
 glucose_output_model	Code/src/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, g/;"	f
+glucose_output_model	Release folder/glucose_output_model.m	/^function [glycemic_load_new,glucose_output] = glucose_output_model(time, time_since_last_meal, g/;"	f
+glucose_output_model2	Code/src/glucose_output_model2.m	/^function [rate_of_glucose_output, gut_glucose_new] = glucose_output_model2(gut_glucose, insulin)$/;"	f
 glucose_usage	Code/src/glucose_absorption_2.m	/^	glucose_usage = (vmax * gutglucose \/ (km + gutglucose)) * time_step \/ GutFlowRate;$/;"	v
+glucose_usage	Release folder/glucose_absorption_2.m	/^	glucose_usage = (vmax * gutglucose \/ (km + gutglucose)) * time_step \/ GutFlowRate;$/;"	v
 glucosensinggastrointestinaltractimpactglucosemetabolism-fournel	Research/GITTransportModel.bib	/^@article{glucosensinggastrointestinaltractimpactglucosemetabolism-fournel,$/;"	a
 glucosereferencerangeinterpretationcollectionpanels-	Research/GITTransportModel.bib	/^@article{glucosereferencerangeinterpretationcollectionpanels-,$/;"	a
 glucoseuptakeproductionoralglucosetolerancetest-steele	Research/GITTransportModel.bib	/^@article{glucoseuptakeproductionoralglucosetolerancetest-steele,$/;"	a
 glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto	Research/GITTransportModel.bib	/^@article{glucoseuptakesaturationexplainsglucosekineticsprofilesmeasureddifferenttests-bizzotto,$/;"	a
 glycemic_load	Code/src/glycemic_load.m	/^    glycemic_load = 19.27+(0.39*carbs)-(0.21*lipids)-(0.01*proteins^2)-(0.01*fibre^2);$/;"	v
 glycemic_load	Code/src/glycemic_load.m	/^function [glycemic_load] = glycemic_load(carbs, proteins, lipids, fibre)$/;"	f
-glycemic_load_new	Code/src/glucose_output_model.m	/^	    glycemic_load_new = 0;$/;"	v
+glycemic_load	Release folder/glycemic_load.m	/^    glycemic_load = 19.27+(0.39*carbs)-(0.21*lipids)-(0.01*proteins^2)-(0.01*fibre^2);$/;"	v
+glycemic_load	Release folder/glycemic_load.m	/^function [glycemic_load] = glycemic_load(carbs, proteins, lipids, fibre)$/;"	f
 glycemic_load_new	Code/src/glucose_output_model.m	/^	    glycemic_load_new = GL;$/;"	v
-glycemic_load_new	Code/src/glucose_output_model.m	/^	    glycemic_load_new = glycemic_load;$/;"	v
+glycemic_load_new	Code/src/glucose_output_model.m	/^        glycemic_load_new = 0;$/;"	v
+glycemic_load_new	Code/src/glucose_output_model.m	/^        glycemic_load_new = glycemic_load;$/;"	v
+glycemic_load_new	Release folder/glucose_output_model.m	/^	    glycemic_load_new = 0;$/;"	v
+glycemic_load_new	Release folder/glucose_output_model.m	/^	    glycemic_load_new = GL;$/;"	v
+glycemic_load_new	Release folder/glucose_output_model.m	/^	    glycemic_load_new = glycemic_load;$/;"	v
+grams_carbs	Code/src/glucose_absorption4.m	/^        grams_carbs = Meal(1);$/;"	v
+grams_carbs	Code/src/glucose_output_model2.m	/^        grams_carbs = Meal(1);$/;"	v
 graph	.obsidian/core-plugins-migration.json	/^  "graph": true,$/;"	b
 graph:Open graph view	.obsidian/workspace.json	/^      "graph:Open graph view": false,$/;"	b	object:left-ribbon.hiddenItems
 gut_CO2	Code/src/O2_fed_fasting.m	/^    gut_CO2 = gut_CO2_mol;$/;"	v
+gut_CO2	Release folder/O2_fed_fasting.m	/^    gut_CO2 = gut_CO2_mol;$/;"	v
 gut_CO2_mol	Code/src/O2_fed_fasting.m	/^    gut_CO2_mol = gut_O2_mol_timestep;$/;"	v
+gut_CO2_mol	Release folder/O2_fed_fasting.m	/^    gut_CO2_mol = gut_O2_mol_timestep;$/;"	v
 gut_O2	Code/src/O2_Absorption.m	/^gut_O2 = 02_usage * GutFlowRate * Hb * Cb;$/;"	v
+gut_O2	Code/src/O2_fed_fasting.m	/^    gut_O2 = O2_usage * GutFlowRate * Hb * Cb;$/;"	v
 gut_O2	Code/src/O2_fed_fasting.m	/^    gut_O2 = gut_O2_mol_timestep;$/;"	v
-gut_O2_g	Code/src/O2_fed_fasting.m	/^    gut_O2_g = gut_O2_mg \/ 1000;$/;"	v
-gut_O2_mg	Code/src/O2_fed_fasting.m	/^    gut_O2_mg = O2_usage * GutFlowRate * Hb * Cb;$/;"	v
+gut_O2	Release folder/O2_fed_fasting.m	/^    gut_O2 = gut_O2_mol_timestep;$/;"	v
+gut_O2_g	Code/src/O2_fed_fasting.m	/^    gut_O2_g = gut_O2 \/ 1000;$/;"	v
+gut_O2_g	Release folder/O2_fed_fasting.m	/^    gut_O2_g = gut_O2_mg \/ 1000;$/;"	v
+gut_O2_mg	Release folder/O2_fed_fasting.m	/^    gut_O2_mg = O2_usage * GutFlowRate * Hb * Cb;$/;"	v
 gut_O2_mol	Code/src/O2_fed_fasting.m	/^    gut_O2_mol = gut_O2_g \/ 32;$/;"	v
-gut_O2_mol_timestep	Code/src/O2_fed_fasting.m	/^    gut_O2_mol_timestep = gut_O2_mol \/ (60);$/;"	v
-gut_basal_metabolic_rate	Code/src/BMR.m	/^    gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.1298;$/;"	v
+gut_O2_mol	Release folder/O2_fed_fasting.m	/^    gut_O2_mol = gut_O2_g \/ 32;$/;"	v
+gut_O2_mol_timestep	Code/src/O2_fed_fasting.m	/^    gut_O2_mol_timestep = gut_O2_mol \/ (60*time_step);$/;"	v
+gut_O2_mol_timestep	Release folder/O2_fed_fasting.m	/^    gut_O2_mol_timestep = gut_O2_mol \/ (60);$/;"	v
+gut_basal_metabolic_rate	Code/src/BMR.m	/^    gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.15;$/;"	v
+gut_basal_metabolic_rate	Release folder/BMR.m	/^    gut_basal_metabolic_rate = total_basal_metabolic_rate * 0.1298;$/;"	v
 gut_glucose	Code/src/GutCalc.m	/^	gut_glucose = cast(Gut(2), 'double');$/;"	v
+gut_glucose	Code/src/glucose_output_model2.m	/^    gut_glucose = Q_gut\/V; % mg\/dL$/;"	v
+gut_glucose	Code/src/glucose_output_model2.m	/^    gut_glucose = gut_glucose\/18.0182; % convert to mmol\/L$/;"	v
+gut_glucose	Release folder/GutCalc.m	/^	gut_glucose = cast(Gut(2), 'double');$/;"	v
+gut_glucose_new	Code/src/glucose_output_model2.m	/^        gut_glucose_new = gut_glucose;$/;"	v
 gut_spO2	Code/src/GutCalc.m	/^	gut_spO2 = cast(Gut(1), 'double'); % typecasting just in case (shouldn't be necessary)$/;"	v
 gut_spO2	Code/src/O2_CO2.m	/^  gut_spO2 = Gut(1);$/;"	v
 gut_spO2	Code/src/O2_fed_fasting.m	/^    gut_spO2 = O2_usage;$/;"	v
+gut_spO2	Release folder/GutCalc.m	/^	gut_spO2 = cast(Gut(1), 'double'); % typecasting just in case (shouldn't be necessary)$/;"	v
+gut_spO2	Release folder/O2_fed_fasting.m	/^    gut_spO2 = O2_usage;$/;"	v
 gutbrainglucosesignalingenergyhomeostasis-soty	Research/GITTransportModel.bib	/^@article{gutbrainglucosesignalingenergyhomeostasis-soty,$/;"	a
 h	Code/src/sigfit.m	/^h = plot( high_gl_glucose, xData, yData );$/;"	v
 h	Code/src/sigfit.m	/^h = plot( low_gl_glucose, xData, yData );$/;"	v
 height	Code/src/Main.m	/^height = 180; %cm$/;"	v
+height	Release folder/Main.m	/^height = 180; %cm$/;"	v
 henrys_const	Code/src/O2_CO2.m	/^  henrys_const = 0.013; % Henry's constant for O2 in water at body temp [mol\/L*atm]$/;"	v
 hiddenItems	.obsidian/workspace.json	/^    "hiddenItems": {$/;"	o	object:left-ribbon
 high_gl_glucose	Code/src/sigfit.m	/^high_gl_glucose = fit( xData, yData, ft, opts );$/;"	v
 high_gl_glucose_data	Code/src/gl_fit_testing.m	/^high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
 high_gl_glucose_data	Code/src/initialise_gut_params.m	/^    high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
 high_gl_glucose_data	Code/src/sigfit.m	/^high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
+high_gl_glucose_data	Release folder/gl_fit_testing.m	/^high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
+high_gl_glucose_data	Release folder/initialise_gut_params.m	/^    high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];$/;"	v
 high_gl_xdata	Code/src/gl_Gaylard2_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_xdata	Code/src/gl_Gaylard_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_xdata	Code/src/gl_fourier_fit.m	/^high_gl_xdata = xData;$/;"	v
@@ -527,6 +769,14 @@ high_gl_xdata	Code/src/gl_interpolation_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_xdata	Code/src/gl_polynomial_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_xdata	Code/src/gl_smoothing_spline_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_xdata	Code/src/gl_sum_of_sines_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_Gaylard2_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_Gaylard_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_fourier_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_gaussian_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_interpolation_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_polynomial_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_smoothing_spline_fit.m	/^high_gl_xdata = xData;$/;"	v
+high_gl_xdata	Release folder/gl_sum_of_sines_fit.m	/^high_gl_xdata = xData;$/;"	v
 high_gl_ydata	Code/src/gl_Gaylard2_fit.m	/^high_gl_ydata = yData;$/;"	v
 high_gl_ydata	Code/src/gl_Gaylard_fit.m	/^high_gl_ydata = yData;$/;"	v
 high_gl_ydata	Code/src/gl_fourier_fit.m	/^high_gl_ydata = yData;$/;"	v
@@ -535,6 +785,14 @@ high_gl_ydata	Code/src/gl_interpolation_fit.m	/^high_gl_ydata = yData;$/;"	v
 high_gl_ydata	Code/src/gl_polynomial_fit.m	/^high_gl_ydata = yData;$/;"	v
 high_gl_ydata	Code/src/gl_smoothing_spline_fit.m	/^high_gl_ydata = yData;$/;"	v
 high_gl_ydata	Code/src/gl_sum_of_sines_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_Gaylard2_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_Gaylard_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_fourier_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_gaussian_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_interpolation_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_polynomial_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_smoothing_spline_fit.m	/^high_gl_ydata = yData;$/;"	v
+high_gl_ydata	Release folder/gl_sum_of_sines_fit.m	/^high_gl_ydata = yData;$/;"	v
 href	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/github.com\/IdreesInc\/Waypoin/;"	p	property:anonymousObject1674d7362205.attr
 href	.obsidian/plugins/waypoint/main.js	/^    descriptionElement.createEl("a", { attr: { "href": "https:\/\/twitter.com\/IdreesInc" }, tex/;"	p	property:anonymousObject1674d7362405.attr
 id	.obsidian/plugins/waypoint/manifest.json	/^	"id": "waypoint",$/;"	s
@@ -555,18 +813,30 @@ id	.obsidian/workspace.json	/^    "id": "c4fe89fa8132b8cb",$/;"	s	object:left
 import_obsidian	.obsidian/plugins/waypoint/main.js	/^var import_obsidian = __toModule(require("obsidian"));$/;"	v
 increasedietaryproteinimprovesbloodglucoseresponsepersonstypediabetes-gannon	Research/GITTransportModel.bib	/^@article{increasedietaryproteinimprovesbloodglucoseresponsepersonstypediabetes-gannon,$/;"	a
 indicatormetadataregistrydetails-	Research/GITTransportModel.bib	/^@misc{indicatormetadataregistrydetails-,$/;"	n
-initialise_gut_params	Code/src/initialise_gut_params.m	/^function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step,/;"	f
+initialise_gut_params	Code/src/initialise_gut_params.m	/^function initialise_gut_params(curve_fitting_choice, InitialGlucose, basal_insulin, time_step, s/;"	f
+initialise_gut_params	Release folder/initialise_gut_params.m	/^function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step,/;"	f
+insulin_sensitivity	Code/src/insulin_sensitivity.m	/^    insulin_sensitivity = numerator\/demoninator;$/;"	v
+insulin_sensitivity	Code/src/insulin_sensitivity.m	/^function insulin_sensitivity = insulin_sensitivity(grams_carbs,gut_glucose, insulin)$/;"	f
 insulinreferencerangeinterpretationcollectionpanels-	Research/GITTransportModel.bib	/^@article{insulinreferencerangeinterpretationcollectionpanels-,$/;"	a
+integral_func	Code/src/insulin_sensitivity.m	/^        integral_func = @(t) conv_term(t)*gut_glucose(t);$/;"	v
 intestinalglucosetransportusingperfusedratjejunumvivomodelanalysisderivationcorrectedkineticconstants-meddings	Research/GITTransportModel.bib	/^@article{intestinalglucosetransportusingperfusedratjejunumvivomodelanalysisderivationcorrectedki/;"	a
 isDesktopOnly	.obsidian/plugins/waypoint/manifest.json	/^	"isDesktopOnly": false$/;"	b
 isFolderNote	.obsidian/plugins/waypoint/main.js	/^  isFolderNote(file) {$/;"	m	class:_Waypoint
 k	Code/src/O2_CO2.m	/^  k = 0.01; % Diffusion coefficient [m^2\/s]$/;"	v
+k_constant	Code/src/glucose_output_model2.m	/^    k_constant = 0.057;$/;"	v
+k_emptying	Code/src/glucose_output_model2.m	/^    k_emptying = k_min + ((k_max-k_min)\/2) * (tanh((5\/(2*D*(1-b)))*(Q_stomach-b*D))-tanh((5\/(/;"	v
+k_emptying	Code/src/glucose_output_model2.m	/^    k_emptying = rate_gastric_emptying(Q_stomach, D);$/;"	v
+k_grind	Code/src/glucose_output_model2.m	/^    k_grind = 0.0558;$/;"	v
+k_max	Code/src/glucose_output_model2.m	/^    k_max = 0.0558;$/;"	v
+k_min	Code/src/glucose_output_model2.m	/^    k_min = 0.008;$/;"	v
 lastOpenFiles	.obsidian/workspace.json	/^  "lastOpenFiles": [$/;"	a
 left	.obsidian/workspace.json	/^  "left": {$/;"	o
 left-ribbon	.obsidian/workspace.json	/^  "left-ribbon": {$/;"	o
 linksCollapsed	.obsidian/workspace.json	/^                "linksCollapsed": false,$/;"	b	object:right.children.0.children.1.state.state
-lipids	Code/src/glucose_output_model.m	/^        lipids = 0;$/;"	v
-lipids	Code/src/glucose_output_model.m	/^        lipids = Meals(time_of_day,2);$/;"	v
+lipids	Code/src/set_meal.m	/^        lipids = 0;$/;"	v
+lipids	Code/src/set_meal.m	/^        lipids = Meals(time_of_day,2);$/;"	v
+lipids	Release folder/glucose_output_model.m	/^        lipids = 0;$/;"	v
+lipids	Release folder/glucose_output_model.m	/^        lipids = Meals(time_of_day,2);$/;"	v
 loadSettings	.obsidian/plugins/waypoint/main.js	/^  loadSettings() {$/;"	m	class:_Waypoint
 locateParentWaypoint	.obsidian/plugins/waypoint/main.js	/^  locateParentWaypoint(node, includeCurrentNode) {$/;"	m	class:_Waypoint
 log	.obsidian/plugins/waypoint/main.js	/^  log(message) {$/;"	m	class:_Waypoint
@@ -574,6 +844,8 @@ low_gl_glucose	Code/src/sigfit.m	/^low_gl_glucose = fit( xData, yData, ft, opts 
 low_gl_glucose_data	Code/src/gl_fit_testing.m	/^low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
 low_gl_glucose_data	Code/src/initialise_gut_params.m	/^    low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
 low_gl_glucose_data	Code/src/sigfit.m	/^low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
+low_gl_glucose_data	Release folder/gl_fit_testing.m	/^low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
+low_gl_glucose_data	Release folder/initialise_gut_params.m	/^    low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];$/;"	v
 low_gl_xdata	Code/src/gl_Gaylard2_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_xdata	Code/src/gl_Gaylard_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_xdata	Code/src/gl_fourier_fit.m	/^low_gl_xdata = xData;$/;"	v
@@ -582,6 +854,14 @@ low_gl_xdata	Code/src/gl_interpolation_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_xdata	Code/src/gl_polynomial_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_xdata	Code/src/gl_smoothing_spline_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_xdata	Code/src/gl_sum_of_sines_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_Gaylard2_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_Gaylard_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_fourier_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_gaussian_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_interpolation_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_polynomial_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_smoothing_spline_fit.m	/^low_gl_xdata = xData;$/;"	v
+low_gl_xdata	Release folder/gl_sum_of_sines_fit.m	/^low_gl_xdata = xData;$/;"	v
 low_gl_ydata	Code/src/gl_Gaylard2_fit.m	/^low_gl_ydata = yData;$/;"	v
 low_gl_ydata	Code/src/gl_Gaylard_fit.m	/^low_gl_ydata = yData;$/;"	v
 low_gl_ydata	Code/src/gl_fourier_fit.m	/^low_gl_ydata = yData;$/;"	v
@@ -590,10 +870,19 @@ low_gl_ydata	Code/src/gl_interpolation_fit.m	/^low_gl_ydata = yData;$/;"	v
 low_gl_ydata	Code/src/gl_polynomial_fit.m	/^low_gl_ydata = yData;$/;"	v
 low_gl_ydata	Code/src/gl_smoothing_spline_fit.m	/^low_gl_ydata = yData;$/;"	v
 low_gl_ydata	Code/src/gl_sum_of_sines_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_Gaylard2_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_Gaylard_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_fourier_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_gaussian_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_interpolation_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_polynomial_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_smoothing_spline_fit.m	/^low_gl_ydata = yData;$/;"	v
+low_gl_ydata	Release folder/gl_sum_of_sines_fit.m	/^low_gl_ydata = yData;$/;"	v
 main	.obsidian/workspace.json	/^  "main": {$/;"	o
 markdown-importer	.obsidian/core-plugins-migration.json	/^  "markdown-importer": false,$/;"	b
 matchingCase	.obsidian/workspace.json	/^                "matchingCase": false,$/;"	b	object:left.children.0.children.1.state.state
-meal	Code/src/GutCalc.m	/^	meal = check_meal_time(new_time);$/;"	v
+meal	Code/src/GutCalc.m	/^    meal = check_meal_time(new_time);$/;"	v
+meal	Release folder/GutCalc.m	/^	meal = check_meal_time(new_time);$/;"	v
 meanfastingbloodglucoseindicatormetadataregistrydetails-	Research/GITTransportModel.bib	/^@misc{meanfastingbloodglucoseindicatormetadataregistrydetails-,$/;"	n
 mechanismsglucoseabsorptionsmallintestinehealthmetabolicdiseasestheirroleappetiteregulation-gromova	Research/GITTransportModel.bib	/^@article{mechanismsglucoseabsorptionsmallintestinehealthmetabolicdiseasestheirroleappetiteregula/;"	a
 mechanismsglucoseabsorptionsmallintestinehealthmetabolicdiseasestheirroleappetiteregulation-gromovaa	Research/GITTransportModel.bib	/^@article{mechanismsglucoseabsorptionsmallintestinehealthmetabolicdiseasestheirroleappetiteregula/;"	a
@@ -608,8 +897,15 @@ name	.obsidian/plugins/waypoint/manifest.json	/^	"name": "Waypoint",$/;"	s
 newLinkFormat	.obsidian/app.json	/^  "newLinkFormat": "relative",$/;"	s
 new_time	Code/src/GutCalc.m	/^	new_time = calc_new_time(previous_time,TIME_STEP);$/;"	v
 new_time	Code/src/GutCalc.m	/^	new_time = previous_time + time_step;$/;"	v
+new_time	Release folder/GutCalc.m	/^	new_time = calc_new_time(previous_time,TIME_STEP);$/;"	v
+new_time	Release folder/GutCalc.m	/^	new_time = previous_time + time_step;$/;"	v
 normalcardiacoutputoxygendeliveryoxygenextraction-wolff	Research/GITTransportModel.bib	/^@article{normalcardiacoutputoxygendeliveryoxygenextraction-wolff,$/;"	a
 note-composer	.obsidian/core-plugins-migration.json	/^  "note-composer": true,$/;"	b
+numerator	Code/src/insulin_sensitivity.m	/^    numerator = numerator1 - numerator2 - numerator3 + numerator4;$/;"	v
+numerator1	Code/src/insulin_sensitivity.m	/^        numerator1 = (f*D)\/V;$/;"	v
+numerator2	Code/src/insulin_sensitivity.m	/^        numerator2 = (gut_glucose-G_b);$/;"	v
+numerator3	Code/src/insulin_sensitivity.m	/^        numerator3 = integral(@(t)S_G*gut_glucose(t),0,GUT_PARAMS.setget_duration);$/;"	v
+numerator4	Code/src/insulin_sensitivity.m	/^        numerator4 = S_G * gut_glucose * GUT_PARAMS.setget_duration;$/;"	v
 numeric	.obsidian/plugins/waypoint/main.js	/^            return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });$/;"	p	variable:anonymousObject1674d7361205
 onload	.obsidian/plugins/waypoint/main.js	/^  onload() {$/;"	m	class:_Waypoint
 onunload	.obsidian/plugins/waypoint/main.js	/^  onunload() {$/;"	m	class:_Waypoint
@@ -621,32 +917,59 @@ opts	Code/src/gl_interpolation_fit.m	/^opts = fitoptions( 'Method', 'PchipInterp
 opts	Code/src/gl_polynomial_fit.m	/^opts = fitoptions( 'Method', 'LinearLeastSquares' );$/;"	v
 opts	Code/src/gl_sum_of_sines_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
 opts	Code/src/sigfit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Release folder/gl_Gaylard2_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Release folder/gl_Gaylard_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Release folder/gl_fourier_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Release folder/gl_gaussian_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
+opts	Release folder/gl_interpolation_fit.m	/^opts = fitoptions( 'Method', 'PchipInterpolant' );$/;"	v
+opts	Release folder/gl_polynomial_fit.m	/^opts = fitoptions( 'Method', 'LinearLeastSquares' );$/;"	v
+opts	Release folder/gl_sum_of_sines_fit.m	/^opts = fitoptions( 'Method', 'NonlinearLeastSquares' );$/;"	v
 outgoing-link	.obsidian/core-plugins-migration.json	/^  "outgoing-link": true,$/;"	b
 outline	.obsidian/core-plugins-migration.json	/^  "outline": true,$/;"	b
 overviewnutrientscalories-diker	Research/GITTransportModel.bib	/^@misc{overviewnutrientscalories-diker,$/;"	n
 oxygenbattleguthypoxiahypoxiainduciblefactorsmetabolicinflammatoryresponsesintestine-singhal	Research/GITTransportModel.bib	/^@article{oxygenbattleguthypoxiahypoxiainduciblefactorsmetabolicinflammatoryresponsesintestine-si/;"	a
 oxygencontentdeliveryuptake-crocetti	Research/GITTransportModel.bib	/^@incollection{oxygencontentdeliveryuptake-crocetti,$/;"	I
+p1	Code/src/glucose_absorption.m	/^        p1 = p1 \/ (60*time_step); % if p1 is in min^-1, then p1 needs to be converted to step^-/;"	v
 p1	Code/src/glucose_absorption.m	/^    p1 = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
+p1	Release folder/glucose_absorption.m	/^    p1 = 0.035; %net glucose utilization without dynamic insulin response min^-1$/;"	v
+p_2	Code/src/glucose_absorption4.m	/^        p_2 = GUT_PARAMS.setget_time_step*60*p_2; % convert to time_step*s^-1$/;"	v
+p_2	Code/src/glucose_absorption4.m	/^    p_2 = 0.012; % min^-1$/;"	v
+p_2	Code/src/glucose_output_model2.m	/^        p_2 = 0.012; % min^-1$/;"	v
+p_2	Code/src/glucose_output_model2.m	/^        p_2 = 60*p_2; % convert to s^-1$/;"	v
+p_2	Code/src/insulin_sensitivity.m	/^        p_2 = 60*p_2; % convert to s^-1$/;"	v
+p_2	Code/src/insulin_sensitivity.m	/^    p_2 = 0.012; % min^-1$/;"	v
 page-preview	.obsidian/core-plugins-migration.json	/^  "page-preview": true,$/;"	b
 partialpressureoxygenhumanbodygeneralreview-ortiz-prado	Research/GITTransportModel.bib	/^@article{partialpressureoxygenhumanbodygeneralreview-ortiz-prado,$/;"	a
 partition_coef	Code/src/glucose_absorption_3.m	/^	partition_coef = 6.5e-5; %m^2 \/ sec$/;"	v
-patient	Code/src/GutCalc.m	/^    patient = GUT_PARAMS.setget_patient;$/;"	v
 patient	Code/src/Main.m	/^patient = [ sex, weight, height, age ];$/;"	v
+patient	Code/src/glucose_absorption.m	/^    patient = GUT_PARAMS.setget_patient; $/;"	v
+patient	Code/src/glucose_output_model2.m	/^        patient = GUT_PARAMS.setget_patient;$/;"	v
+patient	Release folder/GutCalc.m	/^    patient = GUT_PARAMS.setget_patient;$/;"	v
+patient	Release folder/Main.m	/^patient = [ sex, weight, height, age ];$/;"	v
 physiologicevaluationfactorscontrollingglucosetolerancemanmeasurementinsulinsensitivitybetacellglucosesensitivityresponseintravenousglucose-bergman	Research/GITTransportModel.bib	/^@article{physiologicevaluationfactorscontrollingglucosetolerancemanmeasurementinsulinsensitivity/;"	a
 physiologichypoxiaoxygenhomeostasishealthyintestinereviewthemecellularresponseshypoxia-zheng	Research/GITTransportModel.bib	/^@article{physiologichypoxiaoxygenhomeostasishealthyintestinereviewthemecellularresponseshypoxia-/;"	a
 physiologycardiovascularsystem-	Research/GITTransportModel.bib	/^@misc{physiologycardiovascularsystem-,$/;"	n
+plasma_glucose	Code/src/glucose_absorption4.m	/^    plasma_glucose = GUT_PARAMS.setget_plasma_glucose;$/;"	v
+plasma_glucose	Code/src/glucose_absorption4.m	/^    plasma_glucose = G_t; % convert to mmol\/L$/;"	v
 polynomialcurvefittingmatlabpolyfitmathworksunitedkingdom-	Research/GITTransportModel.bib	/^@misc{polynomialcurvefittingmatlabpolyfitmathworksunitedkingdom-,$/;"	n
 polynomialevaluationmatlabpolyvalmathworksunitedkingdom-	Research/GITTransportModel.bib	/^@misc{polynomialevaluationmatlabpolyvalmathworksunitedkingdom-,$/;"	n
 postprandialbloodglucosediabetescareamericandiabetesassociation-	Research/GITTransportModel.bib	/^@article{postprandialbloodglucosediabetescareamericandiabetesassociation-,$/;"	a
 postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillarydriedbloodspotsstudypostprandialdysmetabolism-kapur	Research/GITTransportModel.bib	/^@article{postprandialinsulintriglyceridesdifferentbreakfastmealchallengesusefingerstickcapillary/;"	a
 previous_time	Code/src/GutCalc.m	/^	previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case$/;"	v
+previous_time	Release folder/GutCalc.m	/^	previous_time = cast(GUT_PARAMS.setget_previous_time, 'double'); % typecasting just in case$/;"	v
 printWaypointError	.obsidian/plugins/waypoint/main.js	/^  printWaypointError(file, error) {$/;"	m	class:_Waypoint
 properties	.obsidian/core-plugins-migration.json	/^  "properties": false,$/;"	b
-proteins	Code/src/glucose_output_model.m	/^        proteins = 0;$/;"	v
-proteins	Code/src/glucose_output_model.m	/^        proteins = Meals(time_of_day,3);$/;"	v
+proteins	Code/src/set_meal.m	/^        proteins = 0;$/;"	v
+proteins	Code/src/set_meal.m	/^        proteins = Meals(time_of_day,3);$/;"	v
+proteins	Release folder/glucose_output_model.m	/^        proteins = 0;$/;"	v
+proteins	Release folder/glucose_output_model.m	/^        proteins = Meals(time_of_day,3);$/;"	v
 publish	.obsidian/core-plugins-migration.json	/^  "publish": false,$/;"	b
+pull_absorption	Code/src/delta_gut.m	/^    pull_absorption = glucose_absorption + (GUT_PARAMS.setget_BMR - glucose_absorption)*0.1;$/;"	v
+pull_to_BMR	Code/src/delta_gut.m	/^function pull_absorption = pull_to_BMR(glucose_absorption)$/;"	f
 query	.obsidian/workspace.json	/^                "query": "",$/;"	s	object:left.children.0.children.1.state.state
 random-note	.obsidian/core-plugins-migration.json	/^  "random-note": false,$/;"	b
+rate_gastric_emptying	Code/src/glucose_output_model2.m	/^function k_emptying = rate_gastric_emptying(Q_stomach, D)$/;"	f
+rate_of_glucose_output	Code/src/glucose_output_model2.m	/^    rate_of_glucose_output = R_a;$/;"	v
 readableLineLength	.obsidian/app.json	/^  "readableLineLength": false,$/;"	b
 regulationintestinalbloodflow-matheson	Research/GITTransportModel.bib	/^@article{regulationintestinalbloodflow-matheson,$/;"	a
 regulationintestinalglucoseabsorptionionchannelstransporters-chen	Research/GITTransportModel.bib	/^@article{regulationintestinalglucoseabsorptionionchannelstransporters-chen,$/;"	a
@@ -661,26 +984,50 @@ rolesgutglucosehomeostasisdiabetescareamericandiabetesassociation-holst	Research
 saveSettings	.obsidian/plugins/waypoint/main.js	/^  saveSettings() {$/;"	m	class:_Waypoint
 searchQuery	.obsidian/workspace.json	/^                "searchQuery": "",$/;"	s	object:right.children.0.children.0.state.state
 sensitivity	.obsidian/plugins/waypoint/main.js	/^            return a.name.localeCompare(b.name, void 0, { numeric: true, sensitivity: "base" });$/;"	p	variable:anonymousObject1674d7361205
-set_meal	Code/src/glucose_output_model.m	/^function[carbs,lipids,proteins,fibre] = set_meal(time_of_day)$/;"	f
+set_meal	Code/src/set_meal.m	/^function[carbs,lipids,proteins,fibre] = set_meal(time_of_day)$/;"	f
+set_meal	Release folder/glucose_output_model.m	/^function[carbs,lipids,proteins,fibre] = set_meal(time_of_day)$/;"	f
 setget_BMR	Code/src/GUT_PARAMS.m	/^        function BMR = setget_BMR(BMR)$/;"	f
+setget_BMR	Release folder/GUT_PARAMS.m	/^        function BMR = setget_BMR(BMR)$/;"	f
 setget_O2_consumption	Code/src/GUT_PARAMS.m	/^        function O2_CONSUMPTION = setget_O2_consumption(O2_consumption)$/;"	f
+setget_O2_consumption	Release folder/GUT_PARAMS.m	/^        function O2_CONSUMPTION = setget_O2_consumption(O2_consumption)$/;"	f
+setget_basal_insulin	Code/src/GUT_PARAMS.m	/^        function BASAL_INSULIN = setget_basal_insulin(basal_insulin)$/;"	f
 setget_current_glycemic_load	Code/src/GUT_PARAMS.m	/^        function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)$/;"	f
+setget_current_glycemic_load	Release folder/GUT_PARAMS.m	/^        function CURRENT_GLYCEMIC_LOAD = setget_current_glycemic_load(current_glycemic_load)$/;"	f
+setget_duration	Code/src/GUT_PARAMS.m	/^        function DURATION = setget_duration(simulation_duration)$/;"	f
 setget_glucose_absorption	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_ABSORPTION = setget_glucose_absorption(glucose_absorption)$/;"	f
+setget_glucose_absorption	Release folder/GUT_PARAMS.m	/^        function GLUCOSE_ABSORPTION = setget_glucose_absorption(glucose_absorption)$/;"	f
 setget_glucose_input	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)$/;"	f
+setget_glucose_input	Release folder/GUT_PARAMS.m	/^        function GLUCOSE_INPUT = setget_glucose_input(glucose_input)$/;"	f
 setget_glucose_output	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_OUTPUT = setget_glucose_output(glucose_output)$/;"	f
+setget_glucose_output	Release folder/GUT_PARAMS.m	/^        function GLUCOSE_OUTPUT = setget_glucose_output(glucose_output)$/;"	f
+setget_glucose_output_model	Code/src/GUT_PARAMS.m	/^        function GLUCOSE_OUTPUT_MODEL = setget_glucose_output_model(glucose_output_model)$/;"	f
 setget_gut_CO2	Code/src/GUT_PARAMS.m	/^        function GUT_CO2 = setget_gut_CO2(gut_CO2)$/;"	f
+setget_gut_CO2	Release folder/GUT_PARAMS.m	/^        function GUT_CO2 = setget_gut_CO2(gut_CO2)$/;"	f
 setget_gut_O2	Code/src/GUT_PARAMS.m	/^        function GUT_O2 = setget_gut_O2(gut_O2)$/;"	f
-setget_initial_insulin_input	Code/src/GUT_PARAMS.m	/^        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)$/;"	f
+setget_gut_O2	Release folder/GUT_PARAMS.m	/^        function GUT_O2 = setget_gut_O2(gut_O2)$/;"	f
+setget_initial_insulin_input	Release folder/GUT_PARAMS.m	/^        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)$/;"	f
 setget_interpolation_fit	Code/src/GUT_PARAMS.m	/^        function [HIGH_GL_FIT, LOW_GL_FIT] = setget_interpolation_fit(high_gl_fit, low_gl_fit)$/;"	f
+setget_interpolation_fit	Release folder/GUT_PARAMS.m	/^        function [HIGH_GL_FIT, LOW_GL_FIT] = setget_interpolation_fit(high_gl_fit, low_gl_fit)$/;"	f
 setget_meal_times	Code/src/GUT_PARAMS.m	/^        function MEAL_TIMES = setget_meal_times(meal_times)$/;"	f
+setget_meal_times	Release folder/GUT_PARAMS.m	/^        function MEAL_TIMES = setget_meal_times(meal_times)$/;"	f
 setget_meals	Code/src/GUT_PARAMS.m	/^        function MEALS = setget_meals(meals)$/;"	f
+setget_meals	Release folder/GUT_PARAMS.m	/^        function MEALS = setget_meals(meals)$/;"	f
 setget_patient	Code/src/GUT_PARAMS.m	/^        function PATIENT = setget_patient(patient)$/;"	f
+setget_patient	Release folder/GUT_PARAMS.m	/^        function PATIENT = setget_patient(patient)$/;"	f
+setget_plasma_glucose	Code/src/GUT_PARAMS.m	/^        function PLASMA_GLUCOSE = setget_plasma_glucose(plasma_glucose)$/;"	f
 setget_previous_time	Code/src/GUT_PARAMS.m	/^        function PREVIOUS_TIME = setget_previous_time(previous_time)$/;"	f
+setget_previous_time	Release folder/GUT_PARAMS.m	/^        function PREVIOUS_TIME = setget_previous_time(previous_time)$/;"	f
 setget_start_time	Code/src/GUT_PARAMS.m	/^        function START_TIME = setget_start_time(start_time)$/;"	f
+setget_start_time	Release folder/GUT_PARAMS.m	/^        function START_TIME = setget_start_time(start_time)$/;"	f
 setget_time	Code/src/GUT_PARAMS.m	/^        function TIME = setget_time(time)$/;"	f
+setget_time	Release folder/GUT_PARAMS.m	/^        function TIME = setget_time(time)$/;"	f
 setget_time_since_last_meal	Code/src/GUT_PARAMS.m	/^        function TIME_SINCE_LAST_MEAL = setget_time_since_last_meal(time_since_last_meal)$/;"	f
+setget_time_since_last_meal	Release folder/GUT_PARAMS.m	/^        function TIME_SINCE_LAST_MEAL = setget_time_since_last_meal(time_since_last_meal)$/;"	f
 setget_time_step	Code/src/GUT_PARAMS.m	/^        function TIME_STEP = setget_time_step(time_step)$/;"	f
+setget_time_step	Release folder/GUT_PARAMS.m	/^        function TIME_STEP = setget_time_step(time_step)$/;"	f
 sex	Code/src/Main.m	/^sex = 0;$/;"	v
+sex	Release folder/Main.m	/^sex = 0;$/;"	v
+shift	Code/src/delta_gut.m	/^            shift = 2*abs(glucose_absorption(glucose_shift_out, time_step));$/;"	v
 showEnclosingNote	.obsidian/plugins/waypoint/data.json	/^  "showEnclosingNote": false,$/;"	b
 showEnclosingNote	.obsidian/plugins/waypoint/main.js	/^  showEnclosingNote: false,$/;"	p	variable:DEFAULT_SETTINGS
 showFolderNotes	.obsidian/plugins/waypoint/data.json	/^  "showFolderNotes": false,$/;"	b
@@ -696,18 +1043,26 @@ slash-command	.obsidian/core-plugins-migration.json	/^  "slash-command": false,$
 slides	.obsidian/core-plugins-migration.json	/^  "slides": false,$/;"	b
 smallintestinegluconeogenicorgan-watford	Research/GITTransportModel.bib	/^@article{smallintestinegluconeogenicorgan-watford,$/;"	a
 smooth_to_basal	Code/src/delta_gut.m	/^function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)$/;"	f
+smooth_to_basal	Release folder/delta_gut.m	/^function smoothed_SpO2 = smooth_to_basal(SpO2, O2_usage)$/;"	f
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = O2_usage;$/;"	v
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (O2_usage - SpO2) * smoothing_rate;$/;"	v
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;$/;"	v
 smoothed_SpO2	Code/src/delta_gut.m	/^        smoothed_SpO2 = SpO2;$/;"	v
+smoothed_SpO2	Release folder/delta_gut.m	/^        smoothed_SpO2 = O2_usage;$/;"	v
+smoothed_SpO2	Release folder/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (O2_usage - SpO2) * smoothing_rate;$/;"	v
+smoothed_SpO2	Release folder/delta_gut.m	/^        smoothed_SpO2 = SpO2 + (basal_SpO2 - SpO2) * smoothing_rate;$/;"	v
+smoothed_SpO2	Release folder/delta_gut.m	/^        smoothed_SpO2 = SpO2;$/;"	v
 smoothing_rate	Code/src/delta_gut.m	/^        smoothing_rate = (1\/3600)*GUT_PARAMS.setget_time_since_last_meal;$/;"	v
 smoothing_rate	Code/src/delta_gut.m	/^    smoothing_rate = 0.001;$/;"	v
+smoothing_rate	Release folder/delta_gut.m	/^        smoothing_rate = (1\/3600)*GUT_PARAMS.setget_time_since_last_meal;$/;"	v
+smoothing_rate	Release folder/delta_gut.m	/^    smoothing_rate = 0.001;$/;"	v
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "alphabetical"$/;"	s	object:left.children.0.children.0.state.state
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "alphabetical"$/;"	s	object:left.children.0.children.1.state.state
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "alphabetical",$/;"	s	object:right.children.0.children.0.state.state
 sortOrder	.obsidian/workspace.json	/^                "sortOrder": "frequency",$/;"	s	object:right.children.0.children.2.state.state
 source	.obsidian/workspace.json	/^                "source": false$/;"	b	object:main.children.0.children.0.state.state
 start_time	Code/src/Main.m	/^start_time = 0;$/;"	v
+start_time	Release folder/Main.m	/^start_time = 0;$/;"	v
 state	.obsidian/workspace.json	/^              "state": {$/;"	o	object:left.children.0.children.0.state
 state	.obsidian/workspace.json	/^              "state": {$/;"	o	object:left.children.0.children.1.state
 state	.obsidian/workspace.json	/^              "state": {$/;"	o	object:main.children.0.children.0.state
@@ -743,21 +1098,36 @@ theoryoxygentransporttissue-popel	Research/GITTransportModel.bib	/^@article{theo
 thermo	Code/src/thermo.m	/^function [food_energy, delta_blood_glucose] = thermo(carbs, protein, lipids)$/;"	f
 thickeness	Code/src/glucose_absorption_3.m	/^	thickeness = 0.005; % small intestin is 5mm thick$/;"	v
 time	Code/src/check_meal_time.m	/^    time = mod(time,86400)\/3600;$/;"	v
+time	Release folder/check_meal_time.m	/^    time = mod(time,86400)\/3600;$/;"	v
 time_of_day	Code/src/check_meal_time.m	/^        time_of_day = 0;$/;"	v
 time_of_day	Code/src/check_meal_time.m	/^        time_of_day = find(Meal_times == time);$/;"	v
 time_of_day	Code/src/glucose_output_model.m	/^	time_of_day = check_meal_time(time);$/;"	v
+time_of_day	Release folder/check_meal_time.m	/^        time_of_day = 0;$/;"	v
+time_of_day	Release folder/check_meal_time.m	/^        time_of_day = find(Meal_times == time);$/;"	v
+time_of_day	Release folder/glucose_output_model.m	/^	time_of_day = check_meal_time(time);$/;"	v
 time_series	Code/src/gl_fit_testing.m	/^time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
 time_series	Code/src/initialise_gut_params.m	/^    time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
 time_series	Code/src/sigfit.m	/^time_series = [0.00000000001,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
+time_series	Release folder/gl_fit_testing.m	/^time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
+time_series	Release folder/initialise_gut_params.m	/^    time_series = [0,900,1800,2700,3600,5400,7200]; % seconds$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = -1;$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = 0;$/;"	v
-time_since_last_meal	Code/src/GutCalc.m	/^	    time_since_last_meal = time_since_last_meal + time_step;$/;"	v
 time_since_last_meal	Code/src/GutCalc.m	/^	time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;$/;"	v
+time_since_last_meal	Code/src/GutCalc.m	/^        time_since_last_meal = time_since_last_meal + time_step;$/;"	v
 time_since_last_meal	Code/src/O2_fed_fasting.m	/^    time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;$/;"	v
+time_since_last_meal	Release folder/GutCalc.m	/^	    time_since_last_meal = -1;$/;"	v
+time_since_last_meal	Release folder/GutCalc.m	/^	    time_since_last_meal = 0;$/;"	v
+time_since_last_meal	Release folder/GutCalc.m	/^	    time_since_last_meal = time_since_last_meal + time_step;$/;"	v
+time_since_last_meal	Release folder/GutCalc.m	/^	time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;$/;"	v
+time_since_last_meal	Release folder/O2_fed_fasting.m	/^    time_since_last_meal = GUT_PARAMS.setget_time_since_last_meal;$/;"	v
 time_step	Code/src/Main.m	/^time_step = 0.5; % seconds$/;"	v
 time_step	Code/src/O2_fed_fasting.m	/^    time_step = GUT_PARAMS.setget_time_step;$/;"	v
+time_step	Release folder/Main.m	/^time_step = 0.5; % seconds$/;"	v
+time_step	Release folder/O2_fed_fasting.m	/^    time_step = GUT_PARAMS.setget_time_step;$/;"	v
 total_basal_metabolic_rate	Code/src/BMR.m	/^        total_basal_metabolic_rate = 447.593 + 9.247 * weight + 3.098 * height - 4.330 * age;$/;"	v
 total_basal_metabolic_rate	Code/src/BMR.m	/^        total_basal_metabolic_rate = 88.362 + 13.397 * weight + 4.799 * height - 5.677 * age;$/;"	v
+total_basal_metabolic_rate	Release folder/BMR.m	/^        total_basal_metabolic_rate = 447.593 + 9.247 * weight + 3.098 * height - 4.330 * age;$/;"	v
+total_basal_metabolic_rate	Release folder/BMR.m	/^        total_basal_metabolic_rate = 88.362 + 13.397 * weight + 4.799 * height - 5.677 * age;$/;"	v
 type	.obsidian/workspace.json	/^              "type": "backlink",$/;"	s	object:right.children.0.children.0.state
 type	.obsidian/workspace.json	/^              "type": "bookmarks",$/;"	s	object:left.children.0.children.2.state
 type	.obsidian/workspace.json	/^              "type": "file-explorer",$/;"	s	object:left.children.0.children.0.state
@@ -792,13 +1162,18 @@ useWikiLinks	.obsidian/plugins/waypoint/main.js	/^  useWikiLinks: true,$/;"	p	va
 value	.obsidian/plugins/waypoint/main.js	/^  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) :/;"	p	variable:anonymousObject1674d7360605
 value	.obsidian/plugins/waypoint/main.js	/^var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });$/;"	p	variable:anonymousObject1674d7360105
 venous_SpO2_new	Code/src/delta_arterial.m	/^    venous_SpO2_new = arterial_SpO2 - GUT_PARAMS.setget_O2_consumption;$/;"	v
-venous_glucose_new	Code/src/delta_arterial.m	/^    venous_glucose_new = arterial_glucose + GUT_PARAMS.setget_glucose_output - GUT_PARAMS.setget/;"	v
-venous_insulin_new	Code/src/delta_arterial.m	/^    venous_insulin_new = arterial_insulin; % set like this for now, probably won't change$/;"	v
+venous_SpO2_new	Release folder/delta_arterial.m	/^    venous_SpO2_new = arterial_SpO2 - GUT_PARAMS.setget_O2_consumption;$/;"	v
+venous_glucose_new	Code/src/delta_arterial.m	/^            venous_glucose_new = GUT_PARAMS.setget_plasma_glucose - GUT_PARAMS.setget_glucose_ab/;"	v
+venous_glucose_new	Code/src/delta_arterial.m	/^            venous_glucose_new = GUT_PARAMS.setget_plasma_glucose;$/;"	v
+venous_glucose_new	Release folder/delta_arterial.m	/^    venous_glucose_new = arterial_glucose + GUT_PARAMS.setget_glucose_output - GUT_PARAMS.setget/;"	v
+venous_insulin_new	Code/src/delta_arterial.m	/^    venous_insulin_new = arterial_insulin; $/;"	v
+venous_insulin_new	Release folder/delta_arterial.m	/^    venous_insulin_new = arterial_insulin; % set like this for now, probably won't change$/;"	v
 version	.obsidian/plugins/waypoint/manifest.json	/^	"version": "1.4.0",$/;"	s
 vimMode	.obsidian/app.json	/^  "vimMode": true,$/;"	b
 waypointFlag	.obsidian/plugins/waypoint/data.json	/^  "waypointFlag": "%% Waypoint %%",$/;"	s
 waypointFlag	.obsidian/plugins/waypoint/main.js	/^  waypointFlag: "%% Waypoint %%",$/;"	p	variable:DEFAULT_SETTINGS
 weight	Code/src/Main.m	/^weight = 70; %kg$/;"	v
+weight	Release folder/Main.m	/^weight = 70; %kg$/;"	v
 whypartialoxygenpressurehumantissuescrucialparametersmallmoleculeshypoxia-carreau	Research/GITTransportModel.bib	/^@article{whypartialoxygenpressurehumantissuescrucialparametersmallmoleculeshypoxia-carreau,$/;"	a
 width	.obsidian/workspace.json	/^    "width": 300$/;"	n	object:left
 width	.obsidian/workspace.json	/^    "width": 300,$/;"	n	object:right

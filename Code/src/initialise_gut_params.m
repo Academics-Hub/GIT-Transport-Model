@@ -1,14 +1,16 @@
-function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialInsulin, time_step, start_time, Meal_times, Meals, patient)
+function initialise_gut_params(curve_fitting_choice, InitialGlucose, basal_insulin, time_step, start_time, Meal_times, Meals, patient, duration, plasma_glucose, glucose_output_model, GutFlowRate)
     % This function initialises the parameters for the gut model
     GUT_PARAMS.setget_time(0); % always intialise time to 0
     GUT_PARAMS.setget_previous_time(0); % always intialise previous time to 0
     GUT_PARAMS.setget_time_since_last_meal(-1); % always intialise time since last meal to -1
     GUT_PARAMS.setget_current_glycemic_load(0); % always intialise glycemic load to 0
     GUT_PARAMS.setget_glucose_output(0); % always intialise glucose output to 0
-    GUT_PARAMS.setget_glucose_absorption(cast(0.0035, 'double'));
-    GUT_PARAMS.setget_initial_insulin_input(ArterialInsulin);
+    GUT_PARAMS.setget_glucose_absorption(cast(0, 'double'));
+    GUT_PARAMS.setget_basal_insulin(basal_insulin);
     GUT_PARAMS.setget_glucose_input(InitialGlucose);
     GUT_PARAMS.setget_time_step(time_step);
+    GUT_PARAMS.setget_duration(duration);
+    GUT_PARAMS.setget_plasma_glucose(plasma_glucose);
     time_series = [0,900,1800,2700,3600,5400,7200]; % seconds
     low_gl_glucose_data = [83,89.1,96.1,97.9,93.4,89.7,88.6];
     high_gl_glucose_data = [82.3,95.1,110.2,106.1,105.5,93.3,93.3];
@@ -38,4 +40,6 @@ function initialise_gut_params(curve_fitting_choice, InitialGlucose, ArterialIns
     GUT_PARAMS.setget_meals(Meals);
     GUT_PARAMS.setget_time_step(time_step);
     GUT_PARAMS.setget_patient(patient);
+    GUT_PARAMS.setget_glucose_output_model(glucose_output_model);
+    GUT_PARAMS.setget_BMR(BMR(patient(1),patient(2),patient(3),patient(4),GutFlowRate));
 end 

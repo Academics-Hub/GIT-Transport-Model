@@ -12,7 +12,7 @@ ArterialGlucose = 0.4; % mmol/dL
 ArterialInsulin = 10;
 %ArterialInsulin = ArterialInsulin * 0.039 * 6000 / 1000; %conversion to mmol/L
 ArterialSpO2 = cast(ArterialSpO2, 'double');
-ArterialGlucose = cast(ArterialGlucose, 'double');
+ArterialGlucose = cast(ArterialGlucose*10, 'double');
 time_step = 0.5; % seconds
 Gut = [0.4,5]; % initialising Gut to what we'll recommend
 ArterialInsulin = cast(ArterialInsulin, 'double');
@@ -20,7 +20,7 @@ ArterialInsulin = cast(ArterialInsulin, 'double');
 assert( GutFlowRate >= 500 && GutFlowRate <= 750, 'Gut Flow Rate is not initialised to an appropriate physiological value\nIt should be between 500 and 750mL/min')
 assert( ArterialSpO2 > 0 && ArterialSpO2 < 1, 'Arterial SpO2 is not initialised to an appropriate physiological value\nIt should be between 0 and 1')
 assert( ArterialGlucose > 0 && ArterialGlucose < 5.6, 'Arterial Glucose is not initialised to an appropriate physiological value\nIt should be between 0 and 5.6mmol/L in a fasting state')
-assert( ArterialInsulin > 0 && ArterialInsulin < 15, 'Arterial Insulin is not initialised to an appropriate physiological value\nIt should be between 0 and 15mU/L in a fasting state')
+assert( ArterialInsulin > 0 && ArterialInsulin < 25, 'Arterial Insulin is not initialised to an appropriate physiological value\nIt should be between 0 and 25microU/L in a fasting state')
 assert(Gut(1) >= 0.076 && Gut(1) <= 0.98, 'Gut SpO2 is not initialised to an appropriate physiological value\nIt should be between 0.076(7.6%) and 0.98(98%)')
 % need normal gut glucose levels
 ArterialGlucose = ArterialGlucose * 10; % conversion to mmol/L
@@ -45,7 +45,14 @@ duration = 24*3600; % seconds
 % 6 - sum of sines fitting
 % 7 - Gaylard fit
 % 8 - Gaylard2 fit
+curve_fit = 8;
+%% test curve fit
+assert(mod(curve_fit,1) == 0, 'Curve fit must be an integer')
+assert(curve_fit > 0 && curve_fit <= 8, 'Curve fit be between 1 and 8')
 
+
+% setting basal Insulin
+basal_insulin = ArterialInsulin; % microU/mL -> assuming inputted insulin to system is basal insulin
 % start_time -> will shift the meal times -> 24h00 format
 start_time = 0;
 % Meal times -> 24h00 format
@@ -71,7 +78,13 @@ weight = 70; %kg
 height = 180; %cm
 age = 25; %years
 patient = [ sex, weight, height, age ];
-initialise_gut_params(5, Gut(2), ArterialInsulin, time_step, start_time, Meal_times, Meals, patient);
+% choose glucose output model
+% 1 - a model that determines whether the inputted food has a high glycemic load or a low load, and uses a fitted function based off clinical data to determine the glucose output in mmol/l
+% 2 - a minimal model that uses gastric emptying rate to determine a rate of appearance in the gut. Takes into account insulin sensitivity.
+glucose_output_model = 1;
+%% Test glucose output model choice
+assert( glucose_output_model == 1 || glucose_output_model == 2, 'Glucose output model choice is not valid\nPlease choose either 1 or 2')
+initialise_gut_params(curve_fit, Gut(2), basal_insulin, time_step, start_time, Meal_times, Meals, patient, duration, Arterial(2), glucose_output_model, GutFlowRate);
 
 % creating storage vectors for things we want to plot
 Gut_SpO2_vector = zeros(1,duration/time_step);
@@ -142,9 +155,9 @@ xticks(0:1:duration/3600)
 
 subplot(5,1,2)
 plot(Time_vector, Gut_Glucose_Absorption_vector)
-title('Change in Gut Glucose Absorption')
+title('Gut Glucose Absorption')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/L)', 'Rotation', 0)
+ylabel('Glucose (mmol/L/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -162,7 +175,7 @@ subplot(5,1,4)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/L)', 'Rotation', 0)
+ylabel('Glucose (mmol/L/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -171,7 +184,7 @@ subplot(5,1,5)
 plot(Time_vector,Gut_BMR_vector)
 title('Gut BMR')
 xlabel('Time (hrs)')
-ylabel('BMR (mmol/L)', 'Rotation', 0)
+ylabel('BMR (mmol/L/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
@@ -179,45 +192,46 @@ xticks(0:1:duration/3600)
 % plotting Arterial things
 figure(2)
 
-subplot(3,2,1)
+subplot(3,1,1)
 plot(Time_vector,Venous_Glucose_vector)
-title('Change in Venous Glucose')
+title('Venous Glucose')
 xlabel('Time (hrs)')
-ylabel('Glucose (mmol/L)', 'Rotation', 0)
+ylabel('Glucose (mmol/L/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,2,2)
+subplot(3,1,2)
 plot(Time_vector,Insulin_vector)
-title('Change in Insulin')
+title('Venous Insulin')
 xlabel('Time (hrs)')
 ylabel('Insulin (\muU/L)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,2,3)
+subplot(3,1,3)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
 plot(Time_vector,Gut_Oxygen_vector)
 title('Change of Gut O2')
 xlabel('Time (hrs)')
-ylabel('Oxygen (mole)', 'Rotation', 0)
+ylabel('Oxygen (mole/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,2,4)
+figure(3)
+subplot(3,1,1)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
 plot(Time_vector,Gut_Co2_vector)
 title('Change of Gut CO2')
 xlabel('Time (hrs)')
-ylabel('CO2 (mole)', 'Rotation', 0)
+ylabel('CO2 (mole/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,2,5)
+subplot(3,1,2)
 Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
 plot(Time_vector,Venous_SpO2_vector)
 title('Venous SpO2')
@@ -227,7 +241,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,2,6)
+subplot(3,1,3)
 %figure(3)
 Gut_SpO2_vector = Gut_SpO2_vector * 100; % decimal -> percentage
 plot(Time_vector,Gut_SpO2_vector) 

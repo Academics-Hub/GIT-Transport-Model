@@ -8,7 +8,7 @@ classdef GUT_PARAMS
     %   - glucose output
     %   - glucose absorption
     %   - O2 consumption
-    %   - initial input of insulin
+    %   - basal insulin
     %   - gut O2
     %   - gut CO2
     %   - glucose input
@@ -16,6 +16,9 @@ classdef GUT_PARAMS
     %   - meal times
     %   - start time
     %   - BMR
+    %   - simulation duration
+    %   - plasma glucose
+    %   - glucose output model
 
     % call example:
     %   setter -> GUT_PARAMS.setget_time(0)
@@ -86,12 +89,12 @@ classdef GUT_PARAMS
             O2_CONSUMPTION = O2C_storage; 
         end
         % function to set and get the initial insulin input
-        function INITIAL_INSULIN_INPUT = setget_initial_insulin_input(initial_insulin_input)
-            persistent III_storage;
+        function BASAL_INSULIN = setget_basal_insulin(basal_insulin)
+            persistent BI_storage;
             if nargin
-                III_storage = initial_insulin_input;
+                BI_storage = basal_insulin;
             end
-            INITIAL_INSULIN_INPUT = III_storage; 
+            BASAL_INSULIN = BI_storage; 
         end
         % function to set and get gut O2
         function GUT_O2 = setget_gut_O2(gut_O2)
@@ -148,7 +151,7 @@ classdef GUT_PARAMS
         function START_TIME = setget_start_time(start_time)
             persistent ST_storage;
             if nargin
-                ST_storage = start_time;
+                ST_storage = start_time; 
             end
             START_TIME = ST_storage; 
         end
@@ -167,6 +170,30 @@ classdef GUT_PARAMS
                 BMR_storage = BMR;
             end
             BMR = BMR_storage; 
+        end
+        % function to set and get simulation duration
+        function DURATION = setget_duration(simulation_duration)
+            persistent SD_storage;
+            if nargin
+                SD_storage = simulation_duration;
+            end
+            DURATION = SD_storage; 
+        end
+        % function to set and get plasma glucose
+        function PLASMA_GLUCOSE = setget_plasma_glucose(plasma_glucose)
+            persistent PG_storage;
+            if nargin
+                PG_storage = plasma_glucose;
+            end
+            PLASMA_GLUCOSE = PG_storage; 
+        end
+        % function to choose which type of glucose output modelling to use
+        function GLUCOSE_OUTPUT_MODEL = setget_glucose_output_model(glucose_output_model)
+            persistent GOM_storage;
+            if nargin
+                GOM_storage = glucose_output_model;
+            end
+            GLUCOSE_OUTPUT_MODEL = GOM_storage; 
         end
     end
 end
