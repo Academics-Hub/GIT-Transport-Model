@@ -10,12 +10,14 @@ function [GutNew, GutOut] = GutCalc(GutFlowRate, Gut, Arterial, time_step)
 	new_time = calc_new_time(previous_time,TIME_STEP);
 
     meal = check_meal_time(new_time);
-	MEAL_ABSORPTION_TIME = 4*3600; % this needs a researched value (hrs -> seconds)
+	MEAL_ABSORPTION_TIME = 12*3600; % this needs a researched value (hrs -> seconds)
 	% if it's been more than MEAL_ABSORPTION_TIME since the last meal, set the time to -1 to indicate that we are not in the meal absorption phase
-	if time_since_last_meal >= MEAL_ABSORPTION_TIME
-	    time_since_last_meal = -1;
+	if time_since_last_meal >= MEAL_ABSORPTION_TIME && meal <= 0
+        time_since_last_meal = -1;
+    %elseif time_since_last_meal > 0 && meal > 0
+     %   time_since_last_meal = 0;
 	% if check_meal_time returns a positive integer, and we are not in the meal absorption phase, set the time to 0 to indicate that we are starting the meal absorption phase
-    elseif meal > 0 && time_since_last_meal == -1
+    elseif meal > 0 && time_since_last_meal == -1 || meal > 0 && time_since_last_meal > 0
 	    time_since_last_meal = 0;
 	% if we are in the meal absorption phase, add the time step to the time since last meal
     elseif time_since_last_meal < MEAL_ABSORPTION_TIME && time_since_last_meal >= 0

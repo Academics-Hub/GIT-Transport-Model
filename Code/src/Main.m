@@ -56,7 +56,7 @@ basal_insulin = ArterialInsulin; % microU/mL -> assuming inputted insulin to sys
 % start_time -> will shift the meal times -> 24h00 format
 start_time = 0;
 % Meal times -> 24h00 format
-Meal_times = [ 7 , 13, 19 ];
+Meal_times = [ 7, 19 ];
 % Meals -> must equal the number of meal times -> each row -> carbs proteins lipids fibres -> grams
 % values assuming an RDA for a 19-30yr old, eating 2400kcal per day, weighing 70kg
 	% for a 2400kcal diet, it is recommended that 25-35% be lipids. Therefore 2400*0.275 = 660kcal
@@ -65,7 +65,6 @@ Meal_times = [ 7 , 13, 19 ];
 	% 14g of fibre per 1000kcal is recommended, therefore 14*2.4 = 33.6g
 
 Meals = [   43.33 24.44 15.4 11.2;
-            43.33 24.44 15.4 11.2;
             43.33 24.44 15.4 11.2
         ];
 %% Test meals = meal time
@@ -144,7 +143,7 @@ Time_since_last_meal_vector = Time_since_last_meal_vector/3600;
 % plotting Gut things
 figure(1)
 
-subplot(5,1,1)
+subplot(4,1,1)
 plot(Time_vector,Gut_Glucose_vector)
 title('Gut Glucose')
 xlabel('Time (hrs)')
@@ -153,7 +152,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(5,1,2)
+subplot(4,1,2)
 plot(Time_vector, Gut_Glucose_Absorption_vector)
 title('Gut Glucose Absorption')
 xlabel('Time (hrs)')
@@ -162,7 +161,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(5,1,3)
+subplot(4,1,3)
 plot(Time_vector,Glycemic_load_vector)
 title('Glycemic load')
 xlabel('Time (hrs)')
@@ -171,7 +170,7 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(5,1,4)
+subplot(4,1,4)
 plot(Time_vector,Gut_Glucose_Output_vector)
 title('Gut Glucose Output')
 xlabel('Time (hrs)')
@@ -180,19 +179,19 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(5,1,5)
-plot(Time_vector,Gut_BMR_vector)
-title('Gut BMR')
-xlabel('Time (hrs)')
-ylabel('BMR (mmol/L/time step)', 'Rotation', 0)
-grid on
-xlim([0, duration/3600])
-xticks(0:1:duration/3600)
+%subplot(5,1,5)
+%plot(Time_vector,Gut_BMR_vector)
+%title('Gut BMR')
+%xlabel('Time (hrs)')
+%ylabel('BMR (mmol/L/time step)', 'Rotation', 0)
+%grid on
+%xlim([0, duration/3600])
+%xticks(0:1:duration/3600)
 
 % plotting Arterial things
 figure(2)
 
-subplot(3,1,1)
+subplot(2,1,1)
 plot(Time_vector,Venous_Glucose_vector)
 title('Venous Glucose')
 xlabel('Time (hrs)')
@@ -201,16 +200,27 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,1,2)
-plot(Time_vector,Insulin_vector)
-title('Venous Insulin')
+%subplot(3,1,2)
+%plot(Time_vector,Insulin_vector)
+%title('Venous Insulin')
+%xlabel('Time (hrs)')
+%ylabel('Insulin (\muU/L)', 'Rotation', 0)
+%grid on
+%xlim([0, duration/3600])
+%xticks(0:1:duration/3600)
+
+subplot(2,1,2)
+Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
+plot(Time_vector,Venous_SpO2_vector)
+title('Venous SpO2')
 xlabel('Time (hrs)')
-ylabel('Insulin (\muU/L)', 'Rotation', 0)
+ylabel('SpO2 (%)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,1,3)
+figure(3)
+subplot(3,1,1)
 Gut_Oxygen_vector = Gut_Oxygen_vector * 60; % mol/min -> mol/sec
 plot(Time_vector,Gut_Oxygen_vector)
 title('Change of Gut O2')
@@ -219,9 +229,8 @@ ylabel('Oxygen (mole/time step)', 'Rotation', 0)
 grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
+subplot(3,1,2)
 
-figure(3)
-subplot(3,1,1)
 Gut_Co2_vector = Gut_Co2_vector * 60; % mol/min -> mol/sec 
 plot(Time_vector,Gut_Co2_vector)
 title('Change of Gut CO2')
@@ -231,15 +240,6 @@ grid on
 xlim([0, duration/3600])
 xticks(0:1:duration/3600)
 
-subplot(3,1,2)
-Venous_SpO2_vector = Venous_SpO2_vector * 100; % decimal -> percentage
-plot(Time_vector,Venous_SpO2_vector)
-title('Venous SpO2')
-xlabel('Time (hrs)')
-ylabel('SpO2 (%)', 'Rotation', 0)
-grid on
-xlim([0, duration/3600])
-xticks(0:1:duration/3600)
 
 subplot(3,1,3)
 %figure(3)
